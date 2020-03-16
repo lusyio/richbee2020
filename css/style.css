@@ -65,7 +65,7 @@ body {
     font-weight: 100;
 }
 .block1 img {
-    max-width: 80%;
+    width: 100%;
     z-index: 0;
     margin: auto;
     display: block;
@@ -80,14 +80,14 @@ body {
     transition: 0.5s all;
 }
 .block1 .img-shadow {
-    bottom: -15px;
-    left: 65px;
+    bottom: 0px;
+    left: 50px;
     z-index: -1;
-    height: calc(100% - 50px);
-    width: calc(100% - 130px);
-    background: rgba(109, 109, 109, 0.2);
+    height: 85%;
+    width: calc(100% - 100px);
+    background: rgba(109, 109, 109, 0.7);
     -webkit-filter: blur(50px);
-    filter: blur(50px);
+    filter: blur(40px);
 }
 
 .block2 {
@@ -100,4 +100,8 @@ body {
     max-width: 70%;
     margin: auto;
     font-weight: 100;
+}
+.img-block {
+    max-width: 80%;
+    margin: auto;
 }
