@@ -27,17 +27,19 @@ $case = json_decode($caseBody, true);
 //];
 //echo json_encode($case, JSON_UNESCAPED_UNICODE);
 ?>
-    <div id="caseSection">
-
-        <div class="bg">
-            <div class="container">
-                <div class="case mb-0">
-                    <h2><?= $caseName; ?></h2>
-                    <p><?= $caseService; ?></p>
+    <div class="section-case" id="caseSection">
+        <div class="section-case__circle"></div>
+        
+        <div class="container">
+                <div class="section-case__info">
+                    <h1 class="section-case__title"><?= $caseName; ?></h1>
+                    <p class="section-case__subtitle"><?= $caseService; ?></p>
+                </div>
+                <div class="section-case__img">
                     <img src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
                 </div>
-            </div>
-
+                    
+                    
         </div>
     </div>
 <?php if(!empty($case)) :?>

@@ -2,6 +2,12 @@
 include 'header.php';
 $cases = DB('*', 'cases', 'id!=0 Order by id DESC'); ?>
 
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Разрабокта сложных IT-систем для бизнеса</h1>
+        </div>
+    </section>
+
     <div class="container">
         <?php foreach ($cases as $n) :
             $caseId = $n['id'];
