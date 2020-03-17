@@ -30,7 +30,7 @@ $case = json_decode($caseBody, true);
     <div id="caseSection">
 
         <div class="bg">
-            <div class="container pt-5">
+            <div class="container">
                 <div class="case mb-0">
                     <h2><?= $caseName; ?></h2>
                     <p><?= $caseService; ?></p>
