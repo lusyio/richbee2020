@@ -1,5 +1,7 @@
 <?php
+if (!empty($item['img'])) :
 $type = substr($item['img'], -3);
+endif;
 ?>
 <div class="container block1">
     <p><?= $item['text']; ?></p>

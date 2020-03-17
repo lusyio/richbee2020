@@ -9,7 +9,10 @@ foreach ($case as $item) :
 endforeach;
 
 $case = json_decode($caseBody, true);
-//$case = [
+
+//код записи нового офомрления кейса в базу
+
+//$caseNew = [
 //    [
 //        'type' => 'block1',
 //        'text' => 'Во время разработки сайта каффы.рф (ссылка на кейс) мы ставили перед собой задачу увеличить продажи. Для этого мы занялись seo-продвижением и трафик вырос в 7 раз (ссылка на кейс). Но, трафик трафиком, а конверсия - это другое дело. Было решено поднять привлекательности покупок за счет отзывов с другой площадки.',
@@ -25,7 +28,11 @@ $case = json_decode($caseBody, true);
 //        'img' => 'kaffy-livemaster.mp4',
 //    ],
 //];
-//echo json_encode($case, JSON_UNESCAPED_UNICODE);
+//$newBody = json_encode($caseNew, JSON_UNESCAPED_UNICODE);
+//$updateCase = $pdo->prepare('UPDATE `cases` SET body = :body where id="' . $caseId . '"');
+//$updateCase->execute(array('body' => $newBody));
+
+//код записи нового офомрления кейса в базу
 ?>
     <div class="section-case" id="caseSection">
         <div class="section-case__circle"></div>
