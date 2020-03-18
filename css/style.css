@@ -595,3 +595,77 @@ body {
     font-weight: 300;
     text-decoration: none;
 }
+
+
+/************************************/
+/*********** SERVICE-PAGE ***********/
+/************************************/
+
+.service {
+
+}
+
+.service .container {
+}
+
+.service-block {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    margin-bottom: 60px;
+}
+
+.service-block__title {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.service-block__subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #acacac;
+    line-height: 1.4;
+    max-width: 620px;
+    margin: 0 0 30px 0;
+}
+
+.service-block__list {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.service-block__item {
+    width: 360px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.service-block__item:last-child {
+    margin-right: 0;
+}
+
+.service-block__item a {
+    color: #0047FF;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.service__name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.service__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.service__text:not(:last-child) {
+    margin: 0 0 40px 0;
+}
