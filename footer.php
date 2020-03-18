@@ -1,5 +1,50 @@
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="footer-top__nav">
+                            <div class="footer-top__column">
+                                <h4>Оцифровка</h4>
+                                <ul>
+                                    <li><a href="#">Разработка CRM</a></li>
+                                    <li><a href="#">Разработка ERP</a></li>
+                                    <li><a href="#">Внедрение и интеграции</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-top__column">
+                                <h4>Разработка</h4>
+                                <ul>
+                                    <li><a href="#">Корпоративные сайты</a></li>
+                                    <li><a href="#">Интернет-магазины</a></li>
+                                    <li><a href="#">Сервисы и порталы</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-top__column">
+                                <h4>Сопровождение</h4>
+                                <ul>
+                                    <li><a href="#">Техническая поддержка</a></li>
+                                    <li><a href="#">Доработка существующего проекта</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-top__contact">
+                            <a class="footer-top__phone" href="#">8 (495) 312-12-12</a>
+                            <a class="footer-top__email" href="mail:sales@richbee.ru">sales@richbee.ru</a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer__logo">
+                            <img src="images/svg/logo.svg" alt="Richbee Agency Logo">
+                        </div>
+                        <div class="footer__policy">
+                            <a href="#">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
