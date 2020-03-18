@@ -602,7 +602,7 @@ body {
 /************************************/
 
 .service {
-
+    padding: 60px 100px;
 }
 
 .service .container {
@@ -611,7 +611,6 @@ body {
 .service-block {
     display: flex;
     flex-direction: column;
-    padding: 0 80px;
     margin-bottom: 60px;
 }
 
