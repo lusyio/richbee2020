@@ -1,6 +1,6 @@
 <?php
 if (!empty($item['img'])) :
-$type = substr($item['img'], -3);
+    $type = substr($item['img'], -3);
 endif;
 ?>
 <div class="container block1 wow fadeIn">
@@ -13,7 +13,19 @@ endif;
                 <div class="img-shadow position-absolute"></div>
             </div>
         <?php else : ?>
-            video
+
+            <?php if ($type != 'mp4') : ?>
+                <div class="position-relative img-block">
+                    <iframe width="100%" height="520" src="https://www.youtube.com/embed/<?= $item['img']; ?>"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    <div class="img-shadow position-absolute"></div>
+                </div>
+            <?php else : ?>
+                mp4
+            <?php endif; ?>
+
         <?php endif; ?>
 
     <?php endif; ?>

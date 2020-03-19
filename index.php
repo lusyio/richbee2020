@@ -4,7 +4,7 @@ $cases = DB('*', 'cases', 'id!=0 Order by id DESC'); ?>
 
     <section class="hero">
         <div class="container">
-            <h1 class="hero__title">Разрабокта сложных IT-систем для бизнеса</h1>
+            <h1 class="hero__title">Разработка сложных IT-систем для бизнеса</h1>
         </div>
     </section>
 
