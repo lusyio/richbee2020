@@ -329,6 +329,7 @@ body {
     margin-right: 15px;
     color: #fff;
     position: relative;
+    align-items: center;
 }
 
 
@@ -737,4 +738,15 @@ body {
 .link-strike--thin:hover,
 .link-strike--thin:focus {
     background-size: 100% 1px;
+}
+
+
+
+
+
+
+
+
+.hero {
+    height: 700px;
 }

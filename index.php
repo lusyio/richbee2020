@@ -23,7 +23,7 @@ $cases = DB('*', 'cases', 'id!=0 Order by id DESC'); ?>
                     <span class="button-text">Подробнее</span>
                 </a>
             </div>
-            <div class="section-services__item section-services__item--develop wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+            <div class="section-services__item section-services__item--develop wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
                 <div class="section-service__info">
                     <h3>Веб-разработка</h3>
                     <p>Веб-разработка интернет-проектов любой сложности под ключ. 2-х месячная гарантия на исправление любых багов после сдачи проекта</p>
@@ -36,7 +36,7 @@ $cases = DB('*', 'cases', 'id!=0 Order by id DESC'); ?>
                     <span class="button-text">Подробнее</span>
                 </a>
             </div>
-            <div class="section-services__item section-services__item--design wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="section-services__item section-services__item--design wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
                 <div class="section-service__info">
                     <h3>Проектирование и дизайн</h3>
                     <p>Продуманный и понятный UI/UX дизайн, который решает задачи бизнеса</p>
@@ -48,7 +48,7 @@ $cases = DB('*', 'cases', 'id!=0 Order by id DESC'); ?>
                     <span class="button-text">Подробнее</span>
                 </a>
             </div>
-            <div class="section-services__item section-services__item--implement wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
+            <div class="section-services__item section-services__item--implement wow fadeIn" data-wow-duration="2s" data-wow-delay="0.9s">
                 <div class="section-service__info">
                     <h3>Внедрение и интеграции</h3>
                     <p>Интеграция готовых решений с доработкой под ваши задачи</p>  
@@ -60,7 +60,7 @@ $cases = DB('*', 'cases', 'id!=0 Order by id DESC'); ?>
                     <span class="button-text">Подробнее</span>
                 </a>
             </div>
-            <div class="section-services__item section-services__item--support wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+            <div class="section-services__item section-services__item--support wow fadeIn" data-wow-duration="2s" data-wow-delay="1.2s">
                 <div class="section-service__info">
                     <h3>Сопровождение<br>и поддержка</h3>
                     <p>Постоянная поддержка и доработка вашего продукта</p>
