@@ -104,6 +104,18 @@ body {
     line-height: 29px;
     font-weight: 100;
 }
+.block1 ol, .block3 ol, .block4 ol {
+    max-width: 720px;
+    margin-bottom: 50px;
+    padding-left: 105px;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 100;
+}
+
+.block1 li, .block3 li, .block4 li {
+    margin-bottom: 15px;
+}
 
 .block1 img, .block3 img {
     width: 100%;
