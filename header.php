@@ -15,6 +15,8 @@ include 'conf.php';
     <link rel="stylesheet" href="/css/style.css?ver=1.0.0">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 
+    
+
     <title>Richbee Agency - разработка IT-решений для бизнеса</title>
 </head>
 <body>
@@ -38,3 +40,4 @@ include 'conf.php';
                     </div>
                 </div>
             </header>
+        

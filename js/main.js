@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    new WOW().init();
+    const wow = new WOW({
+        offset: 200
+    });
+
+    wow.init();
 })
