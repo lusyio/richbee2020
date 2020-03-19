@@ -10,7 +10,7 @@ include 'header.php';
 
     <section class="service">
         <div class="container">
-            <div class="service-block">
+            <div class="service-block" id="digital">
                 <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Оцифровка</h2>
                 <p class="service-block__subtitle wow fadeInUp" data-wow-delay="0.5s">Хватит кормить Билла и вести дела в Эксельке! Объедините все бизнес-процессы в единую систему управления с удобным интерфейсом</p>
                 <div class="service-block__list">
@@ -27,7 +27,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div class="service-block">
+            <div class="service-block" id="develop">
                 <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Разработка</h2>
                 <p class="service-block__subtitle wow fadeInUp" data-wow-delay="0.5s">Веб-разработка интернет-проектов любой сложности под ключ.<br>2-х месячная гарантия на исправление любых багов после сдачи проекта</p>
                 <div class="service-block__list">
@@ -49,7 +49,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div class="service-block">
+            <div class="service-block" id="design"> 
                 <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Дизайн и проектирование</h2>
                 <p class="service-block__subtitle wow fadeInUp" data-wow-delay="0.5s">Продуманный и понятный UI/UX дизайн, который решает задачи бизнеса</p>
                 <div class="service-block__list">
@@ -64,17 +64,21 @@ include 'header.php';
                 </div>
             </div>
 
-            <div class="service-block">
+            <div class="service-block" id="support">
                 <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Сопровождение и поддержка</h2>
                 <p class="service-block__subtitle wow fadeInUp" data-wow-delay="0.5s">Постоянная поддержка вашего продукта нашимим специалистами. Контроль за работоспособностью и доработка нового функционала</p>
                 <div class="service-block__list">
                     <div class="service-block__item">
-                        <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Техническая поддрежка</h3>
+                        <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Техническая поддержка</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Организуйте взаимодействие между бухгалтерией, складами, производствои и продажами. Оцифруйте все показатели бизнеса и найдите узкие места, мешающие вашей компании расти</p>
                     </div>
                     <div class="service-block__item">
                         <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Доработка продукта</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Предыдущий подрядичик не завершил проект или не справился с поставленными задачами? Требуется новый функционал для текущей системы? Завершим и доработаем проект в сжатые сроки</p>
+                    </div>
+                    <div class="service-block__item">
+                        <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Внедрение и интеграции</h3>
+                        <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Проведем внедрение и интеграцию готового сервиса с доработкой под конкретные бизнес-задачи вашей компании</p>
                     </div>
                 </div>
             </div>
