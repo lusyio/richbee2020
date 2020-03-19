@@ -12,7 +12,7 @@ include 'conf.php';
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/normalize.min.css">
     <link rel="stylesheet" href="/css/animate.min.css">
-    <link rel="stylesheet" href="/css/style.css?ver=1.0.0">
+    <link rel="stylesheet" href="/css/style.css?ver=1.0.1">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 
     
@@ -24,7 +24,7 @@ include 'conf.php';
         <div class="content">
             <header class="header">
                 <div class="container">
-                    <div class="header__logo"><img src="images/svg/logo--dark.svg" alt="Richbee Agency Logo"></div>
+                    <div class="header__logo"><a href="/"><img src="images/svg/logo--dark.svg" alt="Richbee Agency Logo"></a></div>
                     <nav class="header__nav">
                         <ul>
                             <li><a href="/">Главная</a></li>
