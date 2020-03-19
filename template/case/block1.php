@@ -3,7 +3,7 @@ if (!empty($item['img'])) :
 $type = substr($item['img'], -3);
 endif;
 ?>
-<div class="container block1">
+<div class="container block1 wow fadeIn">
     <p><?= $item['text']; ?></p>
     <?php if (!empty($item['img'])) : ?>
 

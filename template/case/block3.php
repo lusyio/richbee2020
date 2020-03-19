@@ -1,4 +1,4 @@
-<div class="container block3">
+<div class="container block3 wow fadeIn">
     <p><?= $item['text']; ?></p>
 
     <div class="d-flex">
