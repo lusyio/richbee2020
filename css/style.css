@@ -86,6 +86,10 @@ body {
     transition: 0.5s all;
 }
 
+video {
+    max-width: 100%;
+}
+
 .bg {
     background: #F8F8F8;
 }
