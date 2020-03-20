@@ -12,7 +12,7 @@ include 'conf.php';
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/normalize.min.css">
     <link rel="stylesheet" href="/css/animate.min.css">
-    <link rel="stylesheet" href="/css/style.css?ver=1.0.1">
+    <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 
     
