@@ -1,7 +1,9 @@
-<div class="case wow fadeIn">
-    <h2 class="wow fadeInUp"><?=$caseName;?></h2>
-    <p class="wow fadeInUp"><?=$caseService;?></p>
-    <a href="/case.php?id=<?=$caseId;?>">
-        <img class="wow zoomIn" src="/images/<?=$caseId;?>.png" alt="<?=$caseName;?>" title="<?=$caseName;?>">
-    </a>
+<div href="/case.php?id=<?= $caseId; ?>" class="case-section__item">
+    <div class="case-section__info">
+        <h3 class="case__title"><?= $caseName; ?></h3>
+        <span class="case__service"><?= $caseService; ?></span>
+    </div>
+    <div class="case__img" id="scene">
+        <img data-depth="0.2" class="wow zoomIn" src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+    </div>
 </div>
