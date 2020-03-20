@@ -91,17 +91,21 @@ body {
     transition: 0.5s all;
 }
 
+video {
+    max-width: 100%;
+}
+
 .bg {
     background: #F8F8F8;
 }
 
 /* block1 */
-.block1, .block3, .block4 {
+.block1, .block3, .block4, .block5 {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.block1 p, .block3 p, .block4 p {
+.block1 p, .block3 p, .block4 p, .block5 p {
     max-width: 720px;
     margin-bottom: 50px;
     padding-left: 105px;
@@ -109,6 +113,11 @@ body {
     line-height: 29px;
     font-weight: 100;
 }
+
+.block5 p {
+    padding-left: 0px;
+}
+
 .block1 ol, .block3 ol, .block4 ol {
     max-width: 720px;
     margin-bottom: 50px;
@@ -178,6 +187,17 @@ body {
     width: 80%;
     margin: auto;
     display: block;
+}
+
+.block5 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.block5 p {
+    width: 70%;
+    padding-right: 40px;
 }
 
 /******************************/
@@ -775,12 +795,6 @@ body {
 .link-strike--thin:focus {
     background-size: 100% 1px;
 }
-
-
-
-
-
-
 
 
 .hero {
