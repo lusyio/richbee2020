@@ -52,9 +52,13 @@ body {
 }
 
 .case:hover img {
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     transition: 0.5s all;
+}
+
+.case:hover h2 {
+    color: #7c7c7c;
 }
 
 .case h2 {
@@ -64,6 +68,7 @@ body {
     line-height: 135%;
     max-width: 430px;
     color: #000000;
+    transition: all 0.4s ease-in-out;
 }
 
 .case p {
@@ -334,6 +339,8 @@ body {
     font-weight: 300;
 }
 
+
+
 .section-services__item--digital {
     grid-area: 1 / 1 / 3 / 5;
     height: 600px;
@@ -382,6 +389,23 @@ body {
     font-weight: 400;
     font-size: 28px;
     margin: 0 0 30px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-services__item:hover .title {
+    color: #7c7c7c;
+}
+
+.section-services__item--digital:hover .title {
+    color: #e6e6e6
+}
+
+.section-services__item .btn--learn-more {
+    transition: all 0.4s ease-in-out;
+}
+
+.section-services__item:hover .btn--learn-more {
+    transform: translateY(-10px);
 }
 
 .section-services__item p {
