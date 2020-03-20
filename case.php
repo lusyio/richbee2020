@@ -1,12 +1,16 @@
 <?php
 include 'header.php';
 $caseId = $_GET["id"];
+
+
 $case = DB('*', 'cases', 'id=' . $caseId);
 foreach ($case as $item) :
     $caseName = $item['name'];
     $caseBody = $item['body'];
     $caseService = DBOnce('name', 'services', 'id=' . $item['service']);
 endforeach;
+
+
 
 $case = json_decode($caseBody, true);
 

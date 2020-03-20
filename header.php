@@ -8,18 +8,16 @@ include 'conf.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<<<<<<< HEAD
     <?php include "vendors/styles.php" ?>
 
     <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
-=======
+
     <!-- Bootstrap CSS 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/normalize.min.css">
     <link rel="stylesheet" href="/css/animate.min.css">
     <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
->>>>>>> 1263bccae715e497be5e924eb9f4ee13666372d0
 
     
 
@@ -35,7 +33,7 @@ include 'conf.php';
                         <ul>
                             <li><a href="/">Главная</a></li>
                             <li><a href="/services.php">Услуги</a></li>
-                            <li><a href="/">Кейсы</a></li>
+                            <li><a href="/cases.php">Кейсы</a></li>
                             <li><a href="/about.php">О нас</a></li>
                             <li><a href="/contact.php">Контакты</a></li>
                         </ul>
