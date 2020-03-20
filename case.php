@@ -37,6 +37,11 @@ $case = json_decode($caseBody, true);
 //        'bg' => 'ffffff',
 //        'color' => '000000',
 //    ],
+//    [
+//        'type' => 'block5',
+//        'text' => 'Только текст + отзыв из вк.',
+//        'vk' => '136676594_5673',
+//    ],
 //];
 //$newBody = json_encode($caseNew, JSON_UNESCAPED_UNICODE);
 //$updateCase = $pdo->prepare('UPDATE `cases` SET body = :body where id="' . $caseId . '"');

@@ -23,7 +23,13 @@ endif;
                     <div class="img-shadow position-absolute"></div>
                 </div>
             <?php else : ?>
-                mp4
+                <div class="position-relative img-block">
+
+                    <video autoplay loop muted>
+                        <source src="/images/case/<?=$item['img']?>" type="video/mp4">
+                    </video>
+                    <div class="img-shadow position-absolute"></div>
+                </div>
             <?php endif; ?>
 
         <?php endif; ?>
