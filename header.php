@@ -3,6 +3,7 @@ include 'conf.php';
 ?>
 <!doctype html>
 <html lang="ru">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -19,10 +20,11 @@ include 'conf.php';
     <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 
-    
+
 
     <title>Richbee Agency - разработка IT-решений для бизнеса</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="content">
@@ -44,4 +46,3 @@ include 'conf.php';
                     </div>
                 </div>
             </header>
-        

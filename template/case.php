@@ -7,5 +7,5 @@
     <div class="case__img" id="scene">
         <img data-depth="0.2" class="wow zoomIn" src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
     </div>
-    
+
 </div>
