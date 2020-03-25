@@ -14,6 +14,10 @@ body {
     overflow: hidden;
 }
 
+.pointer-events-none {
+    pointer-events: none;
+}
+
 .position-relative {
     position: relative;
 }
@@ -242,6 +246,7 @@ video {
 .header__nav ul li {
     list-style: none;
     margin-right: 40px;
+    opacity: 1;
 }
 
 .header__nav ul li:last-child {

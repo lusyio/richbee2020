@@ -36,6 +36,8 @@ const navToggle = () => {
     const page = $("body");
 
     if (isActive) {
+
+        ham.addClass("pointer-events-none");
         
         nav.removeClass("header__nav--mobile-hidden")
         navOpen.to(nav, 1, {
@@ -48,8 +50,15 @@ const navToggle = () => {
         }, null, null, 0)
 
         navOpen.staggerTo(navItems, 1, {x:-100, opacity: 1}, 0.2);
+
+        setTimeout(() => {
+            ham.removeClass("pointer-events-none");
+        }, 2300);
+        
         
     } else {
+
+        ham.addClass("pointer-events-none");
 
 
         navClose.staggerTo(navItems, 1, {x:100, opacity: 0}, 0.2);
@@ -69,6 +78,8 @@ const navToggle = () => {
             page.removeClass("sroll-prohibited");
         }, null, null, 1)
         
-        
+        setTimeout(() => {
+            ham.removeClass("pointer-events-none");
+        }, 2300);
     }
 }
