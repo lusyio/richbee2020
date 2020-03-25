@@ -10,6 +10,10 @@ body {
     text-rendering: optimizeSpeed;
 }
 
+.sroll-prohibited {
+    overflow: hidden;
+}
+
 .position-relative {
     position: relative;
 }
@@ -223,6 +227,12 @@ video {
     font-weight: 300;
 }
 
+.header__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .header__nav ul {
     padding-inline-start: 0;
     display: flex;
@@ -257,6 +267,63 @@ video {
 .header__email {
     font-size: 13px;
     color: #adadad;
+}
+
+@media (max-width: 768px) { 
+
+    .header {
+        padding: 10px 10px;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        z-index: 8;
+    }
+
+    .header__nav ul {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav ul li {
+        position: relative;
+        left: 100px;
+        margin-bottom: 20px;
+        opacity: 0;
+    }
+
+    .header__nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .header__nav ul li a {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .header__nav.header__nav--mobile-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) { 
+
+    .header__contacts {
+        display: none;
+    }
+
+    
+
 }
 
 
@@ -880,4 +947,61 @@ video {
     width: 440px;
     right: 40px;
     top: 50px;
+}
+
+.case-section__view-all {
+    color: #BFBFBF;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+
+
+.nav-toggle {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 20px;
+    display: none;
+    z-index: 9;
+  }
+
+  .nav-toggle.nav-toggle--active {
+    transform: rotate(45deg);
+  }
+
+  .nav-toggle .nav-toggle__line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#000;
+    stroke-width:5.5;
+    stroke-linecap:round;
+  }
+
+
+.nav-toggle .nav-toggle__line.nav-toggle__line--top {
+    stroke-dasharray: 40 121;
+}
+.nav-toggle .nav-toggle__line.nav-toggle__line--bottom {
+    stroke-dasharray: 40 121;
+}
+
+.nav-toggle.nav-toggle--active .nav-toggle__line {
+    stroke: #fff;
+}
+
+.nav-toggle.nav-toggle--active .nav-toggle__line.nav-toggle__line--top,
+.nav-toggle.nav-toggle--active .nav-toggle__line.nav-toggle__line--bottom {
+    stroke-dashoffset: -68px;
+}
+
+@media (max-width: 768px) { 
+    .nav-toggle {
+        display: block;
+    }
 }

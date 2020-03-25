@@ -11,7 +11,7 @@ include 'header.php';
     <section class="service">
         <div class="container">
             <div class="service-block" id="digital">
-                <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Оцифровка</h2>
+                <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Цифровизация</h2>
                 <p class="service-block__subtitle wow fadeInUp" data-wow-delay="0.5s">Хватит кормить Билла и вести дела в Эксельке! Объедините все бизнес-процессы в единую систему управления с удобным интерфейсом</p>
                 <div class="service-block__list">
                     <div class="service-block__item">

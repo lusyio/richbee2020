@@ -16,6 +16,7 @@
                 }
             }
             ?>
+        <a class="case-section__view-all link-strike" href="/cases.php">Смотреть все проекты</a>
         </div>
     </div>
 </section>

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-services__item section-services__item--digital wow fadeIn" data-wow-duration="2s">
             <div class="section-service__info">
-                <h3 class="title">Оцифровка бизнеса</h3>
+                <h3 class="title">Цифровизация</h3>
                 <p>Хватит кормить Билла и вести дела в Эксельке! Объедините все бизнес-процессы в единую систему управления с удобным интерфейсом</p>
             </div>
             <img class="wow zoomIn" src="images/general/services-item--digital.png" alt="Оцифровка бизнеса" data-wow-delay="4s">
