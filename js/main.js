@@ -44,7 +44,7 @@ const navToggle = () => {
         
 
         navOpen.to(nav, 1, {
-            left: 0, 
+            x: 0, 
             ease: Power3.easeInOut
         }, 0);
         navOpen.call(() => {
@@ -53,10 +53,10 @@ const navToggle = () => {
         }, null, null, 0)
 
         navOpen.staggerTo(navItems, 1, {x:0, opacity: 1}, 0.2);
-        navOpen.duration(1).play()
+        navOpen.duration(1.5).play()
         setTimeout(() => {
             ham.removeClass("pointer-events-none");
-        }, 2300);
+        }, 2000);
         
         
     } else {
@@ -67,7 +67,7 @@ const navToggle = () => {
         navClose.staggerTo(navItems, 1, {x:100, opacity: 0}, 0.2);
 
         navClose.to(nav, 1, {
-            left: "100%", 
+            x: "100%", 
             ease: Power3.easeInOut
         }, 1);
 
@@ -80,9 +80,9 @@ const navToggle = () => {
             nav.addClass("header__nav--mobile-hidden");
             page.removeClass("sroll-prohibited");
         }, null, null, 1)
-        
+        navClose.duration(1.5).play()
         setTimeout(() => {
             ham.removeClass("pointer-events-none");
-        }, 2300);
+        }, 2000);
     }
 }

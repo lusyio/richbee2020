@@ -287,7 +287,8 @@ video {
         align-items: center;
         position: absolute;
         top: 0;
-        left: 100%;
+        left: 0;
+        transform: translate(100%, 0);
         width: 100%;
         height: 100vh;
         background-color: #000;
