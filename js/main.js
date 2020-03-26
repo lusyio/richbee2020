@@ -40,6 +40,9 @@ const navToggle = () => {
         ham.addClass("pointer-events-none");
         
         nav.removeClass("header__nav--mobile-hidden")
+
+        
+
         navOpen.to(nav, 1, {
             left: 0, 
             ease: Power3.easeInOut
@@ -49,8 +52,8 @@ const navToggle = () => {
             page.addClass("sroll-prohibited")
         }, null, null, 0)
 
-        navOpen.staggerTo(navItems, 1, {x:-100, opacity: 1}, 0.2);
-
+        navOpen.staggerTo(navItems, 1, {x:0, opacity: 1}, 0.2);
+        navOpen.duration(1).play()
         setTimeout(() => {
             ham.removeClass("pointer-events-none");
         }, 2300);

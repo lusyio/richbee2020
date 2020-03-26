@@ -302,7 +302,7 @@ video {
 
     .header__nav ul li {
         position: relative;
-        left: 100px;
+        transform: translate(100px, 0);
         margin-bottom: 20px;
         opacity: 0;
     }
