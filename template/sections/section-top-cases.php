@@ -1,7 +1,7 @@
 <section class="case-section">
     <div class="container">
         <h2 class="case-section__title">Наши последние проекты</h2>
-        <span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>
+        <!--<span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>-->
         <div class="case-section__list">
             <?php
             $topCases = [12, 13, 10];
