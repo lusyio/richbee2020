@@ -2,8 +2,8 @@
 
 <section class="hero">
     <div class="container">
-        <h1 class="hero__title">Разработка сложных IT-систем для бизнеса</h1>
-    
+        <h1 class="hero__title">Разработка сложных<br>IT-систем для бизнеса</h1>
+        <img src="../images/general/notebook.png" alt="">
 
     </div>
 </section>
