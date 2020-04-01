@@ -2,12 +2,6 @@
 include 'header.php';
 ?>
 
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero__title">Услуги</h1>
-        </div>
-    </section>
-
     <section class="service">
         <div class="container">
             <div class="service-block" id="digital">
@@ -17,12 +11,12 @@ include 'header.php';
                     <div class="service-block__item">
                         <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Разработка ERP-системы</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Организуйте взаимодействие между бухгалтерией, складами, производствои и продажами. Оцифруйте все показатели бизнеса и найдите узкие места, мешающие вашей компании расти</p>
-                        <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку ERP</a>
+                        <!-- <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку ERP</a> -->
                     </div>
                     <div class="service-block__item">
                         <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Разработка CRM-системы</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Больше никаких пропущенных заявок и забытых звонков! Каждое обращение клиента будет обработано и назначено менеджеру. Менеджеры будут точно знать кому и когда звонить. а маркетологи - откуда пришла заявка</p>
-                        <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку CRM</a>
+                        <!-- <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку CRM</a> -->
                     </div>
                 </div>
             </div>
@@ -34,17 +28,17 @@ include 'header.php';
                     <div class="service-block__item">
                         <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Разработка сервисов и порталов</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Разработаем сервис под ваши бизнес-задачи. Получите MVP (минимальную версию продукта) уже через 2 месяца после обращения и протестируйте свои идеи</p>
-                        <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку системы</a>
+                        <!-- <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку системы</a> -->
                     </div>
                     <div class="service-block__item">
                         <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Разработка корпоративных сайтов</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Получите высококонкурентный современный сайт с уникальным дизайном, готовый к SEO-продвижению. Мы сделаем так, что посетители выбирут вас, а не конкурентов</p>
-                        <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку сайта</a>
+                        <!-- <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку сайта</a> -->
                     </div>
                     <div class="service-block__item">
                         <h3 class="service__title wow fadeInUp" data-wow-delay="0.8s">Разработка интернет-магазинов</h3>
                         <p class="service__text wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">Закажите современный и продающий интернет-магазин с удобной административной панелью и готовый к интеграциям с CRM-системами, складскими программами и онлайн-кассами</p>
-                        <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку интернет-магазина</a>
+                        <!-- <a class="link-strike wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" href="#">Получить КП на разработку интернет-магазина</a> -->
                     </div>
                 </div>
             </div>

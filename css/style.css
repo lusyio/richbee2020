@@ -213,7 +213,7 @@ video {
 /******************************/
 
 .header {
-    padding: 10px 0;
+    padding: 10px 100px;
     background-color: transparent;
     position: relative;
     z-index: 1;
