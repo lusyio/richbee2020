@@ -7,7 +7,7 @@
         <span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>
         <div class="case-section__list">
             <?php
-            $cases = DB('*', 'cases', 'id!=0 Order by id DESC');
+            $cases = DB('*', 'cases', 'body!="0" Order by id DESC');
             foreach ($cases as $item) {
                 $caseId = $item['id'];
                 $caseName = $item['name'];
