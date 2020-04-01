@@ -14,7 +14,7 @@ const parallax = () => {
     
     for (let item of items) {
         let parallaxItem = new Parallax(item, {
-            //hoverOnly: true,
+            hoverOnly: true,
         });
         parallaxItems.push(parallaxItem);
     }
