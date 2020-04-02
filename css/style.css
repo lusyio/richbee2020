@@ -1058,3 +1058,105 @@ video {
         display: block;
     }
 }
+
+
+.contacts {
+    padding: 50px 100px;
+}
+
+.contacts .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__title {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 80px 0;
+}
+
+.contacts__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts__phone {
+    display: block;
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.contacts__email {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts__adress {
+    padding: 0 50px;
+    font-size: 24px;
+    font-weight: 300;
+    width: 320px;
+    
+}
+
+.contacts__adress a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts__list {
+    padding: 0 50px;
+}
+
+.contacts__social-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+}
+
+.contacts__social-list li {
+    margin-right: 20px;
+}
+
+.contacts__social-list  .social-list__item--vk a {
+    background-color: #597da3;
+}
+
+.contacts__social-list  .social-list__item--tg a {
+    background-color: #0088cc;
+}
+
+.contacts__social-list  .social-list__item--wa a {
+    background-color: #43d854;
+}
+
+.contacts__social-list li:last-child {
+    margin-right: 0
+}
+
+.contacts__social-list li a  {
+    display: block;
+    padding: 9px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+}
+
+.contacts__social-list li a svg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+}
