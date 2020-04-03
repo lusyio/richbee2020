@@ -47,6 +47,7 @@ $case = json_decode($caseBody, true);
 //        'vk' => '136676594_5673',
 //    ],
 //];
+//$case = $caseNew;
 //$newBody = json_encode($caseNew, JSON_UNESCAPED_UNICODE);
 //$updateCase = $pdo->prepare('UPDATE `cases` SET body = :body where id="' . $caseId . '"');
 //$updateCase->execute(array('body' => $newBody));
