@@ -1,12 +1,11 @@
 <?php
-include 'header.php';
-$caseId = $_GET["id"];
-
+$caseId = substr($_GET['id'], 0, -1);
 
 $case = DB('*', 'cases', 'id=' . $caseId);
 foreach ($case as $item) :
     $caseName = $item['name'];
     $caseBody = $item['body'];
+    $caseUrl = $item['url'];
     $caseService = DBOnce('name', 'services', 'id=' . $item['service']);
 endforeach;
 
@@ -61,6 +60,7 @@ $case = json_decode($caseBody, true);
             <div class="section-case__info">
                 <h1 class="section-case__title"><?= $caseName; ?></h1>
                 <p class="section-case__subtitle"><?= $caseService; ?></p>
+                <?php if(!empty($caseUrl)) : ;?><p class="section-case__subtitle"><a href="<?=$caseUrl;?>" target="_blank"><?=$caseUrl;?></a></p><?php endif; ?>
             </div>
             <div class="section-case__img">
                 <img src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
@@ -71,10 +71,8 @@ $case = json_decode($caseBody, true);
     </div>
 <?php if (!empty($case)) : ?>
     <?php foreach ($case as $item):
-        include 'template/case/' . $item['type'] . '.php';
+        include 'case/' . $item['type'] . '.php';
         ?>
     <?php endforeach; ?>
-<?php endif; ?>
+<?php endif;
 
-<?php
-include 'footer.php';

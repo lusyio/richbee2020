@@ -3,7 +3,7 @@
         <h3 class="case__title wow fadeInUp" data-wow-delay="0.5s"><?= $caseName; ?></h3>
         <span class="case__service wow fadeInUp" data-wow-delay="0.5s"><?= $caseService; ?></span>
         
-        <a class="btn--learn-more wow fadeInUp" data-wow-delay="0.5s" href="/case.php?id=<?= $caseId; ?>">
+        <a class="btn--learn-more wow fadeInUp" data-wow-delay="0.5s" href="/case/<?= $caseId; ?>/">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>

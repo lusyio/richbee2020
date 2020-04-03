@@ -30,13 +30,13 @@ include 'conf.php';
         <div class="content">
             <header class="header">
                 <div class="container">
-                    <div class="header__logo"><a href="/"><img src="images/svg/logo--dark.svg" alt="Richbee Agency Logo"></a></div>
+                    <div class="header__logo"><a href="/"><img src="/images/svg/logo--dark.svg" alt="Richbee Agency Logo"></a></div>
                     
                     <nav class="header__nav header__nav--mobile-hidden">
                         <ul>
                             <li><a class="link-strike link-strike--thin" href="/">Главная</a></li>
                             <li><a class="link-strike link-strike--thin" href="/services.php">Услуги</a></li>
-                            <li><a class="link-strike link-strike--thin" href="/cases.php">Кейсы</a></li>
+                            <li><a class="link-strike link-strike--thin" href="/case/">Кейсы</a></li>
                             <li><a class="link-strike link-strike--thin" href="/about.php">О нас</a></li>
                             <li><a class="link-strike link-strike--thin" href="/contact.php">Контакты</a></li>
                         </ul>
