@@ -405,6 +405,7 @@ video {
 }
 
 
+
 /******************************/
 /************ HOME ************/
 /******************************/
@@ -1086,6 +1087,25 @@ video {
 }
 
 
+@media(max-width: 1200px) {
+    .case-section__list {
+        width: 100%;
+    }
+
+    .case-section__item {
+        width: 100%;
+    }
+
+    .case-section__item .case-section__info {
+        width: 350px;
+    }
+}
+
+@media(max-width: 992px) {
+    .case-section__item .case-section__info {
+        width: 350px;
+    }
+}
 
 
 .nav-toggle {
