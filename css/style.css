@@ -1108,8 +1108,87 @@ video {
 }
 
 @media(max-width: 992px) {
+    .case-section__item {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .case-section__item .case__title {
+        text-align: center;
+    }
+
+    .case-section__item .case__service {
+        margin-bottom: 50px;
+    }
+
     .case-section__item .case-section__info {
-        width: 350px;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .case-section__item .case__img {
+        display: block;
+        position: initial;
+        right: 0;
+        top: 0;
+    }
+
+    .case-section__item:hover .case__img {
+        width: 400px;
+        right: 0;
+        top: 0;
+    }
+
+    .case-section__item:hover .btn--learn-more {
+        transform: none;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .case-section {
+        padding: 60px 20px;
+    }
+
+    .case-section__title {
+        text-align: center;
+    }
+
+    .case-section__item .case__title {
+        font-size: 24px;
+        padding: 0 20px;
+    }
+
+    .case-section__item .case__img {
+        width: 340px;
+    }
+
+    .case-section__item:hover .case__img {
+        width: 340px;
+    }
+}
+
+@media(max-width: 375px) {
+
+    .case-section__item .case__title {
+        font-size: 20px;
+    }
+
+    .case-section__title {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 320px) {
+
+    .case-section__item .case__img {
+        width: 270px;
+    }
+
+    .case-section__item:hover .case__img {
+        width: 270px;
     }
 }
 
