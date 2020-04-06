@@ -117,7 +117,7 @@
         </div>
         <div class="footer-bottom">
             <div class="footer__logo">
-                <img src="images/svg/logo.svg" alt="Richbee Agency Logo">
+                <img src="/images/svg/logo.svg" alt="Richbee Agency Logo">
             </div>
             <div class="footer__policy">
                 <a href="#" class="link-strike link-strike--thin">Политика конфиденциальности</a>

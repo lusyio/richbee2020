@@ -410,6 +410,14 @@ video {
 /************ HOME ************/
 /******************************/
 
+.hero__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
 .section-services {
 
 }
@@ -967,9 +975,7 @@ video {
 }
 
 
-.hero {
-    height: 700px;
-}
+
 
 
 
