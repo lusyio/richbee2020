@@ -4,10 +4,10 @@ include 'header.php';
 
 <section class="contacts">
     <div class="container">
-        <h1 class="contacts__title">Контакты</h1>
+        <h1 class="contacts__title wow fadeIn">Контакты</h1>
 
         <div class="contacts__info">
-        <div class="contacts__list">
+        <div class="contacts__list wow fadeIn">
             <a class="contacts__phone" href="#" title="Позвоните нам">8 (495) 312-12-12</a>
             <a class="contacts__email" href="mail:sales@richbee.ru" title="Напишите нам на почту">sales@richbee.ru</a>
 
@@ -49,7 +49,7 @@ include 'header.php';
 
         </div>
 
-        <div class="contacts__adress">
+        <div class="contacts__adress wow fadeIn">
 
             <a href="https://yandex.ru/maps/?um=constructor%3Add05ca22980767467f952afb09c0a19fdd9a8f866442fca49941686f7df91d3b&source=constructorLink">Москва,<br>3-я Мытищинская улица,<br>16с60</a>
 
