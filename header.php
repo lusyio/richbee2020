@@ -1,5 +1,19 @@
 <?php
 include 'conf.php';
+$titles = allRowsKeyPair('SELECT page, title FROM titles');
+$route = trim($_SERVER['REQUEST_URI'], '/');
+if ($route === '') {
+    $route = 'index';
+}
+$routeParts = explode('/', $route);
+$firstPart = array_shift($routeParts);
+if (key_exists($firstPart, $titles)) {
+    $title = $titles[$firstPart];
+} elseif (key_exists('other', $titles)) {
+    $title = $titles['other'];
+} else {
+    $title = 'Richbee Agency - разработка IT-решений для бизнеса';
+}
 ?>
 <!doctype html>
 <html lang="ru">
@@ -22,7 +36,7 @@ include 'conf.php';
 
 
 
-    <title>Richbee Agency - разработка IT-решений для бизнеса</title>
+    <title><?php echo $title; ?></title>
 </head>
 
 <body>
