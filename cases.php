@@ -10,6 +10,7 @@
             $cases = DB('*', 'cases', 'body!="0" Order by id DESC');
             foreach ($cases as $item) {
                 $caseId = $item['id'];
+                $caseFriendlyUrl = $item['friendly_url'];
                 $caseName = $item['name'];
                 $caseService = DBOnce('name', 'services', 'id=' . $item['service']);
                 include 'template/case.php';

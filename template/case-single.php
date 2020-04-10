@@ -1,8 +1,7 @@
 <?php
-$caseId = substr($_GET['id'], 0, -1);
 
-$case = DB('*', 'cases', 'id=' . $caseId);
 foreach ($case as $item) :
+    $caseId = $item['id'];
     $caseName = $item['name'];
     $caseBody = $item['body'];
     $caseUrl = $item['url'];
