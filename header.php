@@ -15,8 +15,8 @@ if (key_exists($firstPart, $titles)) {
     $title = 'Richbee Agency - разработка IT-решений для бизнеса';
 }
 $imgOpenGraph = 'richbee';
-$pathImgOpenGrapg = '/images/opengraph/'.$route.'.jpg';
-if (file_exists($pathImgOpenGrapg)) {
+$pathImgOpenGraph = '/images/opengraph/'.$route.'.jpg';
+if (file_exists($pathImgOpenGraph)) {
     $imgOpenGraph = $route;
 }
 ?>
