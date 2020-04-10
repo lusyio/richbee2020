@@ -49,10 +49,10 @@ if (key_exists($firstPart, $titles)) {
                     <nav class="header__nav header__nav--mobile-hidden">
                         <ul>
                             <li><a class="link-strike link-strike--thin" href="/">Главная</a></li>
-                            <li><a class="link-strike link-strike--thin" href="/services.php">Услуги</a></li>
+                            <li><a class="link-strike link-strike--thin" href="/services/">Услуги</a></li>
                             <li><a class="link-strike link-strike--thin" href="/case/">Кейсы</a></li>
-                            <li><a class="link-strike link-strike--thin" href="/about.php">О нас</a></li>
-                            <li><a class="link-strike link-strike--thin" href="/contact.php">Контакты</a></li>
+                            <li><a class="link-strike link-strike--thin" href="/about/">О нас</a></li>
+                            <li><a class="link-strike link-strike--thin" href="/contact/">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="header__right">

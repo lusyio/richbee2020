@@ -6,7 +6,7 @@
                 <p>Хватит кормить Билла и вести дела в Эксельке! Объедините все бизнес-процессы в единую систему управления с удобным интерфейсом</p>
             </div>
             <img class="wow zoomIn" src="images/general/services-item--digital.png" alt="Оцифровка бизнеса" data-wow-delay="4s">
-            <a class="btn--learn-more btn--learn-more--inverse" href="services.php#digital">
+            <a class="btn--learn-more btn--learn-more--inverse" href="/services/#digital">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
@@ -19,7 +19,7 @@
                 <p>Веб-разработка интернет-проектов любой сложности под ключ. 2-х месячная гарантия на исправление любых багов после сдачи проекта</p>
 
             </div>
-            <a class="btn--learn-more wow fadeIn" href="services.php#develop">
+            <a class="btn--learn-more wow fadeIn" href="/services/#develop">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
@@ -31,7 +31,7 @@
                 <h3 class="title">Проектирование и дизайн</h3>
                 <p>Продуманный и понятный UI/UX дизайн, который решает задачи бизнеса</p>
             </div>
-            <a class="btn--learn-more" href="services.php#design">
+            <a class="btn--learn-more" href="/services/#design">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
@@ -43,7 +43,7 @@
                 <h3 class="title">Внедрение и интеграции</h3>
                 <p>Интеграция готовых решений с доработкой под ваши задачи</p>
             </div>
-            <a class="btn--learn-more" href="services.php#support">
+            <a class="btn--learn-more" href="/services/#support">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
@@ -55,7 +55,7 @@
                 <h3 class="title">Сопровождение<br>и поддержка</h3>
                 <p>Постоянная поддержка и доработка вашего продукта</p>
             </div>
-            <a class="btn--learn-more" href="services.php#support">
+            <a class="btn--learn-more" href="/services/#support">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
