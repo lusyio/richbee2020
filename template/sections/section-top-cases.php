@@ -4,7 +4,7 @@
         <!--<span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>-->
         <div class="case-section__list">
             <?php
-            $topCases = [12, 13, 10];
+            $topCases = [16, 9, 5];
             foreach ($topCases as $id) {
                 $case = DB('*', 'cases', 'id=' . $id);
 

@@ -14,6 +14,11 @@ if (key_exists($firstPart, $titles)) {
 } else {
     $title = 'Richbee Agency - разработка IT-решений для бизнеса';
 }
+$imgOpenGraph = 'richbee';
+$pathImgOpenGrapg = '/images/opengraph/'.$route.'.jpg';
+if (file_exists($pathImgOpenGrapg)) {
+    $imgOpenGraph = $route;
+}
 ?>
 <!doctype html>
 <html lang="ru">
@@ -26,7 +31,18 @@ if (key_exists($firstPart, $titles)) {
     <?php include "vendors/styles.php" ?>
 
     <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
-
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?=$title;?>" />
+    <meta property="og:url" content="https://richbee.ru/" />
+    <meta property="og:site_name" content="RichBee" />
+    <meta property="og:image" content="<?=$urlSite;?>/images/opengraph/<?=$imgOpenGraph;?>.jpg" />
+    <meta property="og:image:secure_url" content="<?=$urlSite;?>/images/opengraph/<?=$imgOpenGraph;?>.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<?=$title;?>" />
+    <meta name="twitter:image" content="<?=$urlSite;?>/images/opengraph/<?=$imgOpenGraph;?>.jpg" />
     <!-- Bootstrap CSS 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/normalize.min.css">
