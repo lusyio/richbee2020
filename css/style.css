@@ -821,17 +821,25 @@ video {
     .block2 p {
         max-width: 100%;
         padding: 0 30px;
-
+        font-size: 18px;
     }
 
     .img-block {
         max-width: 100%;
     }
 
-    .block1 p, .block3 p, .block4 p, .block5 p {
+    .block1 p, .block3 p, .block4 p {
         padding: 0 30px;
         max-width: 100%;
+        font-size: 16px;
     }
+
+    .block5 p {
+        max-width: 100%;
+        font-size: 16px;
+        padding-right: 0;
+    }
+
 
     .block1 > div:first-of-type, .block3 > div:first-of-type, .block4 > div:first-of-type, .block5 > div:first-of-type {
         padding-left: 30px;
@@ -1311,7 +1319,7 @@ video {
 
 @media screen and (max-width: 576px) {
 
-    .section-case .container{
+    .section-case .container {
         padding: 100px 0;
     }
 
@@ -1319,17 +1327,17 @@ video {
         flex-wrap: wrap;
     }
 
-    .section-case{
+    .section-case {
         position: unset;
         height: auto;
     }
 
-    .block1, .block3, .block4, .block5{
+    .block1, .block3, .block4, .block5 {
         padding-top: 30px;
         padding-bottom: 30px;
     }
 
-    .section-case__circle{
+    .section-case__circle {
         display: none;
     }
 
@@ -1348,12 +1356,12 @@ video {
         padding: 0 30px;
     }
 
-    .section-case .container{
+    .section-case .container {
         flex-wrap: wrap;
         padding-bottom: 0;
     }
 
-    .section-case .container{
+    .section-case .container {
         height: auto;
     }
 
