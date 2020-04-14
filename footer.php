@@ -34,8 +34,8 @@
                 </div>
             </div>
             <div class="footer-top__contact">
-                <a class="footer-top__email" href="mailto:sales@richbee.ru"
-                   title="Напишите нам на почту">sales@richbee.ru</a>
+                <a class="footer-top__email" href="mailto:client@richbee.ru"
+                   title="Напишите нам на почту">client@richbee.ru</a>
                 <a class="footer-top__phone" href="tel:8 (926) 655-69-88" title="Позвоните нам">8 (926) 655-69-88</a>
 
                 <ul class="footer-top__social-list">
@@ -136,7 +136,8 @@
                 <img src="/images/svg/logo.svg" alt="Richbee Agency Logo">
             </div>
             <div class="footer__policy">
-                <a href="#" class="link-strike link-strike--thin">Политика конфиденциальности</a>
+<!--                <a href="#" class="link-strike link-strike--thin">Политика конфиденциальности</a>-->
+                2020
             </div>
         </div>
 
