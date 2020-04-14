@@ -1286,6 +1286,19 @@ video {
     margin: 15px;
 }
 
+.error-page h1 {
+    text-align: center;
+    padding: 200px 30px;
+}
+
+@media screen and (max-width: 1440px) {
+    .about-photos img{
+        max-width: 46%;
+        height: auto;
+        max-height: unset;
+    }
+}
+
 
 @media (max-width: 1200px) {
     .case-section__list {
