@@ -266,7 +266,20 @@ video {
 }
 
 .header__phone {
+    color: #000;
+    text-decoration: none;
+}
 
+.header__phone:hover{
+    color: #000;
+}
+
+.footer-top__social-list svg {
+    transition: 135ms ease-in-out;
+}
+
+.footer-top__social-list a:hover svg {
+    transform: scale(1.1);
 }
 
 .header__email {
@@ -417,7 +430,8 @@ video {
 }
 
 .section-services {
-
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .section-services .container {

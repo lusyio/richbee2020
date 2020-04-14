@@ -6,35 +6,41 @@
                 <div class="footer-top__column">
                     <h4>Оцифровка</h4>
                     <ul>
-                        <li><a href="#" class="link-strike link-strike--thin">Разработка CRM</a></li>
-                        <li><a href="#" class="link-strike link-strike--thin">Разработка ERP</a></li>
-                        <li><a href="#" class="link-strike link-strike--thin">Внедрение и интеграции</a></li>
+                        <li><a href="/services/#digital" class="link-strike link-strike--thin">Разработка CRM</a></li>
+                        <li><a href="/services/#digital" class="link-strike link-strike--thin">Разработка ERP</a></li>
+                        <li><a href="/services/#digital" class="link-strike link-strike--thin">Внедрение и
+                                интеграции</a></li>
                     </ul>
                 </div>
                 <div class="footer-top__column">
                     <h4>Разработка</h4>
                     <ul>
-                        <li><a href="#" class="link-strike link-strike--thin">Корпоративные сайты</a></li>
-                        <li><a href="#" class="link-strike link-strike--thin">Интернет-магазины</a></li>
-                        <li><a href="#" class="link-strike link-strike--thin">Сервисы и порталы</a></li>
+                        <li><a href="/services/#develop" class="link-strike link-strike--thin">Корпоративные сайты</a>
+                        </li>
+                        <li><a href="/services/#develop" class="link-strike link-strike--thin">Интернет-магазины</a>
+                        </li>
+                        <li><a href="/services/#develop" class="link-strike link-strike--thin">Сервисы и порталы</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-top__column">
                     <h4>Сопровождение</h4>
                     <ul>
-                        <li><a href="#" class="link-strike link-strike--thin">Техническая поддержка</a></li>
-                        <li><a href="#" class="link-strike link-strike--thin">Доработка существующего проекта</a></li>
+                        <li><a href="/services/#support" class="link-strike link-strike--thin">Техническая поддержка</a>
+                        </li>
+                        <li><a href="/services/#support" class="link-strike link-strike--thin">Доработка существующего
+                                проекта</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-top__contact">
-                <a class="footer-top__email" href="mail:sales@richbee.ru"
+                <a class="footer-top__email" href="mailto:sales@richbee.ru"
                    title="Напишите нам на почту">sales@richbee.ru</a>
-                <a class="footer-top__phone" href="#" title="Позвоните нам">8 (495) 312-12-12</a>
+                <a class="footer-top__phone" href="tel:8 (926) 655-69-88" title="Позвоните нам">8 (926) 655-69-88</a>
 
                 <ul class="footer-top__social-list">
                     <li>
-                        <a href="#" title="Страничка Richbee в VK">
+                        <a href="https://vk.com/richbeeweb" title="Страничка Richbee в VK">
                             <svg version="1.1" id="Layer_1" fill="#fff" width="30px" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 455 455"
                                  style="enable-background:new 0 0 455 455;" xml:space="preserve">
@@ -55,31 +61,31 @@
                             </svg>
                         </a>
                     </li>
+                    <!--                    <li>-->
+                    <!--                        <a href="#" title="Аккаунт Richbee в Instagram">-->
+                    <!---->
+                    <!--                            <svg version="1.1" id="Layer_1" width="30px" xmlns="http://www.w3.org/2000/svg"-->
+                    <!--                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 364 364"-->
+                    <!--                                 fill="#fff" style="enable-background:new 0 0 364 364;" xml:space="preserve">-->
+                    <!--                                <g>-->
+                    <!--                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M244.424,83.438H119.577c-19.925,0-36.139,16.213-36.139,36.139v124.846-->
+                    <!--                                        c0,19.929,16.214,36.143,36.139,36.143h124.847c19.928,0,36.142-16.214,36.142-36.143V119.577-->
+                    <!--                                        C280.566,99.652,264.352,83.438,244.424,83.438z M181.998,246.894c-35.779,0-64.892-29.113-64.892-64.896-->
+                    <!--                                        c0-35.779,29.113-64.892,64.892-64.892c35.783,0,64.896,29.113,64.896,64.892C246.894,217.781,217.781,246.894,181.998,246.894z-->
+                    <!--                                        M248.982,130.525c-8.471,0-15.359-6.888-15.359-15.354c0-8.467,6.888-15.355,15.359-15.355c8.466,0,15.354,6.888,15.354,15.355-->
+                    <!--                                        C264.336,123.638,257.448,130.525,248.982,130.525z"/>-->
+                    <!--                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M181.998,144.531c-20.655,0-37.475,16.812-37.475,37.467-->
+                    <!--                                        c0,20.663,16.82,37.479,37.475,37.479c20.663,0,37.471-16.816,37.471-37.479C219.469,161.343,202.661,144.531,181.998,144.531z"/>-->
+                    <!--                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v364h364V0H0z M307.984,244.423c0,35.053-28.508,63.561-63.56,63.561-->
+                    <!--                                        H119.577c-35.049,0-63.561-28.508-63.561-63.561V119.577c0-35.049,28.512-63.561,63.561-63.561h124.847-->
+                    <!--                                        c35.052,0,63.56,28.512,63.56,63.561V244.423z"/>-->
+                    <!--                                </g>-->
+                    <!--                            </svg>-->
+                    <!--                        </a>-->
+                    <!---->
+                    <!--                    </li>-->
                     <li>
-                        <a href="#" title="Аккаунт Richbee в Instagram">
-
-                            <svg version="1.1" id="Layer_1" width="30px" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 364 364"
-                                 fill="#fff" style="enable-background:new 0 0 364 364;" xml:space="preserve">
-                                <g>
-                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M244.424,83.438H119.577c-19.925,0-36.139,16.213-36.139,36.139v124.846
-                                        c0,19.929,16.214,36.143,36.139,36.143h124.847c19.928,0,36.142-16.214,36.142-36.143V119.577
-                                        C280.566,99.652,264.352,83.438,244.424,83.438z M181.998,246.894c-35.779,0-64.892-29.113-64.892-64.896
-                                        c0-35.779,29.113-64.892,64.892-64.892c35.783,0,64.896,29.113,64.896,64.892C246.894,217.781,217.781,246.894,181.998,246.894z
-                                        M248.982,130.525c-8.471,0-15.359-6.888-15.359-15.354c0-8.467,6.888-15.355,15.359-15.355c8.466,0,15.354,6.888,15.354,15.355
-                                        C264.336,123.638,257.448,130.525,248.982,130.525z"/>
-                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M181.998,144.531c-20.655,0-37.475,16.812-37.475,37.467
-                                        c0,20.663,16.82,37.479,37.475,37.479c20.663,0,37.471-16.816,37.471-37.479C219.469,161.343,202.661,144.531,181.998,144.531z"/>
-                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v364h364V0H0z M307.984,244.423c0,35.053-28.508,63.561-63.56,63.561
-                                        H119.577c-35.049,0-63.561-28.508-63.561-63.561V119.577c0-35.049,28.512-63.561,63.561-63.561h124.847
-                                        c35.052,0,63.56,28.512,63.56,63.561V244.423z"/>
-                                </g>
-                            </svg>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="#" title="Напишите нам в Telegram">
+                        <a href="https://telegram.me/mr_richbee" title="Напишите нам в Telegram">
 
                             <svg version="1.1" width="30px" fill="#fff" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 455 455"
@@ -100,7 +106,7 @@
                     </li>
 
                     <li>
-                        <a href="#" title="Напишите нам в Whatsapp">
+                        <a href="https://wa.me/79266556988" title="Напишите нам в Whatsapp">
                             <svg version="1.1" id="Capa_1" width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                  viewBox="0 0 455.731 455.731" style="enable-background:new 0 0 455.731 455.731;"
@@ -133,6 +139,7 @@
                 <a href="#" class="link-strike link-strike--thin">Политика конфиденциальности</a>
             </div>
         </div>
+
     </div>
 </footer>
 
@@ -143,13 +150,33 @@
 <script src="/js/main.js"></script>
 <script src="/js/lightbox-plus-jquery.min.js"></script>
 <script>
+    const $page = $('html, body');
+    $('a[href*="#"]').on('click', function () {
+        let blockId = $.attr(this, 'href').split('/')[2];
+        $page.animate({
+            scrollTop: $(`${blockId}`).offset().top - 30
+        }, 500);
+        return false;
+    });
+
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true,
         'fitImagesInViewport': false
     })
 </script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(27860136, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/27860136" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(27860136, "init", {clickmap: true, trackLinks: true, accurateTrackBounce: true}); </script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/27860136" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript> <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>
