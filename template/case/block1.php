@@ -9,7 +9,9 @@ endif;
 
         <?php if ($type == 'jpg') : ?>
             <div class="position-relative img-block">
-                <img src="/images/case/<?= $item['img']; ?>"/>
+                <a href="/images/case/<?= $item['img']; ?>" data-lightbox="<?= $item['img']; ?>">
+                    <img src="/images/case/<?= $item['img']; ?>"/>
+                </a>
                 <div class="img-shadow position-absolute"></div>
             </div>
         <?php else : ?>
