@@ -893,8 +893,18 @@ video {
         font-size: 34px;
     }
 
+    .section-services__item{
+        padding: 15px 20px;
+    }
+
+    .section-services__item .title{
+        font-size: 22px;
+    }
+
     .section-services__item p {
         margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.4;
     }
 
     .section-services__item--develop, .section-services__item--design, .section-services__item--implement, .section-services__item--support {
