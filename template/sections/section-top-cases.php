@@ -17,7 +17,7 @@
                 }
             }
             ?>
-        <a class="case-section__view-all link-strike" href="/cases/">Смотреть все проекты</a>
+        <a class="case-section__view-all link-strike" href="/case/">Смотреть все проекты</a>
         </div>
     </div>
 </section>
