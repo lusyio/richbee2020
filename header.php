@@ -30,7 +30,6 @@ if (file_exists($pathImgOpenGraph)) {
     <link rel="icon" href="/favicon.png" type="image/x-icon">
     <?php include "vendors/styles.php" ?>
 
-    <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
     <meta property="og:locale" content="ru_RU"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="<?= $title; ?>"/>
@@ -47,7 +46,7 @@ if (file_exists($pathImgOpenGraph)) {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/normalize.min.css">
     <link rel="stylesheet" href="/css/animate.min.css">
-    <link rel="stylesheet" href="/css/style.css?ver=1.0.2">
+    <link rel="stylesheet" href="/css/style.css?ver=1.0.3">
     <link rel="stylesheet" href="/css/lightbox.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic"
           rel="stylesheet">
