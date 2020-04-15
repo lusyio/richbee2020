@@ -6,30 +6,42 @@
                 <div class="footer-top__column">
                     <h4>Оцифровка</h4>
                     <ul>
-                        <li><a href="/services/#digital" class="link-strike link-strike--thin">Разработка CRM</a></li>
-                        <li><a href="/services/#digital" class="link-strike link-strike--thin">Разработка ERP</a></li>
-                        <li><a href="/services/#digital" class="link-strike link-strike--thin">Внедрение и
-                                интеграции</a></li>
+                        <li>
+                            <a href="/services/#digital" class="link-strike link-strike--thin">Разработка CRM</a>
+                        </li>
+                        <li>
+                            <a href="/services/#digital" class="link-strike link-strike--thin">Разработка ERP</a>
+                        </li>
+                        <li>
+                            <a href="/services/#digital" class="link-strike link-strike--thin">Внедрение и
+                                интеграции</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-top__column">
                     <h4>Разработка</h4>
                     <ul>
-                        <li><a href="/services/#develop" class="link-strike link-strike--thin">Корпоративные сайты</a>
+                        <li>
+                            <a href="/services/#develop" class="link-strike link-strike--thin">Корпоративные сайты</a>
                         </li>
-                        <li><a href="/services/#develop" class="link-strike link-strike--thin">Интернет-магазины</a>
+                        <li>
+                            <a href="/services/#develop" class="link-strike link-strike--thin">Интернет-магазины</a>
                         </li>
-                        <li><a href="/services/#develop" class="link-strike link-strike--thin">Сервисы и порталы</a>
+                        <li>
+                            <a href="/services/#develop" class="link-strike link-strike--thin">Сервисы и порталы</a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-top__column">
                     <h4>Сопровождение</h4>
                     <ul>
-                        <li><a href="/services/#support" class="link-strike link-strike--thin">Техническая поддержка</a>
+                        <li>
+                            <a href="/services/#support" class="link-strike link-strike--thin">Техническая поддержка</a>
                         </li>
-                        <li><a href="/services/#support" class="link-strike link-strike--thin">Доработка существующего
-                                проекта</a></li>
+                        <li>
+                            <a href="/services/#support" class="link-strike link-strike--thin">Доработка существующего
+                                проекта</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -86,7 +98,6 @@
                     <!--                    </li>-->
                     <li>
                         <a href="https://telegram.me/mr_richbee" title="Напишите нам в Telegram">
-
                             <svg version="1.1" width="30px" fill="#fff" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 455 455"
                                  style="enable-background:new 0 0 455 455;" xml:space="preserve">
@@ -101,10 +112,7 @@
                                 </g>
                             </svg>
                         </a>
-
-
                     </li>
-
                     <li>
                         <a href="https://wa.me/79266556988" title="Напишите нам в Whatsapp">
                             <svg version="1.1" id="Capa_1" width="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +134,6 @@
                                 </g>
                             </svg>
                         </a>
-
                     </li>
                 </ul>
             </div>
@@ -136,7 +143,7 @@
                 <img src="/images/svg/logo.svg" alt="Richbee Agency Logo">
             </div>
             <div class="footer__policy">
-<!--                <a href="#" class="link-strike link-strike--thin">Политика конфиденциальности</a>-->
+                <!--                <a href="#" class="link-strike link-strike--thin">Политика конфиденциальности</a>-->
                 2020
             </div>
         </div>
@@ -179,5 +186,4 @@
     <div><img src="https://mc.yandex.ru/watch/27860136" style="position:absolute; left:-9999px;" alt=""/></div>
 </noscript> <!-- /Yandex.Metrika counter -->
 </body>
-
 </html>

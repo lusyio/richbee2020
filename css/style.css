@@ -685,7 +685,7 @@ video {
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #0A0B11;
+    background: #0A0B11;
     color: #fff;
     padding: 30px 100px;
 }
@@ -935,6 +935,10 @@ video {
 }
 
 @media screen and (max-width: 576px) {
+
+    .footer{
+        display: block;
+    }
 
     .section-services__item--digital {
         height: auto;
