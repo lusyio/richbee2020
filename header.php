@@ -75,7 +75,7 @@ if (file_exists($pathImgOpenGraph)) {
                 </nav>
                 <div class="header__right">
                     <div class="header__contacts">
-                        <a href="tel:8 (926) 655-69-88" class="header__phone">8 (926) 655-69-88</a>
+                        <a href="tel:8 (926) 381-57-73" class="header__phone">8 (926) 381-57-73</a>
                         <a href="mailto:client@richbee.ru" class="header__email">client@richbee.ru</a>
                     </div>
 

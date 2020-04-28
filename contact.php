@@ -8,7 +8,7 @@ include 'header.php';
 
         <div class="contacts__info">
         <div class="contacts__list wow fadeIn">
-            <a class="contacts__phone" href="tel:+79266556988" title="Позвоните нам">8 (926) 655-69-88</a>
+            <a class="contacts__phone" href="tel:+79266556988" title="Позвоните нам">8 (926) 381-57-73</a>
             <a class="contacts__email" href="mail:client@richbee.ru" title="Напишите нам на почту">client@richbee.ru</a>
 
             <ul class="contacts__social-list">

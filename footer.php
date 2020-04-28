@@ -48,7 +48,7 @@
             <div class="footer-top__contact">
                 <a class="footer-top__email" href="mailto:client@richbee.ru"
                    title="Напишите нам на почту">client@richbee.ru</a>
-                <a class="footer-top__phone" href="tel:8 (926) 655-69-88" title="Позвоните нам">8 (926) 655-69-88</a>
+                <a class="footer-top__phone" href="tel:8 (926) 381-57-73" title="Позвоните нам">8 (926) 381-57-73</a>
 
                 <ul class="footer-top__social-list">
                     <li>
