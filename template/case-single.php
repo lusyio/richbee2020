@@ -5,6 +5,7 @@ foreach ($case as $item) :
     $caseName = $item['name'];
     $caseBody = $item['body'];
     $caseUrl = $item['url'];
+    $casePdf = $item['pdf'];
     $caseService = DBOnce('name', 'services', 'id=' . $item['service']);
 endforeach;
 
@@ -60,6 +61,7 @@ $case = json_decode($caseBody, true);
                 <h1 class="section-case__title"><?= $caseName; ?></h1>
                 <p class="section-case__subtitle"><?= $caseService; ?></p>
                 <?php if(!empty($caseUrl)) : ;?><p class="section-case__subtitle"><a href="<?=$caseUrl;?>" target="_blank"><?=$caseUrl;?></a></p><?php endif; ?>
+                <?php if(!empty($casePdf)) : ;?><p class="section-case__subtitle"><a href="/<?=$casePdf;?>" target="_blank">Скачать презентацию по проекту</a></p><?php endif; ?>
             </div>
             <div class="section-case__img">
                 <img src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
