@@ -53,6 +53,7 @@ if (file_exists($pathImgOpenGraph)) {
 
 
     <title><?php echo $title; ?></title>
+    <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?167",t.onload=function(){VK.Retargeting.Init("VK-RTRG-481728-etm49"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-481728-etm49" style="position:fixed; left:-999px;" alt=""/></noscript>
 </head>
 
 <body>
