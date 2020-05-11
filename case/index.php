@@ -16,7 +16,7 @@ if ($isIndex) { ?>
             <span class="case-section__subtitle">Сделано с умом и любовью<br>❤️</span>
             <div class="case-section__list">
                 <?php
-                $cases = DB('*', 'cases', 'body!="0" Order by id DESC');
+                $cases = DB('*', 'cases', 'body!="0" Order by date DESC');
                 foreach ($cases as $item) {
                     $caseId = $item['id'];
                     $caseFriendlyUrl = $item['friendly_url'];

@@ -1,6 +1,8 @@
-<section class="case-section">
+<section class="service">
     <div class="container">
-        <h2 class="case-section__title">Наши кейсы по этой услуге</h2>
+      <div class="service-block">
+        <h2 class="service-block__title wow fadeInUp">Наши кейсы по этой услуге</h2>
+      </div>
         <!--<span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>-->
         <div class="case-section__list">
             <?php
