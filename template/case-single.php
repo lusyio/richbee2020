@@ -6,9 +6,21 @@ foreach ($case as $item) :
     $caseBody = $item['body'];
     $caseUrl = $item['url'];
     $casePdf = $item['pdf'];
-    $caseService = DBOnce('name', 'services', 'id=' . $item['service']);
+    $caseDate = $item['date'];
+    $cleintID = $item['client'];
+    $caseService = DBOnce('name', 'services', 'id=' .  $item['service']);
+    $caseClient = DBOnce('name', 'client', 'id=' . $cleintID);
 endforeach;
 
+$caseDate = date("Y",strtotime($caseDate));
+$bgUnderBody = '#0a0b11';
+$palitra = ['','#D29C6A','#3A3A3A','#f25e30','#F8AC53','#40866E','#d2232a','#3768b4','#5156d8','#202c6f','#0088FF','#1e46f3','#E84323'];
+
+if (isset($palitra[$item['client']])) :
+  $bgUnderBody = $palitra[$item['client']];
+endif;
+
+$serviceLink = DBOnce('friendly_url','services','id='.$item['service']);
 
 
 $case = json_decode($caseBody, true);
@@ -53,27 +65,53 @@ $case = json_decode($caseBody, true);
 
 //код записи нового офомрления кейса в базу
 ?>
-    <div class="section-case" id="caseSection">
-        <div class="section-case__circle"></div>
+<div class="darkbg section-case__topBlock">
 
-        <div class="container">
+</div>
+<div class="greybg pb-25">
+    <div class="section-case" id="caseSection">
+        <div class="section-case__circle hidden wow fadeInRight" data-wow-delay="0.2s"></div>
+
+        <div class="section-case__body">
             <div class="section-case__info">
-                <h1 class="section-case__title"><?= $caseName; ?></h1>
-                <p class="section-case__subtitle"><?= $caseService; ?></p>
-                <?php if(!empty($caseUrl)) : ;?><p class="section-case__subtitle"><a href="<?=$caseUrl;?>" target="_blank"><?=$caseUrl;?></a></p><?php endif; ?>
-                <?php if(!empty($casePdf)) : ;?><p class="section-case__subtitle"><a href="/<?=$casePdf;?>" target="_blank">Скачать презентацию по проекту</a></p><?php endif; ?>
+                <img class="clientLogo hidden wow fadeIn" src="/images/logo/<?= $cleintID; ?>.jpg" alt="<?=$caseClient;?>" title="<?=$caseClient;?>"/>
+                <h1 class="section-case__title hidden wow fadeIn"><?= $caseName; ?></h1>
+                <div class="section-case__groupInfo">
+
+                <div class="hidden wow fadeIn" data-wow-delay="0.2s">
+                  <span>Клиент:</span><?=$caseClient;?>
+                </div>
+                <?php if(!empty($caseUrl)) : ;?>
+                  <div class="hidden wow fadeIn" data-wow-delay="0.3s">
+                  <span>Адрес проекта:</span>
+                  <a class="link-strike link-strike--thin" style="color: <?=$bgUnderBody;?>" href="<?=$caseUrl;?>" target="_blank"><?=$caseUrl;?></a>
+                </div>
+                <?php endif; ?>
+                </div>
+                <?php if(!empty($casePdf)) : ;?>
+                  <div class="hidden wow fadeIn" data-wow-delay="0.3s">
+                  <a href="/<?=$casePdf;?>" class="svgButton" target="_blank">
+                    <div>
+                      <img class="svg" src="/images/svg/download.svg"/><span>Скачать презентацию по проекту</span>
+                    </div>
+                  </a>
+                  </div>
+                <?php endif; ?>
             </div>
             <div class="section-case__img">
-                <img src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+                <img class="hidden wow zoomIn" data-wow-delay="0.3s" src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
             </div>
 
 
         </div>
+        <div class="section-case__underbody hidden wow fadeIn" data-wow-delay="0.1s" style="border-top: 4px solid <?=$bgUnderBody;?>;">
+          <a href="/services/<?= $serviceLink; ?>/" title="Услуга <?= $caseService; ?>"><?= $caseService; ?></a> | <?= $caseDate; ?> год
+        </div>
     </div>
+  </div>
 <?php if (!empty($case)) : ?>
     <?php foreach ($case as $item):
         include 'case/' . $item['type'] . '.php';
         ?>
     <?php endforeach; ?>
 <?php endif;
-

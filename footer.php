@@ -1,58 +1,7 @@
-<div class="service" style="display: none">
-  <div class="container">
-    <div class="service-block" >
-      блок контактов
-      <h2 class="service-block__title wow fadeInUp" data-wow-duration="1s">Клиенты, которые уже доверяют нам</h2>
-    </div>
-  </div>
-</div>
 </div>
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
-      <div class="footer-top__nav">
-        <div class="footer-top__column">
-          <h4>Оцифровка</h4>
-          <ul>
-            <li>
-              <a href="/services/#digital" class="link-strike link-strike--thin">Разработка CRM</a>
-            </li>
-            <li>
-              <a href="/services/#digital" class="link-strike link-strike--thin">Разработка ERP</a>
-            </li>
-            <li>
-              <a href="/services/#digital" class="link-strike link-strike--thin">Внедрение и
-                интеграции</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-top__column">
-            <h4>Разработка</h4>
-            <ul>
-              <li>
-                <a href="/services/#develop" class="link-strike link-strike--thin">Корпоративные сайты</a>
-              </li>
-              <li>
-                <a href="/services/#develop" class="link-strike link-strike--thin">Интернет-магазины</a>
-              </li>
-              <li>
-                <a href="/services/#develop" class="link-strike link-strike--thin">Сервисы и порталы</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-top__column">
-            <h4>Сопровождение</h4>
-            <ul>
-              <li>
-                <a href="/services/#support" class="link-strike link-strike--thin">Техническая поддержка</a>
-              </li>
-              <li>
-                <a href="/services/#support" class="link-strike link-strike--thin">Доработка существующего
-                  проекта</a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div class="footer-top__contact">
             <a class="footer-top__email" href="mailto:client@richbee.ru"
             title="Напишите нам на почту">client@richbee.ru</a>
@@ -180,6 +129,67 @@ lightbox.option({
   'wrapAround': true,
   'fitImagesInViewport': false
 })
+</script>
+<script>
+jQuery('img.svg').each(function () {
+
+ var $img = jQuery(this);
+
+ var imgID = $img.attr('id');
+
+ var imgClass = $img.attr('class');
+
+ var imgURL = $img.attr('src');
+
+
+
+ jQuery.get(imgURL, function (data) {
+
+ // Get the SVG tag, ignore the rest
+
+ var $svg = jQuery(data).find('svg');
+
+
+
+ // Add replaced image's ID to the new SVG
+
+ if (typeof imgID !== 'undefined') {
+
+ $svg = $svg.attr('id', imgID);
+
+ }
+
+ // Add replaced image's classes to the new SVG
+
+ if (typeof imgClass !== 'undefined') {
+
+ $svg = $svg.attr('class', imgClass + ' replaced-svg');
+
+ }
+
+
+
+ // Remove any invalid XML tags as per http://validator.w3.org
+
+ $svg = $svg.removeAttr('xmlns:a');
+
+
+
+ // Check if the viewport is set, if the viewport is not set the SVG wont't scale.
+
+ if (!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
+
+ $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
+
+ }
+
+ // Replace image with new SVG
+
+ $img.replaceWith($svg);
+
+ }, 'xml');
+
+});
 </script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript"> (function (m, e, t, r, i, k, a) {

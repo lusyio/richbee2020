@@ -28,31 +28,7 @@
         </div>
         <div class="section-services__item section-services__item--design wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
             <div class="section-service__info">
-                <h3 class="title">Проектирование и дизайн</h3>
-                <p>Продуманный и понятный UI/UX дизайн, который решает задачи бизнеса</p>
-            </div>
-            <a class="btn--learn-more" href="/services/#design">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Подробнее</span>
-            </a>
-        </div>
-        <div class="section-services__item section-services__item--implement wow fadeIn" data-wow-duration="2s" data-wow-delay="0.9s">
-            <div class="section-service__info">
-                <h3 class="title">Внедрение и интеграции</h3>
-                <p>Интеграция готовых решений с доработкой под ваши задачи</p>
-            </div>
-            <a class="btn--learn-more" href="/services/#support">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Подробнее</span>
-            </a>
-        </div>
-        <div class="section-services__item section-services__item--support wow fadeIn" data-wow-duration="2s" data-wow-delay="1.2s">
-            <div class="section-service__info">
-                <h3 class="title">Сопровождение<br>и поддержка</h3>
+                <h3 class="title">Сопровождение и поддержка</h3>
                 <p>Постоянная поддержка и доработка вашего продукта</p>
             </div>
             <a class="btn--learn-more" href="/services/#support">

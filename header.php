@@ -28,6 +28,8 @@ if (file_exists($pathImgOpenGraph)) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.1">
     <?php include "vendors/styles.php" ?>
 
     <meta property="og:locale" content="ru_RU"/>
@@ -46,7 +48,6 @@ if (file_exists($pathImgOpenGraph)) {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/normalize.min.css">
     <link rel="stylesheet" href="/css/animate.min.css">
-    <link rel="stylesheet" href="/css/style.css?ver=1.1.0">
     <link rel="stylesheet" href="/css/lightbox.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic"
           rel="stylesheet">
@@ -57,26 +58,74 @@ if (file_exists($pathImgOpenGraph)) {
 </head>
 
 <body>
-<div class="wrapper">
-    <div class="content">
-        <header class="header">
+<div>
+    <div class="content <?php if($firstPart == 'services' and $route !='services') :?>greybg<?php endif;?> <?php if($route == 'index') :?>darkbg<?php endif;?>">
+<div class="darkbg underHeader">
+  <div class="container">
+      <div class="item">
+          <div class="infoHead">
+            <p>
+              Почта <a href="mailto:client@richbee.ru">client@richbee.ru</a>
+            </p>
+          </div>
+      </div>
+
+      <div class="item">
+          <div class="infoHead">
+            <p>
+              Режим работы <a href="/contact/">10:00-18:00 (мск)</a>
+            </p>
+          </div>
+      </div>
+
+      <div class="item">
+          <div class="infoHead">
+            <p>
+              Отдел продаж <a href="tel:+79263815773">8 (926) 381-57-73</a>
+            </p>
+          </div>
+      </div>
+
+      <div class="item">
+          <div class="infoHead">
+            <p>
+              Презентация компании <a href="/about/">Скачать PDF [2.4 мб]</a>
+            </p>
+          </div>
+      </div>
+
+      <div class="item">
+          <div class="infoHead socialHead">
+            <p>
+              <a href="https://vk.com/richbeeweb" class="wow fadeIn"><img class="svg" src="/images/svg/vk.svg"/></a>
+              <a href="https://tlgg.ru/@termitFOvlad" class="wow fadeIn" data-wow-delay="0.1s"><img class="svg" src="/images/svg/telegram.svg"/></a>
+              <a href="https://wa.me/79263815773" class="wow fadeIn" data-wow-delay="0.2s"><img class="svg" src="/images/svg/whatsapp.svg"/></a>
+            </p>
+          </div>
+      </div>
+
+
+
+  </div>
+</div>
+
+        <header class="header dark <?php if($firstPart == 'services' and $route !='services' or $route == 'index') :?>dark<?php endif;?>">
             <div class="container">
-                <div class="header__logo"><a href="/"><img src="/images/svg/logo--dark.svg"
-                                                           alt="Richbee Agency Logo"></a></div>
+                <div class="header__logo"><a href="/"><img src="/images/svg/logo.svg"
+                                                           alt="Richbee Agency Logo" class="svg"></a></div>
 
                 <nav class="header__nav header__nav--mobile-hidden">
                     <ul>
                         <li><a class="link-strike link-strike--thin" href="/">Главная</a></li>
                         <li><a class="link-strike link-strike--thin" href="/services/">Услуги</a></li>
-                        <li><a class="link-strike link-strike--thin" href="/case/">Кейсы</a></li>
-                        <li><a class="link-strike link-strike--thin" href="/about/">О нас</a></li>
+                        <li><a class="link-strike link-strike--thin" href="/case/">Наши кейсы</a></li>
+                        <li><a class="link-strike link-strike--thin" href="/about/">О компании</a></li>
                         <li><a class="link-strike link-strike--thin" href="/contact/">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="header__right">
                     <div class="header__contacts">
-                        <a href="tel:8 (926) 381-57-73" class="header__phone">8 (926) 381-57-73</a>
-                        <a href="mailto:client@richbee.ru" class="header__email">client@richbee.ru</a>
+                        <a class="btn btn-grey" href="/contact/">Получить КП</a>
                     </div>
 
                     <svg class="nav-toggle" viewBox="0 0 100 100" width="50" onclick="navToggle()">
