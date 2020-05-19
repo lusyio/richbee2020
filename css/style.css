@@ -1364,7 +1364,8 @@ div.infoHead a:hover .svg path {
 }
 
 .serviceInfoMain {
-  max-width: 820px;
+  box-sizing: border-box;
+  max-width: 1140px;
   margin: auto;
   background: white;
   border-radius: 5px;
