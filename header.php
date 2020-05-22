@@ -29,7 +29,7 @@ if (file_exists($pathImgOpenGraph)) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/style.css?ver=1.1.5">
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.6">
     <?php include "vendors/styles.php" ?>
 
     <meta property="og:locale" content="ru_RU"/>

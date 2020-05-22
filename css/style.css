@@ -960,6 +960,10 @@ div.infoHead a:hover .svg path {
   padding: 60px 100px;
 }
 
+.footer .btn-grey:hover {
+  background-color: #000000;
+}
+
 .footer__mainDIV {
   display: flex;
   flex-direction: row;
