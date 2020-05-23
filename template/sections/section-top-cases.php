@@ -1,6 +1,6 @@
 
             <?php
-            $topCases = [17, 16, 9];
+            $topCases = [17, 16, 12];
             foreach ($topCases as $id) {
                 $case = DB('*', 'cases', 'id=' . $id);
 
