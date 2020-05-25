@@ -38,8 +38,8 @@ function advantagesItem($img, $title, $info)
     </script>
     <!-- Marquiz script end -->
 <?php endif; ?>
-<section class="service service-single <?= $serviceId === '1' ? 'bg-white' : '' ?>"
-         style="padding-bottom:<?= $serviceId === '1' ? 20 : 150 ?>px;">
+<section class="service service-single"
+         style="padding-bottom:150px;">
     <div class="container">
         <div class="service-block position-relative">
             <h1 class="service-block__title wow fadeIn"><?= $serviceName; ?></h1>
@@ -47,14 +47,14 @@ function advantagesItem($img, $title, $info)
                 <?= $serviceDescription; ?>
             </p>
             <?php if ($serviceId == '1' or $serviceId == '2') : ?>
-                <a href="#price" class="btn <?= $serviceId === '1' ? 'btn-outline-white' : 'btn-dark' ?> wow fadeIn"
+                <a href="#price" class="btn btn-dark wow fadeIn"
                    data-wow-delay="0.4s">Рассчитать стоимость</a>
             <?php else: ?>
                 <a href="/contact/" class="btn btn-dark wow fadeIn" data-wow-delay="0.4s">Рассчитать стоимость</a>
             <?php endif; ?>
             <?php if (!empty($cases)) : ?>
                 <a href="#steps"
-                   class="btn <?= $serviceId === '1' ? 'btn-outline-white' : 'btn-outline-dark' ?> wow fadeIn"
+                   class="btn btn-outline-dark wow fadeIn"
                    data-wow-delay="0.7s">Этапы работ</a>
             <?php endif; ?>
         </div>

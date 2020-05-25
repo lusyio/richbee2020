@@ -1402,11 +1402,11 @@ div.infoHead a:hover .svg path {
     color: #000;
 }
 
-.service-block .btn.btn-outline-white:not(:last-of-type){
+.service-block .btn.btn-outline-white:not(:last-of-type) {
     margin-right: 30px;
 }
 
-.service-block .btn.btn-outline-white:hover{
+.service-block .btn.btn-outline-white:hover {
     transform: translateY(-4px);
 }
 
@@ -1552,6 +1552,19 @@ div.infoHead a:hover .svg path {
     margin-right: 15px;
 }
 
+.advantages.advantages-new div.item {
+    width: 25%;
+    margin-right: 25px;
+}
+
+.advantages.advantages-new div.item h3{
+    max-width: 85%;
+}
+
+.advantages.advantages-new div.item:last-of-type {
+    margin-right: 0;
+}
+
 .advantages div.item img {
     max-width: 64px;
     width: 100%;
@@ -1666,8 +1679,6 @@ div.infoHead a:hover .svg path {
 }
 
 .garant-row .garant-col {
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
     max-width: 33.33%;
     width: 100%;
     padding-right: 15px;
@@ -1696,7 +1707,7 @@ div.infoHead a:hover .svg path {
 
 .garant-col img {
     max-width: 100%;
-    transform: scale(1.7);
+    transform: scale(1.5);
 }
 
 .garant .garant__text {
@@ -1711,7 +1722,7 @@ div.infoHead a:hover .svg path {
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px 10px 5px;
+    padding: 10px 15px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -2571,7 +2582,7 @@ div.infoHead a:hover .svg path {
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px 10px 5px;
+    padding: 10px 15px;
     max-width: 920px;
     margin: 0 auto;
     position: relative;
@@ -2579,8 +2590,8 @@ div.infoHead a:hover .svg path {
     z-index: 1;
 }
 
-.service-process:after {
-    /*content: '';*/
+.service-process > span {
+    display: none;
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -2599,6 +2610,11 @@ div.infoHead a:hover .svg path {
     display: flex;
     flex-direction: row;
     padding: 50px 34px 50px 55px;
+}
+
+.service-process__footer{
+    position: absolute;
+    bottom: 0;
 }
 
 .service-process-point {
@@ -2673,10 +2689,17 @@ div.infoHead a:hover .svg path {
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .service-process-main {
     display: none;
+    position: relative;
+    height: 100%;
+}
+
+.service-process__footer p:last-of-type{
+    margin-bottom: 0;
 }
 
 .service-process-main p {

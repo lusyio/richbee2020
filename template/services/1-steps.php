@@ -70,13 +70,16 @@ $array = [
                     <p class="service-process__title"><?= $point['title']; ?></p>
                     <p><?= $point['main-text']; ?></p>
                     <?php if ($point['footer-text'] !== ''): ?>
+                    <div class="service-process__footer">
                         <p class="service-process__result">Результаты <?= $array[$key]; ?> этапа</p>
                         <p><?= $point['footer-text']; ?></p>
+                    </div>
                     <?php endif; ?>
                 </div>
             <?php endforeach; ?>
         </div>
     </div>
+    <span></span>
 </div>
 
 <script>
