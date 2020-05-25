@@ -1936,6 +1936,10 @@ div.infoHead a:hover .svg path {
     margin-top: 10px;
 }
 
+.caseService .service-block__subtitle span {
+    text-transform: lowercase;
+}
+
 .clients {
     display: flex;
     flex-direction: row;
