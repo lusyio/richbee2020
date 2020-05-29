@@ -2370,7 +2370,7 @@ div.infoHead a:hover .svg path {
     .service-process-point:not(:last-of-type) .service-process__number-container:after {
         content: '';
         position: absolute;
-        bottom: -10rem;
+        bottom: -15rem;
         left: 0;
         right: 0;
         margin: 0 auto;
