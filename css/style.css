@@ -2347,8 +2347,78 @@ div.infoHead a:hover .svg path {
     }
 
     html .service-process .service-process__body {
-        display: block;
+        display: none;
         padding: 50px 55px;
+    }
+
+    .service-process-main.active {
+        display: block;
+    }
+
+    .service-process-point.active .service-process-main p {
+        color: #000000;
+    }
+
+    .service-process-point:not(:last-of-type) .service-process__number-container {
+        position: relative;
+    }
+
+    .service-process-point:not(:last-of-type) .service-process__number-container:after {
+        content: '';
+        position: absolute;
+        bottom: -10rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 100rem;
+        width: 2px;
+        background: #8D8D8D;
+        z-index: -1;
+    }
+
+    .service-process-point:last-of-type {
+        background: #fff;
+    }
+
+    .service-process__body-mobile > div {
+        overflow: hidden;
+    }
+
+    .service-process-point:not(:last-of-type) .service-process__number:after {
+        content: none !important;
+    }
+
+    .service-process-main.active {
+    }
+
+    .service-process-main {
+        display: none;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .service-process .service-process__body-mobile .service-process-point {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .service-process__body-mobile .service-process-point p {
+        text-align: left;
+        margin-right: 0;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+
+    .service-process-main {
+        padding-left: 25px;
+    }
+
+    .service-process-point > div > p {
+        margin-left: 25px;
+    }
+
+    html .service-process .service-process__body.service-process__body-mobile {
+        display: block;
     }
 
     .service-process .service-process-point {
@@ -2487,16 +2557,16 @@ div.infoHead a:hover .svg path {
         margin-bottom: 50px;
     }
 
-    .service-form-card .service-form-card__title{
+    .service-form-card .service-form-card__title {
         font-size: 24px;
         line-height: 28px;
     }
 
-    .advantages.advantages-new div.item{
+    .advantages.advantages-new div.item {
         width: 100%;
     }
 
-    .advantages.advantages-new div.item{
+    .advantages.advantages-new div.item {
         margin-bottom: 15px;
     }
 
