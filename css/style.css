@@ -2409,6 +2409,10 @@ div.infoHead a:hover .svg path {
         margin-bottom: 30px;
     }
 
+    .service-form-card__body > div:last-of-type {
+        padding: 0;
+    }
+
     .service-process-main {
         padding-left: 25px;
     }
@@ -2461,10 +2465,6 @@ div.infoHead a:hover .svg path {
 
     .service-form-card .service-form-card__img {
         display: none;
-    }
-
-    .service-form-card__body > div:last-of-type {
-        padding-right: 15px;
     }
 
     .section-services__item--digital .btn--learn-more .button-text {
@@ -2542,6 +2542,12 @@ div.infoHead a:hover .svg path {
 
     .d-flex {
         flex-wrap: wrap;
+    }
+
+    .service-process__body-mobile .service-process-main p {
+        font-size: 17px;
+        line-height: 19px;
+        margin-bottom: 25px;
     }
 
     .service-form-card .service-form-card__body, html .service-process .service-process__body {
