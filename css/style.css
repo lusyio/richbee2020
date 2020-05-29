@@ -1452,6 +1452,11 @@ div.infoHead a:hover .svg path {
     padding: 0;
 }
 
+.service-single-main-new .container {
+    padding: 0 15px;
+    width: auto;
+}
+
 .service-single-main-new {
     padding: 80px 0;
 }
@@ -1557,7 +1562,7 @@ div.infoHead a:hover .svg path {
     margin-right: 25px;
 }
 
-.advantages.advantages-new div.item h3{
+.advantages.advantages-new div.item h3 {
     max-width: 85%;
 }
 
@@ -1697,8 +1702,14 @@ div.infoHead a:hover .svg path {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: #0048FA;
+    background-size: 100% 2px;
+    display: inline-block;
+    padding-bottom: 3px;
+    background-image: linear-gradient(#0047FF, #0047FF);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
 }
 
 .garant-col > div:last-of-type .garant__text {
@@ -2184,13 +2195,66 @@ div.infoHead a:hover .svg path {
     .case-section__item .case-section__info {
         width: 350px;
     }
+
+    .service-form-card .service-form-card__img img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    .service-form-card .service-form-card__img img {
+        max-width: 100%;
+        top: 0;
+    }
 }
 
 @media (max-width: 992px) {
+
+    .service-form-form {
+        display: block;
+    }
+
+    .service-form-form button {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .service-form-form > input {
+        margin-bottom: 15px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .garant-col img {
+        max-width: 70%;
+        display: table;
+        margin: auto;
+        transform: none;
+    }
+
+    .garant-row {
+        display: block;
+    }
+
+    .garant-row .garant-col {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
     .case-section__item {
         flex-direction: column;
         height: auto;
         align-items: center;
+    }
+
+    .service-form-card .service-form-card__img img {
+        transform: rotate(-10.69deg);
+        position: absolute;
+        top: 0;
+        left: -1rem;
+        max-width: 100%;
     }
 
     .case-section__item .case__title {
@@ -2267,7 +2331,7 @@ div.infoHead a:hover .svg path {
     }
 
     .marquiz__container_inline {
-        background: #efefef !important;
+        background: transparent !important;
     }
 
     .btn--learn-more .circle {
@@ -2276,6 +2340,61 @@ div.infoHead a:hover .svg path {
 
     .btn--learn-more .button-text {
         color: #fff;
+    }
+
+    .service-form-card .service-form-card__body {
+        display: block;
+    }
+
+    html .service-process .service-process__body {
+        display: block;
+        padding: 50px 55px;
+    }
+
+    .service-process .service-process-point {
+        justify-content: space-between;
+    }
+
+    .advantages.advantages-new div.item {
+        width: 50%;
+        margin-right: 0;
+        padding: 0 15px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    .marquiz__container_inline {
+        box-shadow: none;
+    }
+
+    .service-single-main-new {
+        padding: 60px 0;
+    }
+
+    .service-block__title-new {
+        font-size: 35px;
+    }
+
+    .garant-col img {
+        max-width: 70%;
+        display: table;
+        margin: auto;
+    }
+
+    .service-block__title-new b {
+        display: inline;
+    }
+
+    .service-process .service-process__footer {
+        position: relative;
+    }
+
+    .service-form-card .service-form-card__img {
+        display: none;
+    }
+
+    .service-form-card__body > div:last-of-type {
+        padding-right: 15px;
     }
 
     .section-services__item--digital .btn--learn-more .button-text {
@@ -2306,7 +2425,10 @@ div.infoHead a:hover .svg path {
     }
 
     .advantages {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
     .advantages div.item {
@@ -2352,10 +2474,35 @@ div.infoHead a:hover .svg path {
         flex-wrap: wrap;
     }
 
+    .service-form-card .service-form-card__body, html .service-process .service-process__body {
+        padding: 30px 25px;
+    }
 
     .block1, .block3, .block4, .block5 {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .garant .service-block__title-new {
+        margin-bottom: 50px;
+    }
+
+    .service-form-card .service-form-card__title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .advantages.advantages-new div.item{
+        width: 100%;
+    }
+
+    .advantages.advantages-new div.item{
+        margin-bottom: 15px;
+    }
+
+    .service-block__title-new {
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .section-case__circle {
@@ -2616,7 +2763,7 @@ div.infoHead a:hover .svg path {
     padding: 50px 34px 50px 55px;
 }
 
-.service-process__footer{
+.service-process__footer {
     position: absolute;
     bottom: 0;
 }
@@ -2628,6 +2775,10 @@ div.infoHead a:hover .svg path {
     margin-right: 60px;
     align-items: end;
     justify-content: flex-end;
+}
+
+.service-process-point:last-of-type {
+    margin-bottom: 0;
 }
 
 .service-process-point p {
@@ -2702,7 +2853,7 @@ div.infoHead a:hover .svg path {
     height: 100%;
 }
 
-.service-process__footer p:last-of-type{
+.service-process__footer p:last-of-type {
     margin-bottom: 0;
 }
 
