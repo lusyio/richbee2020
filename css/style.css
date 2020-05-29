@@ -2639,6 +2639,13 @@ div.infoHead a:hover .svg path {
         line-height: 30px;
     }
 
+    .service-process__body-mobile .service-process-point p {
+        text-align: left;
+        margin-right: 0;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
     .garant .garant__title, .garant .garant__title a, .service-form-card .service-form-card__title{
         font-size: 21px;
         line-height: 25px;
