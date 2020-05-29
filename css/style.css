@@ -2634,6 +2634,25 @@ div.infoHead a:hover .svg path {
 }
 
 @media (max-width: 375px) {
+    .service-block__title-new{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .garant .garant__title, .garant .garant__title a, .service-form-card .service-form-card__title{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .service-form-card .service-form-card__text{
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .garant .garant__text{
+        margin-bottom: 35px;
+    }
+
     .case-section__item .case__title {
         font-size: 20px;
     }
