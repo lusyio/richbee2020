@@ -2455,8 +2455,8 @@ div.infoHead a:hover .svg path {
 
     .garant-col img {
         max-width: 70%;
-        display: table;
         margin: auto;
+        display: none;
     }
 
     .service-block__title-new b {
@@ -2468,7 +2468,17 @@ div.infoHead a:hover .svg path {
     }
 
     .service-form-card .service-form-card__img {
-        display: none;
+        display: block;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .service-form-card .service-form-card__img img{
+        position: relative;
+        left: 0;
+        max-width: 70%;
+        display: table;
+        margin: auto;
     }
 
     .section-services__item--digital .btn--learn-more .button-text {
