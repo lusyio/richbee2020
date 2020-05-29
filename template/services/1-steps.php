@@ -120,6 +120,7 @@ $array = [
                 $(`#${$main}`).slideDown().addClass('active')
             })
         } else {
+            $('.service-process__body-mobile').remove()
             $('.service-process__number').on('click', function () {
                 $('.service-process-point').removeClass('active')
                 $('.service-process-main').removeClass('active')
