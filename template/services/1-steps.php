@@ -70,11 +70,36 @@ $array = [
                     <p class="service-process__title"><?= $point['title']; ?></p>
                     <p><?= $point['main-text']; ?></p>
                     <?php if ($point['footer-text'] !== ''): ?>
-                    <div class="service-process__footer">
-                        <p class="service-process__result">Результаты <?= $array[$key]; ?> этапа</p>
-                        <p><?= $point['footer-text']; ?></p>
-                    </div>
+                        <div class="service-process__footer">
+                            <p class="service-process__result">Результаты <?= $array[$key]; ?> этапа</p>
+                            <p><?= $point['footer-text']; ?></p>
+                        </div>
                     <?php endif; ?>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+    <div class="service-process__body service-process__body-mobile">
+        <div>
+            <?php foreach ($process_points as $key => $point): ?>
+                <div id="service-process-point-<?= $key + 1; ?>" data-main="service-process-main-<?= $key + 1; ?>"
+                     class="service-process-point <?= $key === 0 ? 'active' : '' ?>">
+                    <div class="service-process__number-container">
+                        <div class="service-process__number"><?= $key + 1; ?></div>
+                    </div>
+                    <div>
+                        <p><?= $point['title']; ?></p>
+                        <div id="service-process-main-<?= $key + 1; ?>"
+                             class="service-process-main <?= $key === 0 ? 'active' : '' ?>">
+                            <p><?= $point['main-text']; ?></p>
+                            <?php if ($point['footer-text'] !== ''): ?>
+                                <div class="service-process__footer">
+                                    <p class="service-process__result">Результаты <?= $array[$key]; ?> этапа</p>
+                                    <p><?= $point['footer-text']; ?></p>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
                 </div>
             <?php endforeach; ?>
         </div>
@@ -84,11 +109,24 @@ $array = [
 
 <script>
     jQuery(function ($) {
-        $('.service-process__number').on('click', function () {
-            $('.service-process-point').removeClass('active')
-            $('.service-process-main').removeClass('active')
-            $(`#${$(this).parent().attr('id')}`).addClass('active')
-            $(`#${$(this).parent().data('main')}`).addClass('active')
-        })
+        if (document.documentElement.clientWidth < 768) {
+            $('.service-process__body:not(.service-process__body-mobile)').remove()
+            $('.service-process-point').on('click', function () {
+                $('.service-process-point').removeClass('active')
+                $('.service-process-main').removeClass('active').slideUp()
+                const $main = $(this).data('main')
+                const $point = $(this).attr('id')
+                $(`#${$point}`).addClass('active')
+                $(`#${$main}`).slideDown().addClass('active')
+            })
+        } else {
+            $('.service-process__body-mobile').remove()
+            $('.service-process__number').on('click', function () {
+                $('.service-process-point').removeClass('active')
+                $('.service-process-main').removeClass('active')
+                $(`#${$(this).parent().attr('id')}`).addClass('active')
+                $(`#${$(this).parent().data('main')}`).addClass('active')
+            })
+        }
     })
 </script>

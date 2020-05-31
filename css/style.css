@@ -1033,6 +1033,10 @@ div.infoHead a:hover .svg path {
     color: #747171;
 }
 
+.service-process .service-process__body.service-process__body-mobile{
+    display: none;
+}
+
 .footer__phone p:first-child {
     font-weight: bold;
     font-size: 24px;
@@ -1452,6 +1456,11 @@ div.infoHead a:hover .svg path {
     padding: 0;
 }
 
+.service-single-main-new .container {
+    padding: 0 15px;
+    width: auto;
+}
+
 .service-single-main-new {
     padding: 80px 0;
 }
@@ -1557,7 +1566,7 @@ div.infoHead a:hover .svg path {
     margin-right: 25px;
 }
 
-.advantages.advantages-new div.item h3{
+.advantages.advantages-new div.item h3 {
     max-width: 85%;
 }
 
@@ -1697,8 +1706,14 @@ div.infoHead a:hover .svg path {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: #0048FA;
+    background-size: 100% 2px;
+    display: inline-block;
+    padding-bottom: 3px;
+    background-image: linear-gradient(#0047FF, #0047FF);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
 }
 
 .garant-col > div:last-of-type .garant__text {
@@ -2184,13 +2199,66 @@ div.infoHead a:hover .svg path {
     .case-section__item .case-section__info {
         width: 350px;
     }
+
+    .service-form-card .service-form-card__img img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    .service-form-card .service-form-card__img img {
+        max-width: 100%;
+        top: 0;
+    }
 }
 
 @media (max-width: 992px) {
+
+    .service-form-form {
+        display: block;
+    }
+
+    .service-form-form button {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .service-form-form > input {
+        margin-bottom: 15px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .garant-col img {
+        max-width: 70%;
+        display: table;
+        margin: auto;
+        transform: none;
+    }
+
+    .garant-row {
+        display: block;
+    }
+
+    .garant-row .garant-col {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
     .case-section__item {
         flex-direction: column;
         height: auto;
         align-items: center;
+    }
+
+    .service-form-card .service-form-card__img img {
+        transform: rotate(-10.69deg);
+        position: absolute;
+        top: 0;
+        left: -1rem;
+        max-width: 100%;
     }
 
     .case-section__item .case__title {
@@ -2267,7 +2335,7 @@ div.infoHead a:hover .svg path {
     }
 
     .marquiz__container_inline {
-        background: #efefef !important;
+        background: transparent !important;
     }
 
     .btn--learn-more .circle {
@@ -2276,6 +2344,141 @@ div.infoHead a:hover .svg path {
 
     .btn--learn-more .button-text {
         color: #fff;
+    }
+
+    .service-form-card .service-form-card__body {
+        display: block;
+    }
+
+    html .service-process .service-process__body {
+        display: none;
+        padding: 50px 55px;
+    }
+
+    .service-process-main.active {
+        display: block;
+    }
+
+    .service-process-point.active .service-process-main p {
+        color: #000000;
+    }
+
+    .service-process-point:not(:last-of-type) .service-process__number-container {
+        position: relative;
+    }
+
+    .service-process-point:not(:last-of-type) .service-process__number-container:after {
+        content: '';
+        position: absolute;
+        bottom: -15rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 100rem;
+        width: 2px;
+        background: #8D8D8D;
+        z-index: -1;
+    }
+
+    .service-process-point:last-of-type {
+        background: #fff;
+    }
+
+    .service-process__body-mobile > div {
+        overflow: hidden;
+    }
+
+    .service-process-point:not(:last-of-type) .service-process__number:after {
+        content: none !important;
+    }
+
+    .service-process-main.active {
+    }
+
+    .service-process-main {
+        display: none;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .service-process .service-process__body-mobile .service-process-point {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .service-process__body-mobile .service-process-point p {
+        text-align: left;
+        margin-right: 0;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+
+    .service-form-card__body > div:last-of-type {
+        padding: 0;
+    }
+
+    .service-process-main {
+        padding-left: 25px;
+    }
+
+    .service-process-point > div > p {
+        margin-left: 25px;
+    }
+
+    html .service-process .service-process__body.service-process__body-mobile {
+        display: block;
+    }
+
+    .service-process .service-process-point {
+        justify-content: space-between;
+    }
+
+    .advantages.advantages-new div.item {
+        width: 50%;
+        margin-right: 0;
+        padding: 0 15px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    .marquiz__container_inline {
+        box-shadow: none;
+    }
+
+    .service-single-main-new {
+        padding: 60px 0;
+    }
+
+    .service-block__title-new {
+        font-size: 35px;
+    }
+
+    .garant-col img {
+        max-width: 70%;
+        margin: auto;
+        display: none;
+    }
+
+    .service-block__title-new b {
+        display: inline;
+    }
+
+    .service-process .service-process__footer {
+        position: relative;
+    }
+
+    .service-form-card .service-form-card__img {
+        display: block;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .service-form-card .service-form-card__img img{
+        position: relative;
+        left: 0;
+        max-width: 70%;
+        display: table;
+        margin: auto;
     }
 
     .section-services__item--digital .btn--learn-more .button-text {
@@ -2306,7 +2509,10 @@ div.infoHead a:hover .svg path {
     }
 
     .advantages {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
     .advantages div.item {
@@ -2352,10 +2558,41 @@ div.infoHead a:hover .svg path {
         flex-wrap: wrap;
     }
 
+    .service-process__body-mobile .service-process-main p {
+        font-size: 17px;
+        line-height: 19px;
+        margin-bottom: 25px;
+    }
+
+    .service-form-card .service-form-card__body, html .service-process .service-process__body {
+        padding: 30px 25px;
+    }
 
     .block1, .block3, .block4, .block5 {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .garant .service-block__title-new {
+        margin-bottom: 50px;
+    }
+
+    .service-form-card .service-form-card__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .advantages.advantages-new div.item {
+        width: 100%;
+    }
+
+    .advantages.advantages-new div.item {
+        margin-bottom: 15px;
+    }
+
+    .service-block__title-new {
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .section-case__circle {
@@ -2411,6 +2648,32 @@ div.infoHead a:hover .svg path {
 }
 
 @media (max-width: 375px) {
+    .service-block__title-new{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .service-process__body-mobile .service-process-point p {
+        text-align: left;
+        margin-right: 0;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .garant .garant__title, .garant .garant__title a, .service-form-card .service-form-card__title{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .service-form-card .service-form-card__text{
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .garant .garant__text{
+        margin-bottom: 35px;
+    }
+
     .case-section__item .case__title {
         font-size: 20px;
     }
@@ -2616,7 +2879,7 @@ div.infoHead a:hover .svg path {
     padding: 50px 34px 50px 55px;
 }
 
-.service-process__footer{
+.service-process__footer {
     position: absolute;
     bottom: 0;
 }
@@ -2628,6 +2891,10 @@ div.infoHead a:hover .svg path {
     margin-right: 60px;
     align-items: end;
     justify-content: flex-end;
+}
+
+.service-process-point:last-of-type {
+    margin-bottom: 0;
 }
 
 .service-process-point p {
@@ -2702,7 +2969,7 @@ div.infoHead a:hover .svg path {
     height: 100%;
 }
 
-.service-process__footer p:last-of-type{
+.service-process__footer p:last-of-type {
     margin-bottom: 0;
 }
 
