@@ -1860,6 +1860,7 @@ div.infoHead a:hover .svg path {
     width: 100%;
     max-width: 250px;
     height: 64px;
+    cursor: pointer;
 }
 
 .service-form-form > input::placeholder {
