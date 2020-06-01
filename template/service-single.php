@@ -177,7 +177,7 @@ if (file_exists($serviceTempSteps)) : ?>
                             окупаемость разработки и сравнить его с ценами в других компаниях
                         </p>
                         <form id="serviceForm" class="service-form-form" action="">
-                            <input id="serviceFormPhone" placeholder="8 (999) 999-99-99" class="" type="text"
+                            <input id="serviceFormPhone" placeholder="+7 (999) 999-99-99" class="" type="text"
                                    minlength="18"
                                    required>
                             <button type="submit">Получить предложение</button>
@@ -195,14 +195,17 @@ if (file_exists($serviceTempSteps)) : ?>
     <script>
         jQuery(function ($) {
             $('#serviceFormPhone').mask('+7 (000) 000-00-00')
-        })
+        });
 
         $('#serviceForm').on('submit', function () {
-            let value = $('#serviceForm > input').val()
+            let value = $('#serviceForm > input').val();
             $.ajax({
                 type: "POST",
-                url: '',
-                data: value,
+                url: '/ajax/',
+                data: {
+                    action: 'offer',
+                    phone: value
+                },
                 success: data => {
                     $(this).remove();
                     $('.service-form-card__footer').before('<p class="service-form-card__text">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
