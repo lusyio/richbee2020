@@ -91,7 +91,7 @@ if (file_exists($pathImgOpenGraph)) {
       <div class="item">
           <div class="infoHead">
             <p>
-              Презентация компании <a href="/richbee-presentation.pdf" onclick="ym(27860136,'reachGoal','pres')">Скачать PDF [0.6 мб]</a>
+              Презентация компании <a href="/richbee-presentation.pdf" onclick="ym(27860136,'reachGoal','pres')">Скачать PDF [1.2 мб]</a>
             </p>
           </div>
       </div>
