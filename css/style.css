@@ -1033,7 +1033,7 @@ div.infoHead a:hover .svg path {
     color: #747171;
 }
 
-.service-process .service-process__body.service-process__body-mobile{
+.service-process .service-process__body.service-process__body-mobile {
     display: none;
 }
 
@@ -1860,6 +1860,13 @@ div.infoHead a:hover .svg path {
     width: 100%;
     max-width: 250px;
     height: 64px;
+    transition: 145ms ease-in-out;
+}
+
+.service-form-form button:hover {
+    background: #2e498d;
+    border: 1px solid #2e498d;
+    cursor: pointer;
 }
 
 .service-form-form > input::placeholder {
@@ -2473,7 +2480,7 @@ div.infoHead a:hover .svg path {
         max-width: 100%;
     }
 
-    .service-form-card .service-form-card__img img{
+    .service-form-card .service-form-card__img img {
         position: relative;
         left: 0;
         max-width: 70%;
@@ -2648,7 +2655,7 @@ div.infoHead a:hover .svg path {
 }
 
 @media (max-width: 375px) {
-    .service-block__title-new{
+    .service-block__title-new {
         font-size: 25px;
         line-height: 30px;
     }
@@ -2660,17 +2667,17 @@ div.infoHead a:hover .svg path {
         margin-bottom: 30px;
     }
 
-    .garant .garant__title, .garant .garant__title a, .service-form-card .service-form-card__title{
+    .garant .garant__title, .garant .garant__title a, .service-form-card .service-form-card__title {
         font-size: 21px;
         line-height: 25px;
     }
 
-    .service-form-card .service-form-card__text{
+    .service-form-card .service-form-card__text {
         font-size: 17px;
         line-height: 22px;
     }
 
-    .garant .garant__text{
+    .garant .garant__text {
         margin-bottom: 35px;
     }
 
