@@ -149,7 +149,7 @@ if (file_exists($serviceTempSteps)) : ?>
                             завершения разработки</p>
                     </div>
                     <div>
-                        <p class="garant__title">Цены и сроки жестко фиксируются в <a href="#">договоре</a></p>
+                        <p class="garant__title">Цены и сроки жестко фиксируются в <a href="/docs/Договор_рыба.docx">договоре</a></p>
                         <p class="garant__text">Никаких скрытых платежей и затягиваний сроков под надуманными
                             предлогами</p>
                     </div>
