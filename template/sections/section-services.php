@@ -19,7 +19,7 @@
                 <p>Веб-разработка интернет-проектов любой сложности под ключ. 2-х месячная гарантия на исправление любых багов после сдачи проекта</p>
 
             </div>
-            <a class="btn--learn-more wow fadeIn" href="/services/#develop">
+            <a class="btn--learn-more btn--learn-more--inverse wow fadeIn" href="/services/#develop">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
@@ -31,7 +31,7 @@
                 <h3 class="title">Сопровождение и поддержка</h3>
                 <p>Постоянная поддержка и доработка вашего продукта</p>
             </div>
-            <a class="btn--learn-more" href="/services/#support">
+            <a class="btn--learn-more btn--learn-more--inverse" href="/services/#support">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                 </span>
