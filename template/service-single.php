@@ -223,15 +223,6 @@ if (file_exists($serviceTempSteps)) : ?>
 
 <div class="service-single-main">
     <?php endif; ?>
-    <div class="service">
-        <div class="container">
-            <div class="service-block">
-                <h2 class="service-block__title wow fadeIn" data-wow-duration="1s">Нам доверяют</h2>
-                <?php
-                include __DIR__ . '/sections/clients.php';
-                ?>
-            </div>
-        </div>
-    </div>
+ 
 
 </div>
