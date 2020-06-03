@@ -967,7 +967,6 @@ div.infoHead a:hover .svg path {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 960px;
 }
 
 .footer__firstDIV {
@@ -975,11 +974,49 @@ div.infoHead a:hover .svg path {
 }
 
 .footer__secondDIV {
-    max-width: 217px;
+    max-width: 257px;
 }
 
 .footer__thirdDIV {
-    max-width: 208px;
+    max-width: 268px;
+}
+
+.footer__thirdDIV a {
+    display: block;
+}
+
+.footer__presA {
+    position: relative;
+}
+
+.footer__presA img {
+    transform: scale(1);
+    transition: 0.5s all;
+}
+
+.footer__presA:hover img {
+    transform: scale(1.05);
+    transition: 0.3s all;
+}
+
+.footer__presAtwo {
+    color: #747171;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    max-width: 248px;
+    line-height: 1.5;
+    transition: 0.3s all;
+}
+
+.footer__presAtwo:hover {
+    color: #000;
+    transition: 0.2s all;
+}
+
+.footer__presIMG {
+    max-width: 100%;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
 .footer__aboutInfo {
@@ -1043,6 +1080,7 @@ div.infoHead a:hover .svg path {
     line-height: 20px;
     color: #3D3D3D;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .footer__social div {
@@ -1175,6 +1213,10 @@ div.infoHead a:hover .svg path {
 @media screen and (max-width: 768px) {
     .footer__mainDIV {
         display: block;
+    }
+
+    .footer__thirdDIV {
+        display: none;
     }
 
     .footer__firstDIV .footer__aboutInfo {
