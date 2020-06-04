@@ -1195,6 +1195,18 @@ div.infoHead a:hover .svg path {
 }
 
 @media screen and (max-width: 991px) {
+
+    .case-section-swiper-btn{
+        top: 100%;
+    }
+
+    .case-section-swiper-btn.case-section-prev{
+        left: 0;
+    }
+
+    .case-section-swiper-btn.case-section-next{
+        right: 0;
+    }
     .section-services .container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
