@@ -25,6 +25,7 @@
                         <?php endforeach; ?>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
                 <div class="case-section-swiper-btn case-section-prev"></div>
                 <div class="case-section-swiper-btn case-section-next"></div>
                 <script>
@@ -32,6 +33,9 @@
                         slidesPerView: 1,
                         spaceBetween: 15,
                         loop: true,
+                        pagination: {
+                            el: '.swiper-pagination',
+                        },
                         navigation: {
                             nextEl: '.case-section-next',
                             prevEl: '.case-section-prev',
