@@ -1197,7 +1197,7 @@ div.infoHead a:hover .svg path {
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-    background: linear-gradient(#0047FF, #0047FF);
+    background: #282936;
 }
 
 @media screen and (max-width: 1350px) {
