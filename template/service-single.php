@@ -10,9 +10,9 @@ endforeach;
 $serviceTemp = __DIR__ . '/services/' . $serviceId . '.php';
 $serviceTempSteps = __DIR__ . '/services/' . $serviceId . '-steps.php';
 if ($serviceId == 1) {
-    $cases = DB('*', 'cases', '(service = 1 or service = 2) and body!="0" order by rand() DESC limit 3');
+    $cases = DB('*', 'cases', '(service = 1 or service = 2) and body!="0" order by rand() DESC');
 } else {
-    $cases = DB('*', 'cases', 'service=' . $serviceId . ' and body!="0" order by rand() DESC limit 3');
+    $cases = DB('*', 'cases', 'service=' . $serviceId . ' and body!="0" order by rand() DESC');
 }
 
 function advantagesItem($img, $title, $info)
