@@ -10,7 +10,7 @@
         <!--<span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>-->
         <div class="case-section__list">
             <?php
-            if (count($cases) > 2) : ?>
+            if (count($cases) > 3) : ?>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <?php foreach ($cases as $item) :
