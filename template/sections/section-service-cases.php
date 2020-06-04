@@ -24,9 +24,9 @@
                             </div>
                         <?php endforeach; ?>
                     </div>
-                    <div class="case-section-swiper-btn case-section-prev"></div>
-                    <div class="case-section-swiper-btn case-section-next"></div>
                 </div>
+                <div class="case-section-swiper-btn case-section-prev"></div>
+                <div class="case-section-swiper-btn case-section-next"></div>
                 <script>
                     const swiper = new Swiper('.swiper-container', {
                         slidesPerView: 1,
