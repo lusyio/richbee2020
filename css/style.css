@@ -702,6 +702,70 @@ div.infoHead a:hover .svg path {
     padding-bottom: 50px;
 }
 
+.case-section-swiper-btn {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    transition: 150ms ease-in-out;
+}
+
+.case-section-swiper-btn:hover{
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.case-section-swiper-btn:hover:before{
+    border-color: #282936;
+}
+
+.case-section-swiper-btn.case-section-prev {
+    left: 10px;
+    right: auto;
+}
+
+.case-section-swiper-btn.case-section-next:before {
+    position: absolute;
+    content: '';
+    top: 15px;
+    width: 9px;
+    height: 9px;
+    border-top: 0.125rem solid #000;
+    border-right: 0.125rem solid #000;
+    transform: rotate(45deg);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.case-section-swiper-btn.case-section-prev:before {
+    position: absolute;
+    content: '';
+    top: 15px;
+    width: 9px;
+    height: 9px;
+    border-top: 0.125rem solid #282936;
+    border-left: 0.125rem solid #282936;
+    transform: rotate(-45deg);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.case-section-swiper-btn.case-section-next {
+    right: 10px;
+    left: auto;
+}
+
+
 .service-icon {
     position: absolute;
     right: 0px;
