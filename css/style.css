@@ -2209,7 +2209,7 @@ div.infoHead a:hover .svg path {
     display: block;
     transition: 0.6s all;
     box-sizing: border-box;
-    /*width: 370px;*/
+    max-width: 370px;
 }
 
 .case-section__item:hover {
