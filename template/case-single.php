@@ -105,7 +105,12 @@ $case = json_decode($caseBody, true);
 
         </div>
         <div class="section-case__underbody hidden wow fadeIn" data-wow-delay="0.1s" style="border-top: 4px solid <?=$bgUnderBody;?>;">
-          <a href="/services/<?= $serviceLink; ?>/" title="Услуга <?= $caseService; ?>"><?= $caseService; ?></a> | <?= $caseDate; ?> год
+            <div class="hidden wow fadeIn" data-wow-delay="0.3s">
+                <a href="/services/<?= $serviceLink; ?>/" title="Услуга <?= $caseService; ?>"><?= $caseService; ?></a> | <?= $caseDate; ?> год
+            </div>
+            <div class="priceLink hidden wow fadeIn" data-wow-delay="0.5s">
+                <a href="/price/">Рассчитать стоимость вашего проекта <img src="/images/svg/right.svg" class="svg"/></a>
+            </div>
         </div>
     </div>
   </div>

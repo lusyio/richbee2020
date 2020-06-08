@@ -477,6 +477,7 @@ div.infoHead a:hover .svg path {
     border-radius: 15px;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 50px;
+    max-height: 560px;
 }
 
 .section-case__topBlock {
@@ -549,6 +550,10 @@ div.infoHead a:hover .svg path {
 }
 
 .section-case__underbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: #0a0b11;
     position: relative;
     z-index: 2;
@@ -562,6 +567,32 @@ div.infoHead a:hover .svg path {
     color: #969696;
     text-decoration: none;
     transition: 0.2s all;
+}
+
+.section-case__underbody .priceLink {
+    position: relative;
+}
+
+.section-case__underbody .priceLink svg {
+    height: 17px;
+    position: absolute;
+    right: -27px;
+    transition: 0.2s all;
+}
+
+.section-case__underbody .priceLink svg path {
+    fill: #969696;
+    transition: 0.2s all;
+}
+
+.section-case__underbody .priceLink:hover svg path {
+    fill: white;
+    transition: 0.3s all;
+}
+
+.section-case__underbody .priceLink:hover svg {
+    right: -33px;
+    transition: 0.25s all;
 }
 
 .section-case__underbody a:hover {
@@ -1319,6 +1350,9 @@ html .btn--learn-more--inverse .button-text {
 }
 
 @media screen and (max-width: 768px) {
+    .section-case__underbody .priceLink {
+        display: none;
+    }
     .footer__mainDIV {
         display: block;
     }
