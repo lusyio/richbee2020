@@ -404,6 +404,11 @@ div.infoHead a:hover .svg path {
     fill: #ffffff;
 }
 
+.price .marquiz__container {
+    margin-top: 50px !important;
+    margin-bottom: 60px;
+}
+
 @media (max-width: 992px) {
     .header {
         padding: 10px 30px;
