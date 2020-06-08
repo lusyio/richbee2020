@@ -1003,8 +1003,8 @@ div.infoHead a:hover .svg path {
     border-right: 0.125rem solid #282936;
 }
 
-.btn--learn-more--inverse .button-text {
-    color: #fff;
+html .btn--learn-more--inverse .button-text {
+    color: #282936;
 }
 
 .btn--learn-more--inverse:hover .icon.arrow {
@@ -1500,9 +1500,6 @@ div.infoHead a:hover .svg path {
 }
 
 .service .container {
-}
-
-.service-block {
 }
 
 .service-block__item:last-child {
@@ -2246,6 +2243,32 @@ div.infoHead a:hover .svg path {
     justify-content: center;
 }
 
+html body .btn.blick, html body .blick {
+    position: relative;
+    overflow: hidden;
+}
+
+html body .blick:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5rem;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scaleY(1.1) translateX(-4rem) skewX(-45deg);
+    animation: movelight 3.5s infinite;
+}
+
+@keyframes movelight {
+    60% {
+        transform: scaleY(1.1) translateX(-4rem) skewX(-45deg);
+    }
+    100% {
+        transform: scaleY(1.1) translateX(30rem) skewX(-45deg);
+    }
+}
+
 .case__title {
     font-weight: 400;
     font-size: 28px;
@@ -2404,6 +2427,7 @@ div.infoHead a:hover .svg path {
         flex-direction: column;
         height: auto;
         align-items: center;
+        max-width: 100%;
     }
 
     .service-form-card .service-form-card__img img {
@@ -2635,7 +2659,7 @@ div.infoHead a:hover .svg path {
     }
 
     .section-services__item--digital .btn--learn-more .button-text {
-        color: #000;
+        color: #282936;
     }
 
     .service-single .service-block__title {
@@ -2678,7 +2702,7 @@ div.infoHead a:hover .svg path {
     }
 
     .service-block {
-        margin-bottom: 40px;
+        margin-bottom: 0;
     }
 
     .service-block__subtitle {
@@ -2705,6 +2729,10 @@ div.infoHead a:hover .svg path {
 @media screen and (max-width: 576px) {
     .section-case .container {
         padding: 100px 0;
+    }
+
+    .link-strike {
+        overflow-wrap: break-word;
     }
 
     .d-flex {

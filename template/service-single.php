@@ -180,7 +180,7 @@ if (file_exists($serviceTempSteps)) : ?>
                             <input id="serviceFormPhone" placeholder="+7 (999) 999-99-99" class="" type="text"
                                    minlength="18"
                                    required>
-                            <button type="submit">Получить предложение</button>
+                            <button class="blick" type="submit">Получить предложение</button>
                         </form>
                         <p class="service-form-card__footer">
                             Нажимая кнопку “Получить предложение” вы даете свое согласие на обработку персональных
