@@ -8,7 +8,7 @@ $cases = DB('*', 'cases', 'body!="0" order by rand() DESC limit 9');
         <div class="service-block position-relative">
             <h1 class="service-block__title wow fadeIn">Пригласите нас в тендер</h1>
             <p class="service-block__subtitle wow fadeIn" data-wow-delay="0.2s">
-                Готовы предложить лучшие условия в вашем тендере по разработке сайт, приложений, сервисов, ERP и CRM систем
+                Готовы предложить лучшие условия в вашем тендере по разработке сайта, приложений, сервисов, ERP и CRM систем
             </p>
         </div>
     </div>
