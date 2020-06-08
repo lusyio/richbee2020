@@ -1636,7 +1636,7 @@ html .btn--learn-more--inverse .button-text {
     box-shadow: 0px 15px 100px 0px rgba(0, 0, 0, 0.1);
 }
 
-.serviceInfo p, .service__steps li, .service__steps p {
+.serviceInfo p, .service__steps li, .service__steps p, .serviceInfo ol li {
     max-width: 720px;
     margin-bottom: 15px;
     font-size: 18px;

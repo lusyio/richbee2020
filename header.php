@@ -29,7 +29,7 @@ if (file_exists($pathImgOpenGraph)) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/style.css?ver=1.1.17">
+    <link rel="stylesheet" href="/css/style.css?ver=1.1.18">
     <?php include "vendors/styles.php" ?>
 
     <meta property="og:locale" content="ru_RU"/>
@@ -63,7 +63,7 @@ if (file_exists($pathImgOpenGraph)) {
 
 <body>
 <div>
-    <div class="content <?php if($firstPart == 'services' and $route !='services') :?>greybg<?php endif;?> <?php if($route == 'index') :?>darkbg<?php endif;?>">
+    <div class="content <?php if($firstPart == 'services' and $route !='services' or $firstPart == 'tender') :?>greybg<?php endif;?> <?php if($route == 'index') :?>darkbg<?php endif;?>">
 <div class="darkbg underHeader">
   <div class="container">
       <div class="item">
@@ -129,7 +129,7 @@ if (file_exists($pathImgOpenGraph)) {
                 </nav>
                 <div class="header__right">
                     <div class="header__contacts">
-                        <a class="btn btn-grey" href="/contact/">Получить КП</a>
+                        <a class="btn btn-grey" href="/tender/">Пригласить в тендер</a>
                     </div>
 
                     <svg class="nav-toggle" viewBox="0 0 100 100" width="50" onclick="navToggle()">
