@@ -83,12 +83,10 @@ endif;
         <div class="service">
             <div class="container">
                 <div class="service-block service__steps">
-                    <h2 class="service-block__title-new hidden wow fadeIn" data-wow-duration="1s"><b>Узнайте стоимость
-                            сайта,</b> ответив на несколько вопросов</h2>
-                    <p class="service-block__subtitle hidden wow fadeIn">Вы получите предварительный расчет <b>без
-                            необходимости оставлять свои контактные данные</b>. Вместе с расчетом вы получите скидку на
-                        дизайн и
-                        бесплатный прототип</p>
+                    <h2 class="service-block__title-new hidden wow fadeIn" data-wow-duration="1s">Рассчитать примерную <b>стоимость
+                            разработки сайта</b></h2>
+                    <p class="service-block__subtitle hidden wow fadeIn"><b>Ответьте на 5 вопросов</b> и получите
+<b>расчет стоимости</b> разработки вашего cайта</p>
                     <div class="marquiz__container marquiz__container_inline">
                         <a class="marquiz__button marquiz__button_blicked marquiz__button_rounded marquiz__button_shadow"
                            href="#popup:marquiz_5ea820c2a7f82700445013f2" data-fixed-side=""

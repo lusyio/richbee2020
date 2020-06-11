@@ -1,0 +1,8 @@
+RewriteCond %{HTTPS} =off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+RewriteEngine on
+RewriteRule ^case/(.+)/$ /case/index.php?url=$1 [L]
+RewriteRule ^services/$ /services.php [L]
+RewriteRule ^about/$ /about.php [L]
+RewriteRule ^contact/$ /contact.php [L]
