@@ -19,7 +19,7 @@ body {
 }
 
 .position-relative {
-    position: relative;
+    position: relative !important;
 }
 
 .position-absolute {
@@ -3497,6 +3497,24 @@ html body .blick:before {
     bottom: 0;
 }
 
+.service-process .service-process__footer-info{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #747171;
+    margin-bottom: 0;
+}
+
+.service-process__footer-info a{
+    font-size: 14px;
+    line-height: 16px;
+    color: #6671AE;
+}
+
+.bg-light-grey{
+    background: #f9f9f9;
+}
+
 .service-process-point {
     display: flex;
     flex-direction: row;
@@ -3504,6 +3522,10 @@ html body .blick:before {
     margin-right: 60px;
     align-items: end;
     justify-content: flex-end;
+}
+
+.service-process-point-mb{
+    margin-bottom: 35px;
 }
 
 .service-process-point:last-of-type {
@@ -3558,11 +3580,11 @@ html body .blick:before {
 .service-process-point:not(:last-of-type) .service-process__number:after {
     content: '';
     position: absolute;
-    bottom: -32px;
+    bottom: -62px;
     left: 0;
     right: 0;
     margin: 0 auto;
-    height: 30px;
+    height: 61px;
     width: 2px;
     background: #8D8D8D;
     z-index: -1;

@@ -243,7 +243,7 @@ endif;
 <?php
 if (file_exists($serviceTempSteps)) : ?>
 <a name="steps"></a>
-<div class="service-single-main-new bg-white">
+<div class="service-single-main-new <?= $serviceId === '8' ? 'bg-light-grey' : 'bg-white' ?>">
     <div class="service">
         <div class="container">
             <div class="service-block service__steps">
