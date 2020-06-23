@@ -7,6 +7,7 @@ foreach ($service as $item) :
     $serviceDescription = $item['description'];
 endforeach;
 
+$growPoint = __DIR__ . '/sections/grow-point.php';
 $serviceTemp = __DIR__ . '/services/' . $serviceId . '.php';
 $serviceTempSteps = __DIR__ . '/services/' . $serviceId . '-steps.php';
 if ($serviceId == 1) {
@@ -70,65 +71,7 @@ function advantagesItem($img, $title, $info)
                  src="/images/my-account/MacBook-Pro-16-Silver-Right-Mockup-Free 4.png" alt="mac-book">
         </div>
     </section>
-    <section class="grow-point bg-white">
-        <div class="container">
-            <p class="grow-point__title">Разработка личного кабинета <span>позволит вашему бизнесу вырасти</span> за
-                счет</p>
-            <p class="grow-point__after-title"><b>28</b> точек роста</p>
-
-            <div class="grow-point-card">
-                <div class="grow-point-sub-card-container">
-                    <div class="grow-point-sub-card active">
-                        <div class="grow-point-sub-card__body">
-                            <img src="/images/my-account/Secretary-PNG-Transparent-Image 1.png" alt="">
-                            <p class="grow-point-sub-card__title">Ваши сотрудники</p>
-                        </div>
-                    </div>
-                    <div class="grow-point-sub-card">
-                        <div class="grow-point-sub-card__body">
-                            <img src="/images/my-account/iStock-891451008_1-min 1.png" alt="">
-                            <p class="grow-point-sub-card__title">Ваши клиенты</p>
-                        </div>
-                    </div>
-                    <div class="grow-point-sub-card">
-                        <div class="grow-point-sub-card__body">
-                            <img src="/images/my-account/angry-businessman 1.png" alt="">
-                            <p class="grow-point-sub-card__title">Ваши партнеры</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grow-point-card__body">
-
-                    <ul class="grow-point-card__ul">
-                        <li class="grow-point-card__li">Видят всю историю работы по каждому клиенту и могут предложить
-                            ему дополнительные услуги или товары
-                        </li>
-                        <li class="grow-point-card__li">Могут вести точечную работу по каждому клиенту, предлагая им
-                            индивидуальные тарифы на услуги
-                        </li>
-                        <li class="grow-point-card__li">Не тратят время на рутинные задачи, такие как составление
-                            отчетов, что повышает эффективное время работы в 2 раза
-                        </li>
-                        <li class="grow-point-card__li">Выставляют счета и формируют закрывающую документацию одним
-                            нажатием кнопки
-                        </li>
-                    </ul>
-                    <ul class="grow-point-card__ul">
-                        <li class="grow-point-card__li">Могут быстро передавать задачи по клиентам в смежные отделы и
-                            видеть информацию по текущим работам
-                        </li>
-                        <li class="grow-point-card__li">Видят всю работу по клиенту и могут оперативно получать от него
-                            необходимую информацию
-                        </li>
-                        <li class="grow-point-card__li">Могут вовремя выставлять заказы поставщикам и оперативно
-                            взаимодействуют с подрядчиками
-                        </li>
-                        <li class="grow-point-card__li">Во время видят и обрабатывают входящие запросы клиентов</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php include $growPoint ?>
     <section class="account-planning bg-white">
         <div class="container">
             <p class="account-planning__title">

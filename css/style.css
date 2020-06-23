@@ -1413,10 +1413,21 @@ html .btn--learn-more--inverse .button-text {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 90px 105px;
+}
+
+.grow-point-card .grow-point-card__body .grow-point-card__target {
+    display: none;
+}
+
+.grow-point-card .grow-point-card__body .grow-point-card__target.active {
     display: flex;
+}
+
+.grow-point-card .grow-point-card__body .grow-point-card__target {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .grow-point-sub-card {
@@ -1426,6 +1437,14 @@ html .btn--learn-more--inverse .button-text {
     max-width: 255px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+.grow-point-sub-card:hover {
+    cursor: pointer;
+}
+
+.grow-point-sub-card.active:hover {
+    cursor: default;
 }
 
 .grow-point-sub-card .grow-point-sub-card__body {
@@ -3504,7 +3523,7 @@ html body .blick:before {
     margin-bottom: 0;
 }
 
-.responsibility{
+.responsibility {
     padding-bottom: 80px;
 }
 
@@ -3572,7 +3591,7 @@ html body .blick:before {
     display: block;
 }
 
-.responsibility-row .responsibility-row__info{
+.responsibility-row .responsibility-row__info {
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
