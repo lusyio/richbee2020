@@ -71,7 +71,7 @@ function advantagesItem($img, $title, $info)
                  src="/images/my-account/MacBook-Pro-16-Silver-Right-Mockup-Free 4.png" alt="mac-book">
         </div>
     </section>
-<?php include $growPoint ?>
+    <?php include $growPoint ?>
     <section class="account-planning bg-white">
         <div class="container">
             <p class="account-planning__title">
@@ -223,6 +223,41 @@ if (file_exists($serviceTempSteps)) : ?>
                     </div>
                     <p class="responsibility-row__info">Дарим полгода полной технической поддержки для наших
                         клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="road-map bg-dark">
+        <div class="container">
+            <p class="road-map__title">Получите <b>дорожную карту</b> по вашему проекту уже <b>через 2 недели</b></p>
+            <p class="road-map__sub-title">Таким образом вы сможете спланировать свое время и получить понимание какие
+                ресурсы понадобятся на каждом конкретном этапе</p>
+            <div class="road-map-img">
+                <p class="road-map-img__left">
+                    Благодаря этому разработка и ввод в эксплуатацию происходит <span>в 2-3 раза эффективнее</span>
+                    <img src="/images/svg/my-account/arrow-left.svg" alt="">
+                </p>
+                <p class="road-map-img__right">
+                    Получаете <span>понимание по срокам</span> и приоритетам разработки
+                    <img src="/images/svg/my-account/arrow-right.svg" alt="">
+                </p>
+                <img src="/images/my-account/roadmap.png" alt="">
+            </div>
+            <button class="road-map__button">Получить дорожную карту</button>
+            <div class="road-map-result">
+                <p class="road-map-result__title"><b>Первые результаты</b> вы получаете уже</p>
+                <p class="road-map-result__sub-title">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
+                <div class="road-map-result-row">
+                    <img src="/images/my-account/road-map-ipad-img.png" alt="">
+                    <div>
+                        <p class="road-map-result-row__text">Мы разработаем прочный фундамент для личного кабинета и
+                            наполним его базовым функционалом.
+                            Таким образом у вас уже будет возможность опробовать кабинет, начать постепенное внедрение и
+                            корректировать этапы разработки на ходу</p>
+                        <p class="road-map-result-row__text">Еще через 2 месяца у вас уже будет полностью рабочая
+                            система, которую можно будет дополнять
+                            любым необходимым функционалом</p>
+                    </div>
                 </div>
             </div>
         </div>
