@@ -43,19 +43,19 @@ $partnersPoints = [
 
         <div class="grow-point-card">
             <div class="grow-point-sub-card-container">
-                <div data-target="workers" class="grow-point-sub-card active">
+                <div data-target="workers" class="grow-point-sub-card workers active">
                     <div class="grow-point-sub-card__body">
                         <img src="/images/my-account/Secretary-PNG-Transparent-Image 1.png" alt="">
                         <p class="grow-point-sub-card__title">Ваши сотрудники</p>
                     </div>
                 </div>
-                <div data-target="clients" class="grow-point-sub-card">
+                <div data-target="clients" class="grow-point-sub-card clients">
                     <div class="grow-point-sub-card__body">
                         <img src="/images/my-account/iStock-891451008_1-min 1.png" alt="">
                         <p class="grow-point-sub-card__title">Ваши клиенты</p>
                     </div>
                 </div>
-                <div data-target="partners" class="grow-point-sub-card">
+                <div data-target="partners" class="grow-point-sub-card partners">
                     <div class="grow-point-sub-card__body">
                         <img src="/images/my-account/angry-businessman 1.png" alt="">
                         <p class="grow-point-sub-card__title">Ваши партнеры</p>
@@ -110,8 +110,8 @@ $partnersPoints = [
     jQuery(function ($) {
         $('.grow-point-sub-card').on('click', function () {
             const target = $(this).data('target')
-            console.log(target)
             $('.grow-point-card__target').removeClass('active')
+            $('.grow-point-sub-card').removeClass('active')
             $(`.${target}`).addClass('active')
         })
     })
