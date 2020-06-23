@@ -258,6 +258,34 @@ if (file_exists($serviceTempSteps)) : ?>
     </div>
 </div>
 
+<?php if ($serviceId === '8'): ?>
+    <section class="responsibility bg-light-grey">
+        <div class="container">
+            <p class="responsibility__title">Несем ответственность за качество работы</p>
+            <p class="responsibility__sub-title">Даем гарантию на 5 лет и 6 месяцев технической поддержки бесплатно</p>
+            <div class="responsibility-row">
+                <img class="responsibility__img" src="/images/my-account/responsibility-img.png" alt="responsibility">
+                <div>
+                    <div class="responsibility-row__title">
+                        <span>5</span>
+                        <p>лет <small>гарантии</small></p>
+                    </div>
+                    <p class="responsibility-row__info">Предоставляем честную гарантию на 5 лет при условии технической
+                        поддержки силами наших специалистов</p>
+                    <p class="responsibility-row__info">Это важный момент, так как мы не можем гарантировать
+                        работоспособность при вмешательстве сторонних специалистов</p>
+                    <div class="responsibility-row__title">
+                        <span>6</span>
+                        <p>месяцев <small>технической поддержки</small></p>
+                    </div>
+                    <p class="responsibility-row__info">Дарим полгода полной технической поддержки для наших
+                        клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php endif; ?>
+
 <?php if ($serviceId == '1') : ?>
     <div class="service-single-main-new bg-grey garant">
         <div class="container">

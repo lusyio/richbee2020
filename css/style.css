@@ -1540,8 +1540,7 @@ html .btn--learn-more--inverse .button-text {
     flex-direction: row;
     margin-bottom: 180px;
     position: relative;
-    z-index: 1
-;
+    z-index: 1;
 }
 
 .account-planning-card {
@@ -3497,7 +3496,7 @@ html body .blick:before {
     bottom: 0;
 }
 
-.service-process .service-process__footer-info{
+.service-process .service-process__footer-info {
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
@@ -3505,13 +3504,92 @@ html body .blick:before {
     margin-bottom: 0;
 }
 
-.service-process__footer-info a{
+.responsibility{
+    padding-bottom: 80px;
+}
+
+.responsibility .responsibility__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #0E0E0E;
+    max-width: 680px;
+    text-transform: uppercase;
+    margin: 0 auto 35px;
+}
+
+.responsibility .responsibility__sub-title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    max-width: 540px;
+    margin: 0 auto 25px;
+}
+
+.responsibility-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.responsibility-row > div {
+    width: 31%;
+}
+
+.responsibility-row .responsibility-row__title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.responsibility-row .responsibility-row__title span {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 110px;
+    color: #4562AB;
+    margin-right: 13px;
+}
+
+.responsibility-row .responsibility-row__title p {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #4562AB;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.responsibility-row .responsibility-row__title p small {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4562AB;
+    display: block;
+}
+
+.responsibility-row .responsibility-row__info{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.responsibility .responsibility__img {
+    width: 58%;
+}
+
+.service-process__footer-info a {
     font-size: 14px;
     line-height: 16px;
     color: #6671AE;
 }
 
-.bg-light-grey{
+.bg-light-grey {
     background: #f9f9f9;
 }
 
@@ -3524,7 +3602,7 @@ html body .blick:before {
     justify-content: flex-end;
 }
 
-.service-process-point-mb{
+.service-process-point-mb {
     margin-bottom: 35px;
 }
 
