@@ -3533,6 +3533,7 @@ html body .blick:before {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .responsibility-row > div {
