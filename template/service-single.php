@@ -265,7 +265,7 @@ if (file_exists($serviceTempSteps)) : ?>
             </div>
         </div>
     </section>
-    <div class="bg-light-grey garant-v2">
+    <section class="bg-light-grey garant-v2">
         <div class="container">
             <h2 class="garant-v2__title hidden wow fadeIn" data-wow-duration="1s">
                 Вы будете спокойны <span>за каждый рубль</span>
@@ -294,8 +294,8 @@ if (file_exists($serviceTempSteps)) : ?>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="bg-light-grey service-form service-form-v2">
+    </section>
+    <section class="bg-light-grey service-form service-form-v2">
         <div class="container">
             <p class="service-form__title">Цена не увеличится. <b>Доплачивать не придется!</b></p>
             <p class="service-form__text">Если входе работ вы поймете, что вам необходима реализация дополнительного
@@ -304,7 +304,53 @@ if (file_exists($serviceTempSteps)) : ?>
                 не изменяется</p>
             <?php include $serviceForm ?>
         </div>
-    </div>
+    </section>
+    <section class="bg-light-grey recent-projects">
+        <div class="container">
+            <p class="recent-projects__title">
+                Мы сосредоточены на качестве и удобстве пользования, поэтому <span>берем в работу не более 5-6 проектов в год</span>
+            </p>
+            <p class="recent-projects__sub-title">
+                В данный момент мы можем взять в разработку <b>еще 1 проект</b>
+            </p>
+            <p class="recent-projects__text">Наши текущие проекты:</p>
+            <div class="recent-projects-row">
+                <div class="recent-projects-row__col">
+                    <div class="recent-projects-card">
+                        <div class="recent-projects-card__body">
+                            <p class="recent-projects-card__title">
+                                Агрегатор для единовременной покупки в строительных гипермаркетах
+                            </p>
+                        </div>
+                        <div class="recent-projects-card__footer"
+                             style="background-image: url('/images/my-account/reservation-1.jpg')"></div>
+                    </div>
+                </div>
+                <div class="recent-projects-row__col">
+                    <div class="recent-projects-card reservation">
+                        <div class="recent-projects-card__body">
+                            <p class="recent-projects-card__title">
+                                Место для вашего проекта
+                            </p>
+                            <button class="recent-projects-card__button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-projects-row__col">
+                    <div class="recent-projects-card">
+                        <div class="recent-projects-card__body">
+                            <p class="recent-projects-card__title">
+                                CRM-система учета клиентов для микробизнеса и самозанятых
+                            </p>
+                        </div>
+                        <div class="recent-projects-card__footer"
+                             style="background-image: url('/images/my-account/reservation-2.jpg')"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 <?php endif; ?>
 
