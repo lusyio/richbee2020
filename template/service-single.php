@@ -248,7 +248,9 @@ if (file_exists($serviceTempSteps)) : ?>
                 <p class="road-map-result__title"><b>Первые результаты</b> вы получаете уже</p>
                 <p class="road-map-result__sub-title">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
                 <div class="road-map-result-row">
+                    <div class="road-map-result-row__img">
                     <img src="/images/my-account/road-map-ipad-img.png" alt="">
+                    </div>
                     <div>
                         <p class="road-map-result-row__text">Мы разработаем прочный фундамент для личного кабинета и
                             наполним его базовым функционалом.
