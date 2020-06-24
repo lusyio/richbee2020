@@ -7,6 +7,7 @@ foreach ($service as $item) :
     $serviceDescription = $item['description'];
 endforeach;
 
+$serviceForm = __DIR__ . '/sections/service-form.php';
 $growPoint = __DIR__ . '/sections/grow-point.php';
 $serviceTemp = __DIR__ . '/services/' . $serviceId . '.php';
 $serviceTempSteps = __DIR__ . '/services/' . $serviceId . '-steps.php';
@@ -249,7 +250,7 @@ if (file_exists($serviceTempSteps)) : ?>
                 <p class="road-map-result__sub-title">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
                 <div class="road-map-result-row">
                     <div class="road-map-result-row__img">
-                    <img src="/images/my-account/road-map-ipad-img.png" alt="">
+                        <img src="/images/my-account/road-map-ipad-img.png" alt="">
                     </div>
                     <div>
                         <p class="road-map-result-row__text">Мы разработаем прочный фундамент для личного кабинета и
@@ -264,6 +265,47 @@ if (file_exists($serviceTempSteps)) : ?>
             </div>
         </div>
     </section>
+    <div class="bg-light-grey garant-v2">
+        <div class="container">
+            <h2 class="garant-v2__title hidden wow fadeIn" data-wow-duration="1s">
+                Вы будете спокойны <span>за каждый рубль</span>
+            </h2>
+            <div class="garant-v2-row">
+                <div class="garant-v2-row__col">
+                    <p class="garant-v2-row__title">Каждые 2 недели получаете отчет о проделанных работах</p>
+                    <p class="garant-v2-row__text">Мы всегда на связи с вами и уведомляем регулярно уведомляем о ходе
+                        работ, а не пропадаем на 4 месяца и появляемся с системой, которая реализована не так как вы
+                        хотели.</p>
+                    <p class="garant-v2-row__title">После каждого спринта вы можете тестировать новый функционал</p>
+                    <p class="garant-v2-row__text">Строим работу таким образом, чтобы каждые 2 недели личный кабинет
+                        обретал новый функционал, который вы можете не только тестировать самостоятельно, но даже
+                        внедрять в работу</p>
+                    <p class="garant-v2-row__title">Совершаете платежи по удобному для вас графику</p>
+                    <p class="garant-v2-row__text">Согласуем ежемесячный график платежей таким образом, чтобы он
+                        устраивал обе стороны</p>
+                    <p class="garant-v2-row__title">Цены и сроки фиксируются в договоре</p>
+                    <p class="garant-v2-row__text">Никаких скрытых платежей и затягиваний сроков под надуманными
+                        предлогами</p>
+                </div>
+                <div class="garant-v2-row__col">
+                    <img src="/images/img-garant.png" alt="">
+                    <img class="garant-v2-row__arrow" src="/images/svg/my-account/arrow-top.svg" alt="">
+                    <a class="garant-v2-row__link" href="#">Скачать пример договора</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light-grey service-form service-form-v2">
+        <div class="container">
+            <p class="service-form__title">Цена не увеличится. <b>Доплачивать не придется!</b></p>
+            <p class="service-form__text">Если входе работ вы поймете, что вам необходима реализация дополнительного
+                функционала, который не был предусмотрен изначально, мы быстро сделаем перерасчет и предложим варианты
+                по срокам и ценам. В иных случаях, все, что мы оговорили на этапе заключения договора остается в силе и
+                не изменяется</p>
+            <?php include $serviceForm ?>
+        </div>
+    </div>
+
 <?php endif; ?>
 
 <?php if ($serviceId == '1') : ?>
@@ -309,65 +351,9 @@ if (file_exists($serviceTempSteps)) : ?>
 
     <div class="service-single-main-new bg-white service-form">
         <div class="container">
-            <div class="service-form-card">
-                <div class="service-form-card__body">
-                    <div class="service-form-card__img">
-                        <img src="/images/img-service-form.png" alt="">
-                    </div>
-                    <div>
-                        <p class="service-form-card__title">
-                            Подберем <b>три варианта разработки</b> по функционалу, срокам и стоимости
-                        </p>
-                        <p class="service-form-card__text">
-                            Оставьте свой номер телефона, чтобы получить <b>индивидуальное коммерческое предложение</b>
-                        </p>
-                        <p class="service-form-card__text">
-                            Это вас ни к чему не обязывает. Получив коммерческое предложение, вы сможете спрогнозировать
-                            окупаемость разработки и сравнить его с ценами в других компаниях
-                        </p>
-                        <form id="serviceForm" class="service-form-form" action="">
-                            <input id="serviceFormPhone" placeholder="+7 (999) 999-99-99" class="" type="text"
-                                   minlength="18"
-                                   required>
-                            <button class="blick" type="submit">Получить предложение</button>
-                        </form>
-                        <p class="service-form-card__footer">
-                            Нажимая кнопку “Получить предложение” вы даете свое согласие на обработку персональных
-                            данных и
-                            соглашаетесь с <a href="#">Политикой конфиденциальности</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <?php include $serviceForm ?>
         </div>
     </div>
-    <script>
-        jQuery(function ($) {
-            $('#serviceFormPhone').mask('+7 (000) 000-00-00')
-        });
-
-        $('#serviceForm').on('submit', function () {
-            let value = $('#serviceForm > input').val();
-            $.ajax({
-                type: "POST",
-                url: '/ajax/',
-                data: {
-                    action: 'offer',
-                    phone: value
-                },
-                success: data => {
-                    $(this).remove();
-                    $('.service-form-card__footer').before('<p class="service-form-card__text">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
-                        '<b>За вами закреплен личный менеджер - Владислав Карпенко.</b>\n' +
-                        'Он свяжется с вами в течение 15 минут, чтобы обсудить детали проекта </p>')
-                },
-                error: e => {
-                    console.log(e)
-                }
-            });
-            return false;
-        })
-    </script>
 <?php endif; ?>
 
 <div class="service-single-main">

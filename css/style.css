@@ -1698,6 +1698,124 @@ html .btn--learn-more--inverse .button-text {
     margin-bottom: 30px;
 }
 
+.garant-v2 {
+    padding: 80px 0;
+}
+
+.garant-v2 .garant-v2__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 70px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.garant-v2 .garant-v2__title span {
+    font-weight: 300;
+    color: #4562AB;
+}
+
+.garant-v2-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.garant-v2-row .garant-v2-row__col {
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+.garant-v2-row .garant-v2-row__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+    max-width: 70%;
+    margin-top: 0;
+}
+
+.garant-v2-row .garant-v2-row__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 35px;
+    max-width: 90%;
+    margin-top: 0;
+}
+
+.garant-v2-row .garant-v2-row__link {
+    font-size: 18px;
+    line-height: 21px;
+    color: #4562AB;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.garant-v2-row img {
+    max-width: 100%;
+    margin-top: -50px;
+}
+
+.garant-v2-row .garant-v2-row__arrow {
+    display: block;
+    margin: -70px auto 25px;
+}
+
+.service-form .service-form__title {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    max-width: 700px;
+    margin: 0 auto 35px;
+}
+
+.service-form .service-form__title b {
+    font-weight: bold;
+}
+
+.service-form-v2.service-form{
+    padding-top: 0;
+}
+
+.service-form .service-form__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    max-width: 790px;
+    margin: 0 auto 130px;
+}
+
+.service-form-v2 .service-form-form button{
+    border-radius: 50px;
+    background: linear-gradient(180deg, #6C87CC 0%, #4562AB 100%);
+    position: absolute;
+}
+
+.service-form-v2 .service-form-form > input{
+    background: #F3F3F3;
+    border: 1px solid #E3E3E3;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    max-width: 300px;
+}
+
+.service-form-v2 .service-form-card .service-form-card__footer a{
+    color: #4562AB;
+}
+
 .account-planning .account-planning__title {
     font-style: italic;
     font-weight: 300;
