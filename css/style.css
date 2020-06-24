@@ -1321,6 +1321,18 @@ html .btn--learn-more--inverse .button-text {
     box-sizing: border-box;
 }
 
+.service-account-card-form .service-account-card-form__input#name {
+    background-image: url('/images/svg/my-account/input-icons/dark-bg/name.svg');
+    background-position: 30px 13px;
+    background-repeat: no-repeat;
+}
+
+.service-account-card-form .service-account-card-form__input#phone {
+    background-image: url('/images/svg/my-account/input-icons/dark-bg/email.svg');
+    background-position: 30px 13px;
+    background-repeat: no-repeat;
+}
+
 .service-account-card-form .service-account-card-form__input:last-of-type {
     margin-bottom: 16px;
 }
@@ -1991,7 +2003,7 @@ html body input:focus, html body button:focus {
     margin-bottom: 20px;
 }
 
-.popular-questions{
+.popular-questions {
     padding-bottom: 80px;
 }
 
@@ -2072,6 +2084,25 @@ html body input:focus, html body button:focus {
     margin-bottom: 12px;
     width: 100%;
 }
+
+.reservation-form-card form input#reservationFormName{
+    background-image: url('/images/svg/my-account/input-icons/light-bg/name.svg');
+    background-position: 26px 14px;
+    background-repeat: no-repeat;
+}
+
+.reservation-form-card form input#reservationFormEmail{
+    background-image: url('/images/svg/my-account/input-icons/light-bg/email.svg');
+    background-position: 26px 14px;
+    background-repeat: no-repeat;
+}
+
+.reservation-form-card form input#reservationFormPhone{
+    background-image: url('/images/svg/my-account/input-icons/light-bg/phone.svg');
+    background-position: 26px 14px;
+    background-repeat: no-repeat;
+}
+
 
 .reservation-form-card form input:last-of-type {
     margin-bottom: 18px;
