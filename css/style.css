@@ -4381,6 +4381,13 @@ html body .blick:before {
     margin-top: 0;
 }
 
+.service-process .service-process__title img{
+    max-width: 40px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
 @media (max-width: 1024px) {
     .contacts__list {
         padding: 0 30px;

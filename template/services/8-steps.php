@@ -74,7 +74,9 @@ $array = [
             <?php foreach ($process_points as $key => $point): ?>
                 <div id="service-process-main-<?= $key + 1; ?>"
                      class="service-process-main <?= $key === 0 ? 'active' : '' ?>">
-                    <p class="service-process__title"><?= $key + 1; ?>. <?= $point['title']; ?></p>
+                    <p class="service-process__title">
+                        <img src="/images/svg/my-account/service-steps-icons/step-<?= $key + 1; ?>.svg"
+                                alt=""><?= $key + 1; ?>. <?= $point['title']; ?></p>
                     <p><?= $point['main-text']; ?></p>
                     <?php if ($point['footer-text'] !== ''): ?>
                         <div class="service-process__footer position-relative">
@@ -83,8 +85,10 @@ $array = [
                         </div>
                     <?php endif; ?>
                     <div class="service-process__footer">
-                        <p class="service-process__footer-info">Если у вас есть вопросы или же вам нужна помощь в составлении технического задания мы
-                            проведем для вас <a href="#">15-минутную консультацию</a> по итогам которой сможем обозначить общие
+                        <p class="service-process__footer-info">Если у вас есть вопросы или же вам нужна помощь в
+                            составлении технического задания мы
+                            проведем для вас <a href="#">15-минутную консультацию</a> по итогам которой сможем
+                            обозначить общие
                             направления проекта. Таким образом вам будет проще принимать дальнейшее решение о
                             разработке</p>
                     </div>
