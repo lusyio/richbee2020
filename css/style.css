@@ -1839,7 +1839,7 @@ html .btn--learn-more--inverse .button-text {
     padding: 0 0 100px;
 }
 
-html body input:focus, html body button:focus{
+html body input:focus, html body button:focus {
     outline: none;
 }
 
@@ -1969,6 +1969,50 @@ html body input:focus, html body button:focus{
     outline: none;
 }
 
+.reservation-form {
+    padding-bottom: 130px;
+}
+
+.reservation-form-left {
+    box-sizing: border-box;
+    max-width: 48%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 150px;
+}
+
+.reservation-form-left .reservation-form-left__title {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.popular-questions{
+    padding-bottom: 80px;
+}
+
+.reservation-form-left .reservation-form-left__title span {
+    font-weight: bold;
+    color: #4562AB;
+}
+
+.reservation-form-left .reservation-form-left__sub-title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.reservation-form-left .reservation-form-left__sub-title b {
+    font-weight: bold;
+}
+
 .account-planning .account-planning__after-title {
     font-weight: 300;
     font-size: 36px;
@@ -1979,6 +2023,156 @@ html body input:focus, html body button:focus{
     margin-right: auto;
     margin-bottom: 40px;
     color: #000000;
+}
+
+.reservation-form-card {
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form {
+    background: url("/images/my-account/reservation-form.png") no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+.reservation-form-card .reservation-form-card__body {
+    border: 1px solid #E9E9E9;
+    border-radius: 10px;
+    padding: 30px 55px;
+}
+
+.reservation-form-card .reservation-form-card__title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.reservation-form-card .reservation-form-card__title b {
+    font-weight: bold;
+}
+
+.reservation-form-card form {
+    padding: 0 35px;
+}
+
+.reservation-form-card form input {
+    background: #F3F3F3;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    padding: 14px 56px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.reservation-form-card form input:last-of-type {
+    margin-bottom: 18px;
+}
+
+.reservation-form-card form button {
+    background: linear-gradient(180deg, #6C87CC 0%, #4562AB 100%);
+    border-radius: 50px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    transition: 145ms ease-in-out;
+    margin-bottom: 33px;
+}
+
+.reservation-form-card form button:hover {
+    background: linear-gradient(180deg, #506498 0%, #344a83 100%);
+    cursor: pointer;
+}
+
+.reservation-form-card form input::placeholder {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6D6D6D;
+}
+
+.reservation-form-card .reservation-form-card__footer {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #747171;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.reservation-form .reservation-form__img {
+    position: absolute;
+    right: -7rem;
+    bottom: -15rem;
+    z-index: 0;
+}
+
+.popular-questions .popular-questions__title {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.popular-questions .popular-questions-accordion {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 270px;
+}
+
+.popular-questions .popular-questions-accordion h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: 0;
+    transition: 145ms ease-in-out;
+}
+
+.popular-questions .popular-questions-accordion h3:hover {
+    cursor: pointer;
+    color: #4562AB;
+}
+
+.popular-questions .popular-questions-accordion h3:focus {
+    outline: none;
+}
+
+.popular-questions .popular-questions-accordion div {
+    margin-bottom: 20px;
+}
+
+.popular-questions .popular-questions-accordion p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.popular-questions .popular-questions-accordion h3.ui-state-active {
+    color: #4562AB;
 }
 
 .account-planning .account-planning__after-title span {
@@ -4042,7 +4236,7 @@ html body .blick:before {
 }
 
 .bg-light-grey {
-    background: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 .service-process-point {

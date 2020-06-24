@@ -350,6 +350,97 @@ if (file_exists($serviceTempSteps)) : ?>
             </div>
         </div>
     </section>
+    <section class="bg-light-grey reservation-form">
+        <div class="container">
+            <div class="reservation-form-left">
+                <p class="reservation-form-left__title">
+                    Забронируйте место, чтобы <span>вывести компанию на новый уровень</span> уже в этом году
+                </p>
+                <p class="reservation-form-left__sub-title">
+                    Бронирование ни к чему не обязывает, но мы <b>будем держать ваш проект в приоритете</b>
+                </p>
+                <div class="reservation-form-card">
+                    <div class="reservation-form-card__body">
+                        <p class="reservation-form-card__title">
+                            Вам нужно лишь оставить заявку и рассказать немного о своих целях и задачах. После этого мы
+                            предложим вам <b>детальный план реализации проекта</b>
+                        </p>
+                        <form id="reservationForm" class="reservation-form-form" action="">
+                            <input id="reservationFormName" placeholder="Как вас зовут?" type="text">
+                            <input id="reservationFormEmail" placeholder="Укажите ваш email" type="email">
+                            <input id="reservationFormPhone" placeholder="Укажите телефон для связи" type="text"
+                                   minlength="18" required>
+                            <button class="blick" type="submit">Получить предложение</button>
+                            <p class="reservation-form-card__footer">
+                                Нажимая кнопку “Получить план реализации” вы даете свое согласие на обработку
+                                персональных
+                                данных и принимаете <a href="#">политику конфиденциальности</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular-questions bg-white">
+        <div class="container">
+            <p class="popular-questions__title">Популярные вопросы</p>
+            <div class="popular-questions-accordion">
+                <h3>Какой технологический стек мы используем?</h3>
+                <div>
+                    <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
+                        разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
+                </div>
+                <h3>Как конкретно разбиваются платежи?</h3>
+                <div>
+                    <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
+                        разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
+                </div>
+                <h3>Беремся ли мы за доработку уже реализованных систем?</h3>
+                <div>
+                    <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
+                        разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
+                </div>
+                <h3>Что означает поэтапное внедрение личного кабинета?</h3>
+                <div>
+                    <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
+                        разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            jQuery(function ($) {
+                $('#reservationFormPhone').mask('+7 (000) 000-00-00')
+                $(".popular-questions-accordion").accordion();
+            });
+
+            $('#reservationForm').on('submit', function () {
+                let name = $('#reservationFormName').val();
+                let email = $('#reservationFormEmail').val();
+                let phone = $('#reservationFormPhone').val();
+                $.ajax({
+                    type: "POST",
+                    url: '/ajax/',
+                    data: {
+                        action: 'offer',
+                        name,
+                        phone,
+                        email
+                    },
+                    success: data => {
+                        $(this).remove();
+                        $('.reservation-form-card__footer').before('<p class="reservation-form-card__title">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
+                            '<b>За вами закреплен личный менеджер - Владислав Карпенко.</b>\n' +
+                            'Он свяжется с вами в течение 15 минут, чтобы обсудить детали проекта </p>')
+                    },
+                    error: e => {
+                        console.log(e)
+                    }
+                });
+                return false;
+            })
+        </script>
+    </section>
 
 
 <?php endif; ?>

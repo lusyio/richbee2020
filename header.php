@@ -58,6 +58,7 @@ if (file_exists($pathImgOpenGraph)) {
     <script src="/js/jquery-3.5.1.min.js" type="text/javascript"></script>
     <script src="/js/jquery.mask.min.js" type="text/javascript"></script>
     <script src="/js/swiper.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?167",t.onload=function(){VK.Retargeting.Init("VK-RTRG-481728-etm49"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-481728-etm49" style="position:fixed; left:-999px;" alt=""/></noscript>
 </head>
 
