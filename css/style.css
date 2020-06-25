@@ -1935,6 +1935,7 @@ html body input:focus, html body button:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 3rem 1.5rem;
+    border-radius: 10px;
 }
 
 .recent-projects-card.reservation {
