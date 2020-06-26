@@ -1351,6 +1351,12 @@ html .btn--learn-more--inverse .button-text {
     padding: 14px;
     color: #282828;
     margin-bottom: 0;
+    transition: 145ms ease-in-out;
+}
+
+.service-account-card-form .service-account-card-form__button:hover {
+    background: linear-gradient(180deg, #e7e6e6 0%, #aba9a9 100%);
+    cursor: pointer;
 }
 
 .service-account-card-form .service-account-card-form__input::placeholder {
