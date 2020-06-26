@@ -4700,7 +4700,7 @@ html body .blick:before {
 
 @media screen and (max-width: 991px) {
     .container {
-        max-width: 720px;
+        /*max-width: 720px;*/
         padding: 0 15px;
         box-sizing: border-box;
         margin-right: auto;
