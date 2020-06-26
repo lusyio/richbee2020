@@ -59,7 +59,7 @@ $array = [
 ]
 ?>
 
-<div class="service-process">
+<div class="service-process service-process-before">
     <div class="service-process__body">
         <div>
             <?php foreach ($process_points as $key => $point): ?>

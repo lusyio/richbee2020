@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 html {
     height: 100%;
     overflow-x: hidden;
@@ -1273,7 +1275,7 @@ html .btn--learn-more--inverse .button-text {
     background: #1F1F1F;
     border-radius: 10px;
     padding: 10px;
-    max-width: 42%;
+    max-width: 445px;
     width: 100%;
 }
 
@@ -1373,7 +1375,31 @@ html .btn--learn-more--inverse .button-text {
 .service-account .service-account__image {
     position: absolute;
     right: -7rem;
-    top: 3rem;
+    top: 0;
+    width: 78%;
+}
+
+.service-account .service-account__image img{
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+.service-account__image:before{
+    content: '';
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    max-width: 400px;
+    max-height: 300px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(107, 175, 204, 0.5);
+    filter: blur(250px);
 }
 
 .grow-point {
@@ -1385,6 +1411,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .grow-point .grow-point__title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 36px;
     line-height: 45px;
@@ -1544,6 +1571,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .road-map .road-map__title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
@@ -1585,6 +1613,7 @@ html .btn--learn-more--inverse .button-text {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
+    width: 100%;
 }
 
 .road-map-result .road-map-result__title {
@@ -1601,6 +1630,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .road-map-result .road-map-result__sub-title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 64px;
     line-height: 80px;
@@ -1658,6 +1688,7 @@ html .btn--learn-more--inverse .button-text {
 
 .account-planning {
     padding: 80px 0;
+    overflow: hidden;
 }
 
 .road-map-result-row {
@@ -1685,6 +1716,11 @@ html .btn--learn-more--inverse .button-text {
 .road-map-result-row .road-map-result-row__img:before {
     content: '';
     width: 100%;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    max-width: 329px;
+    max-height: 329px;
     height: 100%;
     display: block;
     position: absolute;
@@ -1783,6 +1819,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .service-form .service-form__title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
@@ -1801,6 +1838,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .service-form .service-form__text {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 24px;
     line-height: 30px;
@@ -1835,6 +1873,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .account-planning .account-planning__title {
+    font-family: 'Merriweather', sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 24px;
@@ -1842,7 +1881,7 @@ html .btn--learn-more--inverse .button-text {
     text-align: center;
     color: #000000;
     margin-bottom: 50px;
-    max-width: 60%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1856,6 +1895,7 @@ html body input:focus, html body button:focus {
 }
 
 .recent-projects .recent-projects__title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 24px;
     line-height: 30px;
@@ -1922,12 +1962,19 @@ html body input:focus, html body button:focus {
     padding: 40px 40px 0;
 }
 
+.recent-projects-card.reservation .recent-projects-card__title {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .recent-projects-card .recent-projects-card__title {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #000000;
-    margin: 0;
+    max-width: 92%;
+    margin: 0 auto;
 }
 
 .recent-projects-card__footer {
@@ -2002,6 +2049,7 @@ html body input:focus, html body button:focus {
     color: #000000;
     margin-top: 0;
     margin-bottom: 20px;
+    max-width: 90%;
 }
 
 .popular-questions {
@@ -2020,6 +2068,7 @@ html body input:focus, html body button:focus {
     color: #000000;
     margin-bottom: 50px;
     margin-top: 0;
+    max-width: 80%;
 }
 
 .reservation-form-left .reservation-form-left__sub-title b {
@@ -2027,6 +2076,7 @@ html body input:focus, html body button:focus {
 }
 
 .account-planning .account-planning__after-title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 36px;
     line-height: 45px;
@@ -2086,19 +2136,19 @@ html body input:focus, html body button:focus {
     width: 100%;
 }
 
-.reservation-form-card form input#reservationFormName{
+.reservation-form-card form input#reservationFormName {
     background-image: url('/images/svg/my-account/input-icons/light-bg/name.svg');
     background-position: 26px 14px;
     background-repeat: no-repeat;
 }
 
-.reservation-form-card form input#reservationFormEmail{
+.reservation-form-card form input#reservationFormEmail {
     background-image: url('/images/svg/my-account/input-icons/light-bg/email.svg');
     background-position: 26px 14px;
     background-repeat: no-repeat;
 }
 
-.reservation-form-card form input#reservationFormPhone{
+.reservation-form-card form input#reservationFormPhone {
     background-image: url('/images/svg/my-account/input-icons/light-bg/phone.svg');
     background-position: 26px 14px;
     background-repeat: no-repeat;
@@ -2171,6 +2221,21 @@ html body input:focus, html body button:focus {
     height: 270px;
 }
 
+.accordion {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    /*background-color: #ccc;*/
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 .popular-questions .popular-questions-accordion h3 {
     font-weight: normal;
     font-size: 24px;
@@ -2218,6 +2283,7 @@ html body input:focus, html body button:focus {
     margin-bottom: 180px;
     position: relative;
     z-index: 1;
+    justify-content: center;
 }
 
 .account-planning-card {
@@ -2227,7 +2293,8 @@ html body input:focus, html body button:focus {
     padding: 10px;
     box-sizing: border-box;
     margin-right: 30px;
-    width: 23%;
+    width: 100%;
+    max-width: 255px;
 }
 
 .account-planning-card:last-of-type {
@@ -2271,19 +2338,20 @@ html body input:focus, html body button:focus {
 
 .account-planning .account-planning__img {
     position: absolute;
-    left: -7rem;
-    bottom: -15rem;
+    left: -10rem;
+    bottom: -17rem;
     z-index: 0;
 }
 
 .account-planning .account-planning__info {
+    font-family: 'Merriweather', sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 24px;
     line-height: 30px;
     color: #000000;
     margin-bottom: 30px;
-    max-width: 50%;
+    max-width: 44%;
     margin-left: auto;
     position: relative;
 }
@@ -2294,7 +2362,7 @@ html body input:focus, html body button:focus {
     line-height: 41px;
     color: #000000;
     margin-bottom: 160px;
-    max-width: 50%;
+    max-width: 44%;
     margin-left: auto;
     position: relative;
 }
@@ -2619,6 +2687,7 @@ html body input:focus, html body button:focus {
 }
 
 .service-block__title-new {
+    font-family: 'Merriweather', sans-serif;
     margin-bottom: 60px;
     font-weight: 300;
     font-size: 48px;
@@ -3304,6 +3373,8 @@ html body input:focus, html body button:focus {
 .case-section__list, .service-block__list {
     display: flex;
     position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .case-section__item {
@@ -4146,6 +4217,18 @@ html body .blick:before {
     z-index: 1;
 }
 
+.service-process-before:before {
+    content: '';
+    background: url("/images/my-account/iPhoneXS Silver 1.png") no-repeat center;
+    background-size: contain;
+    width: 375px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    left: -16rem;
+    bottom: -6rem;
+}
+
 .service-process > span {
     display: none;
     position: absolute;
@@ -4197,6 +4280,7 @@ html body .blick:before {
 }
 
 .responsibility .responsibility__sub-title {
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 24px;
     line-height: 30px;
@@ -4382,7 +4466,7 @@ html body .blick:before {
     margin-top: 0;
 }
 
-.service-process .service-process__title img{
+.service-process .service-process__title img {
     max-width: 40px;
     display: inline-block;
     margin-right: 20px;

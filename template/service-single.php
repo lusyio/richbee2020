@@ -68,8 +68,11 @@ function advantagesItem($img, $title, $info)
                         согласие на обработку персональных данных и принимаете политику конфиденциальности</p>
                 </div>
             </div>
-            <img class="service-account__image wow fadeIn" data-wow-delay="0.4s"
-                 src="/images/my-account/MacBook-Pro-16-Silver-Right-Mockup-Free 4.png" alt="mac-book">
+            <div class="service-account__image">
+                <img class="wow fadeIn" data-wow-delay="0.4s"
+                     src="/images/my-account/MacBook-Pro-16-Silver-Right-Mockup-Free 4.png" alt="mac-book">
+            </div>
+
         </div>
     </section>
     <?php include $growPoint ?>
@@ -370,7 +373,7 @@ if (file_exists($serviceTempSteps)) : ?>
                             <input id="reservationFormEmail" placeholder="Укажите ваш email" type="email">
                             <input id="reservationFormPhone" placeholder="Укажите телефон для связи" type="text"
                                    minlength="18" required>
-                            <button class="blick" type="submit">Получить предложение</button>
+                            <button class="blick" type="submit">Забронировать место</button>
                             <p class="reservation-form-card__footer">
                                 Нажимая кнопку “Получить план реализации” вы даете свое согласие на обработку
                                 персональных
@@ -386,23 +389,23 @@ if (file_exists($serviceTempSteps)) : ?>
         <div class="container">
             <p class="popular-questions__title">Популярные вопросы</p>
             <div class="popular-questions-accordion">
-                <h3>Какой технологический стек мы используем?</h3>
-                <div>
+                <h3 class="accordion">Какой технологический стек мы используем?</h3>
+                <div class="panel">
                     <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
                         разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
                 </div>
-                <h3>Как конкретно разбиваются платежи?</h3>
-                <div>
+                <h3 class="accordion">Как конкретно разбиваются платежи?</h3>
+                <div class="panel">
                     <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
                         разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
                 </div>
-                <h3>Беремся ли мы за доработку уже реализованных систем?</h3>
-                <div>
+                <h3 class="accordion">Беремся ли мы за доработку уже реализованных систем?</h3>
+                <div class="panel">
                     <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
                         разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
                 </div>
-                <h3>Что означает поэтапное внедрение личного кабинета?</h3>
-                <div>
+                <h3 class="accordion">Что означает поэтапное внедрение личного кабинета?</h3>
+                <div class="panel">
                     <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
                         разработки клиентской части мы применяем как стандартные технологии, так и библиотеку React</p>
                 </div>
@@ -411,7 +414,6 @@ if (file_exists($serviceTempSteps)) : ?>
         <script>
             jQuery(function ($) {
                 $('#reservationFormPhone').mask('+7 (000) 000-00-00')
-                $(".popular-questions-accordion").accordion();
             });
 
             $('#reservationForm').on('submit', function () {
@@ -422,7 +424,7 @@ if (file_exists($serviceTempSteps)) : ?>
                     type: "POST",
                     url: '/ajax/',
                     data: {
-                        action: 'offer',
+                        action: '',
                         name,
                         phone,
                         email
@@ -439,6 +441,25 @@ if (file_exists($serviceTempSteps)) : ?>
                 });
                 return false;
             })
+            let acc = document.getElementsByClassName("accordion");
+            let i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].classList.remove('active')
+                        let panel = acc[i].nextElementSibling;
+                        panel.style.maxHeight = null;
+                    }
+                    this.classList.toggle("active");
+                    let panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
         </script>
     </section>
 
