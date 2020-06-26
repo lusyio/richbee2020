@@ -86,39 +86,48 @@ function advantagesItem($img, $title, $info)
                 участия</span>
             </p>
             <div class="account-planning-cards-container">
-                <div class="account-planning-card">
-                    <div class="account-planning-card__body">
-                        <img src="/images/svg/my-account/schedule.svg" alt="schedule">
-                        <p class="account-planning-card__info">
-                            Сотрудники точно знают, что и в какой последовательности делать, <b>тем самым сокращается
-                                расход времени</b> на согласование работы
-                        </p>
+                <div class="account-planning-cards-container__col">
+                    <div class="account-planning-card">
+                        <div class="account-planning-card__body">
+                            <img src="/images/svg/my-account/schedule.svg" alt="schedule">
+                            <p class="account-planning-card__info">
+                                Сотрудники точно знают, что и в какой последовательности делать, <b>тем самым
+                                    сокращается
+                                    расход времени</b> на согласование работы
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="account-planning-card">
-                    <div class="account-planning-card__body">
-                        <img src="/images/svg/my-account/deal.svg" alt="deal">
-                        <p class="account-planning-card__info">
-                            <b>Партнеры остаются с вами навсегда</b>, потому что им легко и просто работать с вашей
-                            компанией
-                        </p>
+                <div class="account-planning-cards-container__col">
+                    <div class="account-planning-card">
+                        <div class="account-planning-card__body">
+                            <img src="/images/svg/my-account/deal.svg" alt="deal">
+                            <p class="account-planning-card__info">
+                                <b>Партнеры остаются с вами навсегда</b>, потому что им легко и просто работать с вашей
+                                компанией
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="account-planning-card">
-                    <div class="account-planning-card__body">
-                        <img src="/images/svg/my-account/website.svg" alt="website">
-                        <p class="account-planning-card__info">
-                            Получаете <b>полную отчетность о всех процессах</b> которые происходят в компании
-                        </p>
+                <div class="account-planning-cards-container__col">
+                    <div class="account-planning-card">
+                        <div class="account-planning-card__body">
+                            <img src="/images/svg/my-account/website.svg" alt="website">
+                            <p class="account-planning-card__info">
+                                Получаете <b>полную отчетность о всех процессах</b> которые происходят в компании
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="account-planning-card">
-                    <div class="account-planning-card__body">
-                        <img src="/images/svg/my-account/money.svg" alt="money">
-                        <p class="account-planning-card__info">
-                            <b>Прибыль компании растет</b>, потому что клиенты самостоятельно оформляют заказы и
-                            получают необходимую документацию
-                        </p>
+                <div class="account-planning-cards-container__col">
+                    <div class="account-planning-card">
+                        <div class="account-planning-card__body">
+                            <img src="/images/svg/my-account/money.svg" alt="money">
+                            <p class="account-planning-card__info">
+                                <b>Прибыль компании растет</b>, потому что клиенты самостоятельно оформляют заказы и
+                                получают необходимую документацию
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
