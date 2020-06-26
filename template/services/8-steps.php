@@ -76,7 +76,7 @@ $array = [
                      class="service-process-main <?= $key === 0 ? 'active' : '' ?>">
                     <p class="service-process__title">
                         <img src="/images/svg/my-account/service-steps-icons/step-<?= $key + 1; ?>.svg"
-                                alt=""><?= $key + 1; ?>. <?= $point['title']; ?></p>
+                             alt=""><?= $key + 1; ?>. <?= $point['title']; ?></p>
                     <p><?= $point['main-text']; ?></p>
                     <?php if ($point['footer-text'] !== ''): ?>
                         <div class="service-process__footer position-relative">
@@ -105,7 +105,8 @@ $array = [
                         <div class="service-process__number"><?= $key + 1; ?></div>
                     </div>
                     <div>
-                        <p><?= $point['title']; ?></p>
+                        <p><img src="/images/svg/my-account/service-steps-icons/step-<?= $key + 1; ?>.svg"
+                                alt=""><?= $point['title']; ?></p>
                         <div id="service-process-main-<?= $key + 1; ?>"
                              class="service-process-main <?= $key === 0 ? 'active' : '' ?>">
                             <p><?= $point['main-text']; ?></p>

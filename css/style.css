@@ -3980,6 +3980,11 @@ html body .blick:before {
         margin-bottom: 30px;
     }
 
+    .service-process__body-mobile .service-process-point p img {
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
     .service-form-card__body > div:last-of-type {
         padding: 0;
     }
@@ -4707,8 +4712,114 @@ html body .blick:before {
         margin-left: auto;
     }
 
+    .service-account-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-account .service-account__image {
+        display: none;
+    }
+
+    .responsibility .responsibility__img, .responsibility-row > div {
+        width: 50%;
+    }
+
+    .account-planning .account-planning__text, .account-planning .account-planning__info {
+        max-width: 50%;
+    }
+
     .service-account .service-account__image {
         right: -12rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grow-point-sub-card img {
+        max-width: 25%;
+    }
+
+    .grow-point-card .grow-point-sub-card {
+        max-width: 25%;
+    }
+
+    .grow-point-sub-card .grow-point-sub-card__title {
+        max-width: 65%;
+    }
+
+    .grow-point-card .grow-point-card__body {
+        padding: 90px 60px 60px;
+    }
+
+    .grow-point {
+        padding-bottom: 40px;
+    }
+
+    .account-planning {
+        padding-top: 40px;
+    }
+
+    .account-planning .account-planning__title {
+        max-width: 85%;
+    }
+
+    .account-planning .account-planning__after-title {
+        max-width: 100%;
+    }
+
+    .account-planning-cards-container {
+        margin-bottom: 80px;
+    }
+
+    .responsibility .responsibility__img {
+        display: none;
+    }
+
+    .garant-v2-row .garant-v2-row__col {
+        max-width: 100%;
+    }
+
+    .garant-v2-row .garant-v2-row__col:last-of-type {
+        margin-bottom: 40px;
+        order: 1;
+    }
+
+    .garant-v2-row .garant-v2-row__col:first-of-type {
+        order: 2;
+    }
+
+    .recent-projects-row__col {
+        padding: 0 15px;
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .recent-projects-card {
+        min-height: 300px;
+        max-height: 300px;
+        box-sizing: border-box;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .recent-projects-card__footer {
+        height: 218px;
+    }
+
+    .recent-projects-card .recent-projects-card__footer.first {
+        background-position: 1rem -5.5rem;
+        background-size: 135%;
+    }
+
+    .responsibility-row > div {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -4788,7 +4899,7 @@ html body .blick:before {
         padding-top: 80px;
     }
 
-    .recent-projects-card .recent-projects-card__title{
+    .recent-projects-card .recent-projects-card__title {
         max-width: 100%;
     }
 }
