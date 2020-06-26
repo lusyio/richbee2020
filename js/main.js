@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     const wow = new WOW({
         //offset: 200
     });
@@ -11,7 +11,7 @@ const parallaxItems = [];
 
 const parallax = () => {
     let items = document.querySelectorAll(".case__img");
-    
+
     for (let item of items) {
         let parallaxItem = new Parallax(item, {
             hoverOnly: true,
@@ -24,7 +24,7 @@ const parallax = () => {
 var isActive = false;
 
 const navToggle = () => {
-     isActive = !isActive;
+    isActive = !isActive;
 
     const ham = $(".nav-toggle");
     const nav = $(".header__nav");
@@ -37,13 +37,12 @@ const navToggle = () => {
     if (isActive) {
 
         ham.addClass("pointer-events-none");
-        
+
         nav.removeClass("header__nav--mobile-hidden")
 
-        
 
         navOpen.to(nav, 1, {
-            x: 0, 
+            x: 0,
             ease: Power3.easeInOut
         }, 0);
         navOpen.call(() => {
@@ -51,22 +50,22 @@ const navToggle = () => {
             page.addClass("sroll-prohibited")
         }, null, null, 0)
 
-        navOpen.staggerTo(navItems, 1, {x:0, opacity: 1}, 0.2);
+        navOpen.staggerTo(navItems, 1, {x: 0, opacity: 1}, 0.2);
         navOpen.duration(1.5).play()
         setTimeout(() => {
             ham.removeClass("pointer-events-none");
         }, 2000);
-        
-        
+
+
     } else {
 
         ham.addClass("pointer-events-none");
 
 
-        navClose.staggerTo(navItems, 1, {x:100, opacity: 0}, 0.2);
+        navClose.staggerTo(navItems, 1, {x: 100, opacity: 0}, 0.2);
 
         navClose.to(nav, 1, {
-            x: "100%", 
+            x: "100%",
             ease: Power3.easeInOut
         }, 1);
 
@@ -89,5 +88,21 @@ const navToggle = () => {
 
 if (window.innerWidth >= 992) {
     parallax();
+}
+
+let modal = document.getElementById("myModal");
+
+let btn = document.getElementById("triggerModal");
+
+btn.onclick = function () {
+    modal.style.display = "block";
+    document.body.style.overflowY = 'hidden'
+}
+
+window.onclick = function (event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+        document.body.style.overflowY = 'auto'
+    }
 }
 

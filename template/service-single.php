@@ -60,7 +60,7 @@ function advantagesItem($img, $title, $info)
                                placeholder='Как вас зовут?'>
                         <input id="phone" type="text" class="service-account-card-form__input" required
                                placeholder='Введите ваш телефон'>
-                        <button type="submit" class="service-account-card-form__button">
+                        <button type="submit" class="service-account-card-form__button blick">
                             Получить план реализации
                         </button>
                     </form>
@@ -247,7 +247,7 @@ if (file_exists($serviceTempSteps)) : ?>
                 </p>
                 <img src="/images/my-account/roadmap.png" alt="">
             </div>
-            <button class="road-map__button">Получить дорожную карту</button>
+            <button id="triggerModal" class="road-map__button blick">Получить дорожную карту</button>
             <div class="road-map-result">
                 <p class="road-map-result__title"><b>Первые результаты</b> вы получаете уже</p>
                 <p class="road-map-result__sub-title">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
@@ -268,6 +268,47 @@ if (file_exists($serviceTempSteps)) : ?>
             </div>
         </div>
     </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-content__body">
+                <div class="modal-content__img">
+                    <img src="/images/img-service-form.png" alt="">
+                </div>
+                <div>
+                    <p class="modal-content__title">Готовы обсудить ваш проект!</p>
+                    <p class="modal-content__text">С вами свяжется менеджер, чтобы обсудить ваши задачи</p>
+                    <div class="modal-content-contacts">
+                        <img src="/images/my-account/modal-vlad.jpg" alt="">
+                        <div>
+                            <p class="modal-content-contacts__title">Влад Карпенко</p>
+                            <p class="modal-content-contacts__info">Аккаунт-менеджер</p>
+                            <div class="modal-content-contacts__socials">
+                                <a class="vk" href="">
+                                    <img src="/images/svg/my-account/vk.svg" alt="vk">
+                                </a>
+                                <a class="whatsapp" href="">
+                                    <img src="/images/svg/my-account/whatsapp.svg" alt="whatsapp">
+                                </a>
+                                <a class="telegram" href="">
+                                    <img src="/images/svg/my-account/telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                            <p class="modal-content-contacts__footer">Среднее время ответа - 5 минут</p>
+                        </div>
+                    </div>
+                    <form id="serviceFormModal" class="service-form-form" action="">
+                        <input id="serviceFormModalPhone" placeholder="Укажите телефон для связи" class="" type="text"
+                               minlength="18" required="" maxlength="18">
+                        <button class="blick" type="submit">Получить предложение</button>
+                    </form>
+                    <p class="modal-content__footer">Нажимая кнопку “Получить предложение” вы даете свое согласие на
+                        обработку персональных данных и соглашаетесь с <a href="">Политикой конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="bg-light-grey garant-v2">
         <div class="container">
             <h2 class="garant-v2__title hidden wow fadeIn" data-wow-duration="1s">
@@ -335,7 +376,7 @@ if (file_exists($serviceTempSteps)) : ?>
                             <p class="recent-projects-card__title">
                                 Место для вашего проекта
                             </p>
-                            <button class="recent-projects-card__button">Забронировать</button>
+                            <a href="#reservationFormCard" class="blick recent-projects-card__button">Забронировать</a>
                         </div>
                     </div>
                 </div>
@@ -362,7 +403,7 @@ if (file_exists($serviceTempSteps)) : ?>
                 <p class="reservation-form-left__sub-title">
                     Бронирование ни к чему не обязывает, но мы <b>будем держать ваш проект в приоритете</b>
                 </p>
-                <div class="reservation-form-card">
+                <div id="reservationFormCard" class="reservation-form-card">
                     <div class="reservation-form-card__body">
                         <p class="reservation-form-card__title">
                             Вам нужно лишь оставить заявку и рассказать немного о своих целях и задачах. После этого мы
