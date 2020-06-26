@@ -414,6 +414,7 @@ if (file_exists($serviceTempSteps)) : ?>
         <script>
             jQuery(function ($) {
                 $('#reservationFormPhone').mask('+7 (000) 000-00-00')
+                $('.accordion:first-of-type').click()
             });
 
             $('#reservationForm').on('submit', function () {
