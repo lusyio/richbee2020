@@ -37,12 +37,12 @@ $partnersPoints = [
 
 <section class="grow-point bg-white">
     <div class="container">
-        <p class="grow-point__title">Разработка личного кабинета <span>позволит вашему бизнесу вырасти</span> за
+        <p class="grow-point__title wow fadeIn">Разработка личного кабинета <span>позволит вашему бизнесу вырасти</span> за
             счет</p>
-        <p class="grow-point__after-title"><b>28</b> точек роста</p>
+        <p class="grow-point__after-title wow fadeIn"><b>28</b> точек роста</p>
 
         <div class="grow-point-card">
-            <div class="grow-point-sub-card-container">
+            <div class="grow-point-sub-card-container wow fadeIn">
                 <div data-target="workers" class="grow-point-sub-card workers active">
                     <div class="grow-point-sub-card__body">
                         <img src="/images/my-account/Secretary-PNG-Transparent-Image 1.png" alt="">
@@ -64,40 +64,40 @@ $partnersPoints = [
             </div>
             <div class="grow-point-card__body">
                 <div class="workers grow-point-card__target active">
-                    <ul class="grow-point-card__ul">
+                    <ul class="grow-point-card__ul wow fadeIn">
                         <?php foreach ($workersPoints
 
                         as $key => $workersPoint): ?>
                         <li class="grow-point-card__li"><?= $workersPoint ?></li>
                         <?php if ($key + 1 === intval(round(count($workersPoints) / 2))): ?>
                     </ul>
-                    <ul class="grow-point-card__ul">
+                    <ul class="grow-point-card__ul wow fadeIn">
                         <?php endif; ?>
                         <?php endforeach; ?>
                 </div>
 
                 <div class="clients grow-point-card__target">
-                    <ul class="grow-point-card__ul">
+                    <ul class="grow-point-card__ul wow fadeIn">
                         <?php foreach ($clientsPoints
 
                         as $key => $clientsPoint): ?>
                         <li class="grow-point-card__li"><?= $clientsPoint ?></li>
                         <?php if ($key + 1 === intval(round(count($clientsPoints) / 2))): ?>
                     </ul>
-                    <ul class="grow-point-card__ul">
+                    <ul class="grow-point-card__ul wow fadeIn">
                         <?php endif; ?>
                         <?php endforeach; ?>
                 </div>
 
                 <div class="partners grow-point-card__target">
-                    <ul class="grow-point-card__ul">
+                    <ul class="grow-point-card__ul wow fadeIn">
                         <?php foreach ($partnersPoints
 
                         as $key => $partnersPoint): ?>
                         <li class="grow-point-card__li"><?= $partnersPoint ?></li>
                         <?php if ($key + 1 === intval(round(count($partnersPoints) / 2))): ?>
                     </ul>
-                    <ul class="grow-point-card__ul">
+                    <ul class="grow-point-card__ul wow fadeIn">
                         <?php endif; ?>
                         <?php endforeach; ?>
                 </div>

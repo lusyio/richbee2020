@@ -78,16 +78,16 @@ function advantagesItem($img, $title, $info)
     <?php include $growPoint ?>
     <section class="account-planning bg-white">
         <div class="container">
-            <p class="account-planning__title">
+            <p class="account-planning__title wow fadeIn">
                 пока конкуренты занимаются устранением бардака и с головой погружены в операционку...
             </p>
-            <p class="account-planning__after-title">
+            <p class="account-planning__after-title wow fadeIn">
                 Вы заняты планированием и развитием, потому что <span>бизнес-процессы ведутся без вашего непосредственного
                 участия</span>
             </p>
             <div class="account-planning-cards-container">
                 <div class="account-planning-cards-container__col">
-                    <div class="account-planning-card">
+                    <div class="account-planning-card wow fadeIn">
                         <div class="account-planning-card__body">
                             <img src="/images/svg/my-account/schedule.svg" alt="schedule">
                             <p class="account-planning-card__info">
@@ -99,7 +99,7 @@ function advantagesItem($img, $title, $info)
                     </div>
                 </div>
                 <div class="account-planning-cards-container__col">
-                    <div class="account-planning-card">
+                    <div class="account-planning-card wow fadeIn">
                         <div class="account-planning-card__body">
                             <img src="/images/svg/my-account/deal.svg" alt="deal">
                             <p class="account-planning-card__info">
@@ -110,7 +110,7 @@ function advantagesItem($img, $title, $info)
                     </div>
                 </div>
                 <div class="account-planning-cards-container__col">
-                    <div class="account-planning-card">
+                    <div class="account-planning-card wow fadeIn">
                         <div class="account-planning-card__body">
                             <img src="/images/svg/my-account/website.svg" alt="website">
                             <p class="account-planning-card__info">
@@ -120,7 +120,7 @@ function advantagesItem($img, $title, $info)
                     </div>
                 </div>
                 <div class="account-planning-cards-container__col">
-                    <div class="account-planning-card">
+                    <div class="account-planning-card wow fadeIn">
                         <div class="account-planning-card__body">
                             <img src="/images/svg/my-account/money.svg" alt="money">
                             <p class="account-planning-card__info">
@@ -131,9 +131,9 @@ function advantagesItem($img, $title, $info)
                     </div>
                 </div>
             </div>
-            <img class="account-planning__img" src="/images/my-account/account-planning.png" alt="">
-            <p class="account-planning__info">В это же время вы</p>
-            <p class="account-planning__text"><span>Занимаетесь</span> тем, что действительно важно - <span>стратегическим планированием и
+            <img class="account-planning__img wow fadeIn" src="/images/my-account/account-planning.png" alt="">
+            <p class="account-planning__info wow fadeIn">В это же время вы</p>
+            <p class="account-planning__text wow fadeIn"><span>Занимаетесь</span> тем, что действительно важно - <span>стратегическим планированием и
                 развитием компании</span></p>
         </div>
     </section>
@@ -217,24 +217,24 @@ if (file_exists($serviceTempSteps)) : ?>
 <?php if ($serviceId === '8'): ?>
     <section class="responsibility bg-light-grey">
         <div class="container">
-            <p class="responsibility__title">Несем ответственность за качество работы</p>
-            <p class="responsibility__sub-title">Даем гарантию на 5 лет и 6 месяцев технической поддержки бесплатно</p>
+            <p class="responsibility__title wow fadeIn">Несем ответственность за качество работы</p>
+            <p class="responsibility__sub-title wow fadeIn">Даем гарантию на 5 лет и 6 месяцев технической поддержки бесплатно</p>
             <div class="responsibility-row">
-                <img class="responsibility__img" src="/images/my-account/responsibility-img.png" alt="responsibility">
+                <img class="responsibility__img wow fadeIn" src="/images/my-account/responsibility-img.png" alt="responsibility">
                 <div>
-                    <div class="responsibility-row__title">
+                    <div class="responsibility-row__title wow fadeIn">
                         <span>5</span>
                         <p>лет <small>гарантии</small></p>
                     </div>
-                    <p class="responsibility-row__info">Предоставляем честную гарантию на 5 лет при условии технической
+                    <p class="responsibility-row__info wow fadeIn">Предоставляем честную гарантию на 5 лет при условии технической
                         поддержки силами наших специалистов</p>
-                    <p class="responsibility-row__info">Это важный момент, так как мы не можем гарантировать
+                    <p class="responsibility-row__info wow fadeIn">Это важный момент, так как мы не можем гарантировать
                         работоспособность при вмешательстве сторонних специалистов</p>
-                    <div class="responsibility-row__title">
+                    <div class="responsibility-row__title wow fadeIn">
                         <span>6</span>
                         <p>месяцев <small>технической поддержки</small></p>
                     </div>
-                    <p class="responsibility-row__info">Дарим полгода полной технической поддержки для наших
+                    <p class="responsibility-row__info wow fadeIn">Дарим полгода полной технической поддержки для наших
                         клиентов</p>
                 </div>
             </div>
@@ -242,29 +242,29 @@ if (file_exists($serviceTempSteps)) : ?>
     </section>
     <section class="road-map bg-dark">
         <div class="container">
-            <p class="road-map__title">Получите <b>дорожную карту</b> по вашему проекту уже <b>через 2 недели</b></p>
-            <p class="road-map__sub-title">Таким образом вы сможете спланировать свое время и получить понимание какие
+            <p class="road-map__title wow fadeIn">Получите <b>дорожную карту</b> по вашему проекту уже <b>через 2 недели</b></p>
+            <p class="road-map__sub-title wow fadeIn">Таким образом вы сможете спланировать свое время и получить понимание какие
                 ресурсы понадобятся на каждом конкретном этапе</p>
             <div class="road-map-img">
-                <p class="road-map-img__left">
+                <p class="road-map-img__left wow fadeIn">
                     Благодаря этому разработка и ввод в эксплуатацию происходит <span>в 2-3 раза эффективнее</span>
                     <img src="/images/svg/my-account/arrow-left.svg" alt="">
                 </p>
-                <p class="road-map-img__right">
+                <p class="road-map-img__right wow fadeIn">
                     Получаете <span>понимание по срокам</span> и приоритетам разработки
                     <img src="/images/svg/my-account/arrow-right.svg" alt="">
                 </p>
-                <img src="/images/my-account/roadmap.png" alt="">
+                <img class="wow fadeIn" src="/images/my-account/roadmap.png" alt="">
             </div>
-            <button id="triggerModal" class="road-map__button blick">Получить дорожную карту</button>
+            <button id="triggerModal" class="road-map__button blick wow fadeIn">Получить дорожную карту</button>
             <div class="road-map-result">
-                <p class="road-map-result__title"><b>Первые результаты</b> вы получаете уже</p>
-                <p class="road-map-result__sub-title">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
+                <p class="road-map-result__title wow fadeIn"><b>Первые результаты</b> вы получаете уже</p>
+                <p class="road-map-result__sub-title wow fadeIn">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
                 <div class="road-map-result-row">
                     <div class="road-map-result-row__img">
-                        <img src="/images/my-account/road-map-ipad-img.png" alt="">
+                        <img class="wow fadeIn" src="/images/my-account/road-map-ipad-img.png" alt="">
                     </div>
-                    <div>
+                    <div class="wow fadeIn">
                         <p class="road-map-result-row__text">Мы разработаем прочный фундамент для личного кабинета и
                             наполним его базовым функционалом.
                             Таким образом у вас уже будет возможность опробовать кабинет, начать постепенное внедрение и
@@ -351,7 +351,7 @@ if (file_exists($serviceTempSteps)) : ?>
                 Вы будете спокойны <span>за каждый рубль</span>
             </h2>
             <div class="garant-v2-row">
-                <div class="garant-v2-row__col">
+                <div class="garant-v2-row__col wow fadeIn">
                     <p class="garant-v2-row__title">Каждые 2 недели получаете отчет о проделанных работах</p>
                     <p class="garant-v2-row__text">Мы всегда на связи с вами и уведомляем регулярно уведомляем о ходе
                         работ, а не пропадаем на 4 месяца и появляемся с системой, которая реализована не так как вы
@@ -367,7 +367,7 @@ if (file_exists($serviceTempSteps)) : ?>
                     <p class="garant-v2-row__text">Никаких скрытых платежей и затягиваний сроков под надуманными
                         предлогами</p>
                 </div>
-                <div class="garant-v2-row__col">
+                <div class="garant-v2-row__col wow fadeIn">
                     <img src="/images/img-garant.png" alt="">
                     <img class="garant-v2-row__arrow" src="/images/svg/my-account/arrow-top.svg" alt="">
                     <a class="garant-v2-row__link" href="#">Скачать пример договора</a>
@@ -387,16 +387,16 @@ if (file_exists($serviceTempSteps)) : ?>
     </section>
     <section class="bg-light-grey recent-projects">
         <div class="container">
-            <p class="recent-projects__title">
+            <p class="recent-projects__title wow fadeIn">
                 Мы сосредоточены на качестве и удобстве пользования, поэтому <span>берем в работу не более 5-6 проектов в год</span>
             </p>
-            <p class="recent-projects__sub-title">
+            <p class="recent-projects__sub-title wow fadeIn">
                 В данный момент мы можем взять в разработку <b>еще 1 проект</b>
             </p>
             <p class="recent-projects__text">Наши текущие проекты:</p>
             <div class="recent-projects-row">
                 <div class="recent-projects-row__col">
-                    <div class="recent-projects-card">
+                    <div class="recent-projects-card wow fadeIn">
                         <div class="recent-projects-card__body">
                             <p class="recent-projects-card__title">
                                 Агрегатор для единовременной покупки в строительных гипермаркетах
@@ -407,7 +407,7 @@ if (file_exists($serviceTempSteps)) : ?>
                     </div>
                 </div>
                 <div class="recent-projects-row__col">
-                    <div class="recent-projects-card reservation">
+                    <div class="recent-projects-card wow fadeIn reservation">
                         <div class="recent-projects-card__body">
                             <p class="recent-projects-card__title">
                                 Место для вашего проекта
@@ -417,7 +417,7 @@ if (file_exists($serviceTempSteps)) : ?>
                     </div>
                 </div>
                 <div class="recent-projects-row__col">
-                    <div class="recent-projects-card">
+                    <div class="recent-projects-card wow fadeIn">
                         <div class="recent-projects-card__body">
                             <p class="recent-projects-card__title">
                                 CRM-система учета клиентов для микробизнеса и самозанятых
@@ -433,13 +433,13 @@ if (file_exists($serviceTempSteps)) : ?>
     <section class="bg-light-grey reservation-form">
         <div class="container">
             <div class="reservation-form-left">
-                <p class="reservation-form-left__title">
+                <p class="reservation-form-left__title wow fadeIn">
                     Забронируйте место, чтобы <span>вывести компанию на новый уровень</span> уже в этом году
                 </p>
-                <p class="reservation-form-left__sub-title">
+                <p class="reservation-form-left__sub-title wow fadeIn">
                     Бронирование ни к чему не обязывает, но мы <b>будем держать ваш проект в приоритете</b>
                 </p>
-                <div id="reservationFormCard" class="reservation-form-card">
+                <div id="reservationFormCard" class="reservation-form-card wow fadeIn">
                     <div class="reservation-form-card__body">
                         <p class="reservation-form-card__title">
                             Вам нужно лишь оставить заявку и рассказать немного о своих целях и задачах. После этого мы
@@ -464,8 +464,8 @@ if (file_exists($serviceTempSteps)) : ?>
     </section>
     <section class="popular-questions bg-white">
         <div class="container">
-            <p class="popular-questions__title">Популярные вопросы</p>
-            <div class="popular-questions-accordion">
+            <p class="popular-questions__title wow fadeIn">Популярные вопросы</p>
+            <div class="popular-questions-accordion wow fadeIn">
                 <h3 class="accordion">Какой технологический стек мы используем?</h3>
                 <div class="panel">
                     <p>Для разработки мы используем серверные языки php и nodejs, и фреймворки Laravel и Express. Для
