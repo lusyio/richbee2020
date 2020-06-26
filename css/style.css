@@ -1379,13 +1379,13 @@ html .btn--learn-more--inverse .button-text {
     width: 78%;
 }
 
-.service-account .service-account__image img{
+.service-account .service-account__image img {
     z-index: 1;
     width: 100%;
     position: relative;
 }
 
-.service-account__image:before{
+.service-account__image:before {
     content: '';
     width: 100%;
     bottom: 0;
@@ -1983,6 +1983,11 @@ html body input:focus, html body button:focus {
     background-size: cover;
     background-position: 3rem 1.5rem;
     border-radius: 10px;
+}
+
+.recent-projects-card .recent-projects-card__footer.first {
+    background-position: 1rem -3.5rem;
+    background-size: 150%;
 }
 
 .recent-projects-card.reservation {

@@ -325,7 +325,7 @@ if (file_exists($serviceTempSteps)) : ?>
                                 Агрегатор для единовременной покупки в строительных гипермаркетах
                             </p>
                         </div>
-                        <div class="recent-projects-card__footer"
+                        <div class="recent-projects-card__footer first"
                              style="background-image: url('/images/my-account/reservation-1.jpg')"></div>
                     </div>
                 </div>
