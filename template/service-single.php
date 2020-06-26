@@ -308,6 +308,33 @@ if (file_exists($serviceTempSteps)) : ?>
             </div>
         </div>
     </div>
+    <script>
+        jQuery(function ($) {
+            $('#serviceFormModalPhone').mask('+7 (000) 000-00-00')
+        });
+
+        $('#serviceFormModal').on('submit', function () {
+            let value = $('#serviceFormModal > input').val();
+            $.ajax({
+                type: "POST",
+                url: '/ajax/',
+                data: {
+                    action: 'offer',
+                    phone: value
+                },
+                success: data => {
+                    $(this).remove();
+                    $('.modal-content__footer').before('<p class="modal-content__text">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
+                        '<b>За вами закреплен личный менеджер - Владислав Карпенко.</b>\n' +
+                        'Он свяжется с вами в течение 15 минут, чтобы обсудить детали проекта </p>')
+                },
+                error: e => {
+                    console.log(e)
+                }
+            });
+            return false;
+        })
+    </script>
 
     <section class="bg-light-grey garant-v2">
         <div class="container">
