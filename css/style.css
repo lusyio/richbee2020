@@ -4732,6 +4732,14 @@ html body .blick:before {
     .service-account .service-account__image {
         right: -12rem;
     }
+
+    .service-form-v2 .service-form-form > input, .modal-content .service-form-form > input {
+        max-width: 100%;
+    }
+
+    .service-form-v2 .service-form-form button, .modal-content .service-form-form button {
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -4821,23 +4829,54 @@ html body .blick:before {
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-
-@media (max-width: 1024px) {
-    .contacts__list {
-        padding: 0 30px;
-        margin-bottom: 30px;
-        width: 100%;
+    .road-map-result-row .road-map-result-row__img {
+        display: none;
     }
 
-    .contacts__adress {
-        padding: 0 30px;
-        width: 100%;
+    .road-map-result-row > div {
+        max-width: 100%;
     }
 
-    .contacts__info {
-        flex-direction: column;
+    .road-map-img .road-map-img__left, .road-map-img .road-map-img__right {
+        display: none;
+    }
+
+    .modal-content .modal-content__img {
+        display: none;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .modal-content .modal-content__body > div:last-of-type {
+        padding: 0;
+    }
+
+    .modal-content .modal-content__body {
+        display: block;
+    }
+
+    .modal-content .modal-content__img img {
+        position: relative;
+        left: 0;
+        max-width: 70%;
+        display: table;
+        margin: auto;
+        top: 0;
+    }
+
+    .account-planning .account-planning__img {
+        display: none;
+    }
+
+    .account-planning .account-planning__text, .account-planning .account-planning__info {
+        max-width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .account-planning .account-planning__text {
+        margin-bottom: 60px;
     }
 }
 
@@ -4901,6 +4940,186 @@ html body .blick:before {
 
     .recent-projects-card .recent-projects-card__title {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .service-account .service-account__title {
+        font-size: 36px;
+    }
+
+    .service-account .service-account__subtitle {
+        font-size: 18px;
+    }
+
+    .service-account-card {
+        max-width: 100%;
+    }
+
+    .grow-point .grow-point__title {
+        max-width: 100%;
+    }
+
+    .grow-point .grow-point__after-title {
+        font-size: 52px;
+        margin-bottom: 75px;
+    }
+
+    .account-planning .account-planning__title {
+        max-width: 100%;
+    }
+
+    .account-planning .account-planning__after-title {
+        font-size: 30px;
+    }
+
+    .account-planning-cards-container .account-planning-cards-container__col {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .account-planning .account-planning__text, .account-planning .account-planning__info {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .account-planning .account-planning__text {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+    .responsibility .responsibility__title {
+        font-size: 36px;
+    }
+
+    .responsibility-row > div {
+        width: 75%;
+    }
+
+    .road-map .road-map__title {
+        font-size: 36px;
+    }
+
+    .road-map-result .road-map-result__sub-title {
+        font-size: 50px;
+    }
+
+    .road-map-result .road-map-result__sub-title b {
+        font-size: 76px;
+    }
+
+    .road-map-result-row .road-map-result-row__text:first-of-type {
+        margin-top: 0;
+    }
+
+    .garant-v2 .garant-v2__title {
+        max-width: 100%;
+        font-size: 36px;
+    }
+
+    .service-form .service-form__title {
+        font-size: 36px;
+    }
+
+    .recent-projects .recent-projects__sub-title {
+        font-size: 36px;
+    }
+
+    .recent-projects-card {
+        width: 100%;
+    }
+
+    .popular-questions .popular-questions__title {
+        font-size: 36px;
+    }
+
+    .service-account-card {
+        box-sizing: border-box;
+    }
+
+    .service-account {
+        padding: 0 0 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .service-account .service-account__title, .grow-point .grow-point__title,
+    .responsibility .responsibility__title, .road-map .road-map__title,
+    .road-map-result .road-map-result__title, .garant-v2 .garant-v2__title,
+    .service-form .service-form__title, .recent-projects .recent-projects__sub-title,
+    .popular-questions .popular-questions__title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .service-account-card .service-account-card__title, .service-account-card .service-account-card__info {
+        max-width: 100%;
+    }
+
+    .service-account-card .service-account-card__body {
+        padding: 25px 20px;
+    }
+
+    .grow-point .grow-point__after-title, .road-map-result .road-map-result__sub-title {
+        font-size: 36px;
+    }
+
+    .road-map-result .road-map-result__sub-title b {
+        font-size: 56px;
+    }
+
+    .account-planning .account-planning__after-title {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .responsibility-row > div {
+        width: 100%;
+    }
+
+    .garant-v2-row .garant-v2-row__title, .garant-v2-row .garant-v2-row__text {
+        max-width: 100%;
+    }
+
+    .service-form .service-form__text, .recent-projects .recent-projects__title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .recent-projects-card__footer {
+        height: 197px;
+    }
+
+    .reservation-form-left .reservation-form-left__title {
+        font-size: 25px;
+    }
+
+    .reservation-form-card .reservation-form-card__body {
+        padding: 25px 20px;
+    }
+
+    .reservation-form-card form {
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .contacts__list {
+        padding: 0 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .contacts__adress {
+        padding: 0 30px;
+        width: 100%;
+    }
+
+    .contacts__info {
+        flex-direction: column;
     }
 }
 
