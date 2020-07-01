@@ -76,6 +76,142 @@ function advantagesItem($img, $title, $info)
         </div>
     </section>
     <?php include $growPoint ?>
+
+    <section class="bg-dark increase-efficiency">
+        <div class="container">
+            <p class="increase-efficiency__title">
+                Посмотрите, как личный кабинет <span>увеличивает эффективность</span> компаний
+            </p>
+            <div class="swiper-container increase-efficiency-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="increase-efficiency-slide">
+                            <img class="increase-efficiency-slide__img" src="/images/my-account/increase-efficiency/macbook-1.png" alt="">
+                            <div class="increase-efficiency-swiper-img">
+                                <p class="increase-efficiency-swiper-img__title">
+                                    Система <b>выполняет работу 10-ти менеджеров</b> в автоматическом режиме
+                                </p>
+                                <div class="increase-efficiency-swiper-img__img">
+                                </div>
+                            </div>
+                            <div class="increase-efficiency-swiper-card">
+                                <div class="increase-efficiency-swiper-card__body">
+                                    <p class="increase-efficiency-swiper-card__client">
+                                        Заказчик: АКМ ГРУПП
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__title">
+                                        Разработали автоматическую систему ежедневного обзвона 300 объектов и проверки
+                                        800 охранников
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__realization">
+                                        Срок реализации <span>- 2 месяца</span>
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__stack">
+                                        Технологический стек: <span>Laravel, MySql, React, Ростелеком</span>
+                                    </p>
+
+                                    <p class="increase-efficiency-swiper-card__desc">
+                                        Посмотрите полное описание проекта в презентации
+                                    </p>
+                                    <button class="increase-efficiency-swiper-card__btn blick">
+                                        <img src="/images/svg/my-account/download-button.svg" alt="">
+                                        Скачать презентацию
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="increase-efficiency-slide">
+                            <img class="increase-efficiency-slide__img" src="/images/my-account/increase-efficiency/macbook-2.png" alt="">
+                            <div class="increase-efficiency-swiper-img">
+                                <p class="increase-efficiency-swiper-img__title">
+                                    Система отслеживает показатели производства и <b>самостоятельно корректирует работу
+                                        персонала</b>
+                                </p>
+                                <div class="increase-efficiency-swiper-img__img">
+                                </div>
+                            </div>
+                            <div class="increase-efficiency-swiper-card">
+                                <div class="increase-efficiency-swiper-card__body">
+                                    <p class="increase-efficiency-swiper-card__client">
+                                        Заказчик: ООО “Рубеж”
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__title">
+                                        Разработали ERP-систему для работы шлакового отвала. Объединили работу
+                                        производтсва, автопарка, складов и бухгалтерии в единый интерфейс
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__realization">
+                                        Срок реализации <span>- 4 месяца</span>
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__stack">
+                                        Технологический стек: <span>php, html</span>
+                                    </p>
+
+                                    <p class="increase-efficiency-swiper-card__desc">
+                                        Посмотрите полное описание проекта в презентации
+                                    </p>
+                                    <button class="increase-efficiency-swiper-card__btn blick">
+                                        <img src="/images/svg/my-account/download-button.svg" alt="">
+                                        Скачать презентацию
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="increase-efficiency-slide">
+                            <img class="increase-efficiency-slide__img" src="/images/my-account/increase-efficiency/macbook-3.png" alt="">
+                            <div class="increase-efficiency-swiper-img">
+                                <p class="increase-efficiency-swiper-img__title">
+                                    <b>Бесплатный Task-manager</b> для небольших компаний c отчетами по работе
+                                    сотрудников
+                                </p>
+                                <div class="increase-efficiency-swiper-img__img">
+                                </div>
+                            </div>
+                            <div class="increase-efficiency-swiper-card">
+                                <div class="increase-efficiency-swiper-card__body">
+                                    <p class="increase-efficiency-swiper-card__client">
+                                        Заказчик: АКМ ГРУПП
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__title">
+                                        Разработали Saas-систему для постановки задач и ведения проектов
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__realization">
+                                        Срок реализации <span>- 4 месяца</span>
+                                    </p>
+                                    <p class="increase-efficiency-swiper-card__stack">
+                                        Технологический стек: <span>php, MySql, html</span>
+                                    </p>
+
+                                    <p class="increase-efficiency-swiper-card__desc">
+                                        Посмотрите полное описание проекта в презентации
+                                    </p>
+                                    <button class="increase-efficiency-swiper-card__btn blick">
+                                        <img src="/images/svg/my-account/download-button.svg" alt="">
+                                        Скачать презентацию
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="increase-efficiency-swiper-next">
+                    Следующий проект <img src="/images/my-account/increase-efficiency/Arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let swiper = new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.increase-efficiency-swiper-next',
+            },
+        });
+    </script>
+
     <section class="account-planning bg-white">
         <div class="container">
             <p class="account-planning__title wow fadeIn">
@@ -218,15 +354,18 @@ if (file_exists($serviceTempSteps)) : ?>
     <section class="responsibility bg-light-grey">
         <div class="container">
             <p class="responsibility__title wow fadeIn">Несем ответственность за качество работы</p>
-            <p class="responsibility__sub-title wow fadeIn">Даем гарантию на 5 лет и 6 месяцев технической поддержки бесплатно</p>
+            <p class="responsibility__sub-title wow fadeIn">Даем гарантию на 5 лет и 6 месяцев технической поддержки
+                бесплатно</p>
             <div class="responsibility-row">
-                <img class="responsibility__img wow fadeIn" src="/images/my-account/responsibility-img.png" alt="responsibility">
+                <img class="responsibility__img wow fadeIn" src="/images/my-account/responsibility-img.png"
+                     alt="responsibility">
                 <div>
                     <div class="responsibility-row__title wow fadeIn">
                         <span>5</span>
                         <p>лет <small>гарантии</small></p>
                     </div>
-                    <p class="responsibility-row__info wow fadeIn">Предоставляем честную гарантию на 5 лет при условии технической
+                    <p class="responsibility-row__info wow fadeIn">Предоставляем честную гарантию на 5 лет при условии
+                        технической
                         поддержки силами наших специалистов</p>
                     <p class="responsibility-row__info wow fadeIn">Это важный момент, так как мы не можем гарантировать
                         работоспособность при вмешательстве сторонних специалистов</p>
@@ -242,8 +381,10 @@ if (file_exists($serviceTempSteps)) : ?>
     </section>
     <section class="road-map bg-dark">
         <div class="container">
-            <p class="road-map__title wow fadeIn">Получите <b>дорожную карту</b> по вашему проекту уже <b>через 2 недели</b></p>
-            <p class="road-map__sub-title wow fadeIn">Таким образом вы сможете спланировать свое время и получить понимание какие
+            <p class="road-map__title wow fadeIn">Получите <b>дорожную карту</b> по вашему проекту уже <b>через 2
+                    недели</b></p>
+            <p class="road-map__sub-title wow fadeIn">Таким образом вы сможете спланировать свое время и получить
+                понимание какие
                 ресурсы понадобятся на каждом конкретном этапе</p>
             <div class="road-map-img">
                 <p class="road-map-img__left wow fadeIn">
