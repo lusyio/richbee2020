@@ -5083,6 +5083,41 @@ html body .blick:before {
     .account-planning .account-planning__text {
         margin-bottom: 60px;
     }
+
+    .grow-point-card {
+        display: none;
+    }
+
+    .grow-point-card.grow-point-card-mobile {
+        display: block;
+    }
+
+    .grow-point-card-mobile .grow-point-sub-card {
+        width: 100%;
+        max-width: 255px;
+        margin: auto auto 40px;
+    }
+
+    .grow-point-card-mobile.grow-point-card .grow-point-card__body {
+        padding: 40px 60px 60px;
+    }
+
+    .grow-point-card-mobile.grow-point-card .grow-point-card__body .grow-point-card__target {
+        display: flex;
+    }
+
+    .grow-point-card .grow-point-card__ul .grow-point-card__li {
+        font-size: 16px;
+    }
+
+    .grow-point-card-mobile .grow-point-sub-card .grow-point-sub-card__title {
+        font-weight: normal;
+    }
+
+    .grow-point-card-mobile .grow-point-sub-card .grow-point-sub-card__title {
+        max-width: 60%;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -5246,6 +5281,52 @@ html body .blick:before {
     .service-account {
         padding: 0 0 40px;
     }
+
+
+    .grow-point-card {
+        display: none;
+    }
+
+    .grow-point-card-mobile .grow-point-sub-card {
+        width: 100%;
+        max-width: 255px;
+        margin: auto auto 30px;
+    }
+
+    .grow-point-card-mobile.grow-point-card .grow-point-card__body {
+        padding: 40px 40px 60px;
+        border: 0;
+    }
+
+    .grow-point-card .grow-point-card__ul, .grow-point-card .grow-point-card__ul .grow-point-card__li {
+        margin-bottom: 20px;
+    }
+
+    .grow-point-card .grow-point-card__ul .grow-point-card__li:before{
+        width: 6px;
+        height: 6px;
+    }
+
+    .grow-point-card{
+        padding: 0;
+    }
+
+    .grow-point-card-mobile.grow-point-card .grow-point-card__body .grow-point-card__target {
+        display: block;
+    }
+
+    .grow-point-card .grow-point-card__ul {
+        max-width: 100%;
+    }
+
+    .grow-point-card-mobile .grow-point-sub-card .grow-point-sub-card__title {
+        font-weight: normal;
+    }
+
+    .grow-point-card-mobile .grow-point-sub-card .grow-point-sub-card__title {
+        max-width: 60%;
+    }
+
 }
 
 @media screen and (max-width: 375px) {

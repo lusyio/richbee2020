@@ -86,7 +86,8 @@ function advantagesItem($img, $title, $info)
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="increase-efficiency-slide">
-                            <img class="increase-efficiency-slide__img" src="/images/my-account/increase-efficiency/macbook-1.png" alt="">
+                            <img class="increase-efficiency-slide__img"
+                                 src="/images/my-account/increase-efficiency/macbook-1.png" alt="">
                             <div class="increase-efficiency-swiper-img">
                                 <p class="increase-efficiency-swiper-img__title">
                                     Система <b>выполняет работу 10-ти менеджеров</b> в автоматическом режиме
@@ -123,7 +124,8 @@ function advantagesItem($img, $title, $info)
                     </div>
                     <div class="swiper-slide">
                         <div class="increase-efficiency-slide">
-                            <img class="increase-efficiency-slide__img" src="/images/my-account/increase-efficiency/macbook-2.png" alt="">
+                            <img class="increase-efficiency-slide__img"
+                                 src="/images/my-account/increase-efficiency/macbook-2.png" alt="">
                             <div class="increase-efficiency-swiper-img">
                                 <p class="increase-efficiency-swiper-img__title">
                                     Система отслеживает показатели производства и <b>самостоятельно корректирует работу
@@ -161,7 +163,8 @@ function advantagesItem($img, $title, $info)
                     </div>
                     <div class="swiper-slide">
                         <div class="increase-efficiency-slide">
-                            <img class="increase-efficiency-slide__img" src="/images/my-account/increase-efficiency/macbook-3.png" alt="">
+                            <img class="increase-efficiency-slide__img"
+                                 src="/images/my-account/increase-efficiency/macbook-3.png" alt="">
                             <div class="increase-efficiency-swiper-img">
                                 <p class="increase-efficiency-swiper-img__title">
                                     <b>Бесплатный Task-manager</b> для небольших компаний c отчетами по работе
@@ -204,7 +207,7 @@ function advantagesItem($img, $title, $info)
         </div>
     </section>
     <script>
-        let swiper = new Swiper('.swiper-container', {
+        let swiper = new Swiper('.increase-efficiency-swiper', {
             loop: true,
             navigation: {
                 nextEl: '.increase-efficiency-swiper-next',
