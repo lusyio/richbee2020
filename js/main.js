@@ -94,9 +94,11 @@ let modal = document.getElementById("myModal");
 
 let btn = document.getElementById("triggerModal");
 
-btn.onclick = function () {
-    modal.style.display = "block";
-    document.body.style.overflowY = 'hidden'
+if (document.body.contains(btn)) {
+    btn.onclick = function () {
+        modal.style.display = "block";
+        document.body.style.overflowY = 'hidden'
+    }
 }
 
 window.onclick = function (event) {

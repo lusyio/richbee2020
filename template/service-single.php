@@ -9,6 +9,7 @@ endforeach;
 
 $serviceForm = __DIR__ . '/sections/service-form.php';
 $growPoint = __DIR__ . '/sections/grow-point.php';
+$onlineShop = __DIR__ . '/online-shop.php';
 $serviceTemp = __DIR__ . '/services/' . $serviceId . '.php';
 $serviceTempSteps = __DIR__ . '/services/' . $serviceId . '-steps.php';
 if ($serviceId == 1) {
@@ -29,7 +30,7 @@ function advantagesItem($img, $title, $info)
 }
 
 ?>
-<?php if ($serviceId == '1' or $serviceId == '2') : ?>
+<?php if ($serviceId == '1') : ?>
     <!-- Marquiz script start -->
     <script src="//script.marquiz.ru/v1.js" type="application/javascript"></script>
     <script>
@@ -276,6 +277,25 @@ function advantagesItem($img, $title, $info)
                 развитием компании</span></p>
         </div>
     </section>
+
+<?php elseif ($serviceId == '2'): ?>
+    <section class="online-shop-header service service-single"
+             style="padding-bottom:150px;">
+        <div class="container">
+            <div class="service-block position-relative">
+                <h1 class="service-block__title wow fadeIn">
+                    <span>Получите разработку <b>Интернет-магазина,</b></span> в котором хочется покупать
+                </h1>
+                <p class="service-block__subtitle wow fadeIn" data-wow-delay="0.2s">
+                    <?= $serviceDescription; ?>
+                </p>
+                <a href="#price" class="btn-online-shop btn-online-shop-primary wow fadeIn"
+                   data-wow-delay="0.4s">
+                    Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
 <?php else: ?>
     <section class="service service-single"
              style="padding-bottom:150px;">
@@ -300,20 +320,97 @@ function advantagesItem($img, $title, $info)
         </div>
     </section>
 <?php endif; ?>
-<?php if (file_exists($serviceTemp)) :
+<?php if ($serviceId == '2') {
+    include $onlineShop;
+} ?>
+<?php if (file_exists($serviceTemp) && $serviceId !== '2') :
 
     include $serviceTemp;
 
 endif;
 if (!empty($cases)) :
-    echo '<div class="service-block">';
-
-
+    if ($serviceId == '2') {
+        echo '<div class="service-block service-block-online-shop bg-light-grey">';
+    } else {
+        echo '<div class="service-block">';
+    }
     include __DIR__ . '/sections/section-service-cases.php';
     echo '</div>';
 endif;
 ?>
-<?php if ($serviceId == '1' or $serviceId == '2') : ?>
+
+<?php if ($serviceId == '2'): ?>
+    <div class="online-shop">
+        <section class="bg-light-grey garant-v2">
+            <div class="container">
+                <h2 class="garant-v2__title hidden wow fadeIn" data-wow-duration="1s">
+                    Вы будете спокойны <span>за каждый рубль</span>
+                </h2>
+                <div class="garant-v2-row">
+                    <div class="garant-v2-row__col wow fadeIn">
+                        <p class="garant-v2-row__title">Каждые 2 недели получаете отчет о проделанных работах</p>
+                        <p class="garant-v2-row__text">Мы всегда на связи с вами и уведомляем регулярно уведомляем о
+                            ходе
+                            работ, а не пропадаем на 4 месяца и появляемся с системой, которая реализована не так как вы
+                            хотели.</p>
+                        <p class="garant-v2-row__title">После каждого спринта вы можете тестировать новый функционал</p>
+                        <p class="garant-v2-row__text">Строим работу таким образом, чтобы каждые 2 недели личный кабинет
+                            обретал новый функционал, который вы можете не только тестировать самостоятельно, но даже
+                            внедрять в работу</p>
+                        <p class="garant-v2-row__title">Совершаете платежи по удобному для вас графику</p>
+                        <p class="garant-v2-row__text">Согласуем ежемесячный график платежей таким образом, чтобы он
+                            устраивал обе стороны</p>
+                        <p class="garant-v2-row__title">Цены и сроки фиксируются в договоре</p>
+                        <p class="garant-v2-row__text">Никаких скрытых платежей и затягиваний сроков под надуманными
+                            предлогами</p>
+                    </div>
+                    <div class="garant-v2-row__col wow fadeIn">
+                        <img src="/images/img-garant.png" alt="">
+                        <a class="garant-v2-row__link" href="#">
+                            <img src="/images/svg/online-shop/garant/download.svg" alt="">Скачать пример договора
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark price-increase">
+            <div class="container">
+                <div class="price-increase-container">
+                    <div class="price-increase-container-left">
+                        <p class="price-increase__title">
+                            Цена не увеличится.
+                            <b>Доплачивать не придется!</b>
+                        </p>
+                        <p class="price-increase__text">
+                            Если входе работ вы поймете, что вам <b>необходима реализация дополнительного
+                                функционала,</b>который не был предусмотрен изначально, мы быстро сделаем перерасчет по
+                            срокам и ценам.
+                        </p>
+                        <p class="price-increase__text">
+                            В иных случаях, все, что мы оговорили на этапе заключения договора остается в силе и не
+                            изменяется
+                        </p>
+                        <button class="btn-online-shop btn-online-shop-primary">
+                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="price-increase-container-right">
+                        <img src="/images/online-shop/price-increase/dogovor.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light-grey service-form service-form-v2">
+            <div class="container">
+                <?php include $serviceForm ?>
+            </div>
+        </section>
+    </div>
+<?php endif; ?>
+
+<?php if ($serviceId == '1') : ?>
     <a name="price"></a>
     <div class="service-single-main-new quiz">
         <div class="service">
@@ -336,7 +433,7 @@ endif;
     </div>
 <?php endif; ?>
 <?php
-if (file_exists($serviceTempSteps)) : ?>
+if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
 <a name="steps"></a>
 <div class="service-single-main-new <?= $serviceId === '8' ? 'bg-light-grey' : 'bg-white' ?>">
     <div class="service">
