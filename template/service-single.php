@@ -207,7 +207,7 @@ function advantagesItem($img, $title, $info)
         </div>
     </section>
     <script>
-        let swiper = new Swiper('.increase-efficiency-swiper', {
+        let swiperIES = new Swiper('.increase-efficiency-swiper', {
             loop: true,
             navigation: {
                 nextEl: '.increase-efficiency-swiper-next',

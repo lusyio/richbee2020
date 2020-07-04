@@ -195,6 +195,7 @@ $partnersPoints = [
             $('.grow-point-card__target').removeClass('active')
             $('.grow-point-sub-card').removeClass('active')
             $(`.${target}`).addClass('active')
+            $(`.${target} ul`).attr("style","visibility: visible; animation-name: fadeInUp;")
         })
     })
 </script>

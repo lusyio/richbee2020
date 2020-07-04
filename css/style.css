@@ -1669,6 +1669,21 @@ html .btn--learn-more--inverse .button-text {
     width: 100%;
 }
 
+.grow-point-card .grow-point-sub-card.active .grow-point-sub-card__body:before {
+    background: rgba(69, 98, 171, 0.8);
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 95%;
+    height: 20px;
+    left: 0;
+    right: 0;
+    display: block;
+    bottom: -14px;
+    margin: 0 auto;
+}
+
 .grow-point-sub-card:hover {
     cursor: pointer;
 }
@@ -1749,6 +1764,7 @@ html .btn--learn-more--inverse .button-text {
     position: absolute;
     top: -3rem;
     left: 0;
+    z-index: 2;
 }
 
 .bg-dark {
@@ -4602,6 +4618,10 @@ html body .blick:before {
     color: #4E589A;
 }
 
+.grow-point-card-mobile {
+    display: none;
+}
+
 .service-process-point .service-process__number:hover {
     cursor: pointer;
     color: #4E589A;
@@ -4887,6 +4907,10 @@ html body .blick:before {
     margin-top: 0;
 }
 
+html img {
+    max-width: 100%;
+}
+
 .service-process .service-process__title img {
     max-width: 40px;
     display: inline-block;
@@ -4901,10 +4925,26 @@ html body .blick:before {
         width: 72%;
     }
 
+    .increase-efficiency-slide__img {
+        width: 60%;
+    }
+
     .reservation-form {
         background-size: auto;
         padding-bottom: 10px;
         margin-bottom: -40px;
+    }
+
+    .increase-efficiency-swiper-img .increase-efficiency-swiper-img__title {
+        margin-left: 15px;
+    }
+
+    .increase-efficiency .container {
+        max-width: 1140px;
+    }
+
+    .increase-efficiency-swiper-next {
+        margin-right: 15px;
     }
 }
 
@@ -4944,6 +4984,37 @@ html body .blick:before {
 
     .service-form-v2 .service-form-form button, .modal-content .service-form-form button {
         position: relative;
+    }
+
+    .increase-efficiency-swiper-card .increase-efficiency-swiper-card__body {
+        padding: 50px 95px 60px 95px;
+    }
+
+    .increase-efficiency-slide {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .increase-efficiency-slide__img {
+        width: 60%;
+        position: unset;
+        order: 2;
+        margin-top: -70px;
+    }
+
+    .increase-efficiency-swiper-img {
+        order: 1;
+    }
+
+    .increase-efficiency-swiper-card {
+        margin-top: -70px;
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .increase-efficiency-swiper-img {
+        max-width: 100%;
     }
 }
 
@@ -5096,6 +5167,26 @@ html body .blick:before {
         width: 100%;
         max-width: 255px;
         margin: auto auto 40px;
+        position: relative;
+    }
+
+    .grow-point-sub-card .grow-point-sub-card__body {
+        position: relative;
+    }
+
+    .grow-point-sub-card .grow-point-sub-card__body:before {
+        background: rgba(69, 98, 171, 0.8);
+        border-radius: 5px;
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 95%;
+        height: 20px;
+        left: 0;
+        right: 0;
+        display: block;
+        bottom: -14px;
+        margin: 0 auto;
     }
 
     .grow-point-card-mobile.grow-point-card .grow-point-card__body {
@@ -5116,6 +5207,19 @@ html body .blick:before {
 
     .grow-point-card-mobile .grow-point-sub-card .grow-point-sub-card__title {
         max-width: 60%;
+    }
+
+    .increase-efficiency-slide__img {
+        width: 100%;
+    }
+
+    .increase-efficiency .increase-efficiency__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .increase-efficiency-swiper-card .increase-efficiency-swiper-card__body {
+        padding: 30px 20px;
     }
 
 }
@@ -5293,30 +5397,21 @@ html body .blick:before {
         margin: auto auto 30px;
     }
 
-    .grow-point-card-mobile.grow-point-card .grow-point-card__body {
-        padding: 40px 40px 60px;
-        border: 0;
-    }
-
     .grow-point-card .grow-point-card__ul, .grow-point-card .grow-point-card__ul .grow-point-card__li {
         margin-bottom: 20px;
     }
 
-    .grow-point-card .grow-point-card__ul .grow-point-card__li:before{
+    .grow-point-card .grow-point-card__ul .grow-point-card__li:before {
         width: 6px;
         height: 6px;
     }
 
-    .grow-point-card{
+    .grow-point-card {
         padding: 0;
     }
 
     .grow-point-card-mobile.grow-point-card .grow-point-card__body .grow-point-card__target {
         display: block;
-    }
-
-    .grow-point-card .grow-point-card__ul {
-        max-width: 100%;
     }
 
     .grow-point-card-mobile .grow-point-sub-card .grow-point-sub-card__title {
@@ -5327,16 +5422,87 @@ html body .blick:before {
         max-width: 60%;
     }
 
+    .grow-point-card .grow-point-card__ul .grow-point-card__li:before {
+        left: -20px;
+    }
+
+    .grow-point-card .grow-point-card__ul {
+        max-width: 95%;
+        margin-left: auto;
+    }
+
+    .grow-point-card-mobile.grow-point-card .grow-point-card__body {
+        padding: 40px 25px 60px;
+        border: 0;
+    }
+
+    .grow-point-card .grow-point-card__ul .grow-point-card__li {
+        font-size: 14px;
+    }
+
+    .increase-efficiency .increase-efficiency__title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .increase-efficiency-swiper-next {
+        margin-top: 25px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
+
+    .service-process__body-mobile .service-process-main p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .service-process__body-mobile .service-process-point p img {
+        max-width: 30px;
+    }
+
+    .road-map-result-row .road-map-result-row__text {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .responsibility {
+        padding-bottom: 80px;
+    }
+
+    .road-map {
+        padding: 80px 0;
+    }
+
+    .increase-efficiency-swiper-img .increase-efficiency-swiper-img__img {
+        position: absolute;
+        right: 35%;
+        z-index: 1;
+        width: 37%;
+        height: 90px;
+    }
+
+    .increase-efficiency-swiper-img .increase-efficiency-swiper-img__title {
+        font-size: 20px;
+    }
+
+    .increase-efficiency-swiper-card .increase-efficiency-swiper-card__title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .increase-efficiency-swiper-card .increase-efficiency-swiper-card__btn {
+        max-width: 100%;
+    }
+
     .service-account .service-account__title, .grow-point .grow-point__title,
     .responsibility .responsibility__title, .road-map .road-map__title,
     .road-map-result .road-map-result__title, .garant-v2 .garant-v2__title,
     .service-form .service-form__title, .recent-projects .recent-projects__sub-title,
-    .popular-questions .popular-questions__title {
-        font-size: 25px;
-        line-height: 35px;
+    .popular-questions .popular-questions__title, .increase-efficiency .increase-efficiency__title {
+        font-size: 22px;
+        line-height: 30px;
     }
 
     .service-account-card .service-account-card__title, .service-account-card .service-account-card__info {
@@ -5348,7 +5514,11 @@ html body .blick:before {
     }
 
     .grow-point .grow-point__after-title, .road-map-result .road-map-result__sub-title {
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    .grow-point .grow-point__after-title {
+        margin-bottom: 30px;
     }
 
     .road-map-result .road-map-result__sub-title b {
@@ -5368,9 +5538,19 @@ html body .blick:before {
         max-width: 100%;
     }
 
+    .account-planning .account-planning__text {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
     .service-form .service-form__text, .recent-projects .recent-projects__title {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 30px;
+        line-height: 28px;
+    }
+
+    .service-form {
+        padding: 80px 0;
     }
 
     .recent-projects-card__footer {
