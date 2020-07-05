@@ -283,15 +283,15 @@ function advantagesItem($img, $title, $info)
              style="padding-bottom:150px;">
         <div class="container">
             <div class="service-block position-relative">
-                <h1 class="service-block__title wow fadeIn">
+                <h1 class="service-block__title hidden wow fadeIn">
                     <span>Получите разработку <b>Интернет-магазина,</b></span> в котором хочется покупать
                 </h1>
-                <p class="service-block__subtitle wow fadeIn" data-wow-delay="0.2s">
-                    <?= $serviceDescription; ?>
+                <p class="service-block__subtitle hidden wow fadeIn" data-wow-delay="0.2s">
+                    За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong> год
                 </p>
-                <a href="#price" class="btn-online-shop btn-online-shop-primary wow fadeIn"
+                <a href="#price" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
                    data-wow-delay="0.4s">
-                    Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                    <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                 </a>
             </div>
         </div>
@@ -400,7 +400,7 @@ endif;
                             изменяется
                         </p>
                         <button class="btn-online-shop btn-online-shop-primary">
-                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            <span>Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt=""></span>
                         </button>
                     </div>
                     <div class="price-increase-container-right position-relative">

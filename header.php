@@ -52,6 +52,7 @@ if (file_exists($pathImgOpenGraph)) {
     <link rel="stylesheet" href="/css/swiper.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic"
           rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">      
 
 
     <title><?php echo $title; ?></title>

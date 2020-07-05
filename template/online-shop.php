@@ -45,7 +45,7 @@
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/darts.svg" alt="">
                             <div>
-                                <p class="shop-prediction-card__title">Ничего лишнего</p>
+                                <p class="shop-prediction-card__title">Удобная панель управления</p>
                                 <p class="shop-prediction-card__text">
                                     Административная панель дорабатывается под ваши потребности, таким образом остается
                                     <b>только необходимый вам функционал</b>
@@ -59,7 +59,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с Excel</p>
                                 <p class="shop-prediction-card__text">
-                                    Быстрая загрузка и выгрузка товаров и данных <b>в таблицы Excel</b>
+                                    Быстрая загрузка и выгрузка товаров и данных <b>в таблицы Excel</b>, массовое изменеие цен и характеристик товаров
                                 </p>
                             </div>
                         </div>
@@ -68,10 +68,10 @@
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/info.svg" alt="">
                             <div>
-                                <p class="shop-prediction-card__title">Информация всегда доступна</p>
+                                <p class="shop-prediction-card__title">Аналитика и отчеты</p>
                                 <p class="shop-prediction-card__text">
                                     <b>Вы сможете просматривать всю аналитику</b> по продажам, в срезах по товарам,
-                                    дате, и т.д.
+                                    дате, категорям и т.д.
                                 </p>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                                 <p class="shop-prediction-card__title">Редактируйте контент самостоятельно</p>
                                 <p class="shop-prediction-card__text">
                                     Быстро и просто <b>редактируйте любую информацию</b> на сайте. Не нужно искать
-                                    разработчика чтобы внести изменения
+                                    разработчика, чтобы внести изменения
                                 </p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/phone.svg" alt="">
                             <div>
-                                <p class="shop-prediction-card__title">Будьте в курсе событий</p>
+                                <p class="shop-prediction-card__title">Уведомление о заказах в Telegram</p>
                                 <p class="shop-prediction-card__text">
                                     <b>Все уведомления</b> о новых заказах <b>дублируются в Telegram</b> вам и вашим
                                     менеджерам
@@ -104,7 +104,7 @@
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/list.svg" alt="">
                             <div>
-                                <p class="shop-prediction-card__title">Поможем вам разобраться</p>
+                                <p class="shop-prediction-card__title">Документация и видео-инструкции</p>
                                 <p class="shop-prediction-card__text">
                                     Мы подготовим для вас всю документацию и <b>запишем видео-инструкции</b> по работе с
                                     административной панелью
