@@ -5750,13 +5750,62 @@ html img {
         margin-right: 15px;
     }
 
-    .online-shop .container{
+    .online-shop .container {
         padding: 0 15px;
         box-sizing: border-box;
     }
 }
 
 @media screen and (max-width: 991px) {
+
+    .online-shop .responsibility .responsibility__img {
+        display: none;
+    }
+
+    .online-shop .responsibility, .shop-prediction, .service-block-online-shop, .choose-variants {
+        padding: 40px 0;
+    }
+
+    .shop-prediction-container-cards {
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .online-shop {
+        padding: 15px 0;
+        background-color: #f6f6f6;
+    }
+
+    .profit-with-us-row .profit-with-us-row__col {
+        max-width: 100%;
+        border: 0;
+    }
+
+    .choose-variants-card {
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .service-block-online-shop .serviceInfo h2 {
+        max-width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .service-block-online-shop .serviceInfo p {
+        display: none;
+    }
+
+    .online-shop .garant-v2-row .garant-v2-row__col {
+        max-width: 100%;
+    }
+
+    .online-shop .service-form-v2 .service-form-form > input {
+        max-width: 100%;
+    }
+
     .container {
         /*max-width: 720px;*/
         padding: 0 15px;
