@@ -2,30 +2,30 @@
 
     <section class="responsibility bg-light-grey">
         <div class="container">
-            <p class="responsibility__title wow fadeIn"><b>Несем ответственность</b> за качество работы</p>
-            <p class="responsibility__sub-title wow fadeIn">
+            <p class="responsibility__title hidden wow fadeIn" data-wow-delay="0.1s"><b>Несем ответственность</b> за качество работы</p>
+            <p class="responsibility__sub-title hidden wow fadeIn" data-wow-delay="0.2s">
                 Вы получаете гарантию на 1 год <br> и 2 месяца технической поддержки бесплатно бесплатно</p>
             <div class="responsibility-row">
-                <img class="responsibility__img wow fadeIn" src="/images/my-account/responsibility-img.png"
+                <img class="responsibility__img hidden wow fadeIn" data-wow-delay="0.3s" data-wow-duration="2s" src="/images/my-account/responsibility-img.jpg"
                      alt="responsibility">
                 <div>
-                    <div class="responsibility-row__title wow fadeIn">
-                        <span>1</span>
-                        <p>год <small>гарантии</small></p>
+                    <div class="responsibility-row__title">
+                        <span class="hidden wow fadeIn" data-wow-delay="0.3s">1</span>
+                        <p  class="hidden wow fadeIn" data-wow-delay="0.5s">год <small>гарантии</small></p>
                     </div>
-                    <p class="responsibility-row__info wow fadeIn">
+                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.6s">
                         Вы получаете гарантию на 1 год при условии технической поддержки только со стороны наших
                         специалистов
                     </p>
-                    <p class="responsibility-row__info wow fadeIn">
+                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.7s">
                         Это важный момент, так как мы не можем гарантировать работоспособность при вмешательстве
                         сторонних специалистов
                     </p>
-                    <div class="responsibility-row__title wow fadeIn">
-                        <span>2</span>
-                        <p>месяца <small>тех. поддержки</small></p>
+                    <div class="responsibility-row__title">
+                        <span class="hidden wow fadeIn" data-wow-delay="0.7s">2</span>
+                        <p class="hidden wow fadeIn" data-wow-delay="0.9s">месяца <small>тех. поддержки</small></p>
                     </div>
-                    <p class="responsibility-row__info wow fadeIn">
+                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="1s">
                         Вы получаете 2 месяца полной технической поддержки со стороны опытных специалистов
                     </p>
                 </div>
@@ -35,19 +35,19 @@
 
     <section class="shop-prediction bg-light-grey">
         <div class="container">
-            <p class="shop-prediction__title">Какой интернет-магазин вы получите?</p>
+            <p class="shop-prediction__title hidden wow fadeIn">Какой интернет-магазин вы получите?</p>
 
-            <div class="shop-prediction-container">
-                <img data-rellax-speed="-1" class="rellax" src="/images/online-shop/shop-prediction/iMac.png" alt="">
-                <p class="shop-prediction-container__title"><span>01</span>Которым <b>удобно управлять</b></p>
-                <div class="shop-prediction-container-cards">
+            <div class="shop-prediction-container" id="shop-prediction-admin">
+                <img class="shop-imac hidden wow fadeIn" data-wow-delay="0.3s" src="/images/online-shop/shop-prediction/iMac.jpg" alt="">
+                <p class="shop-prediction-container__title hidden wow fadeIn" data-wow-delay="0.1s"><span>01</span>Которым <b>удобно управлять</b></p>
+                <div class="shop-prediction-container-cards hidden wow fadeIn" data-wow-delay="0.2s">
                     <div class="shop-prediction-card">
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/darts.svg" alt="">
                             <div>
                                 <p class="shop-prediction-card__title">Удобная панель управления</p>
                                 <p class="shop-prediction-card__text">
-                                    Административная панель дорабатывается под ваши потребности, таким образом остается
+                                    Административная панель дорабатывается под ваши потребности и имеет
                                     <b>только необходимый вам функционал</b>
                                 </p>
                             </div>
@@ -59,7 +59,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с Excel</p>
                                 <p class="shop-prediction-card__text">
-                                    Быстрая загрузка и выгрузка товаров и данных <b>в таблицы Excel</b>, массовое изменеие цен и характеристик товаров
+                                    Быстрая загрузка и выгрузка товаров из <b>таблицы Excel</b>, массовое изменение цен и характеристик товаров
                                 </p>
                             </div>
                         </div>
@@ -205,33 +205,32 @@
                 </div>
             </div>
 
-            <div class="shop-prediction-container">
-                <img data-rellax-speed="-1" style="top: -10rem;" class="rellax"
+            <div class="shop-prediction-container" id="shop-prediction-seo">
+                <img class="shop-keynote hidden wow fadeIn" data-wow-delay="0.2s"
                      src="/images/online-shop/shop-prediction/notebook.png" alt="">
-                <img data-rellax-speed="-1.2" style="top: 0;" class="rellax"
+                <img class="shop-blank hidden wow fadeIn" data-wow-delay="0.3s"
                      src="/images/online-shop/shop-prediction/blank.png" alt="">
-                <p class="shop-prediction-container__title"><span>02</span>Который <b>удобно продвигать</b></p>
-                <div class="shop-prediction-container-cards">
+                <p class="shop-prediction-container__title hidden wow fadeIn"><span>02</span>Который <b>удобно продвигать</b></p>
+                <div class="shop-prediction-container-cards hidden wow fadeIn" data-wow-delay="0.2s">
+                <div class="shop-prediction-card">
+                    <div class="shop-prediction-card__body">
+                        <img src="/images/svg/online-shop/shop-prediction/rocket.svg" alt="">
+                        <div>
+                            <p class="shop-prediction-card__title">Базовая seo-оптимизация</p>
+                            <p class="shop-prediction-card__text">
+                                В ходе разработки будет осуществлена <b>базовая seo-оптимизация сайта</b> и подключены
+                                счетчики аналитики.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                     <div class="shop-prediction-card">
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/cart.svg" alt="">
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с Яндекс.Маркетом</p>
                                 <p class="shop-prediction-card__text">
-                                    Подробное описание
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-prediction-card">
-                        <div class="shop-prediction-card__body">
-                            <img src="/images/svg/online-shop/shop-prediction/rocket.svg" alt="">
-                            <div>
-                                <p class="shop-prediction-card__title">Базовая seo-оптимизация</p>
-                                <p class="shop-prediction-card__text">
-                                    В ходе разработки будет осуществлена базовая seo-оптимизация сайта и подключены
-                                    счетчики аналитики. После сдачи проекта <b>seо-специалист сможет сразу приступить к
-                                        работе</b>
+                                    Товары с сайта будут автоматически попадать на площадку <b>Яндекс.Маркет</b>
                                 </p>
                             </div>
                         </div>
@@ -242,7 +241,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Валидный код</p>
                                 <p class="shop-prediction-card__text">
-                                    Здесь должно быть подробное описание
+                                    Поисковые системы обожают сайты с "правильным кодом". Ваш интернет-магазин будет одним из них.
                                 </p>
                             </div>
                         </div>

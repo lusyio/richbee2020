@@ -4599,6 +4599,7 @@ html body .blick:before {
     line-height: 15px;
     margin-bottom: 21px;
     margin-top: 0;
+    max-width: 300px;
 }
 
 .online-shop .responsibility .responsibility__title b {
@@ -4607,6 +4608,7 @@ html body .blick:before {
 
 .online-shop .responsibility .responsibility__sub-title {
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
@@ -4644,7 +4646,10 @@ html body .blick:before {
 }
 
 .responsibility-row > div {
-    width: 31%;
+  width: 31%;
+  z-index: 1;
+  left: -60px;
+  position: relative;
 }
 
 .responsibility-row .responsibility-row__title {
@@ -4688,7 +4693,12 @@ html body .blick:before {
 }
 
 .responsibility .responsibility__img {
-    width: 58%;
+  width: 62%;
+  height: 100%;
+  position: relative;
+  top: 24px;
+      left: -45px;
+  z-index: 0;
 }
 
 .shop-prediction {
@@ -4713,7 +4723,37 @@ html body .blick:before {
     position: absolute;
     z-index: 0;
     right: -6rem;
-    top: -2rem;
+    top: -1rem;
+}
+
+.shop-prediction-container > img.shop-imac {
+    max-width: 572px;
+    transition: 0.5s all;
+}
+
+#shop-prediction-admin:hover img.shop-imac {
+  transform: scale(1.03,1.03);
+  transition: 0.4s all;
+}
+
+.shop-prediction-container > img.shop-keynote {
+    top: -10rem;
+    transition: 0.6s all;
+}
+
+.shop-prediction-container > img.shop-blank {
+    max-width: 619px;
+    transition: 0.8s all;
+}
+
+#shop-prediction-seo:hover img.shop-keynote {
+  transform: rotate(1deg);
+  transition: 0.6s all;
+}
+
+#shop-prediction-seo:hover img.shop-blank {
+  transform: rotate(-3deg);
+  transition: 0.5s all;
 }
 
 .shop-prediction-container .shop-prediction-container__title {
@@ -4768,6 +4808,15 @@ html body .blick:before {
     margin-bottom: 28px;
     width: 100%;
     min-height: 162px;
+    transition: 0.4s all;
+    position: relative;
+    top: 0px;
+    cursor: default;
+}
+
+.shop-prediction-card:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    transition: 0.2s all;
 }
 
 .shop-prediction-card img {
