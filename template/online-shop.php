@@ -678,7 +678,7 @@
                         </div>
                         <p class="choose-variants-card__price">от 120 000 рублей</p>
                         <button class="btn-online-shop btn-online-shop-primary">
-                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            <span>Рассчитать стоимость</span> <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </button>
                     </div>
                 </div>
@@ -697,7 +697,7 @@
                         </div>
                         <p class="choose-variants-card__price">от 350 000 рублей</p>
                         <button class="btn-online-shop btn-online-shop-primary">
-                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            <span>Рассчитать стоимость</span> <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </button>
                     </div>
                 </div>

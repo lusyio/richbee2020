@@ -22,7 +22,7 @@
                 <input id="serviceFormPhone" placeholder="Введите ваш телефон" class="" type="text"
                        minlength="18"
                        required>
-                <button class="blick <?= $serviceId == '2' ? 'btn-online-shop btn-online-shop-primary' : '' ?>" type="submit">Получить предложение</button>
+                <button class="blick <?= $serviceId == '2' ? 'btn-online-shop btn-online-shop-primary' : '' ?>" type="submit"><span>Получить предложение</span></button>
             </form>
             <p class="service-form-card__footer">
                 <?= $serviceId == '2'
