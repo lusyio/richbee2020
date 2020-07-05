@@ -651,64 +651,6 @@
                 </div>
             </div>
         </div>
-        <script>
-            let shopPredictionContainerCards1 = new Swiper('#shop-prediction-container-cards-1', {
-                spaceBetween: 15,
-                pagination: {
-                    el: '#shop-prediction-container-cards-1 .swiper-pagination',
-                    type: 'custom',
-                    renderCustom: function (swiper, current, total) {
-                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-                    }
-                },
-                navigation: {
-                    nextEl: '#shop-prediction-container-cards-1 .shop-prediction-swiper-button-next',
-                    prevEl: '#shop-prediction-container-cards-1 .shop-prediction-swiper-button-prev',
-                },
-            });
-            let shopPredictionContainerCards2 = new Swiper('#shop-prediction-container-cards-2', {
-                spaceBetween: 15,
-                pagination: {
-                    el: '#shop-prediction-container-cards-2 .swiper-pagination',
-                    type: 'custom',
-                    renderCustom: function (swiper, current, total) {
-                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-                    }
-                },
-                navigation: {
-                    nextEl: '#shop-prediction-container-cards-2 .shop-prediction-swiper-button-next',
-                    prevEl: '#shop-prediction-container-cards-2 .shop-prediction-swiper-button-prev',
-                },
-            });
-            let shopPredictionContainerCards3 = new Swiper('#shop-prediction-container-cards-3', {
-                spaceBetween: 15,
-                pagination: {
-                    el: '#shop-prediction-container-cards-3 .swiper-pagination',
-                    type: 'custom',
-                    renderCustom: function (swiper, current, total) {
-                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-                    }
-                },
-                navigation: {
-                    nextEl: '#shop-prediction-container-cards-3 .shop-prediction-swiper-button-next',
-                    prevEl: '#shop-prediction-container-cards-3 .shop-prediction-swiper-button-prev',
-                },
-            });
-            let shopPredictionContainerCards4 = new Swiper('#shop-prediction-container-cards-4', {
-                spaceBetween: 15,
-                pagination: {
-                    el: '#shop-prediction-container-cards-4 .swiper-pagination',
-                    type: 'custom',
-                    renderCustom: function (swiper, current, total) {
-                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-                    }
-                },
-                navigation: {
-                    nextEl: '#shop-prediction-container-cards-4 .shop-prediction-swiper-button-next',
-                    prevEl: '#shop-prediction-container-cards-4 .shop-prediction-swiper-button-prev',
-                },
-            });
-        </script>
     </section>
 
     <section class="choose-variants bg-light-grey">
