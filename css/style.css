@@ -5590,6 +5590,10 @@ html body .service-form-card .btn-online-shop:hover {
     margin-top: 0;
 }
 
+.shop-prediction-container-cards-mobile {
+    display: none;
+}
+
 .swiper-slide:not(:first-of-type) .increase-efficiency-swiper-img .increase-efficiency-swiper-img__title {
     max-width: 390px;
 }
@@ -5882,6 +5886,14 @@ html img {
         line-height: 28px;
     }
 
+    .shop-prediction-container:not(:last-of-type) {
+        margin-bottom: 60px;
+    }
+
+    .shop-prediction-container-cards {
+        display: none;
+    }
+
     .online-shop-header .service-block__subtitle {
         font-size: 12px;
         line-height: 20px;
@@ -5974,7 +5986,7 @@ html img {
         margin-bottom: 15px;
     }
 
-    .profit-with-us-row__col > div{
+    .profit-with-us-row__col > div {
         padding-bottom: 50px;
     }
 
@@ -5988,28 +6000,28 @@ html img {
         max-width: 70%;
     }
 
-    .online-shop .container{
+    .online-shop .container {
         padding: 0 20px;
     }
 
-    .profit-with-us .profit-with-us__title{
+    .profit-with-us .profit-with-us__title {
         margin-bottom: 60px;
         padding-top: 35px;
     }
 
-    .choose-variants-card .choose-variants-card__body{
+    .choose-variants-card .choose-variants-card__body {
         padding: 30px 20px;
     }
 
-    .service-block-online-shop .serviceInfo h2{
+    .service-block-online-shop .serviceInfo h2 {
         max-width: 80%;
     }
 
-    .online-shop .case-section__item{
+    .online-shop .case-section__item {
         background-color: #FBFBFB;
     }
 
-    .online-shop .garant-v2 .garant-v2__title{
+    .online-shop .garant-v2 .garant-v2__title {
         text-align: left;
     }
 
@@ -6396,6 +6408,79 @@ html img {
         padding: 30px 20px;
     }
 
+    .shop-prediction-container-cards-mobile {
+        display: block;
+    }
+
+    .shop-prediction-card {
+        margin-bottom: 0;
+        box-shadow: none;
+    }
+
+    .shop-prediction-card .shop-prediction-card__body {
+        min-height: 146px;
+    }
+
+    .shop-prediction-container-cards-control {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .shop-prediction-container-cards-control div {
+        display: block;
+        position: relative;
+        bottom: 0;
+        width: auto;
+    }
+
+    .shop-prediction-container-cards-control div .swiper-pagination-current {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 14px;
+        color: #333333;
+    }
+
+    .shop-prediction-container-cards-control .swiper-pagination {
+        align-self: center;
+    }
+
+    .shop-prediction-container-cards-control div .swiper-pagination-total, .shop-prediction-container-cards-control div {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #333333;
+    }
+
+    .shop-prediction-container-cards-control .shop-prediction-swiper-button-prev:focus,
+    .shop-prediction-container-cards-control .shop-prediction-swiper-button-next:focus {
+        outline: none;
+    }
+
+    .shop-prediction-container-cards-control .shop-prediction-swiper-button-prev,
+    .shop-prediction-container-cards-control .shop-prediction-swiper-button-next {
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), inset 0 4px 1px rgba(150, 150, 150, 0.05);
+        padding: 15px 13px;
+        max-width: 39px;
+        max-height: 39px;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+    .shop-prediction-container-cards-control .shop-prediction-swiper-button-prev img,
+    .shop-prediction-container-cards-control .shop-prediction-swiper-button-next img {
+        vertical-align: text-top;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -6466,11 +6551,11 @@ html img {
         font-size: 36px;
     }
 
-    .price-increase-container-right{
+    .price-increase-container-right {
         top: 25%;
     }
 
-    .online-shop .service-form-card .service-form-card__img{
+    .online-shop .service-form-card .service-form-card__img {
         top: 20%;
     }
 

@@ -113,6 +113,96 @@
                         </div>
                     </div>
                 </div>
+                <div id="shop-prediction-container-cards-1"
+                     class="swiper-container shop-prediction-container-cards shop-prediction-container-cards-mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/darts.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Ничего лишнего</p>
+                                    <p class="shop-prediction-card__text">
+                                        Административная панель дорабатывается под ваши потребности, таким образом
+                                        остается
+                                        <b>только необходимый вам функционал</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/excel.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Интеграция с Excel</p>
+                                    <p class="shop-prediction-card__text">
+                                        Быстрая загрузка и выгрузка товаров и данных <b>в таблицы Excel</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/info.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Информация всегда доступна</p>
+                                    <p class="shop-prediction-card__text">
+                                        <b>Вы сможете просматривать всю аналитику</b> по продажам, в срезах по
+                                        товарам,
+                                        дате, и т.д.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/content.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Редактируйте контент самостоятельно</p>
+                                    <p class="shop-prediction-card__text">
+                                        Быстро и просто <b>редактируйте любую информацию</b> на сайте. Не нужно
+                                        искать
+                                        разработчика чтобы внести изменения
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/phone.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Будьте в курсе событий</p>
+                                    <p class="shop-prediction-card__text">
+                                        <b>Все уведомления</b> о новых заказах <b>дублируются в Telegram</b> вам и
+                                        вашим
+                                        менеджерам
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/list.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Поможем вам разобраться</p>
+                                    <p class="shop-prediction-card__text">
+                                        Мы подготовим для вас всю документацию и <b>запишем видео-инструкции</b> по
+                                        работе с
+                                        административной панелью
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-prediction-container-cards-control">
+                        <div class="shop-prediction-swiper-button-prev">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="shop-prediction-swiper-button-next">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="shop-prediction-container">
@@ -179,6 +269,80 @@
                         </div>
                     </div>
                 </div>
+                <div id="shop-prediction-container-cards-2"
+                     class="swiper-container shop-prediction-container-cards shop-prediction-container-cards-mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/cart.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Интеграция с Яндекс.Маркетом</p>
+                                    <p class="shop-prediction-card__text">
+                                        Подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/rocket.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Базовая seo-оптимизация</p>
+                                    <p class="shop-prediction-card__text">
+                                        В ходе разработки будет осуществлена базовая seo-оптимизация сайта и подключены
+                                        счетчики аналитики. После сдачи проекта <b>seо-специалист сможет сразу
+                                            приступить к
+                                            работе</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/check.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Валидный код</p>
+                                    <p class="shop-prediction-card__text">
+                                        Здесь должно быть подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/mail.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">
+                                        Система e-mail рассылок с сегментацией клиентов
+                                    </p>
+                                    <p class="shop-prediction-card__text">
+                                        Подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/bag.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Система лояльности</p>
+                                    <p class="shop-prediction-card__text">
+                                        С промокодами, накопительными и разовыми скидками (продолжение)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-prediction-container-cards-control">
+                        <div class="shop-prediction-swiper-button-prev">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="shop-prediction-swiper-button-next">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="shop-prediction-container">
@@ -230,6 +394,67 @@
                                     Подробное описание
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop-prediction-container-cards-3"
+                     class="swiper-container shop-prediction-container-cards shop-prediction-container-cards-mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/rocket.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Высокая скорость работы</p>
+                                    <p class="shop-prediction-card__text">
+                                        Больше 80 баллов в PageSpead. Здесь должно быть подробное описание данной
+                                        особенности
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/person.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Личный кабинет для каждого клиента</p>
+                                    <p class="shop-prediction-card__text">
+                                        С историей заказов, покупок, корзиной и тд, (далее еще немного описания)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/mobile.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Мобильная адаптация</p>
+                                    <p class="shop-prediction-card__text">
+                                        Здесь должно быть подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/list-2.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">
+                                        Информативные красивые письма
+                                    </p>
+                                    <p class="shop-prediction-card__text">
+                                        Подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-prediction-container-cards-control">
+                        <div class="shop-prediction-swiper-button-prev">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="shop-prediction-swiper-button-next">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-right.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -297,6 +522,77 @@
                         </div>
                     </div>
                 </div>
+                <div id="shop-prediction-container-cards-4"
+                     class="swiper-container shop-prediction-container-cards shop-prediction-container-cards-mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/money.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Интеграция с сервисами оплаты</p>
+                                    <p class="shop-prediction-card__text">
+                                        Здесь должно быть подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/delivery.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Интеграция с сервисами доставки</p>
+                                    <p class="shop-prediction-card__text">
+                                        Подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/integration.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Интеграция с любой CRM или онлайн-чатом</p>
+                                    <p class="shop-prediction-card__text">
+                                        Здесь должно быть подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/shield.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">
+                                        Соответствие 54 ФЗ
+                                    </p>
+                                    <p class="shop-prediction-card__text">
+                                        Подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide shop-prediction-card">
+                            <div class="shop-prediction-card__body">
+                                <img src="/images/svg/online-shop/shop-prediction/telephony.svg" alt="">
+                                <div>
+                                    <p class="shop-prediction-card__title">Настройка ip-телефонии</p>
+                                    <p class="shop-prediction-card__text">
+                                        Подробное описание
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-prediction-container-cards-control">
+                        <div class="shop-prediction-swiper-button-prev">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="shop-prediction-swiper-button-next">
+                            <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -355,6 +651,64 @@
                 </div>
             </div>
         </div>
+        <script>
+            let shopPredictionContainerCards1 = new Swiper('#shop-prediction-container-cards-1', {
+                spaceBetween: 15,
+                pagination: {
+                    el: '#shop-prediction-container-cards-1 .swiper-pagination',
+                    type: 'custom',
+                    renderCustom: function (swiper, current, total) {
+                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
+                    }
+                },
+                navigation: {
+                    nextEl: '#shop-prediction-container-cards-1 .shop-prediction-swiper-button-next',
+                    prevEl: '#shop-prediction-container-cards-1 .shop-prediction-swiper-button-prev',
+                },
+            });
+            let shopPredictionContainerCards2 = new Swiper('#shop-prediction-container-cards-2', {
+                spaceBetween: 15,
+                pagination: {
+                    el: '#shop-prediction-container-cards-2 .swiper-pagination',
+                    type: 'custom',
+                    renderCustom: function (swiper, current, total) {
+                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
+                    }
+                },
+                navigation: {
+                    nextEl: '#shop-prediction-container-cards-2 .shop-prediction-swiper-button-next',
+                    prevEl: '#shop-prediction-container-cards-2 .shop-prediction-swiper-button-prev',
+                },
+            });
+            let shopPredictionContainerCards3 = new Swiper('#shop-prediction-container-cards-3', {
+                spaceBetween: 15,
+                pagination: {
+                    el: '#shop-prediction-container-cards-3 .swiper-pagination',
+                    type: 'custom',
+                    renderCustom: function (swiper, current, total) {
+                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
+                    }
+                },
+                navigation: {
+                    nextEl: '#shop-prediction-container-cards-3 .shop-prediction-swiper-button-next',
+                    prevEl: '#shop-prediction-container-cards-3 .shop-prediction-swiper-button-prev',
+                },
+            });
+            let shopPredictionContainerCards4 = new Swiper('#shop-prediction-container-cards-4', {
+                spaceBetween: 15,
+                pagination: {
+                    el: '#shop-prediction-container-cards-4 .swiper-pagination',
+                    type: 'custom',
+                    renderCustom: function (swiper, current, total) {
+                        return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
+                    }
+                },
+                navigation: {
+                    nextEl: '#shop-prediction-container-cards-4 .shop-prediction-swiper-button-next',
+                    prevEl: '#shop-prediction-container-cards-4 .shop-prediction-swiper-button-prev',
+                },
+            });
+        </script>
     </section>
 
     <section class="choose-variants bg-light-grey">
@@ -411,12 +765,16 @@
                 <a class="online-shop-modal__img-link" href="/richbee-presentation.pdf">
                     <img src="/images/online-shop/modal/presentation.jpg" alt="">
                 </a>
-                <a class="online-shop-modal__link" href="/richbee-presentation.pdf">Скачать презентацию компании <br> [PDF, 1.2 мб]</a>
+                <a class="online-shop-modal__link" href="/richbee-presentation.pdf">Скачать презентацию компании <br>
+                    [PDF, 1.2 мб]</a>
                 <div class="footer__social">
                     <div>
-                        <a href="https://vk.com/im?media=&sel=-89243398" class="hidden wow fadeIn" target="_blank"><img class="svg" src="/images/svg/vk.svg"/></a>
-                        <a href="https://tlgg.ru/@termitFOvlad" class="hidden wow fadeIn" data-wow-delay="0.1s" target="_blank"><img class="svg" src="/images/svg/telegram.svg"/></a>
-                        <a href="https://wa.me/79263815773" class="hidden wow fadeIn" data-wow-delay="0.2s" target="_blank"><img class="svg" src="/images/svg/whatsapp.svg"/></a>
+                        <a href="https://vk.com/im?media=&sel=-89243398" class="hidden wow fadeIn" target="_blank"><img
+                                    class="svg" src="/images/svg/vk.svg"/></a>
+                        <a href="https://tlgg.ru/@termitFOvlad" class="hidden wow fadeIn" data-wow-delay="0.1s"
+                           target="_blank"><img class="svg" src="/images/svg/telegram.svg"/></a>
+                        <a href="https://wa.me/79263815773" class="hidden wow fadeIn" data-wow-delay="0.2s"
+                           target="_blank"><img class="svg" src="/images/svg/whatsapp.svg"/></a>
                     </div>
                 </div>
             </div>
