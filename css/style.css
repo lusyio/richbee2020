@@ -1470,11 +1470,15 @@ html .btn--learn-more--inverse .button-text {
     margin-bottom: 21px;
 }
 
+.online-shop {
+    overflow-x: hidden;
+}
+
 .online-shop-modal .online-shop-modal__img-link img {
     transition: 145ms ease-in-out;
 }
 
-.online-shop-modal .online-shop-modal__img-link:hover img{
+.online-shop-modal .online-shop-modal__img-link:hover img {
     transform: scale(1.1);
 }
 
@@ -5744,6 +5748,11 @@ html img {
 
     .increase-efficiency-swiper-next {
         margin-right: 15px;
+    }
+
+    .online-shop .container{
+        padding: 0 15px;
+        box-sizing: border-box;
     }
 }
 

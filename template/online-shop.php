@@ -400,7 +400,6 @@
             </div>
         </div>
     </section>
-    <button id="triggerModal">triggerModal</button>
     <div id="myModal" class="modal online-shop-modal">
         <div class="modal-content">
             <div class="modal-content__body">
