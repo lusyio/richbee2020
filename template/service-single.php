@@ -289,7 +289,7 @@ function advantagesItem($img, $title, $info)
                 <p class="service-block__subtitle hidden wow fadeIn" data-wow-delay="0.2s">
                     За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong> год
                 </p>
-                <a href="#price" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
+                <a href="/price/" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
                    data-wow-delay="0.4s">
                     <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                 </a>
@@ -399,9 +399,9 @@ endif;
                             В иных случаях, все, что мы оговорили на этапе заключения договора остается в силе и не
                             изменяется
                         </p>
-                        <button class="btn-online-shop btn-online-shop-primary">
-                            <span>Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt=""></span>
-                        </button>
+                        <a href="/price/" class="btn-online-shop btn-online-shop-primary">
+                            <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                        </a>
                     </div>
                     <div class="price-increase-container-right position-relative">
                         <img src="/images/online-shop/price-increase/blank.png" alt="">

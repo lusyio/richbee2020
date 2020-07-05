@@ -599,7 +599,7 @@
             <div class="profit-with-us-row">
 
                 <div class="profit-with-us-row__col">
-                    <p class="profit-with-us__title">
+                    <p class="profit-with-us__title hidden wow fadeIn">
                         <b>Вам выгодно с нами работать</b> потому что
                     </p>
                 </div>
@@ -611,37 +611,37 @@
             <div class="profit-with-us-row">
 
                 <div class="profit-with-us-row__col">
-                    <span>01</span>
+                    <span class="hidden wow fadeIn" data-wow-delay="0.1s">01</span>
                     <div>
-                        <p class="profit-with-us-row__title">
+                        <p class="profit-with-us-row__title hidden wow fadeIn" data-wow-delay="0.2s">
                             Личный менеджер всегда на связи
                         </p>
-                        <p class="profit-with-us-row__text">
+                        <p class="profit-with-us-row__text hidden wow fadeIn" data-wow-delay="0.3s">
                             Теперь незачем волноваться: ваш <b>личный менеджер ответит на все ваши вопросы</b> и
                             порекомендует наилучшее решение
                         </p>
                     </div>
                 </div>
                 <div class="profit-with-us-row__col">
-                    <span>02</span>
+                    <span class="hidden wow fadeIn" data-wow-delay="0.3s">02</span>
                     <div>
-                        <p class="profit-with-us-row__title">
+                        <p class="profit-with-us-row__title hidden wow fadeIn" data-wow-delay="0.4s">
                             Поэтапная раздельная оплата
                         </p>
-                        <p class="profit-with-us-row__text">
+                        <p class="profit-with-us-row__text hidden wow fadeIn" data-wow-delay="0.5s">
                             <b>Вы платите за каждый этап работы отдельно,</b> чтобы удостовериться в качестве нашей
                             работы. Не переживайте, что нужно вносить всю сумму сразу
                         </p>
                     </div>
                 </div>
                 <div class="profit-with-us-row__col">
-                    <span>03</span>
+                    <span class="hidden wow fadeIn" data-wow-delay="0.6s">03</span>
                     <div>
-                        <p class="profit-with-us-row__title">
-                            6 месяцев гарантийного обслуживания
+                        <p class="profit-with-us-row__title hidden wow fadeIn" data-wow-delay="0.7s">
+                            12 месяцев гарантийного обслуживания
                         </p>
-                        <p class="profit-with-us-row__text">
-                            После сдачи проекта мы предоставляем еще 6 месяцев гарантийного обслуживания, чтобы <b>помочь
+                        <p class="profit-with-us-row__text hidden wow fadeIn" data-wow-delay="0.8s">
+                            После сдачи проекта мы предоставляем еще 12 месяцев гарантийного обслуживания, чтобы <b>помочь
                                 вам с управлением сайтом</b> и решить другие вопросы, если они возникнут
                         </p>
                     </div>
@@ -662,13 +662,13 @@
                         <img src="/images/svg/online-shop/choose-variants/CMS.svg" alt="">
                         <p class="choose-variants-card__title">Решение на готовой CMS</p>
                         <div class="choose-variants-card__text">
-                            <p>Быстрая реализация интернет-магазина на Wordpress или Bitrix с возможностью
+                            <p class="choose-variants-card-text__wp">Быстрая реализация интернет-магазина<br>на Wordpress или Bitrix с возможностью
                                 <span>подключения большого количества готовых модулей</span></p>
                         </div>
-                        <p class="choose-variants-card__price">от 120 000 рублей</p>
-                        <button class="btn-online-shop btn-online-shop-primary">
-                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
-                        </button>
+                        <p class="choose-variants-card__price">от 60 000 рублей</p>
+                        <a href="/price/" class="btn-online-shop btn-online-shop-primary">
+                            <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="choose-variants-card">
@@ -677,17 +677,17 @@
                         <p class="choose-variants-card__title">Кастомная разработка</p>
                         <div class="choose-variants-card__text">
                             <p>
-                                Гибкое и масшатибруемое решение с возможностью реализации любых нестандартных задач
+                                Гибкое и масшатибруемое решение с возможностью <span>реализации любых нестандартных задач</span>
                             </p>
                             <p>
-                                <span>Разработка сервера с API позволит в будущем создать на его же базе приложения для iOS и
-                                Android, а не разрабатывать их с нуля</span>
+                                Разработка сервера с API позволит в будущем <span>создать на его же базе</span> приложения для iOS и
+                                Android, а <span>не разрабатывать их с нуля</span>
                             </p>
                         </div>
                         <p class="choose-variants-card__price">от 350 000 рублей</p>
-                        <button class="btn-online-shop btn-online-shop-primary">
-                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
-                        </button>
+                        <a href="/price/" class="btn-online-shop btn-online-shop-primary">
+                            <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
