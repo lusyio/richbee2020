@@ -120,11 +120,10 @@
                             <div class="shop-prediction-card__body">
                                 <img src="/images/svg/online-shop/shop-prediction/darts.svg" alt="">
                                 <div>
-                                    <p class="shop-prediction-card__title">Ничего лишнего</p>
+                                    <p class="shop-prediction-card__title">Удобная панель управления</p>
                                     <p class="shop-prediction-card__text">
-                                        Административная панель дорабатывается под ваши потребности, таким образом
-                                        остается
-                                        <b>только необходимый вам функционал</b>
+                                      Административная панель дорабатывается под ваши потребности и имеет
+                                      <b>только необходимый вам функционал</b>
                                     </p>
                                 </div>
                             </div>
@@ -135,7 +134,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Интеграция с Excel</p>
                                     <p class="shop-prediction-card__text">
-                                        Быстрая загрузка и выгрузка товаров и данных <b>в таблицы Excel</b>
+                                        Быстрая загрузка и выгрузка товаров из <b>таблицы Excel</b>, массовое изменение цен и характеристик товаров
                                     </p>
                                 </div>
                             </div>
@@ -144,11 +143,9 @@
                             <div class="shop-prediction-card__body">
                                 <img src="/images/svg/online-shop/shop-prediction/info.svg" alt="">
                                 <div>
-                                    <p class="shop-prediction-card__title">Информация всегда доступна</p>
+                                    <p class="shop-prediction-card__title">Аналитика и отчеты</p>
                                     <p class="shop-prediction-card__text">
-                                        <b>Вы сможете просматривать всю аналитику</b> по продажам, в срезах по
-                                        товарам,
-                                        дате, и т.д.
+                                        <b>Вы сможете просматривать всю аналитику</b> по продажам, в срезах по товарам, дате, категорям и т.д.
                                     </p>
                                 </div>
                             </div>
@@ -170,11 +167,10 @@
                             <div class="shop-prediction-card__body">
                                 <img src="/images/svg/online-shop/shop-prediction/phone.svg" alt="">
                                 <div>
-                                    <p class="shop-prediction-card__title">Будьте в курсе событий</p>
+                                    <p class="shop-prediction-card__title">Уведомление о заказах в Telegram</p>
                                     <p class="shop-prediction-card__text">
-                                        <b>Все уведомления</b> о новых заказах <b>дублируются в Telegram</b> вам и
-                                        вашим
-                                        менеджерам
+                                      <b>Все уведомления</b> о новых заказах <b>дублируются в Telegram</b> вам и вашим
+                                  менеджерам
                                     </p>
                                 </div>
                             </div>
@@ -183,11 +179,9 @@
                             <div class="shop-prediction-card__body">
                                 <img src="/images/svg/online-shop/shop-prediction/list.svg" alt="">
                                 <div>
-                                    <p class="shop-prediction-card__title">Поможем вам разобраться</p>
+                                    <p class="shop-prediction-card__title">Документация и видео-инструкции</p>
                                     <p class="shop-prediction-card__text">
-                                        Мы подготовим для вас всю документацию и <b>запишем видео-инструкции</b> по
-                                        работе с
-                                        административной панелью
+                                      Мы подготовим для вас всю документацию и <b>запишем видео-инструкции</b> по работе с административной панелью
                                     </p>
                                 </div>
                             </div>
@@ -219,7 +213,7 @@
                             <p class="shop-prediction-card__title">Базовая seo-оптимизация</p>
                             <p class="shop-prediction-card__text">
                                 В ходе разработки будет осуществлена <b>базовая seo-оптимизация сайта</b> и подключены
-                                счетчики аналитики.
+                                счетчики аналитики
                             </p>
                         </div>
                     </div>
@@ -230,7 +224,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с Яндекс.Маркетом</p>
                                 <p class="shop-prediction-card__text">
-                                    Товары с сайта будут автоматически попадать на площадку <b>Яндекс.Маркет</b>
+                                    Товары с сайта будут автоматически попадать в ваш аккаунт на торговой площадке <b>Яндекс.Маркет</b>
                                 </p>
                             </div>
                         </div>
@@ -241,7 +235,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Валидный код</p>
                                 <p class="shop-prediction-card__text">
-                                    Поисковые системы обожают сайты с "правильным кодом". Ваш интернет-магазин будет одним из них.
+                                    Поисковые системы обожают сайты с "правильным кодом". Ваш интернет-магазин будет одним из них
                                 </p>
                             </div>
                         </div>
@@ -254,7 +248,7 @@
                                     Система e-mail рассылок с сегментацией клиентов
                                 </p>
                                 <p class="shop-prediction-card__text">
-                                    Подробное описание
+                                    Красивые письма, полезные акции - отправляйте письма своим покупателям с помощью админ.панели
                                 </p>
                             </div>
                         </div>
@@ -265,7 +259,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Система лояльности</p>
                                 <p class="shop-prediction-card__text">
-                                    С промокодами, накопительными и разовыми скидками (продолжение)
+                                    Встроенная система лояльности с промокодами, накопительными и разовыми скидками
                                 </p>
                             </div>
                         </div>
@@ -280,7 +274,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Интеграция с Яндекс.Маркетом</p>
                                     <p class="shop-prediction-card__text">
-                                        Подробное описание
+                                        Товары с сайта будут автоматически попадать в ваш аккаунт на торговой площадке <b>Яндекс.Маркет</b>
                                     </p>
                                 </div>
                             </div>
@@ -291,10 +285,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Базовая seo-оптимизация</p>
                                     <p class="shop-prediction-card__text">
-                                        В ходе разработки будет осуществлена базовая seo-оптимизация сайта и подключены
-                                        счетчики аналитики. После сдачи проекта <b>seо-специалист сможет сразу
-                                            приступить к
-                                            работе</b>
+                                      В ходе разработки будет осуществлена <b>базовая seo-оптимизация сайта</b> и подключены счетчики аналитики
                                     </p>
                                 </div>
                             </div>
@@ -305,7 +296,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Валидный код</p>
                                     <p class="shop-prediction-card__text">
-                                        Здесь должно быть подробное описание
+                                        Поисковые системы обожают сайты с "правильным кодом". Ваш интернет-магазин будет одним из них
                                     </p>
                                 </div>
                             </div>
@@ -318,7 +309,7 @@
                                         Система e-mail рассылок с сегментацией клиентов
                                     </p>
                                     <p class="shop-prediction-card__text">
-                                        Подробное описание
+                                        Красивые письма, полезные акции - отправляйте письма своим покупателям с помощью админ.панели
                                     </p>
                                 </div>
                             </div>
@@ -329,7 +320,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Система лояльности</p>
                                     <p class="shop-prediction-card__text">
-                                        С промокодами, накопительными и разовыми скидками (продолжение)
+                                        Встроенная система лояльности с промокодами, накопительными и разовыми скидками
                                     </p>
                                 </div>
                             </div>
@@ -347,21 +338,20 @@
                 </div>
             </div>
 
-            <div class="shop-prediction-container">
-                <img style="top:-6rem" data-rellax-speed="-1" class="rellax"
+            <div class="shop-prediction-container"  id="shop-prediction-buy">
+                <img class="shop-gift hidden wow fadeIn" data-wow-delay="0.2s"
                      src="/images/online-shop/shop-prediction/gift.png" alt="">
-                <img style="right: 8rem;top: 2rem;" data-rellax-speed="-1.5" class="rellax"
+                <img class="shop-money-gift hidden wow fadeIn" data-wow-delay="0.3s"
                      src="/images/online-shop/shop-prediction/money-gift.png" alt="">
-                <p class="shop-prediction-container__title"><span>03</span>В котором <b>удобно покупать</b></p>
-                <div class="shop-prediction-container-cards">
+                <p class="shop-prediction-container__title hidden wow fadeIn"><span>03</span>В котором <b>удобно покупать</b></p>
+                <div class="shop-prediction-container-cards hidden wow fadeIn" data-wow-delay="0.2s">
                     <div class="shop-prediction-card">
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/rocket.svg" alt="">
                             <div>
                                 <p class="shop-prediction-card__title">Высокая скорость работы</p>
                                 <p class="shop-prediction-card__text">
-                                    Больше 80 баллов в PageSpead. Здесь должно быть подробное описание данной
-                                    особенности
+                                    Высокая скорость работы интернет-магазина, подтвержденная результатом <b>80+</b> баллов в сервисе PageSpead от Google
                                 </p>
                             </div>
                         </div>
@@ -372,7 +362,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Личный кабинет для каждого клиента</p>
                                 <p class="shop-prediction-card__text">
-                                    С историей заказов, покупок, корзиной и тд, (далее еще немного описания)
+                                    <b>Личный кабинет</b> с историей заказов, чеков, покупок и сохраненной корзиной
                                 </p>
                             </div>
                         </div>
@@ -383,7 +373,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Мобильная адаптация</p>
                                 <p class="shop-prediction-card__text">
-                                    Здесь должно быть подробное описание
+                                    <b>Потрясающая работа</b> магазина на мобильных устройствах. Адаптируем все элементы - покупатели будут довольны
                                 </p>
                             </div>
                         </div>
@@ -396,7 +386,7 @@
                                     Информативные красивые письма
                                 </p>
                                 <p class="shop-prediction-card__text">
-                                    Подробное описание
+                                    Красочные, адаптивные письма, которые <b>заставят ваших покупателей полюбить вас еще больше</b>
                                 </p>
                             </div>
                         </div>
@@ -411,8 +401,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Высокая скорость работы</p>
                                     <p class="shop-prediction-card__text">
-                                        Больше 80 баллов в PageSpead. Здесь должно быть подробное описание данной
-                                        особенности
+                                        Высокая скорость работы интернет-магазина, подтвержденная результатом <b>80+</b> баллов в сервисе PageSpead от Google
                                     </p>
                                 </div>
                             </div>
@@ -423,7 +412,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Личный кабинет для каждого клиента</p>
                                     <p class="shop-prediction-card__text">
-                                        С историей заказов, покупок, корзиной и тд, (далее еще немного описания)
+                                        <b>Личный кабинет</b> с историей заказов, чеков, покупок и сохраненной корзиной
                                     </p>
                                 </div>
                             </div>
@@ -434,7 +423,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Мобильная адаптация</p>
                                     <p class="shop-prediction-card__text">
-                                        Здесь должно быть подробное описание
+                                        <b>Потрясающая работа</b> магазина на мобильных устройствах. Адаптируем все элементы - покупатели будут довольны
                                     </p>
                                 </div>
                             </div>
@@ -447,7 +436,7 @@
                                         Информативные красивые письма
                                     </p>
                                     <p class="shop-prediction-card__text">
-                                        Подробное описание
+                                        Красочные, адаптивные письма, которые <b>заставят ваших покупателей полюбить вас еще больше</b>
                                     </p>
                                 </div>
                             </div>
@@ -465,20 +454,20 @@
                 </div>
             </div>
 
-            <div class="shop-prediction-container">
-                <img data-rellax-speed="-1" class="rellax" src="/images/online-shop/shop-prediction/coins.png" alt="">
-                <img style="right: 4rem; top: 12rem;" data-rellax-speed="-1.2" class="rellax"
+            <div class="shop-prediction-container" id="shop-prediction-sell">
+                <img class="shop-coins hidden wow fadeIn" data-wow-delay="0.2s" src="/images/online-shop/shop-prediction/coins.png" alt="">
+                <img class="shop-paper-money hidden wow fadeIn" data-wow-delay="0.3s"
                      src="/images/online-shop/shop-prediction/paper-money.png"
                      alt="">
-                <p class="shop-prediction-container__title"><span>04</span>Через который <b>удобно продавать</b></p>
-                <div class="shop-prediction-container-cards">
+                <p class="shop-prediction-container__title hidden wow fadeIn"><span>04</span>Через который <b>удобно продавать</b></p>
+                <div class="shop-prediction-container-cards hidden wow fadeIn" data-wow-delay="0.2s">
                     <div class="shop-prediction-card">
                         <div class="shop-prediction-card__body">
                             <img src="/images/svg/online-shop/shop-prediction/money.svg" alt="">
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с сервисами оплаты</p>
                                 <p class="shop-prediction-card__text">
-                                    Здесь должно быть подробное описание
+                                    Интеграция с любым сервисом оплаты, в том числе с Яндекс.Кассой, PayPal, Interkassa
                                 </p>
                             </div>
                         </div>
@@ -489,7 +478,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с сервисами доставки</p>
                                 <p class="shop-prediction-card__text">
-                                    Подробное описание
+                                    Интеграция с любым сервисом доставки, в том числе с СДЭК, Деловыми линиями, Почтой России
                                 </p>
                             </div>
                         </div>
@@ -500,7 +489,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Интеграция с любой CRM или онлайн-чатом</p>
                                 <p class="shop-prediction-card__text">
-                                    Здесь должно быть подробное описание
+                                    Интеграция с любой типовой CRM, в том числе с AmoCRM, Битрикс-24
                                 </p>
                             </div>
                         </div>
@@ -513,7 +502,7 @@
                                     Соответствие 54 ФЗ
                                 </p>
                                 <p class="shop-prediction-card__text">
-                                    Подробное описание
+                                    Ваши покупатели будут получать электронные чеки, согласно действующему законодательству
                                 </p>
                             </div>
                         </div>
@@ -524,7 +513,7 @@
                             <div>
                                 <p class="shop-prediction-card__title">Настройка ip-телефонии</p>
                                 <p class="shop-prediction-card__text">
-                                    Подробное описание
+                                    Интегрируем сайт с ip-телефонией, чтобы ваши менеджеры продавали еще эффективнее
                                 </p>
                             </div>
                         </div>
@@ -539,7 +528,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Интеграция с сервисами оплаты</p>
                                     <p class="shop-prediction-card__text">
-                                        Здесь должно быть подробное описание
+                                        Интеграция с любым сервисом оплаты, в том числе с Яндекс.Кассой, PayPal, Interkassa
                                     </p>
                                 </div>
                             </div>
@@ -550,7 +539,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Интеграция с сервисами доставки</p>
                                     <p class="shop-prediction-card__text">
-                                        Подробное описание
+                                        Интеграция с любым сервисом доставки, в том числе с СДЭК, Деловыми линиями, Почтой России
                                     </p>
                                 </div>
                             </div>
@@ -561,7 +550,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Интеграция с любой CRM или онлайн-чатом</p>
                                     <p class="shop-prediction-card__text">
-                                        Здесь должно быть подробное описание
+                                        Интеграция с любой типовой CRM, в том числе с AmoCRM, Битрикс-24
                                     </p>
                                 </div>
                             </div>
@@ -574,7 +563,7 @@
                                         Соответствие 54 ФЗ
                                     </p>
                                     <p class="shop-prediction-card__text">
-                                        Подробное описание
+                                        Ваши покупатели будут получать электронные чеки, согласно действующему законодательству
                                     </p>
                                 </div>
                             </div>
@@ -585,7 +574,7 @@
                                 <div>
                                     <p class="shop-prediction-card__title">Настройка ip-телефонии</p>
                                     <p class="shop-prediction-card__text">
-                                        Подробное описание
+                                        Интегрируем сайт с ip-телефонией, чтобы ваши менеджеры продавали еще эффективнее
                                     </p>
                                 </div>
                             </div>
@@ -678,7 +667,7 @@
                         </div>
                         <p class="choose-variants-card__price">от 120 000 рублей</p>
                         <button class="btn-online-shop btn-online-shop-primary">
-                            <span>Рассчитать стоимость</span> <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </button>
                     </div>
                 </div>
@@ -697,7 +686,7 @@
                         </div>
                         <p class="choose-variants-card__price">от 350 000 рублей</p>
                         <button class="btn-online-shop btn-online-shop-primary">
-                            <span>Рассчитать стоимость</span> <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </button>
                     </div>
                 </div>

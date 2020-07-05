@@ -4752,7 +4752,48 @@ html body .blick:before {
 }
 
 #shop-prediction-seo:hover img.shop-blank {
-  transform: rotate(-3deg);
+  transform: scale(1.02,1.02);
+  transition: 0.5s all;
+}
+
+.shop-prediction-container > img.shop-gift {
+    top:-6rem;
+    transition: 0.8s all;
+}
+
+.shop-prediction-container > img.shop-money-gift {
+    right: 8rem;
+    top: 2rem;
+    transition: 0.6s all;
+}
+
+#shop-prediction-buy:hover img.shop-gift {
+  transform: rotate(2deg);
+  transition: 0.6s all;
+}
+
+#shop-prediction-buy:hover img.shop-money-gift {
+  transform: scale(1.07,1.07);
+  transition: 0.5s all;
+}
+
+.shop-prediction-container > img.shop-coins {
+    transition: 0.8s all;
+}
+
+.shop-prediction-container > img.shop-paper-money {
+    right: 4rem;
+    top: 12rem;
+    transition: 0.6s all;
+}
+
+#shop-prediction-sell:hover img.shop-coins {
+  transform: scale(1.04,1.04);
+  transition: 0.6s all;
+}
+
+#shop-prediction-sell:hover img.shop-paper-money {
+  transform: rotate(-5deg);
   transition: 0.5s all;
 }
 
