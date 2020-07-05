@@ -5881,6 +5881,15 @@ html img {
 
 @media screen and (max-width: 768px) {
 
+    .online-shop-modal .modal-content{
+        box-sizing: border-box;
+    }
+
+    .online-shop-modal .modal-content .modal-content__body{
+        display: flex;
+        padding: 40px;
+    }
+
     .online-shop-header .service-single .service-block__title {
         font-size: 20px;
         line-height: 28px;
