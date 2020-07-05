@@ -303,10 +303,20 @@
 
     <section class="profit-with-us">
         <div class="container">
-            <p class="profit-with-us__title">
-                <b>Вам выгодно с нами работать</b> потому что
-            </p>
             <div class="profit-with-us-row">
+
+                <div class="profit-with-us-row__col">
+                    <p class="profit-with-us__title">
+                        <b>Вам выгодно с нами работать</b> потому что
+                    </p>
+                </div>
+                <div class="profit-with-us-row__col">
+                </div>
+                <div class="profit-with-us-row__col">
+                </div>
+            </div>
+            <div class="profit-with-us-row">
+
                 <div class="profit-with-us-row__col">
                     <span>01</span>
                     <div>

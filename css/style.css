@@ -4752,7 +4752,6 @@ html body .blick:before {
 }
 
 .profit-with-us {
-    padding: 68px 0 120px;
     background-image: url("/images/online-shop/profit-with-us/bg.jpg");
     background-color: rgba(47, 47, 47, 0.97);
     opacity: 0.95;
@@ -4771,7 +4770,8 @@ html body .blick:before {
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 90px;
-    max-width: 33%;
+    max-width: 100%;
+    padding-top: 70px;
 }
 
 .profit-with-us .profit-with-us__title b {
@@ -4788,12 +4788,28 @@ html body .blick:before {
     justify-content: space-between;
 }
 
+.online-shop .garant-v2-row img {
+    margin-top: 15px;
+    transform: scale(1.4);
+}
+
 .profit-with-us-row .profit-with-us-row__col {
-    max-width: 30%;
+    max-width: 33.3%;
     padding: 0 15px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    border-left: 1px solid #ADADAD30;
+    border-right: 1px solid #ADADAD30;
+    width: 100%;
+}
+
+.profit-with-us-row__col > div {
+    padding-bottom: 120px;
+}
+
+.profit-with-us-row .profit-with-us-row__col:nth-of-type(2n) {
+    border: 0;
 }
 
 .profit-with-us-row span {
@@ -4932,9 +4948,9 @@ html body .blick:before {
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
-    bottom: 10rem;
-    left: 6rem;
-    padding: 9px 20px;
+    bottom: 2rem;
+    left: 3rem;
+    padding: 9px 20px 15px;
     box-sizing: border-box;
     background: linear-gradient(180deg, #5181FF 0%, rgba(255, 255, 255, 0) 100%), #0047FF;
     max-width: 80px;
@@ -4959,6 +4975,7 @@ html body .blick:before {
 .online-shop .garant-v2-row .garant-v2-row__link img {
     display: block;
     margin: 0;
+    transform: none;
 }
 
 .service-block-online-shop .serviceInfo p {
@@ -5240,9 +5257,14 @@ html body .service-form-card .btn-online-shop {
     height: 60px;
 }
 
-html body .service-form-card .btn-online-shop:hover{
+html body .service-form-card .btn-online-shop:hover {
     background: linear-gradient(180deg, rgba(113, 152, 255, 0.76) 0%, rgba(107, 148, 254, 0) 94.83%), #0047FF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.online-shop-header .underHeader, .online-shop-header .header, .online-shop-header .service-single {
+    background-color: unset;
+    border: 0;
 }
 
 .online-shop-header .btn-online-shop {
@@ -5268,7 +5290,7 @@ html body .service-form-card .btn-online-shop:hover{
     margin-bottom: 20px;
 }
 
-.online-shop-header.service-single .service-block__title {
+.online-shop-header .service-single .service-block__title {
     font-weight: 300;
     font-size: 40px;
     line-height: 50px;
@@ -5278,11 +5300,11 @@ html body .service-form-card .btn-online-shop:hover{
     text-transform: uppercase;
 }
 
-.online-shop-header.service-single .service-block__title span {
+.online-shop-header .service-single .service-block__title span {
     font-weight: 500;
 }
 
-.online-shop-header.service-single .service-block__title span b {
+.online-shop-header .service-single .service-block__title span b {
     font-weight: 500;
     background-size: 100% 10px;
     padding-bottom: 0;

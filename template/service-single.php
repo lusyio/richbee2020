@@ -279,7 +279,7 @@ function advantagesItem($img, $title, $info)
     </section>
 
 <?php elseif ($serviceId == '2'): ?>
-    <section class="online-shop-header service service-single"
+    <section class="service service-single"
              style="padding-bottom:150px;">
         <div class="container">
             <div class="service-block position-relative">
@@ -296,6 +296,14 @@ function advantagesItem($img, $title, $info)
             </div>
         </div>
     </section>
+    <script>
+        $('#online-shop-header-target').addClass('online-shop-header');
+        $(document).ready(function () {
+            $('footer').addClass('bg-light-grey');
+        })
+    </script>
+    </div>
+
 <?php else: ?>
     <section class="service service-single"
              style="padding-bottom:150px;">
