@@ -4,7 +4,7 @@
     <section class="service caseService">
         <div class="container">
             <div class="serviceInfo">
-                <h2 class="service-block__title hidden wow fadeIn"><?= $serviceId == '2' ? '<b>Примеры сайтов</b>, разработанных студией RichBee' : 'Наши кейсы по этой услуге' ?></h2>
+                <h2 class="service-block__title hidden wow fadeIn"><?= $serviceId == '2' ? '<b>Примеры сайтов,</b> разработанных студией RichBee' : 'Наши кейсы по этой услуге' ?></h2>
                 <p class="service-block__subtitle hidden wow fadeIn">
                     Ниже представлены лишь некоторые наши работы по услуге <span><?= $serviceName; ?></span>. Со всеми
                     работами можно ознакомиться в <a href="/case/" class="link-strike link-strike--thin">нашем

@@ -409,7 +409,8 @@ endif;
                 </div>
             </div>
         </section>
-
+    </div>
+    <div class="online-shop border-box">
         <section class="bg-light-grey service-form service-form-v2">
             <div class="container">
                 <?php include $serviceForm ?>

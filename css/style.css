@@ -5876,6 +5876,323 @@ html img {
 }
 
 @media screen and (max-width: 768px) {
+
+    .online-shop-header .service-single .service-block__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .online-shop-header .service-block__subtitle {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .online-shop-header .responsibility-row .responsibility-row__title span {
+        font-size: 90px;
+        line-height: 103px;
+    }
+
+    .online-shop .responsibility .responsibility__title {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 90%;
+    }
+
+    .online-shop .responsibility .responsibility__sub-title {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 80%;
+    }
+
+    .online-shop .responsibility-row .responsibility-row__title p {
+        font-size: 45px;
+        line-height: 52px;
+    }
+
+    .online-shop .responsibility-row .responsibility-row__title p small {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .online-shop .responsibility-row .responsibility-row__info {
+        font-size: 12px;
+        line-height: 17px;
+        max-width: 90%;
+    }
+
+    .shop-prediction-card {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .shop-prediction .shop-prediction__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .shop-prediction-container .shop-prediction-container__title {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .shop-prediction-container .shop-prediction-container__title span {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .shop-prediction-card .shop-prediction-card__title {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .shop-prediction-card .shop-prediction-card__text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .shop-prediction-container > img {
+        display: none;
+    }
+
+    .profit-with-us .profit-with-us__title {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 80%;
+    }
+
+    .profit-with-us-row .profit-with-us-row__title {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 70%;
+    }
+
+    .profit-with-us-row .profit-with-us-row__col {
+        flex-direction: column;
+    }
+
+    .profit-with-us-row span {
+        margin-bottom: 15px;
+    }
+
+    .profit-with-us-row__col > div{
+        padding-bottom: 50px;
+    }
+
+    .profit-with-us-row__col:not(:last-of-type) > div {
+        padding-bottom: 31px;
+    }
+
+    .profit-with-us-row .profit-with-us-row__text {
+        font-size: 12px;
+        line-height: 17px;
+        max-width: 70%;
+    }
+
+    .online-shop .container{
+        padding: 0 20px;
+    }
+
+    .profit-with-us .profit-with-us__title{
+        margin-bottom: 60px;
+        padding-top: 35px;
+    }
+
+    .choose-variants-card .choose-variants-card__body{
+        padding: 30px 20px;
+    }
+
+    .service-block-online-shop .serviceInfo h2{
+        max-width: 80%;
+    }
+
+    .online-shop .case-section__item{
+        background-color: #FBFBFB;
+    }
+
+    .online-shop .garant-v2 .garant-v2__title{
+        text-align: left;
+    }
+
+    .choose-variants .choose-variants__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .profit-with-us {
+        background-position-x: 43%;
+    }
+
+    .choose-variants-card .choose-variants-card__title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .choose-variants-card .choose-variants-card__text p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .choose-variants-card .choose-variants-card__price {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .service-block-online-shop .serviceInfo h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .service-block-online-shop .serviceInfo h2 b {
+        display: block;
+    }
+
+    .service-block-online-shop .case-section__item h3 {
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .service-block-online-shop .case-section__item span {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .online-shop .garant-v2 .garant-v2__title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 0;
+        max-width: 60%;
+    }
+
+    .online-shop .garant-v2-row .garant-v2-row__col:first-of-type {
+        order: 1;
+    }
+
+    .online-shop .garant-v2-row .garant-v2-row__col:last-of-type {
+        order: 2;
+    }
+
+    .online-shop .garant-v2-row .garant-v2-row__title {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 70%;
+    }
+
+    .online-shop .garant-v2-row .garant-v2-row__text {
+        font-size: 10px;
+        line-height: 15px;
+        max-width: 80%;
+    }
+
+    .price-increase-container {
+        position: relative;
+    }
+
+    .price-increase-container-left {
+        max-width: 100%;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .price-increase-container-right {
+        position: absolute;
+        right: 0;
+        top: 10%;
+    }
+
+    .price-increase .price-increase__text {
+        max-width: 60%;
+    }
+
+    .price-increase .price-increase__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .price-increase .price-increase__text {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .online-shop .service-form-card .service-form-card__img {
+        position: absolute;
+        max-width: 40%;
+        right: 0;
+        top: 10%;
+    }
+
+    .service-form-card {
+        position: relative;
+    }
+
+    .online-shop .service-form-card .service-form-card__title {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 65%;
+    }
+
+    .online-shop .service-form-card .service-form-card__text {
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 65%;
+    }
+
+    .online-shop .service-form-card .service-form-card__text:nth-of-type(3) {
+        font-size: 10px;
+        line-height: 17px;
+        max-width: 65%;
+    }
+
+    .online-shop .service-form-card .service-form-card__img img {
+        transform: none;
+    }
+
+    .online-shop .service-form-card .service-form-card__footer {
+        display: none;
+    }
+
+    .online-shop .service-form {
+        padding: 0;
+    }
+
+    .online-shop .service-form-card {
+        padding: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        border-radius: 0;
+    }
+
+    .online-shop.border-box .container {
+        box-sizing: content-box;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .online-shop .service-form-card .service-form-card__body {
+        border: 0;
+        padding: 50px 20px 70px;
+    }
+
+    .online-shop {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .online-shop-header .underHeader, .online-shop-header .header, .online-shop-header .service-single {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
     .grow-point-sub-card img {
         max-width: 25%;
     }
@@ -6148,6 +6465,15 @@ html img {
     .service-account .service-account__title {
         font-size: 36px;
     }
+
+    .price-increase-container-right{
+        top: 25%;
+    }
+
+    .online-shop .service-form-card .service-form-card__img{
+        top: 20%;
+    }
+
 
     .service-account .service-account__subtitle {
         font-size: 18px;
