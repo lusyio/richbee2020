@@ -1471,7 +1471,7 @@ html .btn--learn-more--inverse .button-text {
 }
 
 .online-shop {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .online-shop-modal .online-shop-modal__img-link img {

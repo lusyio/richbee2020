@@ -38,7 +38,7 @@
             <p class="shop-prediction__title">Какой интернет-магазин вы получите?</p>
 
             <div class="shop-prediction-container">
-                <img src="/images/online-shop/shop-prediction/iMac.png" alt="">
+                <img data-rellax-speed="-1" class="rellax" src="/images/online-shop/shop-prediction/iMac.png" alt="">
                 <p class="shop-prediction-container__title"><span>01</span>Которым <b>удобно управлять</b></p>
                 <div class="shop-prediction-container-cards">
                     <div class="shop-prediction-card">
@@ -206,7 +206,10 @@
             </div>
 
             <div class="shop-prediction-container">
-                <img src="/images/online-shop/shop-prediction/book.png" alt="">
+                <img data-rellax-speed="-1" style="top: -10rem;" class="rellax"
+                     src="/images/online-shop/shop-prediction/notebook.png" alt="">
+                <img data-rellax-speed="-1.2" style="top: 0;" class="rellax"
+                     src="/images/online-shop/shop-prediction/blank.png" alt="">
                 <p class="shop-prediction-container__title"><span>02</span>Который <b>удобно продвигать</b></p>
                 <div class="shop-prediction-container-cards">
                     <div class="shop-prediction-card">
@@ -346,7 +349,9 @@
             </div>
 
             <div class="shop-prediction-container">
-                <img src="/images/online-shop/shop-prediction/gift.png" alt="">
+                <img style="top:-6rem" data-rellax-speed="-1" class="rellax" src="/images/online-shop/shop-prediction/gift.png" alt="">
+                <img style="right: 8rem;top: 2rem;" data-rellax-speed="-1.5" class="rellax"
+                     src="/images/online-shop/shop-prediction/money-gift.png" alt="">
                 <p class="shop-prediction-container__title"><span>03</span>В котором <b>удобно покупать</b></p>
                 <div class="shop-prediction-container-cards">
                     <div class="shop-prediction-card">
@@ -461,7 +466,10 @@
             </div>
 
             <div class="shop-prediction-container">
-                <img src="/images/online-shop/shop-prediction/money.png" alt="">
+                <img data-rellax-speed="-1" class="rellax" src="/images/online-shop/shop-prediction/coins.png" alt="">
+                <img style="right: 4rem; top: 12rem;" data-rellax-speed="-1.2" class="rellax"
+                     src="/images/online-shop/shop-prediction/paper-money.png"
+                     alt="">
                 <p class="shop-prediction-container__title"><span>04</span>Через который <b>удобно продавать</b></p>
                 <div class="shop-prediction-container-cards">
                     <div class="shop-prediction-card">

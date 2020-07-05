@@ -27,9 +27,12 @@
                 </div>
                 <div class="footer__social">
                     <div>
-                        <a href="https://vk.com/im?media=&sel=-89243398" class="hidden wow fadeIn" target="_blank"><img class="svg" src="/images/svg/vk.svg"/></a>
-                        <a href="https://tlgg.ru/@termitFOvlad" class="hidden wow fadeIn" data-wow-delay="0.1s" target="_blank"><img class="svg" src="/images/svg/telegram.svg"/></a>
-                        <a href="https://wa.me/79263815773" class="hidden wow fadeIn" data-wow-delay="0.2s" target="_blank"><img class="svg" src="/images/svg/whatsapp.svg"/></a>
+                        <a href="https://vk.com/im?media=&sel=-89243398" class="hidden wow fadeIn" target="_blank"><img
+                                    class="svg" src="/images/svg/vk.svg"/></a>
+                        <a href="https://tlgg.ru/@termitFOvlad" class="hidden wow fadeIn" data-wow-delay="0.1s"
+                           target="_blank"><img class="svg" src="/images/svg/telegram.svg"/></a>
+                        <a href="https://wa.me/79263815773" class="hidden wow fadeIn" data-wow-delay="0.2s"
+                           target="_blank"><img class="svg" src="/images/svg/whatsapp.svg"/></a>
                     </div>
                 </div>
             </div>
@@ -52,6 +55,7 @@
 
 <?php include "vendors/scripts.php" ?>
 <script src="/js/main.js"></script>
+<script src="/js/rellax.min.js"></script>
 <script src="/js/lightbox-plus-jquery.min.js"></script>
 <script>
     const $page = $('html, body');
@@ -70,6 +74,9 @@
     })
 </script>
 <script>
+    const rellax = new Rellax('.rellax', {
+        center: true,
+    });
     const shopPredictionContainerCards1 = new Swiper('#shop-prediction-container-cards-1', {
         spaceBetween: 15,
         pagination: {

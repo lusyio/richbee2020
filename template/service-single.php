@@ -403,8 +403,10 @@ endif;
                             Рассчитать стоимость <img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </button>
                     </div>
-                    <div class="price-increase-container-right">
-                        <img src="/images/online-shop/price-increase/dogovor.png" alt="">
+                    <div class="price-increase-container-right position-relative">
+                        <img src="/images/online-shop/price-increase/blank.png" alt="">
+                        <img data-rellax-speed="-0.2" class="position-absolute rellax" style=" top: 0; left: 0" src="/images/online-shop/price-increase/pen.png" alt="">
+                        <img data-rellax-speed="-0.5" class="position-absolute rellax" style=" bottom: 1rem; right: 0" src="/images/online-shop/price-increase/print.png" alt="">
                     </div>
                 </div>
             </div>
