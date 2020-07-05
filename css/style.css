@@ -1416,6 +1416,73 @@ html .btn--learn-more--inverse .button-text {
     animation-duration: 0.4s
 }
 
+.online-shop-modal .modal-content {
+    max-width: 765px;
+}
+
+.online-shop-modal .modal-content .modal-content__body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 135px;
+}
+
+.online-shop-modal .online-shop-modal__check {
+    margin-bottom: 20px;
+}
+
+.online-shop-modal .online-shop-modal__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #010101;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+
+.online-shop-modal .online-shop-modal__text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #010101;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.online-shop-modal .online-shop-modal__link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2C2C2C;
+    text-decoration: none;
+}
+
+.online-shop-modal .online-shop-modal__img-link {
+    padding: 0 60px;
+    margin-bottom: 21px;
+}
+
+.online-shop-modal .online-shop-modal__img-link img {
+    transition: 145ms ease-in-out;
+}
+
+.online-shop-modal .online-shop-modal__img-link:hover img{
+    transform: scale(1.1);
+}
+
+.online-shop-modal .footer__social div {
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
 .modal-content .modal-content__body {
     border: 1px solid #E9E9E9;
     border-radius: 10px;
