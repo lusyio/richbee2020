@@ -22,7 +22,8 @@
                 <input id="serviceFormPhone" placeholder="Введите ваш телефон" class="" type="text"
                        minlength="18"
                        required>
-                <button class="blick <?= $serviceId == '2' ? 'btn-online-shop btn-online-shop-primary' : '' ?>" type="submit"><span>Получить предложение</span></button>
+                <button class="blick <?= $serviceId == '2' ? 'btn-online-shop btn-online-shop-primary' : '' ?>"
+                        type="submit"><span>Получить предложение</span></button>
             </form>
             <p class="service-form-card__footer">
                 <?= $serviceId == '2'
@@ -39,6 +40,7 @@
     });
 
     $('#serviceForm').on('submit', function () {
+        let modal = document.getElementById("myModal");
         let value = $('#serviceForm > input').val();
         $.ajax({
             type: "POST",
@@ -52,6 +54,8 @@
                 $('.service-form-card__footer').before('<p class="service-form-card__text">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
                     '<b>За вами закреплен личный менеджер - Владислав Карпенко.</b>\n' +
                     'Он свяжется с вами в течение 15 минут, чтобы обсудить детали проекта </p>')
+                modal.style.display = "block";
+                document.body.style.overflowY = 'hidden'
             },
             error: e => {
                 console.log(e)

@@ -287,11 +287,13 @@ function advantagesItem($img, $title, $info)
                     <span>Получите разработку <b>Интернет-магазина,</b></span> в котором хочется покупать
                 </h1>
                 <p class="service-block__subtitle hidden wow fadeIn" data-wow-delay="0.2s">
-                    За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong> год
+                    За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong>
+                    год
                 </p>
                 <a href="/price/" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
                    data-wow-delay="0.4s">
-                    <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                    <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg"
+                                                          alt="">
                 </a>
             </div>
         </div>
@@ -400,13 +402,16 @@ endif;
                             изменяется
                         </p>
                         <a href="/price/" class="btn-online-shop btn-online-shop-primary">
-                            <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            <span>Рассчитать стоимость</span><img
+                                    src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </a>
                     </div>
                     <div class="price-increase-container-right position-relative">
                         <img src="/images/online-shop/price-increase/blank.png" alt="">
-                        <img data-rellax-speed="-0.2" class="position-absolute rellax" style=" top: 0; left: 0" src="/images/online-shop/price-increase/pen.png" alt="">
-                        <img data-rellax-speed="-0.5" class="position-absolute rellax" style=" bottom: 1rem; right: 0" src="/images/online-shop/price-increase/print.png" alt="">
+                        <img data-rellax-speed="-0.2" class="position-absolute rellax" style=" top: 0; left: 0"
+                             src="/images/online-shop/price-increase/pen.png" alt="">
+                        <img data-rellax-speed="-0.5" class="position-absolute rellax" style=" bottom: 1rem; right: 0"
+                             src="/images/online-shop/price-increase/print.png" alt="">
                     </div>
                 </div>
             </div>
@@ -576,6 +581,7 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
 
         $('#serviceFormModal').on('submit', function () {
             let value = $('#serviceFormModal > input').val();
+            let modal = document.getElementById("myModal");
             $.ajax({
                 type: "POST",
                 url: '/ajax/',
@@ -588,6 +594,8 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
                     $('.modal-content__footer').before('<p class="modal-content__text">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
                         '<b>За вами закреплен личный менеджер - Владислав Карпенко.</b>\n' +
                         'Он свяжется с вами в течение 15 минут, чтобы обсудить детали проекта </p>')
+                    modal.style.display = "block";
+                    document.body.style.overflowY = 'hidden'
                 },
                 error: e => {
                     console.log(e)
