@@ -34,6 +34,32 @@
         </div>
     </div>
 </div>
+<div id="myModal" class="modal online-shop-modal">
+    <div class="modal-content">
+        <div class="modal-content__body">
+            <img class="online-shop-modal__check" src="/images/svg/online-shop/modal/check.svg" alt="">
+            <p class="online-shop-modal__title">Спасибо за заявку</p>
+            <p class="online-shop-modal__text">Менеджер перезвонит вам в течение 15 минут и предложит вам три
+                варианта разработки сайта, а пока что вы можете скачать презентацию нашей компании и познакомиться с
+                нами поближе</p>
+            <a class="online-shop-modal__img-link" href="/richbee-presentation.pdf">
+                <img src="/images/online-shop/modal/presentation.jpg" alt="">
+            </a>
+            <a class="online-shop-modal__link" href="/richbee-presentation.pdf">Скачать презентацию компании <br>
+                [PDF, 1.2 мб]</a>
+            <div class="footer__social">
+                <div>
+                    <a href="https://vk.com/im?media=&sel=-89243398" class="hidden wow fadeIn" target="_blank"><img
+                                class="svg" src="/images/svg/vk.svg"/></a>
+                    <a href="https://tlgg.ru/@termitFOvlad" class="hidden wow fadeIn" data-wow-delay="0.1s"
+                       target="_blank"><img class="svg" src="/images/svg/telegram.svg"/></a>
+                    <a href="https://wa.me/79263815773" class="hidden wow fadeIn" data-wow-delay="0.2s"
+                       target="_blank"><img class="svg" src="/images/svg/whatsapp.svg"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script>
     jQuery(function ($) {
         $('#serviceFormPhone').mask('+7 (000) 000-00-00')
@@ -42,6 +68,8 @@
     $('#serviceForm').on('submit', function () {
         let modal = document.getElementById("myModal");
         let value = $('#serviceForm > input').val();
+        modal.style.display = "block";
+        document.body.style.overflowY = 'hidden'
         $.ajax({
             type: "POST",
             url: '/ajax/',

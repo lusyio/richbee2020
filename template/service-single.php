@@ -513,7 +513,7 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
                 </p>
                 <img class="wow fadeIn" src="/images/my-account/roadmap.png" alt="">
             </div>
-            <button id="triggerModal" class="road-map__button blick wow fadeIn">Получить дорожную карту</button>
+            <button id="triggerModalForm" class="road-map__button blick wow fadeIn">Получить дорожную карту</button>
             <div class="road-map-result">
                 <p class="road-map-result__title wow fadeIn"><b>Первые результаты</b> вы получаете уже</p>
                 <p class="road-map-result__sub-title wow fadeIn">ЧЕРЕЗ <b>1</b> МЕСЯЦ</p>
@@ -535,7 +535,7 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
         </div>
     </section>
 
-    <div id="myModal" class="modal">
+    <div id="myModalForm" class="modal">
         <div class="modal-content">
             <div class="modal-content__body">
                 <div class="modal-content__img">

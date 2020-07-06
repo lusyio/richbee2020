@@ -92,7 +92,7 @@ if (window.innerWidth >= 992) {
 
 let modal = document.getElementById("myModal");
 
-let btn = document.getElementById("triggerModal");
+let btn = document.getElementById("triggerModalForm");
 
 if (document.body.contains(btn)) {
     btn.onclick = function () {
