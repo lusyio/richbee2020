@@ -581,7 +581,6 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
 
         $('#serviceFormModal').on('submit', function () {
             let value = $('#serviceFormModal > input').val();
-            let modal = document.getElementById("myModal");
             $.ajax({
                 type: "POST",
                 url: '/ajax/',
@@ -594,8 +593,6 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
                     $('.modal-content__footer').before('<p class="modal-content__text">Мы получили ваш запрос и уже обрабатываем его. <br> \n' +
                         '<b>За вами закреплен личный менеджер - Владислав Карпенко.</b>\n' +
                         'Он свяжется с вами в течение 15 минут, чтобы обсудить детали проекта </p>')
-                    modal.style.display = "block";
-                    document.body.style.overflowY = 'hidden'
                 },
                 error: e => {
                     console.log(e)
