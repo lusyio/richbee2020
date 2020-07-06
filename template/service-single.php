@@ -319,7 +319,7 @@ function advantagesItem($img, $title, $info)
                     <a href="#price" class="btn btn-dark wow fadeIn"
                        data-wow-delay="0.4s">Рассчитать стоимость</a>
                 <?php else: ?>
-                    <a href="/contact/" class="btn btn-dark wow fadeIn" data-wow-delay="0.4s">Рассчитать стоимость</a>
+                    <a href="/contact/" class="btn btn-dark hidden wow fadeIn" data-wow-delay="0.4s">Рассчитать стоимость</a>
                 <?php endif; ?>
                 <?php if (!empty($cases)) : ?>
                     <a href="#steps"
@@ -357,27 +357,27 @@ endif;
                     Вы будете спокойны <span>за каждый рубль</span>
                 </h2>
                 <div class="garant-v2-row">
-                    <div class="garant-v2-row__col wow fadeIn">
-                        <p class="garant-v2-row__title">Каждые 2 недели получаете отчет о проделанных работах</p>
-                        <p class="garant-v2-row__text">Мы всегда на связи с вами и уведомляем регулярно уведомляем о
+                    <div class="garant-v2-row__col hidden wow fadeIn">
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.2s">Каждые 2 недели получаете отчет о проделанных работах</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.2s">Мы всегда на связи с вами и уведомляем регулярно уведомляем о
                             ходе
                             работ, а не пропадаем на 4 месяца и появляемся с системой, которая реализована не так как вы
                             хотели.</p>
-                        <p class="garant-v2-row__title">После каждого спринта вы можете тестировать новый функционал</p>
-                        <p class="garant-v2-row__text">Строим работу таким образом, чтобы каждые 2 недели личный кабинет
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.4s">После каждого спринта вы можете тестировать новый функционал</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.4s">Строим работу таким образом, чтобы каждые 2 недели личный кабинет
                             обретал новый функционал, который вы можете не только тестировать самостоятельно, но даже
                             внедрять в работу</p>
-                        <p class="garant-v2-row__title">Совершаете платежи по удобному для вас графику</p>
-                        <p class="garant-v2-row__text">Согласуем ежемесячный график платежей таким образом, чтобы он
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.6s">Совершаете платежи по удобному для вас графику</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.6s">Согласуем ежемесячный график платежей таким образом, чтобы он
                             устраивал обе стороны</p>
-                        <p class="garant-v2-row__title">Цены и сроки фиксируются в договоре</p>
-                        <p class="garant-v2-row__text">Никаких скрытых платежей и затягиваний сроков под надуманными
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.8s">Цены и сроки фиксируются в договоре</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.8s">Никаких скрытых платежей и затягиваний сроков под надуманными
                             предлогами</p>
                     </div>
-                    <div class="garant-v2-row__col wow fadeIn">
-                        <img src="/images/img-garant.png" alt="">
-                        <a class="garant-v2-row__link" href="#">
-                            <img src="/images/svg/online-shop/garant/download.svg" alt="">Скачать пример договора
+                    <div class="garant-v2-row__col hidden wow fadeIn" data-wow-delay="0.6s">
+                        <img src="/images/img-garant.png" alt="Пример договора">
+                        <a class="garant-v2-row__link" href="/docs/richbee.docx">
+                            <img src="/images/svg/online-shop/garant/download.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -832,7 +832,7 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
                             завершения разработки</p>
                     </div>
                     <div>
-                        <p class="garant__title">Цены и сроки жестко фиксируются в <a href="/docs/Договор_рыба.docx">договоре</a>
+                        <p class="garant__title">Цены и сроки жестко фиксируются в <a href="/docs/richbee.docx">договоре</a>
                         </p>
                         <p class="garant__text">Никаких скрытых платежей и затягиваний сроков под надуманными
                             предлогами</p>

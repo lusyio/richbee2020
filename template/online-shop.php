@@ -652,11 +652,11 @@
 
     <section class="choose-variants bg-light-grey">
         <div class="container">
-            <p class="choose-variants__title">
+            <p class="choose-variants__title hidden wow fadeIn">
                 Выберите один из вариантов <br>
                 <b>технической реализации</b> интернет-магазина
             </p>
-            <div class="choose-variants-cards">
+            <div class="choose-variants-cards hidden wow fadeIn" data-wow-delay="0.2s">
                 <div class="choose-variants-card">
                     <div class="choose-variants-card__body">
                         <img src="/images/svg/online-shop/choose-variants/CMS.svg" alt="">
@@ -671,7 +671,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="choose-variants-card">
+                <div class="choose-variants-card hidden wow fadeIn" data-wow-delay="0.4s">
                     <div class="choose-variants-card__body">
                         <img src="/images/svg/online-shop/choose-variants/develop.svg" alt="">
                         <p class="choose-variants-card__title">Кастомная разработка</p>

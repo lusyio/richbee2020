@@ -5,14 +5,14 @@
         <div class="container">
             <div class="serviceInfo">
                 <h2 class="service-block__title hidden wow fadeIn"><?= $serviceId == '2' ? '<b>Примеры сайтов,</b> разработанных студией RichBee' : 'Наши кейсы по этой услуге' ?></h2>
-                <p class="service-block__subtitle hidden wow fadeIn">
+                <p class="service-block__subtitle hidden wow fadeIn" data-wow-delay="0.2s">
                     Ниже представлены лишь некоторые наши работы по услуге <span><?= $serviceName; ?></span>. Со всеми
                     работами можно ознакомиться в <a href="/case/" class="link-strike link-strike--thin">нашем
                         портфолио</a>
                 </p>
             </div>
             <!--<span class="case-section__subtitle">Тут подзаголовок на всякий случай</span>-->
-            <div class="case-section__list">
+            <div class="case-section__list hidden wow fadeIn" data-wow-delay="0.4s">
                 <?php
                 if (count($cases) > 3) : ?>
                     <div class="swiper-container">
@@ -30,8 +30,8 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="case-section-swiper-btn case-section-prev"></div>
-                    <div class="case-section-swiper-btn case-section-next"></div>
+                    <div class="case-section-swiper-btn case-section-prev hidden wow fadeIn" data-wow-delay="0.6s"></div>
+                    <div class="case-section-swiper-btn case-section-next hidden wow fadeIn" data-wow-delay="0.8s"></div>
                     <script>
                         const swiper = new Swiper('.swiper-container', {
                             slidesPerView: 1,
