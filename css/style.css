@@ -6759,7 +6759,7 @@ html img {
     }
 
     .price-increase-container-right {
-        top: 25%;
+        display: none;
     }
 
     .online-shop .service-form-card .service-form-card__img {
@@ -7007,6 +7007,7 @@ html img {
 
     .responsibility-row > div {
         width: 100%;
+        left: 40px;
     }
 
     .garant-v2-row .garant-v2-row__title, .garant-v2-row .garant-v2-row__text {
