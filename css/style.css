@@ -3419,7 +3419,7 @@ html body input:focus, html body button:focus {
     position: absolute;
     top: -8rem;
     left: -1rem;
-    max-width: 455px;
+    max-width: 415px;
 }
 
 .service-form-card .service-form-card__footer {
@@ -5479,7 +5479,8 @@ html body .btn-online-shop.btn-online-shop-primary span {
     color: #545454;
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 255px;
+    max-width: 218px;
+    margin-right: 13px;
     margin-left: auto;
 }
 

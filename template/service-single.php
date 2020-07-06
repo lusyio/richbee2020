@@ -396,7 +396,7 @@ endif;
                         </p>
                         <p class="price-increase__text hidden wow fadeIn" data-wow-delay="0.4s">
                             В иных случаях, все, что мы оговорили на этапе заключения договора остается в силе и не
-                            изменяется
+                            изменяется.
                         </p>
                         <div class="price-increase__divButton">
                         <a href="/price/" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn" data-wow-delay="0.6s">
