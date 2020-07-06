@@ -4751,12 +4751,12 @@ html body .blick:before {
 }
 
 #shop-prediction-seo:hover img.shop-keynote {
-  transform: rotate(1deg);
+  transform: rotate(3deg);
   transition: 0.6s all;
 }
 
 #shop-prediction-seo:hover img.shop-blank {
-  transform: scale(1.02,1.02);
+  transform: scale(1.06,1.06);
   transition: 0.5s all;
 }
 
@@ -4773,11 +4773,11 @@ html body .blick:before {
 
 #shop-prediction-buy:hover img.shop-gift {
   transform: rotate(2deg);
-  transition: 0.6s all;
+  transition: 0.5s all;
 }
 
 #shop-prediction-buy:hover img.shop-money-gift {
-  transform: scale(1.07,1.07);
+  transform: scale(1.1,1.1);
   transition: 0.5s all;
 }
 
@@ -4792,12 +4792,12 @@ html body .blick:before {
 }
 
 #shop-prediction-sell:hover img.shop-coins {
-  transform: scale(1.04,1.04);
+  transform: scale(1.1,1.1);
   transition: 0.6s all;
 }
 
 #shop-prediction-sell:hover img.shop-paper-money {
-  transform: rotate(-5deg);
+  transform: rotate(-6deg);
   transition: 0.5s all;
 }
 
@@ -5345,6 +5345,10 @@ html body .btn-online-shop.btn-online-shop-primary span {
     display: table;
 }
 
+.price-increase {
+  background: #2F2F2F;
+}
+
 .price-increase-container {
     display: flex;
     flex-direction: row;
@@ -5352,20 +5356,53 @@ html body .btn-online-shop.btn-online-shop-primary span {
 }
 
 .price-increase-container-left {
-    padding: 50px 0;
+    padding: 100px 0;
     align-self: center;
     max-width: 50%;
+}
+
+.price-increase-container-left .btn-online-shop {
+  top: 30px;
 }
 
 .online-shop .service-form {
     padding: 150px 0 100px;
 }
 
-.price-increase-container-right img {
-    transform: scale(1.5);
+.price-increase-container-right img:nth-child(1) {
+  transform: scale(0.75);
+  top: -75px;
+  transition: 0.6s all;
 }
 
+.price-increase-container-right img:nth-child(2) {
+  top: 50px;
+  left: 100px;
+  height: 260px;
+  transition: 0.4s all;
+}
 
+.price-increase-container-right img:nth-child(3) {
+    right: 89px;
+    bottom: 30px;
+    width: 110px;
+    transition: 0.5s all;
+}
+
+.price-increase:hover .price-increase-container-right img:nth-child(1) {
+   transform: scale(0.80);
+   transition: 0.3s all;
+}
+
+.price-increase:hover .price-increase-container-right img:nth-child(2) {
+   transform: rotate(-2deg);
+   transition: 0.3s all;
+}
+
+.price-increase:hover .price-increase-container-right img:nth-child(3) {
+   transform: rotate(1deg);
+   transition: 0.3s all;
+}
 
 .price-increase .price-increase__title {
     font-weight: 300;
@@ -5398,6 +5435,12 @@ html body .btn-online-shop.btn-online-shop-primary span {
 
 .price-increase-container-right {
     max-width: 50%;
+    width: 50%;
+}
+
+.price-increase__divButton {
+  display: block;
+  margin-bottom: 50px;
 }
 
 .online-shop .service-form-card .service-form-card__title {

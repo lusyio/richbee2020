@@ -384,33 +384,35 @@ endif;
             </div>
         </section>
 
-        <section class="bg-dark price-increase">
+        <section class="price-increase">
             <div class="container">
                 <div class="price-increase-container">
                     <div class="price-increase-container-left">
-                        <p class="price-increase__title">
+                        <p class="price-increase__title hidden wow fadeIn">
                             Цена не увеличится.
                             <b>Доплачивать не придется!</b>
                         </p>
-                        <p class="price-increase__text">
+                        <p class="price-increase__text hidden wow fadeIn" data-wow-delay="0.2s">
                             Если входе работ вы поймете, что вам <b>необходима реализация дополнительного
-                                функционала,</b>который не был предусмотрен изначально, мы быстро сделаем перерасчет по
+                                функционала,</b> который не был предусмотрен изначально, мы быстро сделаем перерасчет по
                             срокам и ценам.
                         </p>
-                        <p class="price-increase__text">
+                        <p class="price-increase__text hidden wow fadeIn" data-wow-delay="0.4s">
                             В иных случаях, все, что мы оговорили на этапе заключения договора остается в силе и не
                             изменяется
                         </p>
-                        <a href="/price/" class="btn-online-shop btn-online-shop-primary">
+                        <div class="price-increase__divButton">
+                        <a href="/price/" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn" data-wow-delay="0.6s">
                             <span>Рассчитать стоимость</span><img
                                     src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
                         </a>
+                      </div>
                     </div>
-                    <div class="price-increase-container-right position-relative">
-                        <img src="/images/online-shop/price-increase/blank.png" alt="">
-                        <img data-rellax-speed="-0.2" class="position-absolute rellax" style=" top: 0; left: 0"
+                    <div class="price-increase-container-right position-relative hidden wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute" src="/images/online-shop/price-increase/blank.png" alt="">
+                        <img class="position-absolute"
                              src="/images/online-shop/price-increase/pen.png" alt="">
-                        <img data-rellax-speed="-0.5" class="position-absolute rellax" style=" bottom: 1rem; right: 0"
+                        <img class="position-absolute"
                              src="/images/online-shop/price-increase/print.png" alt="">
                     </div>
                 </div>
