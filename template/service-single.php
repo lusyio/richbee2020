@@ -45,6 +45,22 @@ function advantagesItem($img, $title, $info)
     </script>
     <!-- Marquiz script end -->
 <?php endif; ?>
+<?php if ($serviceId == '2'): ?>
+    <!-- Marquiz script start -->
+    <script src="//script.marquiz.ru/v1.js" type="application/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Marquiz.init({
+                host: '//quiz.marquiz.ru',
+                id: '5f042d4b9a9cca0044d4e885',
+                autoOpen: false,
+                autoOpenFreq: 'once',
+                openOnExit: false
+            });
+        });
+    </script>
+    <!-- Marquiz script end -->
+<?php endif; ?>
 <?php if ($serviceId == '8') : ?>
     <section class="service service-account service-single">
         <div class="container">
@@ -290,11 +306,11 @@ function advantagesItem($img, $title, $info)
                     За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong>
                     год
                 </p>
-                <a href="/price/" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
+                <button onclick="Marquiz.showModal('5f042d4b9a9cca0044d4e885')" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
                    data-wow-delay="0.4s">
                     <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg"
                                                           alt="">
-                </a>
+                </button>
             </div>
         </div>
     </section>
@@ -319,7 +335,8 @@ function advantagesItem($img, $title, $info)
                     <a href="#price" class="btn btn-dark wow fadeIn"
                        data-wow-delay="0.4s">Рассчитать стоимость</a>
                 <?php else: ?>
-                    <a href="/contact/" class="btn btn-dark hidden wow fadeIn" data-wow-delay="0.4s">Рассчитать стоимость</a>
+                    <a href="/contact/" class="btn btn-dark hidden wow fadeIn" data-wow-delay="0.4s">Рассчитать
+                        стоимость</a>
                 <?php endif; ?>
                 <?php if (!empty($cases)) : ?>
                     <a href="#steps"
@@ -358,17 +375,26 @@ endif;
                 </h2>
                 <div class="garant-v2-row">
                     <div class="garant-v2-row__col hidden wow fadeIn">
-                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.2s">Каждые 2 недели получаете отчет о проделанных работах</p>
-                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.2s">Мы всегда на связи с вами и уведомляем регулярно о ходе
-                            работ. У вас будет доступ к техническому поддомену, чтобы вы могли отслеживать прогресс разработки.</p>
-                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.4s">После каждого спринта вы можете тестировать новый функционал</p>
-                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.4s">Строим работу таким образом, чтобы каждую неделю интернет-магазин
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.2s">Каждые 2 недели
+                            получаете отчет о проделанных работах</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.2s">Мы всегда на связи с вами
+                            и уведомляем регулярно о ходе
+                            работ. У вас будет доступ к техническому поддомену, чтобы вы могли отслеживать прогресс
+                            разработки.</p>
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.4s">После каждого спринта вы
+                            можете тестировать новый функционал</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.4s">Строим работу таким
+                            образом, чтобы каждую неделю интернет-магазин
                             обретал новый функционал, который вы можете тестировать самостоятельно и вносить правки</p>
-                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.6s">Совершаете платежи по удобному для вас графику</p>
-                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.6s">Согласуем ежемесячный график платежей таким образом, чтобы он
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.6s">Совершаете платежи по
+                            удобному для вас графику</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.6s">Согласуем ежемесячный
+                            график платежей таким образом, чтобы он
                             устраивал обе стороны</p>
-                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.8s">Цены и сроки фиксируются в договоре</p>
-                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.8s">Никаких скрытых платежей и затягиваний сроков под надуманными
+                        <p class="garant-v2-row__title hidden wow fadeIn" data-wow-delay="0.8s">Цены и сроки фиксируются
+                            в договоре</p>
+                        <p class="garant-v2-row__text hidden wow fadeIn" data-wow-delay="0.8s">Никаких скрытых платежей
+                            и затягиваний сроков под надуманными
                             предлогами</p>
                     </div>
                     <div class="garant-v2-row__col hidden wow fadeIn" data-wow-delay="0.6s">
@@ -399,13 +425,16 @@ endif;
                             изменяется.
                         </p>
                         <div class="price-increase__divButton">
-                        <a href="/price/" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn" data-wow-delay="0.6s">
-                            <span>Рассчитать стоимость</span><img
-                                    src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
-                        </a>
-                      </div>
+                            <button onclick="Marquiz.showModal('5f042d4b9a9cca0044d4e885')"
+                                    class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
+                                    data-wow-delay="0.6s">
+                                <span>Рассчитать стоимость</span><img
+                                        src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
+                            </button>
+                        </div>
                     </div>
-                    <div class="price-increase-container-right position-relative hidden wow fadeIn" data-wow-delay="0.1s">
+                    <div class="price-increase-container-right position-relative hidden wow fadeIn"
+                         data-wow-delay="0.1s">
                         <img class="position-absolute" src="/images/online-shop/price-increase/blank.png" alt="">
                         <img class="position-absolute"
                              src="/images/online-shop/price-increase/pen.png" alt="">
@@ -610,7 +639,8 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
                 <div class="garant-v2-row__col wow fadeIn">
                     <p class="garant-v2-row__title">Каждые 2 недели получаете отчет о проделанных работах</p>
                     <p class="garant-v2-row__text">Мы всегда на связи с вами и уведомляем регулярно о ходе
-                        работ. У вас будет доступ к техническому поддомену, чтобы вы могли отслеживать прогресс разработки.</p>
+                        работ. У вас будет доступ к техническому поддомену, чтобы вы могли отслеживать прогресс
+                        разработки.</p>
                     <p class="garant-v2-row__title">После каждого спринта вы можете тестировать новый функционал</p>
                     <p class="garant-v2-row__text">Строим работу таким образом, чтобы каждые 2 недели личный кабинет
                         обретал новый функционал, который вы можете не только тестировать самостоятельно, но даже
@@ -830,7 +860,8 @@ if (file_exists($serviceTempSteps) && $serviceId !== '2') : ?>
                             завершения разработки</p>
                     </div>
                     <div>
-                        <p class="garant__title">Цены и сроки жестко фиксируются в <a href="/docs/richbee.docx">договоре</a>
+                        <p class="garant__title">Цены и сроки жестко фиксируются в <a
+                                    href="/docs/richbee.docx">договоре</a>
                         </p>
                         <p class="garant__text">Никаких скрытых платежей и затягиваний сроков под надуманными
                             предлогами</p>

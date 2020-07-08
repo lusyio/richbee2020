@@ -666,9 +666,9 @@
                                 <span>подключения большого количества готовых модулей</span></p>
                         </div>
                         <p class="choose-variants-card__price">от 60 000 рублей</p>
-                        <a href="/price/" class="btn-online-shop btn-online-shop-primary">
+                        <button onclick="Marquiz.showModal('5f042d4b9a9cca0044d4e885')" class="btn-online-shop btn-online-shop-primary">
                             <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
-                        </a>
+                        </button>
                     </div>
                 </div>
                 <div class="choose-variants-card hidden wow fadeIn" data-wow-delay="0.4s">
@@ -685,9 +685,9 @@
                             </p>
                         </div>
                         <p class="choose-variants-card__price">от 350 000 рублей</p>
-                        <a href="/price/" class="btn-online-shop btn-online-shop-primary">
+                        <button onclick="Marquiz.showModal('5f042d4b9a9cca0044d4e885')" class="btn-online-shop btn-online-shop-primary">
                             <span>Рассчитать стоимость</span><img src="/images/svg/online-shop/choose-variants/arrow.svg" alt="">
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
