@@ -42,7 +42,7 @@
                     <img class="footer__presIMG" src="/images/richbee-pres.jpg" alt="Презентация компании"/>
                 </a>
                 <a href="/richbee-presentation.pdf" class="footer__presAtwo" onclick="ym(27860136,'reachGoal','pres')">
-                    Скачать презентацию компании [PDF, 1.2 мб]
+                    Скачать презентацию компании [PDF, 1.3 мб]
                 </a>
             </div>
 
