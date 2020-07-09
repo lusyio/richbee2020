@@ -295,8 +295,7 @@ function advantagesItem($img, $title, $info)
     </section>
 
 <?php elseif ($serviceId == '2'): ?>
-    <section class="service service-single"
-             style="padding-bottom:150px;">
+    <section class="service service-single service-ecommerce">
         <div class="container">
             <div class="service-block position-relative">
                 <h1 class="service-block__title hidden wow fadeIn">

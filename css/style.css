@@ -3023,6 +3023,10 @@ html body input:focus, html body button:focus {
     overflow: hidden;
 }
 
+.service-ecommerce {
+  padding-bottom: 150px !important;
+}
+
 .service-single.bg-white {
     background-color: #fff;
     color: #000;
@@ -5188,6 +5192,7 @@ html body .blick:before {
     box-sizing: border-box;
     max-width: 43%;
     transition: 0.4s all;
+    background: white;
 }
 
 .choose-variants-card:hover {
@@ -6928,6 +6933,90 @@ html img {
 
 @media screen and (max-width: 375px) {
 
+  .online-shop-header .service-single .service-block__title {
+    max-width: 245px;
+  }
+  .online-shop-header .service-block__subtitle {
+    max-width: 222px;
+  }
+
+  .service-ecommerce {
+    padding-bottom: 100px !important;
+  }
+
+  .responsibility-row > div {
+    left: 0px;
+    width: 100%;
+  }
+
+  .online-shop .responsibility .responsibility__title {
+    max-width: 228px;
+  }
+
+  .shop-prediction {
+    padding-top: 10px;
+  }
+
+  .shop-prediction .shop-prediction__title {
+    margin-bottom: 40px !important;
+  }
+
+  .shop-prediction-container .shop-prediction-container__title {
+    margin-bottom: 15px !important;
+  }
+
+  .shop-prediction-card .shop-prediction-card__text {
+    max-width: 170px;
+  }
+
+  .shop-prediction-container-cards-control div .swiper-pagination-current {
+    top: -5px;
+    position: relative;
+  }
+
+  .profit-with-us .profit-with-us__title {
+    background-size: 55% 3px;
+  }
+
+  .profit-with-us-row .profit-with-us-row__text {
+    font-weight: 100;
+  }
+
+  .choose-variants .choose-variants__title {
+    max-width: 273px;
+    max-width: 273px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .responsibility-row .responsibility-row__info {
+    color: #333333;
+  }
+
+  .choose-variants-card .choose-variants-card__text p {
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .choose-variants-card .choose-variants-card__text {
+    margin-bottom: 39px;
+  }
+
+  .online-shop .garant-v2-row .garant-v2-row__link {
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .online-shop .service-form-v2 .service-form-form > input {
+    display: block;
+  }
+
+  .online-shop .service-form-form {
+    margin-bottom: 69px;
+  }
+
     .service-process__body-mobile .service-process-main p {
         font-size: 14px;
         line-height: 19px;
@@ -7003,11 +7092,6 @@ html img {
     .account-planning .account-planning__after-title {
         font-size: 20px;
         line-height: 35px;
-    }
-
-    .responsibility-row > div {
-        width: 100%;
-        left: 40px;
     }
 
     .garant-v2-row .garant-v2-row__title, .garant-v2-row .garant-v2-row__text {

@@ -11,21 +11,21 @@
                 <div>
                     <div class="responsibility-row__title">
                         <span class="hidden wow fadeIn" data-wow-delay="0.3s">1</span>
-                        <p  class="hidden wow fadeIn" data-wow-delay="0.5s">год <small>гарантии</small></p>
+                        <p  class="hidden wow fadeIn" data-wow-delay="0.4s">год <small>гарантии</small></p>
                     </div>
-                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.6s">
+                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.5s">
                         Вы получаете гарантию на 1 год при условии технической поддержки только со стороны наших
                         специалистов
                     </p>
-                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.7s">
+                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.6s">
                         Это важный момент, так как мы не можем гарантировать работоспособность при вмешательстве
                         сторонних специалистов
                     </p>
                     <div class="responsibility-row__title">
-                        <span class="hidden wow fadeIn" data-wow-delay="0.7s">2</span>
-                        <p class="hidden wow fadeIn" data-wow-delay="0.9s">месяца <small>тех. поддержки</small></p>
+                        <span class="hidden wow fadeIn" data-wow-delay="0.65s">2</span>
+                        <p class="hidden wow fadeIn" data-wow-delay="0.7s">месяца <small>тех. поддержки</small></p>
                     </div>
-                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="1s">
+                    <p class="responsibility-row__info hidden wow fadeIn" data-wow-delay="0.8s">
                         Вы получаете 2 месяца полной технической поддержки со стороны опытных специалистов
                     </p>
                 </div>
