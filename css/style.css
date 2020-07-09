@@ -7017,6 +7017,33 @@ html img {
     margin-bottom: 69px;
   }
 
+  /* .price-increase-container-right img:nth-child(1) {
+    transform: scale(0.95);
+    top: -417px;
+    right: -219px;
+  } */
+
+  .price-increase-container-right {
+    display: block;
+    right: -210px;
+    top: -400px;
+  }
+  .price-increase-container-right img:nth-child(1) {
+    transform: rotate(-20deg);
+    left: -10px;
+    top: 0px;
+  }
+  .price-increase-container-right img:nth-child(2) {
+    display: none;
+  }
+
+  .price-increase-container-right img:nth-child(3) {
+    right: auto;
+    bottom: -200px;
+    transform: rotate(-70deg);
+    width: 40px;
+  }
+
     .service-process__body-mobile .service-process-main p {
         font-size: 14px;
         line-height: 19px;
