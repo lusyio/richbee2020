@@ -5394,21 +5394,6 @@ html body .btn-online-shop.btn-online-shop-primary span {
     transition: 0.5s all;
 }
 
-.price-increase:hover .price-increase-container-right img:nth-child(1) {
-   transform: scale(0.80);
-   transition: 0.3s all;
-}
-
-.price-increase:hover .price-increase-container-right img:nth-child(2) {
-   transform: rotate(-2deg);
-   transition: 0.3s all;
-}
-
-.price-increase:hover .price-increase-container-right img:nth-child(3) {
-   transform: rotate(1deg);
-   transition: 0.3s all;
-}
-
 .price-increase .price-increase__title {
     font-weight: 300;
     font-size: 35px;
@@ -7033,6 +7018,7 @@ html img {
     left: -10px;
     top: 0px;
   }
+
   .price-increase-container-right img:nth-child(2) {
     display: none;
   }
@@ -7246,4 +7232,21 @@ html img {
         font-size: 32px;
         margin-bottom: 20px;
     }
+}
+
+@media (min-width: 992px) {
+  .price-increase:hover .price-increase-container-right img:nth-child(1) {
+     transform: scale(0.80);
+     transition: 0.3s all;
+  }
+
+  .price-increase:hover .price-increase-container-right img:nth-child(2) {
+     transform: rotate(-2deg);
+     transition: 0.3s all;
+  }
+
+  .price-increase:hover .price-increase-container-right img:nth-child(3) {
+     transform: rotate(1deg);
+     transition: 0.3s all;
+  }
 }
