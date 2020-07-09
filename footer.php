@@ -81,10 +81,7 @@
         spaceBetween: 15,
         pagination: {
             el: '#shop-prediction-container-cards-1 .swiper-pagination',
-            type: 'custom',
-            renderCustom: function (swiper, current, total) {
-                return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-            }
+            type: 'fraction',
         },
         navigation: {
             nextEl: '#shop-prediction-container-cards-1 .shop-prediction-swiper-button-next',
@@ -95,10 +92,7 @@
         spaceBetween: 15,
         pagination: {
             el: '#shop-prediction-container-cards-2 .swiper-pagination',
-            type: 'custom',
-            renderCustom: function (swiper, current, total) {
-                return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-            }
+            type: 'fraction',
         },
         navigation: {
             nextEl: '#shop-prediction-container-cards-2 .shop-prediction-swiper-button-next',
@@ -109,10 +103,7 @@
         spaceBetween: 15,
         pagination: {
             el: '#shop-prediction-container-cards-3 .swiper-pagination',
-            type: 'custom',
-            renderCustom: function (swiper, current, total) {
-                return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-            }
+            type: 'fraction',
         },
         navigation: {
             nextEl: '#shop-prediction-container-cards-3 .shop-prediction-swiper-button-next',
@@ -123,10 +114,7 @@
         spaceBetween: 15,
         pagination: {
             el: '#shop-prediction-container-cards-4 .swiper-pagination',
-            type: 'custom',
-            renderCustom: function (swiper, current, total) {
-                return "<span class='swiper-pagination-current'>" + ('0' + current).slice(-2) + "</span>" + '/' + "<span class='swiper-pagination-total'>" + ('0' + total).slice(-2) + "</span>";
-            }
+            type: 'fraction',
         },
         navigation: {
             nextEl: '#shop-prediction-container-cards-4 .shop-prediction-swiper-button-next',

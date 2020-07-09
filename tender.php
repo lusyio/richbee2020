@@ -47,7 +47,7 @@ $cases = DB('*', 'cases', 'body!="0" order by rand() DESC limit 9');
             <div class="case-section__list">
                 <?php
                 if (count($cases) > 3) : ?>
-                    <div class="swiper-container">
+                    <div class="swiper-container swiper-container-case">
                         <div class="swiper-wrapper">
                             <?php foreach ($cases as $item) :
                                 $classItem = '';
@@ -65,7 +65,7 @@ $cases = DB('*', 'cases', 'body!="0" order by rand() DESC limit 9');
                     <div class="case-section-swiper-btn case-section-prev"></div>
                     <div class="case-section-swiper-btn case-section-next"></div>
                     <script>
-                        const swiper = new Swiper('.swiper-container', {
+                        const swiper = new Swiper('.swiper-container-case', {
                             slidesPerView: 1,
                             spaceBetween: 15,
                             loop: true,

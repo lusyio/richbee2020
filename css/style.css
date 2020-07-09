@@ -6633,6 +6633,14 @@ html img {
         width: auto;
     }
 
+    .swiper-pagination-current:before{
+        content: "0"
+    }
+
+    .swiper-pagination-total:before{
+        content: "0"
+    }
+
     .shop-prediction-container-cards-control div .swiper-pagination-current {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;

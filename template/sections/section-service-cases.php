@@ -15,7 +15,7 @@
             <div class="case-section__list hidden wow fadeIn" data-wow-delay="0.4s">
                 <?php
                 if (count($cases) > 3) : ?>
-                    <div class="swiper-container">
+                    <div class="swiper-container swiper-container-case">
                         <div class="swiper-wrapper">
                             <?php foreach ($cases as $item) :
                                 $classItem = '';
@@ -33,7 +33,7 @@
                     <div class="case-section-swiper-btn case-section-prev hidden wow fadeIn" data-wow-delay="0.6s"></div>
                     <div class="case-section-swiper-btn case-section-next hidden wow fadeIn" data-wow-delay="0.8s"></div>
                     <script>
-                        const swiper = new Swiper('.swiper-container', {
+                        const swiper = new Swiper('.swiper-container-case', {
                             slidesPerView: 1,
                             spaceBetween: 15,
                             loop: true,
