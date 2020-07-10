@@ -4,7 +4,7 @@
         <div class="container">
             <p class="responsibility__title hidden wow fadeIn" data-wow-delay="0.1s"><b>Несем ответственность</b> за качество работы</p>
             <p class="responsibility__sub-title hidden wow fadeIn" data-wow-delay="0.2s">
-                Вы получаете гарантию на 1 год <br> и 2 месяца технической поддержки бесплатно бесплатно</p>
+                Вы получаете гарантию на 1 год <br> и 2 месяца технической поддержки бесплатно</p>
             <div class="responsibility-row">
                 <img class="responsibility__img hidden wow fadeIn" data-wow-delay="0.3s" data-wow-duration="2s" src="/images/my-account/responsibility-img.jpg"
                      alt="responsibility">
