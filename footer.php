@@ -18,7 +18,7 @@
 
             <div class="footer__secondDIV">
                 <div class="footer__phone">
-                    <p>8 (926) 381-57-73</p>
+                    <p>8 (495) 197-82-88</p>
                     <p>Ежедневно с 10:00 до 18:00</p>
                 </div>
                 <div class="footer__aboutInfo">

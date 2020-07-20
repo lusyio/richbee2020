@@ -94,7 +94,7 @@ if (file_exists($pathImgOpenGraph)) {
                     <div class="item">
                         <div class="infoHead">
                             <p>
-                                Отдел продаж <a href="tel:+79263815773">8 (926) 381-57-73</a>
+                                Отдел продаж <a href="tel:+74951978288">8 (495) 197-82-88</a>
                             </p>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ if (file_exists($pathImgOpenGraph)) {
                                                                                             src="/images/svg/vk.svg"/></a>
                                 <a href="https://tlgg.ru/@termitFOvlad" class="wow fadeIn" data-wow-delay="0.1s"><img
                                             class="svg" src="/images/svg/telegram.svg"/></a>
-                                <a href="https://wa.me/79263815773" class="wow fadeIn" data-wow-delay="0.2s"><img
+                                <a href="https://wa.me/74951978288" class="wow fadeIn" data-wow-delay="0.2s"><img
                                             class="svg" src="/images/svg/whatsapp.svg"/></a>
                             </p>
                         </div>
