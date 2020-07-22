@@ -5557,7 +5557,9 @@ html body .blick:before {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+    background-image: url("/images/svg/online-shop/development-team/decor.svg");
+    background-position: bottom;
 }
 
 .development-team-card {
