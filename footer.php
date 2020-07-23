@@ -88,6 +88,18 @@
             prevEl: '#shop-prediction-container-cards-1 .shop-prediction-swiper-button-prev',
         },
     });
+    const developmentTeamCards = new Swiper('#development-team-cards', {
+        spaceBetween: 15,
+        slidesPerView: 1,
+        pagination: {
+            el: '#development-team-cards .swiper-pagination',
+            type: 'fraction',
+        },
+        navigation: {
+            nextEl: '#development-team-cards .shop-prediction-swiper-button-next',
+            prevEl: '#development-team-cards .shop-prediction-swiper-button-prev',
+        },
+    });
     const shopPredictionContainerCards2 = new Swiper('#shop-prediction-container-cards-2', {
         spaceBetween: 15,
         pagination: {

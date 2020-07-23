@@ -3969,10 +3969,6 @@ html body .blick:before {
         margin-right: 30px;
     }
 
-    .container {
-        max-width: 960px;
-    }
-
     .case-section .container {
         overflow: hidden;
     }
@@ -4319,7 +4315,7 @@ html body .blick:before {
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .service-block__title-new {
         font-size: 25px;
         line-height: 30px;
@@ -5067,7 +5063,7 @@ html body .blick:before {
 }
 
 .individual-solution-card .individual-solution-card__body {
-    border: 1px solid #646464;
+    border: 1px solid #64646450;
     box-sizing: border-box;
     border-radius: 20px;
     padding: 125px 50px 110px;
@@ -5255,6 +5251,10 @@ html body .blick:before {
     z-index: 2;
 }
 
+.ask-question-card span {
+    display: none;
+}
+
 .ask-question-button-group {
     display: flex;
     flex-wrap: wrap;
@@ -5341,7 +5341,7 @@ html body .blick:before {
 }
 
 .development-start-card .development-start-card__body {
-    border: 1px solid #C4C4C4;
+    border: 1px solid #C4C4C450;
     box-sizing: border-box;
     border-radius: 20px;
     padding: 125px 60px 100px;
@@ -5540,6 +5540,7 @@ html body .blick:before {
 .development-team-main-card .development-team-main-card__social {
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 .development-team-main-card .development-team-main-card__social a {
@@ -5583,7 +5584,7 @@ html body .blick:before {
 }
 
 .development-team-card .development-team-card__body {
-    border: 1px solid #C4C4C4;
+    border: 1px solid #C4C4C450;
     box-sizing: border-box;
     border-radius: 10px;
     display: flex;
@@ -5628,7 +5629,7 @@ html body .blick:before {
 }
 
 .development-team-add-card .development-team-add-card__body {
-    border: 1px solid #C4C4C4;
+    border: 1px solid #C4C4C450;
     box-sizing: border-box;
     border-radius: 20px;
     padding: 45px 90px;
@@ -6513,6 +6514,10 @@ html img {
     vertical-align: middle;
 }
 
+.development-team-cards-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
     .service-account .service-account__image {
         right: -8rem;
@@ -6545,6 +6550,50 @@ html img {
     .online-shop .container {
         padding: 0 15px;
         box-sizing: border-box;
+    }
+
+    .development-team-main-col {
+        max-width: 35%;
+    }
+
+    .development-team-cards {
+        justify-content: center;
+    }
+
+    .development-team-card:nth-of-type(2n) {
+        margin-top: 0;
+    }
+
+    .development-team-card {
+        margin-bottom: 30px;
+    }
+
+    .individual-solution-card-list {
+        flex-direction: column;
+    }
+
+    .individual-solution-card-list li {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .individual-solution-card-list li:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .ask-question-btn {
+        padding: 27px 24px 27px 22px;
+        font-size: 17px;
+    }
+
+    .development-team-card:last-of-type {
+        margin-right: 30px;
+    }
+
+    .development-team-cards {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
     }
 }
 
@@ -6665,9 +6714,173 @@ html img {
     .increase-efficiency-swiper-img {
         max-width: 100%;
     }
+
+    .development-team-main-col {
+        max-width: 85%;
+        margin: auto;
+    }
+
+    .development-team-main-col.dima {
+        margin: auto auto 35px;
+    }
+
+    .development-team {
+        padding: 70px 0;
+    }
+
+    .development-start {
+        padding: 85px 0;
+    }
+
+    .development-start-card .development-start-card__body {
+        padding: 125px 50px 100px;
+    }
+
+    .development-start-card-list li {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .individual-solution-card .individual-solution-card__body {
+        padding: 90px 50px;
+    }
+
+    .ask-question-row .ask-question-row__col {
+        margin: auto;
+    }
+
+    .ask-question-row .ask-question-row__col:first-of-type {
+        margin-bottom: 60px;
+    }
+
+    .ask-question-button-group {
+        flex-direction: column;
+    }
+
+    .ask-question-btn {
+        max-width: 50%;
+        margin: auto auto 25px;
+    }
+
+    .ask-question {
+        padding: 70px 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
+
+    .development-team-cards.development-team-cards-mobile {
+        display: block;
+    }
+
+    .development-team-cards {
+        display: none;
+    }
+
+    .development-team-card {
+        max-width: 100%;
+        box-shadow: none;
+    }
+
+    .development-team-cards {
+        margin-bottom: 30px;
+    }
+
+    .development-team-add-card .development-team-add-card__body {
+        padding: 45px 80px;
+    }
+
+    .development-team .development-team__title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .development-start .development-start__title {
+        font-size: 28px;
+        line-height: 34px;
+        margin: 0 auto 70px;
+    }
+
+    .development-start-card .development-start-card__title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .development-start-card .development-start-card__body {
+        padding: 125px 40px 100px;
+    }
+
+    .development-start-card .development-start-card__sub-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .development-start-card .development-start-card__after-title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 65px;
+    }
+
+    .development-start-card-list {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .development-start-card-list:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .individual-solution {
+        padding: 90px 0;
+    }
+
+    .individual-solution-card .individual-solution-card__title {
+        font-size: 28px;
+        line-height: 29px;
+    }
+
+    .individual-solution-card .individual-solution-card__sub-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .individual-solution-card .individual-solution-card__after-title {
+        font-size: 26px;
+        line-height: 29px;
+        margin-bottom: 65px;
+    }
+
+    .individual-solution-card-list li {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ask-question-btn {
+        max-width: 75%;
+    }
+
+    .ask-question-row .ask-question-row__title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .ask-question-row .ask-question-row__info {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .ask-question-row .ask-question-row__phone, .ask-question-row .ask-question-row__phone a {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .ask-question-row .ask-question-row__email, .ask-question-row .ask-question-row__email a {
+        display: none;
+    }
+
+    .development-team .development-team__title {
+        margin-bottom: 80px;
+    }
 
     .online-shop-modal .modal-content {
         box-sizing: border-box;
@@ -7352,6 +7565,213 @@ html img {
 }
 
 @media screen and (max-width: 576px) {
+
+    .development-team .development-team__title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .development-team-main .development-team-main__title {
+        font-size: 16px;
+        padding-left: 20px;
+        line-height: 20px;
+    }
+
+    .development-team-main .development-team-main__sub-title {
+        font-size: 15px;
+        line-height: 18px;
+        padding-left: 20px;
+    }
+
+    .development-team-main-col {
+        margin-right: 0;
+        max-width: 70%;
+    }
+
+    .development-team-main-col.dima {
+        margin-right: 0;
+        margin-bottom: 75px;
+    }
+
+    .development-team-main-card .development-team-main-card__info {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .development-team-main-card .development-team-main-card__body {
+        padding: 20px;
+    }
+
+    .development-team-main-col__img {
+        position: absolute;
+        left: -9rem;
+        transform: scale(1.2);
+        top: -3rem;
+        z-index: 0;
+    }
+
+    .development-team-main-col.alexey .development-team-main-col__img {
+        left: -10rem;
+        top: -2rem;
+    }
+
+    .development-team-add-card .development-team-add-card__title {
+        max-width: 140px;
+        margin: auto;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .development-start .development-start__title {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .development-start-card:before {
+        left: -44%;
+        height: 25px;
+        top: 3%;
+    }
+
+    .development-start-card .development-start-card__body {
+        padding: 65px 25px;
+    }
+
+    .development-start-card .development-start-card__title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    .development-start-card .development-start-card__sub-title {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .development-start-card .development-start-card__after-title {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 60px;
+    }
+
+    .development-start-card-lists {
+        padding: 0 15px;
+    }
+
+    .development-start-card-list li:before {
+        width: 5px;
+        height: 5px;
+    }
+
+    .development-start-card-list li {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .development-start-card-list {
+        margin-bottom: 20px;
+    }
+
+    .individual-solution-card .individual-solution-card__body {
+        padding: 30px;
+    }
+
+    .individual-solution-card .individual-solution-card__title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    .individual-solution-card .individual-solution-card__sub-title {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 11px;
+        text-align: left;
+    }
+
+    .individual-solution-card .individual-solution-card__after-title {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    .individual-solution-card-list {
+        padding: 0 15px;
+    }
+
+    .individual-solution-card-list li {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .individual-solution-card-list li:before {
+        width: 5px;
+        height: 5px;
+    }
+
+    .individual-solution-card-list {
+        margin-bottom: 40px;
+    }
+
+    .individual-solution-card-list {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .ask-question-row .ask-question-row__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+
+    .ask-question-row .ask-question-row__info {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ask-question-row .ask-question-row__phone, .ask-question-row .ask-question-row__phone a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .ask-question-btn {
+        max-width: 280px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 18px;
+    }
+
+    .ask-question-card {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 240px;
+        padding: 12px 10px;
+        text-align: center;
+    }
+
+    .ask-question-card span {
+        display: block;
+        text-align: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #0029FF;
+    }
+
     .service-account .service-account__title {
         font-size: 36px;
     }
@@ -7790,9 +8210,13 @@ html img {
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .contacts {
         padding: 50px 20px;
+    }
+
+    .development-team-main-col {
+        max-width: 85%;
     }
 
     .contacts__title {
@@ -7859,3 +8283,29 @@ html img {
         transition: 0.3s all;
     }
 }
+
+@media screen and (min-width: 576px) {
+    .online-shop .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .online-shop .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .online-shop .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .online-shop .container {
+        max-width: 1140px;
+    }
+}
+
+

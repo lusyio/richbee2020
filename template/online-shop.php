@@ -846,6 +846,81 @@
                 </div>
             </div>
 
+            <div id="development-team-cards"
+                 class="development-team-cards development-team-cards-mobile swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide development-team-card">
+                        <div class="development-team-card__body">
+                            <p class="development-team-card__title">
+                                Владислав Карпенко
+                            </p>
+                            <p class="development-team-card__info">
+                                Менеджер по продажам
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide development-team-card">
+                        <div class="development-team-card__body">
+                            <p class="development-team-card__title">
+                                Максим Третьяк
+                            </p>
+                            <p class="development-team-card__info">
+                                Frontend разработчик
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide development-team-card">
+                        <div class="development-team-card__body">
+                            <p class="development-team-card__title">
+                                Игорь Гарифьянов
+                            </p>
+                            <p class="development-team-card__info">
+                                Backend разработчик
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide development-team-card">
+                        <div class="development-team-card__body">
+                            <p class="development-team-card__title">
+                                Андрей Федоров
+                            </p>
+                            <p class="development-team-card__info">
+                                Frontend разработчик
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide development-team-card">
+                        <div class="development-team-card__body">
+                            <p class="development-team-card__title">
+                                Оксана Проничева
+                            </p>
+                            <p class="development-team-card__info">
+                                Веб-дизайнер
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide development-team-card">
+                        <div class="development-team-card__body">
+                            <p class="development-team-card__title">
+                                Сергей Шибанов
+                            </p>
+                            <p class="development-team-card__info">
+                                Специалист по 1С
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-prediction-container-cards-control">
+                    <div class="shop-prediction-swiper-button-prev">
+                        <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-left.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="shop-prediction-swiper-button-next">
+                        <img src="/images/svg/online-shop/shop-prediction/swiper/arrow-right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
             <div class="development-team-add-card">
                 <div class="development-team-add-card__body">
                     <img src="/images/svg/online-shop/development-team/plus.svg" alt="add">
@@ -994,6 +1069,7 @@
                     <img class="ask-question-row-manager" src="/images/online-shop/ask-question/vlad.png" alt="manager">
                     <div class="ask-question-card">
                         Владислав Карпенко
+                        <span>Менеджер</span>
                     </div>
                 </div>
             </div>
