@@ -5530,6 +5530,11 @@ html body .blick:before {
     border-radius: 10px;
     box-sizing: border-box;
     position: relative;
+    transition: 145ms ease-in-out;
+}
+
+.development-team-main-card:hover {
+    box-shadow: 0 0 35px rgba(180, 180, 180, 0.53);
 }
 
 .development-team-main-col.dima {
@@ -5618,7 +5623,7 @@ html body .blick:before {
 }
 
 .development-team-card:hover {
-    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(196, 196, 196, 0.73);
 }
 
 .development-team-card:last-of-type {
@@ -5676,7 +5681,7 @@ html body .blick:before {
 }
 
 .development-team-add-card:hover {
-    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(196, 196, 196, 0.73);
 }
 
 .development-team-add-card .development-team-add-card__body {
