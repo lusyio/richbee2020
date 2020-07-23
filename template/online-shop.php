@@ -748,13 +748,15 @@
                         <div class="development-team-main-card">
                             <div class="development-team-main-card__body">
                                 <p class="development-team-main-card__info">
-                                    Здесь описание вас как специалистов, рассказываете, как работаете и хвастаетесь
-                                    достижениями. Настройки шрифта сохранены.Здесь описание вас как специалистов,
-                                    рассказываете, как работаете и хвастаетесь достижениями. Настройки шрифта сохранены.
+                                    Каждый интернет-магазин мы разрабатываем с упором на детали. Прорабатывается весь
+                                    путь клиента от первого посещения сайта до повторных заказов. Ваши клиенты будут в
+                                    восторге.
                                 </p>
                                 <p class="development-team-main-card__social">
-                                    <a href="#"><img src="/images/svg/online-shop/development-team/vk.svg" alt=""></a>
-                                    <a href="#"><img src="/images/svg/online-shop/development-team/telegram.svg" alt=""></a>
+                                    <a target="_blank" href="https://vk.com/im?sel=26401046"><img
+                                                src="/images/svg/online-shop/development-team/vk.svg" alt=""></a>
+                                    <a target="_blank" href="https://tlgg.ru/@mr_richbee"><img
+                                                src="/images/svg/online-shop/development-team/telegram.svg" alt=""></a>
                                 </p>
                             </div>
                         </div>
@@ -769,13 +771,15 @@
                         <div class="development-team-main-card">
                             <div class="development-team-main-card__body">
                                 <p class="development-team-main-card__info">
-                                    Здесь описание вас как специалистов, рассказываете, как работаете и хвастаетесь
-                                    достижениями. Настройки шрифта сохранены.Здесь описание вас как специалистов,
-                                    рассказываете, как работаете и хвастаетесь достижениями. Настройки шрифта сохранены.
+                                    Приступая к разработке, мы стараемся сохранить ваше видение интернет-магазина. При
+                                    этом мы совмещаем ваши пожелания с современными требованиями, получая в итоге
+                                    абсолютно уникальный проект
                                 </p>
                                 <p class="development-team-main-card__social">
-                                    <a href="#"><img src="/images/svg/online-shop/development-team/vk.svg" alt=""></a>
-                                    <a href="#"><img src="/images/svg/online-shop/development-team/telegram.svg" alt=""></a>
+                                    <a target="_blank" href="https://vk.com/im?sel=52658005"><img
+                                                src="/images/svg/online-shop/development-team/vk.svg" alt=""></a>
+                                    <a target="_blank" href="https://tlgg.ru/@apanfiloff"><img
+                                                src="/images/svg/online-shop/development-team/telegram.svg" alt=""></a>
                                 </p>
                             </div>
                         </div>
@@ -1023,14 +1027,14 @@
                     </p>
                     <ul class="individual-solution-card-list">
                         <li>
-                            Разработка сервера с API и веб-приложения с возможностью дальнейшей <b>разработки мобильных
-                                приложений</b> на iOS и Android
+                            Разработка сервера с API и веб-приложения с возможностью <b>разработки мобильных
+                                приложений</b>
                         </li>
                         <li>
                             <b>Разработка административной панели</b> непосредственно под ваши бизнес-процессы
                         </li>
                         <li>
-                            <b>Высокая скорость работы</b> сайта под большими нагрузками
+                            <b>Высокая и стабильная скорость работы</b> сайта под большими нагрузками
                         </li>
                     </ul>
                     <div class="individual-solution-card-stack">
@@ -1052,7 +1056,7 @@
                 <div class="ask-question-row__col">
                     <p class="ask-question-row__title"><b>Задать вопрос</b> менеджеру</p>
                     <p class="ask-question-row__info">
-                        Стоимость дополнительных модулей а также ответы на интересующие вас вопросы вы можете узнать у
+                        Стоимость дополнительных модулей, а также ответы на интересующие вас вопросы, вы можете узнать у
                         менеджера любым удобным для вас образом
                     </p>
                     <p class="ask-question-row__phone">
@@ -1074,18 +1078,19 @@
                 </div>
             </div>
             <div class="ask-question-button-group">
-                <button class="ask-question-btn ask-question-telegram">
+                <a href="https://tlgg.ru/@termitFOvlad" target="_blank" class="ask-question-btn ask-question-telegram">
                     <img src="/images/svg/online-shop/ask-question/telegram.svg" alt="telegram">
                     Написать в Telegram
-                </button>
-                <button class="ask-question-btn ask-question-whatsapp">
+                </a>
+                <a href="https://wa.me/79263815773" target="_blank" class="ask-question-btn ask-question-whatsapp">
                     <img src="/images/svg/online-shop/ask-question/whatsup.svg" alt="Whatsapp">
                     Написать в Whatsapp
-                </button>
-                <button class="ask-question-btn ask-question-vk">
+                </a>
+                <a href="https://vk.com/im?media=&sel=-89243398" target="_blank"
+                   class="ask-question-btn ask-question-vk">
                     <img src="/images/svg/online-shop/ask-question/vk.svg" alt="vk">
                     Написать в VK
-                </button>
+                </a>
             </div>
         </div>
     </section>
