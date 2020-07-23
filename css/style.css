@@ -5160,6 +5160,10 @@ html body .blick:before {
     justify-content: center;
 }
 
+.individual-solution-card-stack .individual-solution-card-stack__img img {
+    max-width: 70%;
+}
+
 .ask-question {
     padding: 130px 0;
 }
@@ -5554,6 +5558,7 @@ html body .blick:before {
     left: -11rem;
     top: 0;
     z-index: 0;
+    max-width: 70%;
 }
 
 .development-team-main-col.alexey .development-team-main-col__img {

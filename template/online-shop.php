@@ -740,7 +740,7 @@
 
             <div class="development-team-main">
                 <div class="development-team-main-col dima">
-                    <img class="development-team-main-col__img" src="/images/online-shop/development-team/dima.png"
+                    <img class="development-team-main-col__img" src="/images/online-shop/development-team/dima.jpg"
                          alt="">
                     <div>
                         <p class="development-team-main__title">Дмитрий Ласковский</p>
@@ -763,7 +763,7 @@
                     </div>
                 </div>
                 <div class="development-team-main-col alexey">
-                    <img class="development-team-main-col__img" src="/images/online-shop/development-team/alexey.png"
+                    <img class="development-team-main-col__img" src="/images/online-shop/development-team/alexey.jpg"
                          alt="">
                     <div>
                         <p class="development-team-main__title">Алексей Панфилов</p>
