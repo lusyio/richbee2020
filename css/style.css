@@ -5155,8 +5155,6 @@ html body .blick:before {
 }
 
 .individual-solution-card-stack .individual-solution-card-stack__img {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
