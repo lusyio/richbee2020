@@ -8002,6 +8002,15 @@ html img {
 
 @media screen and (max-width: 375px) {
 
+    .development-team-main-col .development-team-main-col__img, .development-team-main-col.alexey .development-team-main-col__img {
+        left: -8rem;
+        top: -1rem;
+    }
+
+    .individual-solution-card-stack .individual-solution-card-stack__img img {
+        max-width: 100%;
+    }
+
     .online-shop-header .service-single .service-block__title {
         max-width: 245px;
     }
