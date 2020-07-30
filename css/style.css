@@ -5265,7 +5265,7 @@ html body .blick:before {
 }
 
 .ask-question-card:hover {
-    transform: translateY(-5px);
+    box-shadow: 0 4px 25px rgba(58, 58, 58, 0.3);
 }
 
 .ask-question-card span {
@@ -5304,7 +5304,8 @@ html body .blick:before {
 }
 
 .ask-question-btn:hover {
-    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(58, 58, 58, 0.3);
+    transition: 145ms ease-in-out;
 }
 
 .ask-question-telegram {

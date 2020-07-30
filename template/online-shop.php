@@ -680,7 +680,7 @@
         </div>
     </section>
 
-    <?php if (false): ?>
+    <?php if (true): ?>
         <section class="choose-variants bg-light-grey">
             <div class="container">
                 <p class="choose-variants__title hidden wow fadeIn">
@@ -936,6 +936,7 @@
         </div>
     </section>
 
+    <?php if(false) :?>
     <section class="development-start bg-light-grey">
         <div class="container">
             <p class="development-start__title">
@@ -1011,7 +1012,9 @@
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
+    <?php if(false) :?>
     <section class="individual-solution">
         <div class="container">
             <div class="individual-solution-card">
@@ -1049,6 +1052,7 @@
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
     <section class="ask-question bg-light-grey">
         <div class="container">
@@ -1066,7 +1070,7 @@
                         </a>
                     </p>
                     <p class="ask-question-row__email">
-                        <a href="mailto:client@richbee.ru">client@richbee.ru</a>
+                        <a class="link-strike link-strike--thin" href="mailto:client@richbee.ru">client@richbee.ru</a>
                     </p>
                 </div>
                 <div class="ask-question-row__col">
