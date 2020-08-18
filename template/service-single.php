@@ -299,7 +299,7 @@ function advantagesItem($img, $title, $info)
         <div class="container">
             <div class="service-block position-relative">
                 <h1 class="service-block__title hidden wow fadeIn">
-                    <span>Получите разработку <b>Интернет-магазина,</b></span> в котором хочется покупать
+                    <span>Получите интернет-магазин, <b>который будет продавать</b></span>
                 </h1>
                 <p class="service-block__subtitle hidden wow fadeIn" data-wow-delay="0.2s">
                     За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong>
