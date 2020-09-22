@@ -53,6 +53,10 @@ body {
     background-color: #f2f2f2;
 }
 
+.pt-30 {
+    padding-top: 30px;
+}
+
 .darkbg {
     background-color: #0A0B11;
 }
@@ -3737,7 +3741,7 @@ html body input:focus, html body button:focus {
     transition: all 0.4s ease-in-out;
 }
 
-.digital-section__item span {
+.digital-section__item span, {
     color: #acacac;
     font-size: 13px;
 }
@@ -3746,9 +3750,27 @@ html body input:focus, html body button:focus {
     margin: 10px 0px 0px 0px;
 }
 
+.section-digital {
+    background: white;
+    padding: 30px;
+}
+
 .digital-section__item:hover {
     background-color: #ffffff;
     transition: 0.3s all;
+}
+
+.section-digital__mainBlock p {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.6em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.section-digital__topBlock div {
+    padding: 30px;
+    background: #fffbe7;
 }
 
 html body .btn.blick, html body .blick {
@@ -8385,6 +8407,11 @@ html img {
 @media screen and (min-width: 992px) {
     .online-shop .container {
         max-width: 960px;
+    }
+    .section-digital__topBlock, .section-digital__mainBlock {
+        width: 680px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
