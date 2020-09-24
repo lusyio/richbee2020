@@ -14,7 +14,7 @@ endforeach;
 
 $caseDate = date("Y",strtotime($caseDate));
 $bgUnderBody = '#0a0b11';
-$palitra = ['','#D29C6A','#3A3A3A','#f25e30','#F8AC53','#40866E','#d2232a','#3768b4','#5156d8','#202c6f','#0088FF','#1e46f3','#E84323','','#e3337e','#1E4ECB'];
+$palitra = ['','#D29C6A','#3A3A3A','#f25e30','#F8AC53','#40866E','#d2232a','#3768b4','#5156d8','#202c6f','#0088FF','#1e46f3','#E84323','','#e3337e','#1E4ECB','#86BC6A'];
 
 if (isset($palitra[$item['client']])) :
   $bgUnderBody = $palitra[$item['client']];
