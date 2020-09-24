@@ -5,7 +5,13 @@
                 <h3 class="title">Цифровизация</h3>
                 <p>Хватит кормить Билла и вести дела в Эксельке! Объедините все бизнес-процессы в единую систему управления с удобным интерфейсом</p>
             </div>
-            <img class="wow zoomIn" src="images/general/services-item--digital.png" alt="Оцифровка бизнеса" data-wow-delay="4s">
+            <picture>
+                <source
+                        srcset="images/general/services-item--digital.webp"
+                        type="image/webp">
+                <img
+                        src="images/general/services-item--digital.png" class="wow hidden zoomIn" data-wow-delay="3s" alt="Оцифровка бизнеса" title="Оцифровка бизнеса">
+            </picture>
             <a class="btn--learn-more btn--learn-more--inverse" href="/services/#digital">
                 <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>

@@ -39,7 +39,13 @@
 
             <div class="footer__thirdDIV">
                 <a href="/richbee-presentation.pdf" class="footer__presA" onclick="ym(27860136,'reachGoal','pres')">
-                    <img class="footer__presIMG" src="/images/richbee-pres.jpg" alt="Презентация компании"/>
+                    <picture>
+                        <source
+                                srcset="/images/richbee-pres.webp"
+                                type="image/webp">
+                        <img
+                                src="/images/richbee-pres.jpg" class="footer__presIMG" alt="Презентация компании" title="Презентация компании">
+                    </picture>
                 </a>
                 <a href="/richbee-presentation.pdf" class="footer__presAtwo" onclick="ym(27860136,'reachGoal','pres')">
                     Скачать презентацию компании [PDF, 1.3 мб]

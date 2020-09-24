@@ -1,6 +1,12 @@
 <div class="case-section__item">
   <a href="/case/<?= $caseFriendlyUrl; ?>/">
-      <img src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+      <picture>
+          <source
+                  srcset="/images/<?= $caseId; ?>.webp"
+                  type="image/webp">
+          <img
+                  src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+      </picture>
       <h3><?= $caseName; ?></h3>
   </a>
   <span><?= $caseService; ?></span>

@@ -74,7 +74,13 @@ $case = json_decode($caseBody, true);
 
         <div class="section-case__body">
             <div class="section-case__info">
-                <img class="clientLogo hidden wow fadeIn" src="/images/logo/<?= $cleintID; ?>.jpg" alt="<?=$caseClient;?>" title="<?=$caseClient;?>"/>
+                <picture>
+                    <source
+                            srcset="/images/logo/<?= $cleintID; ?>.webp"
+                            type="image/webp">
+                    <img
+                            src="/images/logo/<?= $cleintID; ?>.jpg" class="clientLogo hidden wow fadeIn" alt="<?=$caseClient;?>" title="<?=$caseClient;?>">
+                </picture>
                 <h1 class="section-case__title hidden wow fadeIn"><?= $caseName; ?></h1>
                 <div class="section-case__groupInfo">
 
@@ -99,7 +105,13 @@ $case = json_decode($caseBody, true);
                 <?php endif; ?>
             </div>
             <div class="section-case__img">
-                <img class="hidden wow zoomIn" data-wow-delay="0.3s" src="/images/<?= $caseId; ?>.png" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+                <picture>
+                    <source
+                            srcset="/images/<?= $caseId; ?>.webp"
+                            type="image/webp">
+                    <img
+                            src="/images/<?= $caseId; ?>.png" class="hidden wow zoomIn" data-wow-delay="0.3s" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+                </picture>
             </div>
 
 
