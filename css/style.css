@@ -210,6 +210,7 @@ video {
     max-width: 70%;
     margin: auto;
     font-weight: 100;
+    line-height: 1.6;
 }
 
 .img-block {
