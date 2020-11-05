@@ -136,7 +136,6 @@ if (file_exists($pathImgOpenGraph)) {
                             <li><a class="link-strike link-strike--thin" href="/">Главная</a></li>
                             <li><a class="link-strike link-strike--thin" href="/services/">Услуги</a></li>
                             <li><a class="link-strike link-strike--thin" href="/case/">Кейсы</a></li>
-                            <li><a class="link-strike link-strike--thin" href="/digital/">Оцифровка</a></li>
                             <li><a class="link-strike link-strike--thin" href="/about/">О компании</a></li>
                             <li><a class="link-strike link-strike--thin" href="/contact/">Контакты</a></li>
                         </ul>
