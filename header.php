@@ -14,6 +14,9 @@ if (key_exists($firstPart, $titles)) {
 } else {
     $title = 'Richbee Agency - разработка IT-решений для бизнеса';
 }
+if ($firstPart == 'case' && $route != 'case') {
+    $title = DBOnce('name', 'cases', 'friendly_url="' . $_GET['url'].'"');
+}
 $imgOpenGraph = 'richbee';
 $pathImgOpenGraph = __DIR__ . '/images/opengraph/' . $route . '.jpg';
 if (file_exists($pathImgOpenGraph)) {
