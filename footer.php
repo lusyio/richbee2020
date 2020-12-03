@@ -139,6 +139,13 @@
             prevEl: '#shop-prediction-container-cards-4 .shop-prediction-swiper-button-prev',
         },
     });
+    const reviewsSlider = new Swiper('.reviews-slider', {
+        spaceBetween: 15,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
 </script>
 <script>
     jQuery('img.svg').each(function () {

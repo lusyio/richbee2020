@@ -145,7 +145,7 @@ if (file_exists($pathImgOpenGraph)) {
                     </nav>
                     <div class="header__right">
                         <div class="header__contacts">
-                            <a class="btn btn-grey" href="/tender/">Пригласить в тендер</a>
+                            <a class="btn btn-blue" href="/tender/">Пригласить в тендер</a>
                         </div>
 
                         <svg class="nav-toggle" viewBox="0 0 100 100" width="50" onclick="navToggle()">
