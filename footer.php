@@ -140,7 +140,7 @@
         },
     });
     const reviewsSlider = new Swiper('.reviews-slider', {
-        spaceBetween: 15,
+        // spaceBetween: 15,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
