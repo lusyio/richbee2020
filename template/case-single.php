@@ -5,6 +5,7 @@ foreach ($case as $item) :
     $caseName = $item['name'];
     $caseBody = $item['body'];
     $caseUrl = $item['url'];
+    $caseFUrl = $item['friendly_url'];
     $casePdf = $item['pdf'];
     $caseDate = $item['date'];
     $cleintID = $item['client'];
@@ -96,7 +97,7 @@ $case = json_decode($caseBody, true);
                 </div>
                 <?php if(!empty($casePdf)) : ;?>
                   <div class="hidden wow fadeIn" data-wow-delay="0.3s">
-                  <a href="/<?=$casePdf;?>" class="svgButton" target="_blank">
+                  <a href="/<?=$casePdf;?>" class="svgButton" onclick="ym(27860136,'reachGoal','<?=$caseFUrl;?>')" target="_blank">
                     <div>
                       <img class="svg" src="/images/svg/download.svg"/><span>Скачать презентацию по проекту</span>
                     </div>
