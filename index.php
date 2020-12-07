@@ -9,47 +9,33 @@
 
     </div>
 </section>
-<!-- <div class="darkbg">
-    <picture>
-        <source
-                srcset="/images/main-img.webp"
-                type="image/webp">
-        <img
-                src="/images/main-img.png" class="mainImg" alt="RichBee" title="RichBee">
-    </picture>
-</div> -->
-<!-- <div class="darkbg"> -->
 
-<!-- <div class="greybg"> -->
-    <?php include 'template/sections/section-services.php' ?>
-<!-- </div> -->
-
-<!-- </div> -->
+<?php include 'template/sections/section-services.php' ?>
 
 <div class="greybg">
     <section class="features-section">
         <div class="container">
             <div class="features-section__inner">
-                <div class="features-section__item">
+                <div class="features-section__item wow fadeIn" data-wow-delay="0.6s">
                     <div class="features-section__img">
                         <img src="images/svg/cup.svg" alt="Cup">
                     </div>
                     <p class="features-section__text">Регулярно побеждаем на тендерной площадке Workspace</p>
-                    <a class="features-section__link" href="#">Пригласить в тендер</a>
+                    <a class="features-section__link" href="/tender/">Пригласить в тендер</a>
                 </div>
-                <div class="features-section__item">
+                <div class="features-section__item wow fadeIn" data-wow-delay="0.9s">
                     <div class="features-section__img">
                         <img src="images/svg/100.svg" alt="Top">
                     </div>
                     <p class="features-section__text">Входим в ТОП-100 разработчиков интернет-магазинов</p>
-                    <a class="features-section__link" href="#">Рейтинг Рунета 2020</a>
+                    <a class="features-section__link" href="https://ratingruneta.ru/e-commerce/high/">Рейтинг Рунета 2020</a>
                 </div>
-                <div class="features-section__item">
+                <div class="features-section__item wow fadeIn" data-wow-delay="1.2s">
                     <div class="features-section__img">
                         <img src="images/svg/projects.svg" alt="Projects">
                     </div>
                     <p class="features-section__text">Более 30 реализованных <br> проектов за 2020 год</p>
-                    <a class="features-section__link" href="#">Обсудить ваш проект</a>
+                    <a class="features-section__link" href="/contact/">Обсудить ваш проект</a>
                 </div>
             </div>
         </div>
