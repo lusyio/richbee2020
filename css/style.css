@@ -8,6 +8,13 @@
 html {
     height: 100%;
     overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 body {
@@ -76,8 +83,6 @@ body {
     margin: 0 auto;
     max-width: 1140px;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .pb-25 {
@@ -280,9 +285,12 @@ video {
 }
 
 .mainBlock {
-    padding: 100px 100px 10px 100px;
-    margin-bottom: -465px;
-    position: relative;
+    /* padding: 100px 100px 10px 100px; */
+    /* margin-bottom: -465px;
+    position: relative; */
+    padding: 116px 100px 0;
+    min-height: 800px;
+    background: #0A0B11 url('../images/main-img.png') right center/ contain no-repeat;
 }
 
 .header .container {
@@ -468,11 +476,6 @@ div.infoHead a:hover .svg path {
     }
 }
 
-@media (max-width: 385px) {
-    .header__contacts {
-        display: none;
-    }
-}
 
 /******************************/
 /************ CASE ************/
@@ -718,6 +721,7 @@ div.infoHead a:hover .svg path {
 /************ HOME ************/
 /******************************/
 .hero__title {
+    margin: 0 0 50px;
     font-size: 64px;
     font-weight: 500;
     color: white;
@@ -733,12 +737,12 @@ div.infoHead a:hover .svg path {
 }
 
 .hero__text {
+    margin: 0;
     position: relative;
     font-weight: 300;
     color: #CAD1D7;
     width: 100%;
     max-width: 400px !important;
-    margin-top: 25px;
     z-index: 1;
 }
 
@@ -756,10 +760,23 @@ div.infoHead a:hover .svg path {
 }
 
 .section-services {
+    position: relative;
+    margin-top: -150px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    background: linear-gradient(0deg, rgba(242,242,242,1) 50%, rgba(10,11,17,1) 50%);
+    /* background: linear-gradient(0deg, rgba(242,242,242,1) 50%, rgba(10,11,17,1) 50%); */
+}
+
+.section-services:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    z-index: -1;
 }
 
 .case-section-swiper-btn {
@@ -2829,11 +2846,6 @@ html body input:focus, html body button:focus {
         font-size: 36px;
     }
 
-    .mainBlock {
-        padding: 100px 50px 50px 50px;
-        margin-bottom: -390px;
-    }
-
     .hero__title {
         font-size: 48px;
         max-width: 500px;
@@ -2864,6 +2876,49 @@ html body input:focus, html body button:focus {
 
     .reviews-slider__item img {
         position: static;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .underHeader {
+        display: none;
+    }
+
+    .header__nav ul li {
+        margin-right: 20px;
+    }
+
+    .mainBlock {
+        min-height: 470px;
+        background-position: right bottom;
+        background-size: 550px;
+    }
+
+    .section-services {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-top__nav {
+        justify-content: space-between;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer-top__nav .footer-top__column {
+        width: 200px;
+        margin-right: 80px;
+    }
+
+    .footer-top .footer-top__contact {
+        align-self: center;
+        align-items: center;
     }
 }
 
@@ -2911,6 +2966,10 @@ html body input:focus, html body button:focus {
 
     .hero, .section-services, .case-section {
         padding: 0;
+    }
+
+    .section-services {
+        padding-top: 30px;
     }
 
     .features-section {
@@ -2989,8 +3048,13 @@ html body input:focus, html body button:focus {
         max-width: 100%;
     }
 
+
+    .hero__title {
+        font-size: 40px;
+    }
+    
     .mainBlock {
-        margin-bottom: 0;
+        padding: 100px 0 0;
     }
 
     .mainImg{
@@ -3021,10 +3085,6 @@ html body input:focus, html body button:focus {
         display: none;
     }
 
-    .underHeader {
-        display: none;
-    }
-
     .section-case__body {
         width: 100%;
         padding: 30px;
@@ -3039,10 +3099,6 @@ html body input:focus, html body button:focus {
         padding: 10px 0;
     }
 
-    .mainBlock {
-        padding: 0;
-    }
-
     .hero__text {
         font-size: 16px !important;
         line-height: 20px !important;
@@ -3054,10 +3110,6 @@ html body input:focus, html body button:focus {
         height: 100px;
     }
 
-    .section-services {
-        background: linear-gradient(0deg, rgba(242,242,242,1) 75%, rgba(10,11,17,1) 75%);
-    }
-
     .serviceInfo h2 {
         font-size: 25px;
     }
@@ -3067,8 +3119,14 @@ html body input:focus, html body button:focus {
     }
 
     .hero__title {
-        font-size: 24px;
-        margin-top: 20px;
+        font-size: 26px;
+        max-width: 440px;
+    }
+
+    .mainBlock {
+        min-height: 600px;
+        background-position: center bottom;
+        background-size: 65%;
     }
 
     .section-case {
@@ -3144,29 +3202,13 @@ html body input:focus, html body button:focus {
     .section-services__item--digital img {
         display: none;
     }
-}
 
-@media (max-width: 1200px) {
-    .footer-top {
-        flex-direction: column;
-    }
-
-    .footer-top__nav {
-        justify-content: space-between;
-        margin-right: 0;
-        margin-bottom: 50px;
-    }
-
-    .footer-top__nav .footer-top__column {
-        width: 200px;
-        margin-right: 80px;
-    }
-
-    .footer-top .footer-top__contact {
-        align-self: center;
-        align-items: center;
+    .mainBlock {
+        background-size: contain;
     }
 }
+
+
 
 @media (max-width: 992px) {
     .footer-top__nav .footer-top__column {
@@ -4616,6 +4658,10 @@ html body .blick:before {
 
     .features-section__item {
         max-width: 100%;
+    }
+
+    .header__contacts {
+        display: none;
     }
 
 }

@@ -74,7 +74,7 @@ if (file_exists($pathImgOpenGraph)) {
 
 <body>
 <div>
-    <div class="content <?php if ($firstPart == 'services' and $route != 'services' or $firstPart == 'tender') : ?>greybg<?php endif; ?> <?php if ($route == 'index') : ?>darkbg<?php endif; ?>">
+    <div class="content <?php if ($firstPart == 'services' and $route != 'services' or $firstPart == 'tender') : ?>greybg<?php endif; ?>">
         <div id="online-shop-header-target">
             <div class="darkbg underHeader">
                 <div class="container">

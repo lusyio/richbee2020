@@ -9,7 +9,7 @@
 
     </div>
 </section>
-<div class="darkbg">
+<!-- <div class="darkbg">
     <picture>
         <source
                 srcset="/images/main-img.webp"
@@ -17,10 +17,13 @@
         <img
                 src="/images/main-img.png" class="mainImg" alt="RichBee" title="RichBee">
     </picture>
-</div>
+</div> -->
 <!-- <div class="darkbg"> -->
 
+<!-- <div class="greybg"> -->
     <?php include 'template/sections/section-services.php' ?>
+<!-- </div> -->
+
 <!-- </div> -->
 
 <div class="greybg">
