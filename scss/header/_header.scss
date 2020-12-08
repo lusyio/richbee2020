@@ -1,0 +1,178 @@
+
+/******************************/
+/*********** HEADER ***********/
+/******************************/
+.underHeader {
+    padding: 10px 100px;
+    color: #969696;
+}
+
+.underHeader .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoHead img, .infoHead svg {
+    height: 15px;
+    margin-left: 5px;
+    width: auto;
+}
+
+.header {
+    padding: 10px 100px;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.dark {
+    border-top: 1px solid #101218;
+    border-bottom: 1px solid #101218;
+}
+
+.mainBlock {
+    padding: 115px 100px 0;
+    min-height: 740px;
+    background: #0A0B11 url('../images/main-img.png') right 100px bottom / 890px no-repeat;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo .svg path {
+    fill: black;
+}
+
+.dark .svg path {
+    fill: white !important;
+}
+
+.header__nav {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__nav ul {
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__nav ul li {
+    list-style: none;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+.header__nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.header__nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dark .header__nav ul li a {
+    color: white;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header__phone {
+    color: #000;
+    text-decoration: none;
+}
+
+.header__phone:hover {
+    color: #000;
+}
+
+.footer-top__social-list svg {
+    transition: 135ms ease-in-out;
+}
+
+.footer-top__social-list a:hover svg {
+    transform: scale(1.1);
+}
+
+.header__email {
+    font-size: 13px;
+    color: #adadad;
+}
+
+.dark {
+    background-color: #0A0B11;
+    color: white;
+    border-color: transparent;
+}
+
+.underHeader .item {
+    display: flex;
+}
+
+div.svgBlock {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 2.7;
+}
+
+div.infoHead {
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+div.infoHead p {
+    margin: 0;
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+div.infoHead a {
+    color: #969696;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+
+.socialHead a {
+    visibility: hidden;
+}
+
+div.infoHead a:hover {
+    color: white;
+    transition: 0.2s all;
+}
+
+div.infoHead .svg path {
+    fill: #969696;
+}
+
+div.infoHead a:hover .svg path {
+    fill: #ffffff;
+}
+
+.price .marquiz__container {
+    margin-top: 50px !important;
+    margin-bottom: 60px;
+}

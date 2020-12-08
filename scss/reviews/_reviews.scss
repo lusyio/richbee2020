@@ -1,0 +1,106 @@
+.reviews-section {
+    padding: 0 50px 50px;
+
+    .service-block__title {
+        margin: 0 0 50px;
+    }
+}
+
+.reviews-slider {
+    .swiper-wrapper {
+        padding-bottom: 60px;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-pagination-fraction {
+        display: block;
+        font-weight: 300;
+        font-size: 24px;
+        color: #bdbdbd;
+    }
+
+    .swiper-pagination-fraction .swiper-pagination-current {
+        font-weight: 500;
+        color: var(--blue);
+    }
+
+    &__item {
+        max-width: 1000px;
+        min-height: 420px;
+        padding: 30px 40px 60px 30px;
+        display: flex;
+        align-items: flex-start;
+        background-color: #fff;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    &__item img {
+        max-width: 133px;
+        margin-right: 30px;
+    }
+
+    &__content-topline {
+        margin: 0 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content-title {
+        margin: 0;
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--blue);
+    }
+
+    &__content-link {
+        position: relative;
+        padding-right: 25px;
+        font-weight: 300;
+        font-size: 18px;
+        color: #bdbdbd;
+        text-decoration: none;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 15px;
+            height: 15px;
+            border-top: 1px solid #bdbdbd;
+            border-right: 1px solid #bdbdbd;
+            transform: rotate(45deg) translateY(-50%);
+            transition: 0.3s linear;
+        }
+
+        &:hover::before {
+            margin-right: -10px;
+        }
+    }
+
+    &__content-subtitle {
+        margin: 0 0 25px;
+        font-weight: normal;
+        font-size: 18px;
+        color: #828282;
+    }
+
+    &__item p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #282936;
+    }
+
+    &__item p a {
+        font-weight: 500;
+        color: #282936;
+    }
+}
