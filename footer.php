@@ -18,11 +18,11 @@
 
             <div class="footer__secondDIV">
                 <div class="footer__phone">
-                    <p>8 (495) 197-82-88</p>
+                    <a href="tel:84951978288">8 (495) 197-82-88</a>
                     <p>Ежедневно с 10:00 до 18:00</p>
                 </div>
                 <div class="footer__aboutInfo">
-                    <p>client@richbee.ru</p>
+                    <a href="mailto:client@richbee.ru">client@richbee.ru</a>
                     <p>Пришлите техническое задание для расчета стоимости разработки</p>
                 </div>
                 <div class="footer__social">
@@ -140,7 +140,10 @@
         },
     });
     const reviewsSlider = new Swiper('.reviews-slider', {
-        // spaceBetween: 15,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

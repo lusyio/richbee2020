@@ -1064,7 +1064,7 @@
                         менеджера любым удобным для вас образом
                     </p>
                     <p class="ask-question-row__phone">
-                        <a href="tel:8 (495) 197-82-88">
+                        <a href="tel:84951978288">
                             <img src="/images/svg/online-shop/ask-question/phone.svg" alt="phone">
                             8 (495) 197-82-88
                         </a>
