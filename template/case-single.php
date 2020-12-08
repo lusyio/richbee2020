@@ -71,7 +71,7 @@ $case = json_decode($caseBody, true);
 </div>
 <div class="greybg pb-25">
     <div class="section-case" id="caseSection">
-        <div class="section-case__circle hidden wow fadeInRight" data-wow-delay="0.2s"></div>
+        <div class="section-case__circle  wow fadeInRight" data-wow-delay="0.2s"></div>
 
         <div class="section-case__body">
             <div class="section-case__info">
@@ -80,23 +80,23 @@ $case = json_decode($caseBody, true);
                             srcset="/images/logo/<?= $cleintID; ?>.webp"
                             type="image/webp">
                     <img
-                            src="/images/logo/<?= $cleintID; ?>.jpg" class="clientLogo hidden wow fadeIn" alt="<?=$caseClient;?>" title="<?=$caseClient;?>">
+                            src="/images/logo/<?= $cleintID; ?>.jpg" class="clientLogo  wow fadeIn" alt="<?=$caseClient;?>" title="<?=$caseClient;?>">
                 </picture>
-                <h1 class="section-case__title hidden wow fadeIn"><?= $caseName; ?></h1>
+                <h1 class="section-case__title  wow fadeIn"><?= $caseName; ?></h1>
                 <div class="section-case__groupInfo">
 
-                <div class="hidden wow fadeIn" data-wow-delay="0.2s">
+                <div class=" wow fadeIn" data-wow-delay="0.2s">
                   <span>Клиент:</span><?=$caseClient;?>
                 </div>
                 <?php if(!empty($caseUrl)) : ;?>
-                  <div class="hidden wow fadeIn" data-wow-delay="0.3s">
+                  <div class=" wow fadeIn" data-wow-delay="0.3s">
                   <span>Адрес проекта:</span>
                   <a class="link-strike link-strike--thin" style="color: <?=$bgUnderBody;?>" href="<?=$caseUrl;?>" target="_blank"><?=$caseUrl;?></a>
                 </div>
                 <?php endif; ?>
                 </div>
                 <?php if(!empty($casePdf)) : ;?>
-                  <div class="hidden wow fadeIn" data-wow-delay="0.3s">
+                  <div class=" wow fadeIn" data-wow-delay="0.3s">
                   <a href="/<?=$casePdf;?>" class="svgButton" onclick="ym(27860136,'reachGoal','<?=$caseFUrl;?>')" target="_blank">
                     <div>
                       <img class="svg" src="/images/svg/download.svg"/><span>Скачать презентацию по проекту</span>
@@ -111,17 +111,17 @@ $case = json_decode($caseBody, true);
                             srcset="/images/<?= $caseId; ?>.webp"
                             type="image/webp">
                     <img
-                            src="/images/<?= $caseId; ?>.png" class="hidden wow zoomIn" data-wow-delay="0.3s" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
+                            src="/images/<?= $caseId; ?>.png" class=" wow zoomIn" data-wow-delay="0.3s" alt="<?= $caseName; ?>" title="<?= $caseName; ?>">
                 </picture>
             </div>
 
 
         </div>
-        <div class="section-case__underbody hidden wow fadeIn" data-wow-delay="0.1s" style="border-top: 4px solid <?=$bgUnderBody;?>;">
-            <div class="hidden wow fadeIn" data-wow-delay="0.3s">
+        <div class="section-case__underbody  wow fadeIn" data-wow-delay="0.1s" style="border-top: 4px solid <?=$bgUnderBody;?>;">
+            <div class=" wow fadeIn" data-wow-delay="0.3s">
                 <a href="/services/<?= $serviceLink; ?>/" title="Услуга <?= $caseService; ?>"><?= $caseService; ?></a> | <?= $caseDate; ?> год
             </div>
-            <div class="priceLink hidden wow fadeIn" data-wow-delay="0.5s">
+            <div class="priceLink  wow fadeIn" data-wow-delay="0.5s">
                 <a href="/price/">Рассчитать стоимость вашего проекта <img src="/images/svg/right.svg" class="svg"/></a>
             </div>
         </div>
