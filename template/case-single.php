@@ -99,7 +99,8 @@ $case = json_decode($caseBody, true);
                   <div class="hidden wow fadeIn" data-wow-delay="0.3s">
                   <a href="/<?=$casePdf;?>" class="svgButton" onclick="ym(27860136,'reachGoal','<?=$caseFUrl;?>')" target="_blank">
                     <div>
-                      <img class="svg" src="/images/svg/download.svg"/><span>Скачать презентацию по проекту</span>
+                      <img class="svg" src="/images/svg/download.svg"/>
+                      <span>Скачать презентацию по проекту</span>
                     </div>
                   </a>
                   </div>

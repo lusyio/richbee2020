@@ -277,7 +277,7 @@
     }
     
     .mainBlock {
-        padding: 100px 0 0;
+        padding: 75px 0 0;
     }
 
     .mainImg{
@@ -326,17 +326,7 @@
         padding: 10px 0;
     }
 
-    .hero__text {
-        font-size: 16px !important;
-        line-height: 20px !important;
-        max-width: 100% !important;
-    }
 
-    .hero__text::before {
-        right: 0;
-        width: 100px;
-        height: 100px;
-    }
 
     .serviceInfo h2 {
         font-size: 25px;
@@ -348,13 +338,18 @@
 
     .hero__title {
         font-size: 26px;
-        max-width: 100%;
+        margin-bottom: 16px;
     }
 
     .mainBlock {
-        min-height: 650px;
-        background-position: center bottom;
+        min-height: 360px;
         background-size: 450px;
+        background-position: right -104px top 50px;
+    }
+
+    .hero__text::before {
+        width: 80px;
+        height: 80px;
     }
 
     .section-case {
@@ -441,6 +436,19 @@
     .reviews-slider__content-link {
         order: -1;
         margin-bottom: 30px;
+    }
+
+    .hero__text {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .hero__text::before {
+        left: 25%;
+        bottom: 0;
+        width: 40px;
+        height: 40px;
+        transform: translate(0);
     }
 }
 
@@ -2462,6 +2470,22 @@
         margin-top: 25px;
     }
 
+    .section-services {
+        margin-top: -120px;
+    }
+
+    .mainBlock {
+        min-height: 580px;
+        background-position: center bottom;
+    }
+
+    .hero__title {
+        max-width: 270px;
+    }
+
+    .hero__text {
+        max-width: 244px !important;
+    }
 }
 
 @media screen and (max-width: 375px) {
