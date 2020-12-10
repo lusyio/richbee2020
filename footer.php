@@ -140,6 +140,7 @@
         },
     });
     const reviewsSlider = new Swiper('.reviews-slider', {
+        autoHeight: true,
         pagination: {
             el: '.swiper-pagination',
             type: 'fraction',

@@ -326,8 +326,6 @@
         padding: 10px 0;
     }
 
-
-
     .serviceInfo h2 {
         font-size: 25px;
     }
@@ -392,14 +390,48 @@
         font-size: 34px;
     }
 
+    .reviews-slider.swiper-container {
+        padding-top: 80px;
+    }
+
     .reviews-slider .swiper-button-next,
     .reviews-slider .swiper-button-prev {
-        display: none;
+        width: 10px;
+    }
+
+    .reviews-slider .swiper-button-next {
+        top: 30px;
+        right: 15px;
+    }
+
+    .reviews-slider .swiper-button-prev {
+        top: 30px;
+        right: 80px;
+        left: auto;
+    }
+
+    .reviews-section .service-block__title {
+        margin: 0 0 -50px;
+        font-size: 25px;
+    }
+
+    
+    .reviews-slider__content-link {
+        position: absolute;
+        bottom: 25px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .reviews-slider__content-link::before {
+        width: 12px;
+        height: 12px;
     }
 
     .reviews-slider__item {
         max-width: 100%;
-        padding: 30px;
+        padding: 30px 30px 50px;
+        align-items: flex-start;
     }
 
     .reviews-slider__item p {
@@ -412,6 +444,16 @@
 
     .reviews-slider .swiper-pagination-fraction {
         display: none;
+    }
+
+    .service-block__title {
+        background-size: 80px 2px;
+        padding-bottom: 10px;
+    }
+
+    .serviceInfo h2 {
+        background-size: 80px 2px;
+        padding-bottom: 10px;
     }
 }
 
@@ -431,11 +473,6 @@
     .reviews-slider__content-topline {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .reviews-slider__content-link {
-        order: -1;
-        margin-bottom: 30px;
     }
 
     .hero__text {
@@ -2754,6 +2791,10 @@
 
     .contacts__list, .contacts__adress {
         padding: 0;
+    }
+
+    .section-services__item {
+        padding: 15px 20px 40px;
     }
 }
 
