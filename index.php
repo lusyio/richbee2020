@@ -6,7 +6,7 @@
         <p class="hero__text wow fadeIn" data-wow-delay="0.2s">
             Создаем с нуля высоконагруженные, быстрые и современные решения на Laravel и React
         </p>
-
+        <div class="circle"></div>
     </div>
 </section>
 

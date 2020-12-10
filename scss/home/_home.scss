@@ -32,6 +32,7 @@
 }
 
 .hero__text::before {
+    display: none;
     content: '';
     position: absolute;
     top: 50%;

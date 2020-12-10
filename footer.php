@@ -60,6 +60,7 @@
 
 
 <?php include "vendors/scripts.php" ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="/js/main.js"></script>
 <script src="/js/rellax.min.js"></script>
 <script src="/js/lightbox-plus-jquery.min.js"></script>
