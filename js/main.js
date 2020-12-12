@@ -109,35 +109,69 @@ window.onclick = function (event) {
 }
 
 
-var container = document.querySelector(".mainBlock");
-var circle = document.querySelector(".circle");
+// document.addEventListener('DOMContentLoaded', () => {
+	let mouseX = 0, mouseY = 0, posX = 0, posY = 0;
 
-TweenMax.set("section", {
-  backgroundColor: function() {
-    return Math.random() * 0xffffff;
-  }
-});
+	const container = document.querySelector('#online-shop-header-target'),
+		cursor = document.querySelector('.cursor'),
+		follower = document.querySelector('.follower'),
+        links = document.querySelectorAll('a'),
+        allElements = document.querySelector('*');
 
-TweenMax.set(circle, { scale: 0, xPercent: -50, yPercent: -50 });
-
-container.addEventListener("pointerenter", function(e) {
-  TweenMax.to(circle, 0.3, { scale: 1, opacity: .5 });
-  positionCircle(e);
-});
-
-container.addEventListener("pointerleave", function(e) {
-  TweenMax.to(circle, 0.3, { scale: 0, opacity: 0 });
-  positionCircle(e);
-});
-
-container.addEventListener("pointermove", function(e) {
-  positionCircle(e);
-});
-
-function positionCircle(e) {
-  var rect = container.getBoundingClientRect();
-  var relX = e.pageX - container.offsetLeft;
-  var relY = e.pageY - container.offsetTop;
-
-  TweenMax.to(circle, 0.3, { x: relX, y: relY });
-}
+	container.addEventListener('mousemove', (e) => {
+        mouseCoords(e);
+	});
+    
+    
+	function mouseCoords(e) {
+        mouseX = e.pageX;
+		mouseY = e.pageY;
+	}
+    
+	gsap.to({}, .01, {
+        repeat: -1,
+        
+		onRepeat: () => {
+            posX += (mouseX - posX) / 5;
+			posY += (mouseY - posY) / 5;
+            
+			gsap.set(cursor, {
+                css: {
+                    left: mouseX,
+					top: mouseY
+				}
+			})
+            
+			gsap.set(follower, {
+                css: {
+                    left: posX - 40,
+					top: posY - 40
+				}
+			})
+		}
+	});
+    
+	links.forEach(item => {
+		item.addEventListener('mouseover', () => {
+            cursor.classList.add('active');
+			follower.classList.add('active');
+		});
+		item.addEventListener('mouseout', () => {
+            cursor.classList.remove('active');
+			follower.classList.remove('active');
+		});
+	})
+    
+	container.addEventListener('mouseout', () => {
+        cursor.classList.add('hidden');
+        follower.classList.add('hidden');
+        allElements.style.cursor = ''
+    })
+    
+    container.addEventListener('mouseover', () => {
+        cursor.classList.remove('hidden');
+		follower.classList.remove('hidden');
+        allElements.style.cursor = 'none'
+	})
+    
+// })

@@ -6,10 +6,10 @@
         <p class="hero__text wow fadeIn" data-wow-delay="0.2s">
             Создаем с нуля высоконагруженные, быстрые и современные решения на Laravel и React
         </p>
-        <div class="circle"></div>
     </div>
 </section>
 
+</div>
 <?php include 'template/sections/section-services.php' ?>
 
 <div class="greybg">
@@ -42,7 +42,7 @@
     </section>
 </div>
 
-</div>
+
 <div class="greybg">
     <section class="service caseService" style="margin-top: 0px;">
         <div class="container service-block">
