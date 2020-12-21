@@ -49,7 +49,7 @@
             <div class="serviceInfo">
                 <h2 class="service-block__title hidden wow fadeIn">Наши кейсы</h2>
                 <p>Каждый проект - это, в первую очередь, решение бизнес-задачи, а не код, верстка или дизайн. Убеждены, что продукты должны приносить прибыль, удовольствие и развитие бизнеса для наших клиентов.</p>
-                <a class="features-section__link" href="/tender/">Посмотреть все кейсы</a>
+                <a class="features-section__link" href="/case/">Посмотреть все кейсы</a>
             </div>
             <div class="case-section__list">
                 <?php include 'template/sections/section-top-cases.php' ?>
