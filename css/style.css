@@ -3552,6 +3552,10 @@ html body input:focus, html body button:focus {
     margin-top: 0px;
 }
 
+.caseService .serviceInfo {
+    margin-bottom: 20px;
+}
+
 .advantages {
     display: flex;
     margin-top: 25px;

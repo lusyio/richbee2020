@@ -4,7 +4,7 @@
     <div class="container">
         <h1 class="hero__title wow fadeIn" data-wow-delay="0.1s">Разработка сайтов, интернет-магазинов и сервисов</h1>
         <p class="hero__text wow fadeIn" data-wow-delay="0.2s">
-            Создаем с нуля высоконагруженные, быстрые и современные решения на Laravel и React
+            Создаем с нуля высоконагруженные, быстрые и современные решения на Laravel, React и CMS WordPress
         </p>
     </div>
 </section>
@@ -49,6 +49,7 @@
             <div class="serviceInfo">
                 <h2 class="service-block__title hidden wow fadeIn">Наши кейсы</h2>
                 <p>Каждый проект - это, в первую очередь, решение бизнес-задачи, а не код, верстка или дизайн. Убеждены, что продукты должны приносить прибыль, удовольствие и развитие бизнеса для наших клиентов.</p>
+                <a class="features-section__link" href="/tender/">Посмотреть все кейсы</a>
             </div>
             <div class="case-section__list">
                 <?php include 'template/sections/section-top-cases.php' ?>
