@@ -302,7 +302,7 @@ function advantagesItem($img, $title, $info)
                     <span>Получите интернет-магазин, <b>который будет продавать</b></span>
                 </h1>
                 <p class="service-block__subtitle hidden wow fadeIn" data-wow-delay="0.2s">
-                    За <strong>10</strong> дней и от <strong>60 000</strong> рублей с гарантией на <strong>1</strong>
+                    За <strong>20</strong> дней и от <strong>150 000</strong> рублей с гарантией на <strong>1</strong>
                     год
                 </p>
                 <button onclick="Marquiz.showModal('5f042d4b9a9cca0044d4e885')" class="btn-online-shop btn-online-shop-primary hidden wow fadeIn"
