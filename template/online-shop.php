@@ -811,7 +811,7 @@
                 <div class="development-team-card">
                     <div class="development-team-card__body">
                         <p class="development-team-card__title">
-                            Игорь Гарифьянов
+                            Илья Камнеев
                         </p>
                         <p class="development-team-card__info">
                             Backend разработчик
@@ -821,7 +821,7 @@
                 <div class="development-team-card">
                     <div class="development-team-card__body">
                         <p class="development-team-card__title">
-                            Андрей Федоров
+                            Евгений Скрипкару
                         </p>
                         <p class="development-team-card__info">
                             Frontend разработчик
@@ -831,7 +831,7 @@
                 <div class="development-team-card">
                     <div class="development-team-card__body">
                         <p class="development-team-card__title">
-                            Оксана Проничева
+                            Виктория Щербакова
                         </p>
                         <p class="development-team-card__info">
                             Веб-дизайнер
