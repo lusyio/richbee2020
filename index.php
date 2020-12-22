@@ -1,6 +1,8 @@
 <?php include 'header.php'; ?>
 
-<section class="mainBlock serviceInfo">
+<div class="cursor"></div>
+<div class="follower"></div>
+<section class="mainBlock serviceInfo" id="mainBlock">
     <div class="container">
         <h1 class="hero__title wow fadeIn" data-wow-delay="0.1s">Разработка сайтов, интернет-магазинов и сервисов</h1>
         <p class="hero__text wow fadeIn" data-wow-delay="0.2s">

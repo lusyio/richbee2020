@@ -75,11 +75,6 @@ if (file_exists($pathImgOpenGraph)) {
 
 <body>
 
-<div class="cursor"></div>
-<div class="follower"></div>
-
-
-<div>
     <div class="content <?php if ($firstPart == 'services' and $route != 'services' or $firstPart == 'tender') : ?>greybg<?php endif; ?>">
         <div id="online-shop-header-target">
             <div class="darkbg underHeader">
@@ -165,4 +160,4 @@ if (file_exists($pathImgOpenGraph)) {
 
                 </div>
             </header>
-            
+

@@ -112,7 +112,7 @@ window.onclick = function (event) {
 // document.addEventListener('DOMContentLoaded', () => {
 	let mouseX = 0, mouseY = 0, posX = 0, posY = 0;
 
-	const container = document.querySelector('#online-shop-header-target'),
+	const container = document.querySelector('#mainBlock'),
 		cursor = document.querySelector('.cursor'),
 		follower = document.querySelector('.follower'),
         links = document.querySelectorAll('a'),
@@ -121,27 +121,27 @@ window.onclick = function (event) {
 	container.addEventListener('mousemove', (e) => {
         mouseCoords(e);
 	});
-    
-    
+
+
 	function mouseCoords(e) {
         mouseX = e.pageX;
 		mouseY = e.pageY;
 	}
-    
+
 	gsap.to({}, .01, {
         repeat: -1,
-        
+
 		onRepeat: () => {
             posX += (mouseX - posX) / 5;
 			posY += (mouseY - posY) / 5;
-            
+
 			gsap.set(cursor, {
                 css: {
                     left: mouseX,
 					top: mouseY
 				}
 			})
-            
+
 			gsap.set(follower, {
                 css: {
                     left: posX - 40,
@@ -150,7 +150,7 @@ window.onclick = function (event) {
 			})
 		}
 	});
-    
+
 	links.forEach(item => {
 		item.addEventListener('mouseover', () => {
             cursor.classList.add('active');
@@ -161,17 +161,17 @@ window.onclick = function (event) {
 			follower.classList.remove('active');
 		});
 	})
-    
+
 	container.addEventListener('mouseout', () => {
         cursor.classList.add('hidden');
         follower.classList.add('hidden');
         allElements.style.cursor = ''
     })
-    
+
     container.addEventListener('mouseover', () => {
         cursor.classList.remove('hidden');
 		follower.classList.remove('hidden');
         allElements.style.cursor = 'none'
 	})
-    
+
 // })
