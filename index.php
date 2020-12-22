@@ -18,21 +18,21 @@
     <section class="features-section">
         <div class="container">
             <div class="features-section__inner">
-                <div class="features-section__item wow fadeIn" data-wow-delay="0.6s">
+                <div class="features-section__item wow fadeIn" data-wow-delay="0.3s">
                     <div class="features-section__img">
                         <img src="images/svg/cup.svg" alt="Cup">
                     </div>
                     <p class="features-section__text">Регулярно побеждаем на тендерной площадке Workspace</p>
                     <a class="features-section__link" href="/tender/" target="_blank">Пригласить в тендер</a>
                 </div>
-                <div class="features-section__item wow fadeIn" data-wow-delay="0.9s">
+                <div class="features-section__item wow fadeIn" data-wow-delay="0.6s">
                     <div class="features-section__img">
                         <img src="images/svg/100.svg" alt="Top">
                     </div>
                     <p class="features-section__text">Входим в ТОП-100 разработчиков интернет-магазинов</p>
                     <a class="features-section__link" href="https://ratingruneta.ru/e-commerce/high/" target="_blank">Рейтинг Рунета 2020</a>
                 </div>
-                <div class="features-section__item wow fadeIn" data-wow-delay="1.2s">
+                <div class="features-section__item wow fadeIn" data-wow-delay="0.9s">
                     <div class="features-section__img">
                         <img src="images/svg/projects.svg" alt="Projects">
                     </div>
