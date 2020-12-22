@@ -697,7 +697,7 @@
                                     Wordpress или Bitrix с возможностью
                                     <span>подключения большого количества готовых модулей</span></p>
                             </div>
-                            <p class="choose-variants-card__price">от 60 000 рублей</p>
+                            <p class="choose-variants-card__price">от 150 000 рублей</p>
                             <button onclick="Marquiz.showModal('5f042d4b9a9cca0044d4e885')"
                                     class="btn-online-shop btn-online-shop-primary">
                                 <span>Рассчитать стоимость</span><img
@@ -876,7 +876,7 @@
                     <div class="swiper-slide development-team-card">
                         <div class="development-team-card__body">
                             <p class="development-team-card__title">
-                                Игорь Гарифьянов
+                                Илья Камнеев
                             </p>
                             <p class="development-team-card__info">
                                 Backend разработчик
@@ -886,7 +886,7 @@
                     <div class="swiper-slide development-team-card">
                         <div class="development-team-card__body">
                             <p class="development-team-card__title">
-                                Андрей Федоров
+                                Евгений Скрипкару
                             </p>
                             <p class="development-team-card__info">
                                 Frontend разработчик
@@ -896,7 +896,7 @@
                     <div class="swiper-slide development-team-card">
                         <div class="development-team-card__body">
                             <p class="development-team-card__title">
-                                Оксана Проничева
+                                Виктория Щербакова
                             </p>
                             <p class="development-team-card__info">
                                 Веб-дизайнер
@@ -949,7 +949,7 @@
                     </p>
                     <p class="development-start-card__sub-title">
                         Предлагаем разработать полноценный интернет-магазин с уникальным дизайном на платформе CMS
-                        WordPress + WooCommerce <b>за 60 000р и за 15 дней</b>
+                        WordPress + WooCommerce <b>за 150 000р и за 25 дней</b>
                     </p>
                     <p class="development-start-card__after-title">
                         Вы получаете следующий функционал
