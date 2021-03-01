@@ -2796,6 +2796,29 @@
     .section-services__item {
         padding: 15px 20px 40px;
     }
+
+    .aboutPage {
+
+        &__info {
+            order: 1;
+            width: 100% !important;
+        }
+
+        &__infoMain {
+            order: 0;
+            width: 100% !important;
+            padding-left: 0px !important;
+
+            p {
+                font-size: 14px !important;
+            }
+
+            p.quote {
+                font-size: 18px !important;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 600px) {

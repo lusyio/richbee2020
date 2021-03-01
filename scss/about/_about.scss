@@ -1,0 +1,91 @@
+.aboutPage {
+  font-family: Montserrat;
+
+  .darkbg {
+    padding: 50px 0px 70px 0px;
+  }
+
+  .greybg {
+    background-color: #1F1F1F;
+    padding: 20px 0px 40px 0px;
+
+    .d-flex {
+      max-width: 100%;
+
+      .aboutPage__info {
+        width: 16%;
+
+        p:nth-child(2n+1) {
+          color: #6b6b6b;
+          font-size: 14px;
+          margin-bottom: 0px;
+        }
+
+        p:nth-child(2n) {
+          color: #eeb54f;
+          margin-top: 8px;
+          margin-bottom: 20px;
+          line-height: 1.4;
+        }
+
+      }
+
+      .aboutPage__infoMain {
+        color: #fff;
+        width: 84%;
+        padding-left: 70px;
+
+        p {
+          line-height: 1.5;
+          color: #d6d6d6;
+
+          &.quote {
+            font-size: 24px;
+            line-height: 1.4;
+            color: white;
+          }
+        }
+
+        .swiper-container {
+          margin-top: -50px;
+
+          .swiper-slide img {
+            border-radius: 2px;
+          }
+
+          .swiper-pagination {
+            display: block;
+            position: relative;
+            top: 0px;
+            margin-top: 10px;
+
+            .swiper-pagination-bullet {
+                width: 8px;
+                height: 8px;
+                background: #adacac;
+
+               &-active {
+                 background: #a2a2a2;
+               }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__text {
+
+    p {
+      color: whitesmoke;
+      max-width: 475px;
+      line-height: 1.5;
+    }
+
+    &Title {
+      color: white;
+      font-size: 50px;
+      margin-bottom: 0px;
+    }
+  }
+}
