@@ -3,6 +3,7 @@
 /conf.php
 /public/upload
 *.htaccess
+/node_modules
 
 
 ### macOS ###
