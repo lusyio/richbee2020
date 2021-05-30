@@ -33,7 +33,7 @@ if (file_exists($pathImgOpenGraph)) {
     <link rel="icon" href="/favicon.png" type="image/x-icon">
 
     <!-- <link rel="stylesheet" href="/css/style.css?ver=1.1.37"> -->
-    <link rel="stylesheet" href="/css/main.min.css?ver=1.1.38">
+    <link rel="stylesheet" href="/css/main.min.css?ver=1.1.39">
     <?php include "vendors/styles.php" ?>
 
     <meta property="og:locale" content="ru_RU"/>
