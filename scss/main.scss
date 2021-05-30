@@ -17,7 +17,7 @@
 
 // Variables
 :root {
-    --blue: #0047FF; 
+    --blue: #0047FF;
 }
 
 // General
@@ -2944,6 +2944,10 @@ html .btn--learn-more--inverse .button-text {
 .service-block-online-shop .caseService {
     margin: 0;
     padding: 0;
+}
+
+.case-section__list {
+    margin-top: 15px;
 }
 
 .online-shop .garant-v2 .garant-v2__title {

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 :root {
-    --blue: #0047FF; 
+    --blue: #0047FF;
 }
 
 html {
@@ -3080,7 +3080,7 @@ html body input:focus, html body button:focus {
     .section-services{
         margin-top: 0px;
         padding-bottom: 25px;
-    } 
+    }
 
     .block1, .block3, .block4, .block5 {
         width: 100%;
@@ -3136,7 +3136,7 @@ html body input:focus, html body button:focus {
     .hero__title {
         font-size: 40px;
     }
-    
+
     .mainBlock {
         padding: 100px 0 0;
     }
@@ -3153,7 +3153,7 @@ html body input:focus, html body button:focus {
     .footer {
         padding: 60px 0px;
     }
-    
+
 }
 
 
@@ -3554,6 +3554,10 @@ html body input:focus, html body button:focus {
 
 .caseService .serviceInfo {
     margin-bottom: 20px;
+}
+
+.caseService .serviceInfo .case-section__list {
+    margin-top: 15px;
 }
 
 .advantages {
@@ -4581,7 +4585,7 @@ html body .blick:before {
     .section-services__item--digital .btn--learn-more .button-text {
         color: #282936;
     }
-    
+
     .section-services__item .btn--learn-more .button-text {
         font-size: 14px;
         line-height: 22px;
