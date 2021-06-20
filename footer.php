@@ -6,9 +6,6 @@
             <div class="footer__firstDIV">
                 <img class="footer__logo" src="/images/svg/logo-footer.svg" alt="RichBee"/>
                 <div class="footer__aboutInfo">
-                    <p>ИП Ласковский Дмитрий Сергеевич</p>
-                    <p>ОГРНИП 319507400031582</p>
-                    <p>ИНН 507703923591</p>
                 </div>
                 <div class="footer__aboutInfo">
                     <p>Все права защищены © 2014 - <?= date('Y'); ?></p>
