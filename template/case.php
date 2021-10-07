@@ -1,5 +1,5 @@
 <div class="case-section__item">
-  <a href="/case/<?= $caseFriendlyUrl; ?>/">
+  <a href="<?= $caseFriendlyUrl; ?>/">
       <picture>
           <source
                   srcset="/images/<?= $caseId; ?>.webp"
