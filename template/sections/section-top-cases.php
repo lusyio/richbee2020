@@ -5,7 +5,11 @@
                 $case = DB('*', 'cases', 'id=' . $id);
 
                 foreach ($case as $item) {
-                    $caseFriendlyUrl = $item['friendly_url'];
+                    if (isset($item['tilda_url']) && !empty($item['tilda_url'])) {
+                        $caseFriendlyUrl = $item['tilda_url'];
+                    } else {
+                        $caseFriendlyUrl = '/case/' . $item['friendly_url'];
+                    }
                     $caseId = $item['id'];
                     $caseName = $item['name'];
                     $caseService = DBOnce('name', 'services', 'id=' . $item['service']);

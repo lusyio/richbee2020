@@ -10,7 +10,7 @@
       <h3><?= $caseName; ?></h3>
   </a>
   <span><?= $caseService; ?></span>
-  <a class="btn--learn-more" href="/case/<?= $caseFriendlyUrl; ?>/">
+  <a class="btn--learn-more" href="<?= $caseFriendlyUrl; ?>/">
       <span class="circle" aria-hidden="true">
         <span class="icon arrow"></span>
       </span>
