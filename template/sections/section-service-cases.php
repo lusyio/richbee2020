@@ -20,7 +20,11 @@
                             <?php foreach ($cases as $item) :
                                 $classItem = '';
                                 $caseId = $item['id'];
-                                $caseFriendlyUrl = $item['friendly_url'];
+                                if (isset($item['tilda_url']) && !empty($item['tilda_url'])) {
+                        $caseFriendlyUrl = $item['tilda_url'];
+                    } else {
+                        $caseFriendlyUrl = '/case/' . $item['friendly_url'];
+                    }
                                 $caseName = $item['name'];
                                 $caseService = DBOnce('name', 'services', 'id=' . $item['service']); ?>
                                 <div class="swiper-slide">
@@ -64,7 +68,11 @@
                     <?php foreach ($cases as $item) :
                         $classItem = '';
                         $caseId = $item['id'];
-                        $caseFriendlyUrl = $item['friendly_url'];
+                        if (isset($item['tilda_url']) && !empty($item['tilda_url'])) {
+                        $caseFriendlyUrl = $item['tilda_url'];
+                    } else {
+                        $caseFriendlyUrl = '/case/' . $item['friendly_url'];
+                    }
                         $caseName = $item['name'];
                         $caseService = DBOnce('name', 'services', 'id=' . $item['service']);
                         include '../template/case.php';
