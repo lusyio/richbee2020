@@ -30,13 +30,13 @@
                         <img src="images/svg/100.svg" alt="Top">
                     </div>
                     <p class="features-section__text">Входим в ТОП-100 разработчиков интернет-магазинов</p>
-                    <a class="features-section__link" href="https://ratingruneta.ru/e-commerce/high/" target="_blank">Рейтинг Рунета 2020</a>
+                    <a class="features-section__link" href="https://ratingruneta.ru/e-commerce/high/" target="_blank">Рейтинг Рунета <?php echo date ( 'Y', strtotime('-1 year') );?></a>
                 </div>
                 <div class="features-section__item wow fadeIn" data-wow-delay="0.9s">
                     <div class="features-section__img">
                         <img src="images/svg/projects.svg" alt="Projects">
                     </div>
-                    <p class="features-section__text">Более 30 реализованных <br> проектов за 2020 год</p>
+                    <p class="features-section__text">Более 30 реализованных <br> проектов за <?php echo date ( 'Y', strtotime('-1 year') );?> год</p>
                     <a class="features-section__link" href="/contact/" target="_blank">Обсудить ваш проект</a>
                 </div>
             </div>
